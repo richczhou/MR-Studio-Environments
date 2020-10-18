@@ -1,11 +1,15 @@
 ScriptsOnlyBuild:
   usedScripts:
+    Assembly-CSharp.dll:
+    - ARTapToPlaceObject
     Unity.Rider.Editor.dll:
     - Packages.Rider.Editor.UnitTesting.CallbackData
     Unity.XR.ARFoundation.dll:
     - UnityEngine.XR.ARFoundation.ARCameraBackground
     - UnityEngine.XR.ARFoundation.ARCameraManager
     - UnityEngine.XR.ARFoundation.ARInputManager
+    - UnityEngine.XR.ARFoundation.ARPlaneManager
+    - UnityEngine.XR.ARFoundation.ARRaycastManager
     - UnityEngine.XR.ARFoundation.ARSession
     - UnityEngine.XR.ARFoundation.ARSessionOrigin
     UnityEditor.TestRunner.dll:
@@ -34,12 +38,18 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 48
       Script: {instanceID: 0}
+    - Class: 64
+      Script: {instanceID: 0}
     - Class: 65
       Script: {instanceID: 0}
     - Class: 104
       Script: {instanceID: 0}
     - Class: 108
       Script: {instanceID: 0}
+    - Class: 114
+      Script: {instanceID: 11534}
+    - Class: 114
+      Script: {instanceID: 11684}
     - Class: 114
       Script: {instanceID: 11884}
     - Class: 114
@@ -52,6 +62,8 @@ ScriptsOnlyBuild:
       Script: {instanceID: 13264}
     - Class: 114
       Script: {instanceID: 13402}
+    - Class: 114
+      Script: {instanceID: 14172}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 157
@@ -677,6 +689,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.Timeline.dll
     namespaceName: UnityEngine.Timeline
     className: PlayableTrack
+  - hash:
+      serializedVersion: 2
+      Hash: 2ac60b8c74c9938127f2cb09cd3acd9f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: ARTapToPlaceObject
   platform: 9
   scenePathNames:
   - Assets/Scenes/SampleScene.unity

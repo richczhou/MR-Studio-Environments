@@ -21,7 +21,7 @@ MonoBehaviour:
   m_ShowMode: 4
   m_Title: 
   m_RootView: {fileID: 6}
-  m_MinSize: {x: 875, y: 300}
+  m_MinSize: {x: 875, y: 542}
   m_MaxSize: {x: 10000, y: 10000}
   m_Maximized: 0
 --- !u!114 &2
@@ -48,7 +48,7 @@ MonoBehaviour:
   m_MinSize: {x: 679, y: 492}
   m_MaxSize: {x: 14002, y: 14042}
   vertical: 0
-  controlID: 99
+  controlID: 105
 --- !u!114 &3
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -219,7 +219,7 @@ MonoBehaviour:
   m_MinSize: {x: 403, y: 492}
   m_MaxSize: {x: 10001, y: 14042}
   vertical: 1
-  controlID: 100
+  controlID: 106
 --- !u!114 &10
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -244,7 +244,7 @@ MonoBehaviour:
   m_MinSize: {x: 403, y: 221}
   m_MaxSize: {x: 8003, y: 4021}
   vertical: 0
-  controlID: 101
+  controlID: 107
 --- !u!114 &11
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -338,19 +338,19 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets
+    - Assets/Models
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets
+  - Assets/Models
   m_LastFoldersGridSize: -1
   m_LastProjectPath: /Users/richardzhou/Code/Unity/MR Studio
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 1c360000
-    m_LastClickedID: 13852
+    m_SelectedIDs: 36360000
+    m_LastClickedID: 13878
     m_ExpandedIDs: 000000001c36000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
@@ -406,7 +406,7 @@ MonoBehaviour:
   m_ListAreaState:
     m_SelectedInstanceIDs: 
     m_LastClickedInstanceID: 0
-    m_HadKeyboardFocusLastEvent: 0
+    m_HadKeyboardFocusLastEvent: 1
     m_ExpandedInstanceIDs: c6230000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
@@ -504,7 +504,7 @@ MonoBehaviour:
       scrollPos: {x: 0, y: 0}
       m_SelectedIDs: 
       m_LastClickedID: 0
-      m_ExpandedIDs: 9cf4ffffb6f4ffff8ef5ffff64fbffff
+      m_ExpandedIDs: 5ce7ffff76e7ffff4ae8ffff28e9ffff42e9ffff16eaffff12f9ffffb2faffff64fbffffec350000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -564,9 +564,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 0.36906973, y: 0.24366531, z: 0.32058442}
+    m_Target: {x: 0, y: 0, z: 0}
     speed: 2
-    m_Value: {x: 0.36906973, y: 0.24366531, z: 0.32058442}
+    m_Value: {x: 0, y: 0, z: 0}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -612,13 +612,13 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: -0.07506836, y: 0.87775695, z: -0.14643814, w: -0.44996238}
+    m_Target: {x: -0.098577395, y: 0.8688646, z: -0.1922975, w: -0.4454037}
     speed: 2
-    m_Value: {x: -0.07506826, y: 0.8777557, z: -0.14643793, w: -0.44996172}
+    m_Value: {x: -0.098577105, y: 0.86886203, z: -0.19229694, w: -0.44540235}
   m_Size:
-    m_Target: 0.000046998433
+    m_Target: 0.070710704
     speed: 2
-    m_Value: 0.000046998433
+    m_Value: 0.070710704
   m_Ortho:
     m_Target: 0
     speed: 2

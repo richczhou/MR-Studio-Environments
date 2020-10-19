@@ -13,7 +13,7 @@ public class ARTapToPlaceObject : MonoBehaviour
     //private ARSessionOrigin arOrigin;
     private Pose PlacementPose;
     private Pose POIPose;
-    private Pose pastPOIPose;
+    private Queue<Vector3> pastPOIPositions = new Queue<Vector3>();
     private ARRaycastManager aRRaycastManager;
     private bool placementPoseIsValid = false;
     private bool POIPoseIsValid = false;
@@ -81,23 +81,24 @@ public class ARTapToPlaceObject : MonoBehaviour
 
     private bool isTouching()
     {
-        var fingerPos = Camera.main.ViewportToScreenPoint(trackingInformation.poi);
+        Vector3 fingerPos = Camera.main.ViewportToScreenPoint(trackingInformation.poi);
         
-        var hits = new List<ARRaycastHit>();
+        List<ARRaycastHit> hits = new List<ARRaycastHit>();
         aRRaycastManager.Raycast(fingerPos, hits, TrackableType.Planes);
 
         POIPoseIsValid = hits.Count > 0;
         if (POIPoseIsValid)
         {
-            pastPOIPose = POIPose;
             POIPose = hits[0].pose;
+            pastPOIPositions.Enqueue(POIPose.position);
+            if(pastPOIPositions.Count > 5) pastPOIPositions.Dequeue();
 
-            var cameraForward = Camera.main.transform.forward;
-            var cameraBearing = new Vector3(cameraForward.x, 0, cameraForward.z).normalized;
+            Vector3 cameraForward = Camera.main.transform.forward;
+            Vector3 cameraBearing = new Vector3(cameraForward.x, 0, cameraForward.z).normalized;
             POIPose.rotation = Quaternion.LookRotation(cameraBearing);
 
-            // Let's see if it hits a box
-            Ray rayPOI = Camera.main.ViewportPointToRay(trackingInformation.poi);
+            // Let's see if it hits a box!
+            Ray rayPOI = Camera.main.ScreenPointToRay(fingerPos);
             if (Physics.Raycast(rayPOI, out RaycastHit hit))
             {
                 GameObject go = hit.collider.gameObject;
@@ -108,6 +109,7 @@ public class ARTapToPlaceObject : MonoBehaviour
             }
         }
 
+        pastPOIPositions.Clear();
         return false;
     }
     
@@ -120,7 +122,11 @@ public class ARTapToPlaceObject : MonoBehaviour
 
     private void MoveObjectPOI()
     {
-        Vector3 smoothedPosition = Vector3.Lerp(pastPOIPose.position, POIPose.position, 0.1f);
+        // Smoothing tracking to average of last several POI positions
+        Vector3 smoothedPosition = Vector3.zero;
+        foreach (Vector3 POIpos in pastPOIPositions)
+            smoothedPosition += POIpos;
+        smoothedPosition /= pastPOIPositions.Count;
         objectToPlace.transform.SetPositionAndRotation(smoothedPosition, POIPose.rotation);
     }
 

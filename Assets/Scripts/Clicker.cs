@@ -32,6 +32,12 @@ public class Clicker : MonoBehaviour
         if (currentDetectedTriggerGesture == ManoGestureTrigger.CLICK)
         {
             // We detected a click gesture! IMPORTANT: THIS HAPPENS ON A SINGLE FRAME.
+            // We spawn a new item at camera position, adding a slight offset forward so it doesn't clip weird
+            GameObject newItem = Instantiate(itemPrefab);
+            Vector3 positionToMove = Camera.main.transform.position + (Camera.main.transform.forward * 2);
+            newItem.transform.position = positionToMove;
+
+            Handheld.Vibrate();
         }
     }
 }

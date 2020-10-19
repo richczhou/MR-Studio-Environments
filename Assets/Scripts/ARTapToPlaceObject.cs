@@ -19,6 +19,7 @@ public class ARTapToPlaceObject : MonoBehaviour
     {
         //arOrigin = FindObjectOfType<ARSessionOrigin>();
         aRRaycastManager = FindObjectOfType<ARRaycastManager>();
+        objectToPlace.SetActive(false);
     }
 
     void Update()
@@ -30,11 +31,28 @@ public class ARTapToPlaceObject : MonoBehaviour
         {
             PlaceObject();
         }
+
+        // TOUCH TEST
+        // Referencing MMM for a single hand info.
+        HandInfo handInformation = ManomotionManager.Instance.Hand_infos[0].hand_info;
+
+        // Referencing all the gesture info for this hand.
+        GestureInfo gestureInformation = handInformation.gesture_info;
+
+        // Parsing for current trigger gesture (not continuous!)
+        ManoGestureTrigger currentDetectedTriggerGesture = gestureInformation.mano_gesture_trigger;
+
+        if (placementPoseIsValid &&  currentDetectedTriggerGesture == ManoGestureTrigger.CLICK)
+        {
+            PlaceObject();
+        }
     }
     
     private void PlaceObject()
     {
-        Instantiate(objectToPlace, PlacementPose.position, PlacementPose.rotation);
+        //Instantiate(objectToPlace, PlacementPose.position, PlacementPose.rotation);
+        objectToPlace.SetActive(true);
+        objectToPlace.transform.SetPositionAndRotation(PlacementPose.position, PlacementPose.rotation);
     }
 
     private void UpdatePlacementIndicator()

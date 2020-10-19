@@ -13,6 +13,7 @@ public class ARTapToPlaceObject : MonoBehaviour
     //private ARSessionOrigin arOrigin;
     private Pose PlacementPose;
     private Pose POIPose;
+    private Pose pastPOIPose;
     private ARRaycastManager aRRaycastManager;
     private bool placementPoseIsValid = false;
     private bool POIPoseIsValid = false;
@@ -36,19 +37,7 @@ public class ARTapToPlaceObject : MonoBehaviour
         objectToPlace.SetActive(false);
 
         // Draws a line
-        LineRenderer lineRenderer = gameObject.AddComponent<LineRenderer>();
-        lineRenderer.material = new Material(Shader.Find("Sprites/Default"));
-        lineRenderer.widthMultiplier = 0.02f;
-        lineRenderer.positionCount = 2;
-
-        // A simple 2 color gradient with a fixed alpha of 1.0f.
-        float alpha = 1.0f;
-        Gradient gradient = new Gradient();
-        gradient.SetKeys(
-            new GradientColorKey[] { new GradientColorKey(Color.red, 0.5f), new GradientColorKey(Color.red, 1.0f) },
-            new GradientAlphaKey[] { new GradientAlphaKey(alpha, 0.5f), new GradientAlphaKey(alpha, 1.0f) }
-        );
-        lineRenderer.colorGradient = gradient;
+        //CreateLine();
     }
 
     void Update()
@@ -77,11 +66,6 @@ public class ARTapToPlaceObject : MonoBehaviour
         // Parsing for current countinous gesture
         currentDetectedContGesture = gestureInformation.mano_gesture_continuous;
 
-        // Direction vector from camera to pinch POI
-        /*
-        if(currentDetectedContGesture == ManoGestureContinuous.HOLD_GESTURE)
-            toPOI = (trackingInformation.poi - Camera.main.transform.position).normalized;
-        */
 
         if (placementPoseIsValid &&  currentDetectedTriggerGesture == ManoGestureTrigger.CLICK)
         {
@@ -91,40 +75,40 @@ public class ARTapToPlaceObject : MonoBehaviour
         if (currentDetectedContGesture == ManoGestureContinuous.HOLD_GESTURE && isTouching())
         {
             MoveObjectPOI();
+            //UpdateLine();
         }
-
-        // Draws the raycast
-        LineRenderer lineRenderer = GetComponent<LineRenderer>();
-        lineRenderer.SetPosition(0, Camera.main.transform.position);
-        lineRenderer.SetPosition(1, trackingInformation.poi);
     }
 
     private bool isTouching()
     {
-        var fingerPos = Camera.current.ViewportToScreenPoint(trackingInformation.poi);
+        var fingerPos = Camera.main.ViewportToScreenPoint(trackingInformation.poi);
+        
         var hits = new List<ARRaycastHit>();
         aRRaycastManager.Raycast(fingerPos, hits, TrackableType.Planes);
 
         POIPoseIsValid = hits.Count > 0;
         if (POIPoseIsValid)
         {
+            pastPOIPose = POIPose;
             POIPose = hits[0].pose;
 
-            var cameraForward = Camera.current.transform.forward;
+            var cameraForward = Camera.main.transform.forward;
             var cameraBearing = new Vector3(cameraForward.x, 0, cameraForward.z).normalized;
             POIPose.rotation = Quaternion.LookRotation(cameraBearing);
 
-            return true;
+            // Let's see if it hits a box
+            Ray rayPOI = Camera.main.ViewportPointToRay(trackingInformation.poi);
+            if (Physics.Raycast(rayPOI, out RaycastHit hit))
+            {
+                GameObject go = hit.collider.gameObject;
+                if (go.CompareTag("hasInfo"))
+                {
+                    return true;
+                }
+            }
         }
 
-        //******************************
-/*
-        if(Physics.Raycast(Camera.main.transform.position, toPOI, out RaycastHit hit))
-        {
-            GameObject go = hit.collider.gameObject;
-            return true;
-        }  */
-        else return false;
+        return false;
     }
     
     private void MoveObjectGaze()
@@ -136,7 +120,8 @@ public class ARTapToPlaceObject : MonoBehaviour
 
     private void MoveObjectPOI()
     {
-        objectToPlace.transform.SetPositionAndRotation(POIPose.position, POIPose.rotation);
+        Vector3 smoothedPosition = Vector3.Lerp(pastPOIPose.position, POIPose.position, 0.1f);
+        objectToPlace.transform.SetPositionAndRotation(smoothedPosition, POIPose.rotation);
     }
 
     private void UpdatePlacementIndicator()
@@ -167,5 +152,30 @@ public class ARTapToPlaceObject : MonoBehaviour
             var cameraBearing = new Vector3(cameraForward.x, 0, cameraForward.z).normalized;
             PlacementPose.rotation = Quaternion.LookRotation(cameraBearing);
         }
+    }
+
+    private void CreateLine()
+    {
+        LineRenderer lineRenderer = gameObject.AddComponent<LineRenderer>();
+        lineRenderer.material = new Material(Shader.Find("Sprites/Default"));
+        lineRenderer.widthMultiplier = 0.01f;
+        lineRenderer.positionCount = 2;
+
+        // A simple 2 color gradient with a fixed alpha of 1.0f.
+        float alpha = 0.3f;
+        Gradient gradient = new Gradient();
+        gradient.SetKeys(
+            new GradientColorKey[] { new GradientColorKey(Color.red, 0.0f), new GradientColorKey(Color.red, 1.0f) },
+            new GradientAlphaKey[] { new GradientAlphaKey(alpha, 0.0f), new GradientAlphaKey(alpha, 1.0f) }
+        );
+        lineRenderer.colorGradient = gradient;
+    }
+
+    private void UpdateLine()
+    {
+        // Draws the raycast
+        LineRenderer lineRenderer = GetComponent<LineRenderer>();
+        lineRenderer.SetPosition(0, Camera.main.transform.position);
+        lineRenderer.SetPosition(1, POIPose.position);
     }
 }

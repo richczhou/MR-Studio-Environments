@@ -128,6 +128,8 @@ struct EqualityComparer_1_tDDD15C1EE67655D8910B42D856F52279F5E62114;
 struct EqualityComparer_1_t5F0C8F88704710D11293F02D38AE92D81C964F13;
 // System.Collections.Generic.EqualityComparer`1<Unity.Collections.NativeArray`1<UnityEngine.XR.ARSubsystems.XRRaycastHit>>
 struct EqualityComparer_1_tCF1E1938B87F9C34A57C078A84E697D844D988A8;
+// System.Collections.Generic.EqualityComparer`1<UnityEngine.SpatialTracking.TrackedPoseDriverDataDescription/PoseData>
+struct EqualityComparer_1_t8636FD4EF696DC529BD5B4025863A1F9785263B6;
 // System.Collections.Generic.EqualityComparer`1<UnityEngine.TextCore.GlyphRect>
 struct EqualityComparer_1_tCDF71D565EF681A3FA07FEA641ACF98768CDF0D2;
 // System.Collections.Generic.EqualityComparer`1<UnityEngine.UI.ColorBlock>
@@ -258,6 +260,10 @@ struct IEqualityComparer_1_t8D13638D3E8C85B2BF37618A54F8C19DD8DF2523;
 struct IEqualityComparer_1_t4C07E0D27F93A9CEEBDAF430D4BC8C3B86A8286F;
 // System.Collections.Generic.InternalStringComparer
 struct InternalStringComparer_tCD150130A3DB4C80186B5D8145B910B33496D4CD;
+// System.Collections.Generic.List`1<System.String>
+struct List_1_tE8032E48C661C350FF9550E9063D595C0AB25CD3;
+// System.Collections.Generic.List`1<UnityEngine.SpatialTracking.TrackedPoseDriver/TrackedPose>
+struct List_1_t10B4421F82E8EBC91ADE783085927FD018F09A47;
 // System.Collections.IDictionary
 struct IDictionary_t1BD5C1546718A374EA8122FBD6C6EE45331E8CE7;
 // System.Collections.IEnumerator
@@ -318,6 +324,8 @@ struct UInt64U5BU5D_tA808FE881491284FF25AFDF5C4BC92A826031EF4;
 struct Void_t22962CB4C05B1D89B55A6E1139F0E87A90987017;
 // Unity.Collections.NativeArray`1<UnityEngine.XR.ARSubsystems.XRRaycastHit>[]
 struct NativeArray_1U5BU5D_t849C9A0D7F8881104AEB488E05B787DCE761B696;
+// UnityEngine.SpatialTracking.TrackedPoseDriverDataDescription/PoseData[]
+struct PoseDataU5BU5D_t1369761FEB62895A89B0BA9C343AB63C022ECE24;
 // UnityEngine.Sprite
 struct Sprite_tCA09498D612D08DE668653AF1E9C12BF53434198;
 // UnityEngine.TextCore.GlyphRect[]
@@ -445,6 +453,8 @@ IL2CPP_EXTERN_C const uint32_t EqualityComparer_1_CreateComparer_m0F8F479E7775A6
 IL2CPP_EXTERN_C const uint32_t EqualityComparer_1_CreateComparer_m122956BDD0D95DEAFAB089D4CF960E40429B51BC_MetadataUsageId;
 IL2CPP_EXTERN_C const uint32_t EqualityComparer_1_CreateComparer_m254952B5A9693CBADB57ED42553C9BDFCFAA9BFF_MetadataUsageId;
 IL2CPP_EXTERN_C const uint32_t EqualityComparer_1_CreateComparer_m2AA9932DD5B540A9357760DA942DCE1F556D766F_MetadataUsageId;
+IL2CPP_EXTERN_C const uint32_t EqualityComparer_1_CreateComparer_m3026EA84E55488E5D97A90E828D78D8109FAFDA9_MetadataUsageId;
+IL2CPP_EXTERN_C const uint32_t EqualityComparer_1_CreateComparer_m32C8D4DC5F60D979F8B1D311EEEC2DF099B3B43F_MetadataUsageId;
 IL2CPP_EXTERN_C const uint32_t EqualityComparer_1_CreateComparer_m47BA8B28B1295AA2DDBAADD00B0EA3648F544647_MetadataUsageId;
 IL2CPP_EXTERN_C const uint32_t EqualityComparer_1_CreateComparer_m4879803E85AB9D2A030C289AD8EEACDEA3B96F7D_MetadataUsageId;
 IL2CPP_EXTERN_C const uint32_t EqualityComparer_1_CreateComparer_m5DECD50AC45EF51A5A4AAC65CAC33DF24171E0E3_MetadataUsageId;
@@ -452,8 +462,11 @@ IL2CPP_EXTERN_C const uint32_t EqualityComparer_1_CreateComparer_m799C98FA06F875
 IL2CPP_EXTERN_C const uint32_t EqualityComparer_1_CreateComparer_m91C0A135F052854A67AF577774BEF68F81FA8D73_MetadataUsageId;
 IL2CPP_EXTERN_C const uint32_t EqualityComparer_1_CreateComparer_m9473A5B685735B77568EC6B3D49A16D1D42D5959_MetadataUsageId;
 IL2CPP_EXTERN_C const uint32_t EqualityComparer_1_CreateComparer_m99892DB0566688D7661638CAE6271B9DADCA758D_MetadataUsageId;
+IL2CPP_EXTERN_C const uint32_t EqualityComparer_1_CreateComparer_mAEDD5B56864513E9D6F006AC34A978A29F1BFA7F_MetadataUsageId;
 IL2CPP_EXTERN_C const uint32_t EqualityComparer_1_CreateComparer_mB3C8F2A883F52D2B531C8CCD3C7C57C134D4300D_MetadataUsageId;
+IL2CPP_EXTERN_C const uint32_t EqualityComparer_1_CreateComparer_mB67B2D0FA7875878D19F0B8847044B505D553877_MetadataUsageId;
 IL2CPP_EXTERN_C const uint32_t EqualityComparer_1_CreateComparer_mD3B1BEE4D05505AA57D05F3181376F669107E465_MetadataUsageId;
+IL2CPP_EXTERN_C const uint32_t EqualityComparer_1_CreateComparer_mD421FA565029A66A692DCB25E1A58CB75333BBF9_MetadataUsageId;
 IL2CPP_EXTERN_C const uint32_t EqualityComparer_1_CreateComparer_mFDFB6339F0AA48B8766B629B54CBF6A5E2E6B97D_MetadataUsageId;
 IL2CPP_EXTERN_C const uint32_t HashSet_1_CopyTo_m0CAE30D495A1E0975E636DA6ECCC05714C61B419_MetadataUsageId;
 IL2CPP_EXTERN_C const uint32_t HashSet_1_CopyTo_m29B4E349E4467BAF56C4E96D0B7934AD4A529E06_MetadataUsageId;
@@ -498,6 +511,7 @@ struct TypeU5BU5D_t7FE623A666B49176DE123306221193E888A12F5F;
 struct UInt32U5BU5D_t9AA834AF2940E75BBF8E3F08FF0D20D266DB71CB;
 struct UInt64U5BU5D_tA808FE881491284FF25AFDF5C4BC92A826031EF4;
 struct NativeArray_1U5BU5D_t849C9A0D7F8881104AEB488E05B787DCE761B696;
+struct PoseDataU5BU5D_t1369761FEB62895A89B0BA9C343AB63C022ECE24;
 struct GlyphRectU5BU5D_t0C8059848359C24B032007E1B643D747C2BB2FB2;
 struct ColorBlockU5BU5D_tD84A362F1D993005D8CA9E0B5AB8967468418DE7;
 struct NavigationU5BU5D_tED2679638506D7BDA5062C2FE17EC5F169233A6D;
@@ -1020,6 +1034,32 @@ public:
 	inline EqualityComparer_1_tCF1E1938B87F9C34A57C078A84E697D844D988A8 * get_defaultComparer_0() const { return ___defaultComparer_0; }
 	inline EqualityComparer_1_tCF1E1938B87F9C34A57C078A84E697D844D988A8 ** get_address_of_defaultComparer_0() { return &___defaultComparer_0; }
 	inline void set_defaultComparer_0(EqualityComparer_1_tCF1E1938B87F9C34A57C078A84E697D844D988A8 * value)
+	{
+		___defaultComparer_0 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___defaultComparer_0), (void*)value);
+	}
+};
+
+
+// System.Collections.Generic.EqualityComparer`1<UnityEngine.SpatialTracking.TrackedPoseDriverDataDescription_PoseData>
+struct  EqualityComparer_1_t8636FD4EF696DC529BD5B4025863A1F9785263B6  : public RuntimeObject
+{
+public:
+
+public:
+};
+
+struct EqualityComparer_1_t8636FD4EF696DC529BD5B4025863A1F9785263B6_StaticFields
+{
+public:
+	// System.Collections.Generic.EqualityComparer`1<T> modreq(System.Runtime.CompilerServices.IsVolatile) System.Collections.Generic.EqualityComparer`1::defaultComparer
+	EqualityComparer_1_t8636FD4EF696DC529BD5B4025863A1F9785263B6 * ___defaultComparer_0;
+
+public:
+	inline static int32_t get_offset_of_defaultComparer_0() { return static_cast<int32_t>(offsetof(EqualityComparer_1_t8636FD4EF696DC529BD5B4025863A1F9785263B6_StaticFields, ___defaultComparer_0)); }
+	inline EqualityComparer_1_t8636FD4EF696DC529BD5B4025863A1F9785263B6 * get_defaultComparer_0() const { return ___defaultComparer_0; }
+	inline EqualityComparer_1_t8636FD4EF696DC529BD5B4025863A1F9785263B6 ** get_address_of_defaultComparer_0() { return &___defaultComparer_0; }
+	inline void set_defaultComparer_0(EqualityComparer_1_t8636FD4EF696DC529BD5B4025863A1F9785263B6 * value)
 	{
 		___defaultComparer_0 = value;
 		Il2CppCodeGenWriteBarrier((void**)(&___defaultComparer_0), (void*)value);
@@ -1882,7 +1922,7 @@ public:
 
 
 // System.Collections.Generic.IDictionaryDebugView`2<System.Object,System.Object>
-struct  IDictionaryDebugView_2_tDECEFD297E1D1C6B57D98EDFD5330A9AC7D53364  : public RuntimeObject
+struct  IDictionaryDebugView_2_tAF6A02EEEEB6B14E1E486C5EFF287CF898F08311  : public RuntimeObject
 {
 public:
 
@@ -1891,7 +1931,7 @@ public:
 
 
 // System.Collections.Generic.IDictionaryDebugView`2<System.Object,System.Object>
-struct  IDictionaryDebugView_2_tAF6A02EEEEB6B14E1E486C5EFF287CF898F08311  : public RuntimeObject
+struct  IDictionaryDebugView_2_tDECEFD297E1D1C6B57D98EDFD5330A9AC7D53364  : public RuntimeObject
 {
 public:
 
@@ -2756,6 +2796,51 @@ public:
 };
 
 
+// System.Collections.Generic.ObjectEqualityComparer`1<UnityEngine.SpatialTracking.TrackedPoseDriverDataDescription_PoseData>
+struct  ObjectEqualityComparer_1_t7E872AB519A2DB24C4E18F90CD1A52B236347BD6  : public EqualityComparer_1_t8636FD4EF696DC529BD5B4025863A1F9785263B6
+{
+public:
+
+public:
+};
+
+
+// System.Collections.Generic.ObjectEqualityComparer`1<UnityEngine.TextCore.GlyphRect>
+struct  ObjectEqualityComparer_1_tF01D92B0F5420E4026694D3BE52389560933A85F  : public EqualityComparer_1_tCDF71D565EF681A3FA07FEA641ACF98768CDF0D2
+{
+public:
+
+public:
+};
+
+
+// System.Collections.Generic.ObjectEqualityComparer`1<UnityEngine.UI.ColorBlock>
+struct  ObjectEqualityComparer_1_tB5BFFDB9EAFB9FEAAA84EDD21CFD947FC1C5A095  : public EqualityComparer_1_t33D7DD4D1CC49C4D829BBDB1D3E3FB1A0527461D
+{
+public:
+
+public:
+};
+
+
+// System.Collections.Generic.ObjectEqualityComparer`1<UnityEngine.UI.Navigation>
+struct  ObjectEqualityComparer_1_t232707B52993002BCF4F9CD86A3490E5CE2FB365  : public EqualityComparer_1_t473284C1B64EE3B6A648577B1832E02316F65C08
+{
+public:
+
+public:
+};
+
+
+// System.Collections.Generic.ObjectEqualityComparer`1<UnityEngine.UI.SpriteState>
+struct  ObjectEqualityComparer_1_t2FCEBB7F8CF8AAAE10CAC86A0D6402583C12A8BF  : public EqualityComparer_1_tED97D7A473D6A4571389020C4BEA2DD1D3F2FF49
+{
+public:
+
+public:
+};
+
+
 // System.Collections.Generic.ObjectEqualityComparer`1<UnityEngine.UICharInfo>
 struct  ObjectEqualityComparer_1_tB144D63B7B88E9C13D2B7538B9342E5CD39CC52F  : public EqualityComparer_1_tC9FE6AC7127ED7A22F717A9EF3208401E3C1D28D
 {
@@ -3446,6 +3531,48 @@ public:
 	}
 };
 
+
+// UnityEngine.SpatialTracking.TrackedPoseDriverDataDescription_PoseData
+struct  PoseData_tF79A33767571168AAB333A85A6B6F0F9A8825DFE 
+{
+public:
+	// System.Collections.Generic.List`1<System.String> UnityEngine.SpatialTracking.TrackedPoseDriverDataDescription_PoseData::PoseNames
+	List_1_tE8032E48C661C350FF9550E9063D595C0AB25CD3 * ___PoseNames_0;
+	// System.Collections.Generic.List`1<UnityEngine.SpatialTracking.TrackedPoseDriver_TrackedPose> UnityEngine.SpatialTracking.TrackedPoseDriverDataDescription_PoseData::Poses
+	List_1_t10B4421F82E8EBC91ADE783085927FD018F09A47 * ___Poses_1;
+
+public:
+	inline static int32_t get_offset_of_PoseNames_0() { return static_cast<int32_t>(offsetof(PoseData_tF79A33767571168AAB333A85A6B6F0F9A8825DFE, ___PoseNames_0)); }
+	inline List_1_tE8032E48C661C350FF9550E9063D595C0AB25CD3 * get_PoseNames_0() const { return ___PoseNames_0; }
+	inline List_1_tE8032E48C661C350FF9550E9063D595C0AB25CD3 ** get_address_of_PoseNames_0() { return &___PoseNames_0; }
+	inline void set_PoseNames_0(List_1_tE8032E48C661C350FF9550E9063D595C0AB25CD3 * value)
+	{
+		___PoseNames_0 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___PoseNames_0), (void*)value);
+	}
+
+	inline static int32_t get_offset_of_Poses_1() { return static_cast<int32_t>(offsetof(PoseData_tF79A33767571168AAB333A85A6B6F0F9A8825DFE, ___Poses_1)); }
+	inline List_1_t10B4421F82E8EBC91ADE783085927FD018F09A47 * get_Poses_1() const { return ___Poses_1; }
+	inline List_1_t10B4421F82E8EBC91ADE783085927FD018F09A47 ** get_address_of_Poses_1() { return &___Poses_1; }
+	inline void set_Poses_1(List_1_t10B4421F82E8EBC91ADE783085927FD018F09A47 * value)
+	{
+		___Poses_1 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___Poses_1), (void*)value);
+	}
+};
+
+// Native definition for P/Invoke marshalling of UnityEngine.SpatialTracking.TrackedPoseDriverDataDescription/PoseData
+struct PoseData_tF79A33767571168AAB333A85A6B6F0F9A8825DFE_marshaled_pinvoke
+{
+	List_1_tE8032E48C661C350FF9550E9063D595C0AB25CD3 * ___PoseNames_0;
+	List_1_t10B4421F82E8EBC91ADE783085927FD018F09A47 * ___Poses_1;
+};
+// Native definition for COM marshalling of UnityEngine.SpatialTracking.TrackedPoseDriverDataDescription/PoseData
+struct PoseData_tF79A33767571168AAB333A85A6B6F0F9A8825DFE_marshaled_com
+{
+	List_1_tE8032E48C661C350FF9550E9063D595C0AB25CD3 * ___PoseNames_0;
+	List_1_t10B4421F82E8EBC91ADE783085927FD018F09A47 * ___Poses_1;
+};
 
 // UnityEngine.TextCore.GlyphRect
 struct  GlyphRect_t398045C795E0E1264236DFAA5712796CC23C3E7C 
@@ -5938,6 +6065,229 @@ public:
 		Il2CppCodeGenWriteBarrier((void**)m_Items + index, (void*)value);
 	}
 };
+// UnityEngine.SpatialTracking.TrackedPoseDriverDataDescription_PoseData[]
+struct PoseDataU5BU5D_t1369761FEB62895A89B0BA9C343AB63C022ECE24  : public RuntimeArray
+{
+public:
+	ALIGN_FIELD (8) PoseData_tF79A33767571168AAB333A85A6B6F0F9A8825DFE  m_Items[1];
+
+public:
+	inline PoseData_tF79A33767571168AAB333A85A6B6F0F9A8825DFE  GetAt(il2cpp_array_size_t index) const
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items[index];
+	}
+	inline PoseData_tF79A33767571168AAB333A85A6B6F0F9A8825DFE * GetAddressAt(il2cpp_array_size_t index)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items + index;
+	}
+	inline void SetAt(il2cpp_array_size_t index, PoseData_tF79A33767571168AAB333A85A6B6F0F9A8825DFE  value)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		m_Items[index] = value;
+		Il2CppCodeGenWriteBarrier((void**)&((m_Items + index)->___PoseNames_0), (void*)NULL);
+		#if IL2CPP_ENABLE_STRICT_WRITE_BARRIERS
+		Il2CppCodeGenWriteBarrier((void**)&((m_Items + index)->___Poses_1), (void*)NULL);
+		#endif
+	}
+	inline PoseData_tF79A33767571168AAB333A85A6B6F0F9A8825DFE  GetAtUnchecked(il2cpp_array_size_t index) const
+	{
+		return m_Items[index];
+	}
+	inline PoseData_tF79A33767571168AAB333A85A6B6F0F9A8825DFE * GetAddressAtUnchecked(il2cpp_array_size_t index)
+	{
+		return m_Items + index;
+	}
+	inline void SetAtUnchecked(il2cpp_array_size_t index, PoseData_tF79A33767571168AAB333A85A6B6F0F9A8825DFE  value)
+	{
+		m_Items[index] = value;
+		Il2CppCodeGenWriteBarrier((void**)&((m_Items + index)->___PoseNames_0), (void*)NULL);
+		#if IL2CPP_ENABLE_STRICT_WRITE_BARRIERS
+		Il2CppCodeGenWriteBarrier((void**)&((m_Items + index)->___Poses_1), (void*)NULL);
+		#endif
+	}
+};
+// UnityEngine.TextCore.GlyphRect[]
+struct GlyphRectU5BU5D_t0C8059848359C24B032007E1B643D747C2BB2FB2  : public RuntimeArray
+{
+public:
+	ALIGN_FIELD (8) GlyphRect_t398045C795E0E1264236DFAA5712796CC23C3E7C  m_Items[1];
+
+public:
+	inline GlyphRect_t398045C795E0E1264236DFAA5712796CC23C3E7C  GetAt(il2cpp_array_size_t index) const
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items[index];
+	}
+	inline GlyphRect_t398045C795E0E1264236DFAA5712796CC23C3E7C * GetAddressAt(il2cpp_array_size_t index)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items + index;
+	}
+	inline void SetAt(il2cpp_array_size_t index, GlyphRect_t398045C795E0E1264236DFAA5712796CC23C3E7C  value)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		m_Items[index] = value;
+	}
+	inline GlyphRect_t398045C795E0E1264236DFAA5712796CC23C3E7C  GetAtUnchecked(il2cpp_array_size_t index) const
+	{
+		return m_Items[index];
+	}
+	inline GlyphRect_t398045C795E0E1264236DFAA5712796CC23C3E7C * GetAddressAtUnchecked(il2cpp_array_size_t index)
+	{
+		return m_Items + index;
+	}
+	inline void SetAtUnchecked(il2cpp_array_size_t index, GlyphRect_t398045C795E0E1264236DFAA5712796CC23C3E7C  value)
+	{
+		m_Items[index] = value;
+	}
+};
+// UnityEngine.UI.ColorBlock[]
+struct ColorBlockU5BU5D_tD84A362F1D993005D8CA9E0B5AB8967468418DE7  : public RuntimeArray
+{
+public:
+	ALIGN_FIELD (8) ColorBlock_t93B54DF6E8D65D24CEA9726CA745E48C53E3B1EA  m_Items[1];
+
+public:
+	inline ColorBlock_t93B54DF6E8D65D24CEA9726CA745E48C53E3B1EA  GetAt(il2cpp_array_size_t index) const
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items[index];
+	}
+	inline ColorBlock_t93B54DF6E8D65D24CEA9726CA745E48C53E3B1EA * GetAddressAt(il2cpp_array_size_t index)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items + index;
+	}
+	inline void SetAt(il2cpp_array_size_t index, ColorBlock_t93B54DF6E8D65D24CEA9726CA745E48C53E3B1EA  value)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		m_Items[index] = value;
+	}
+	inline ColorBlock_t93B54DF6E8D65D24CEA9726CA745E48C53E3B1EA  GetAtUnchecked(il2cpp_array_size_t index) const
+	{
+		return m_Items[index];
+	}
+	inline ColorBlock_t93B54DF6E8D65D24CEA9726CA745E48C53E3B1EA * GetAddressAtUnchecked(il2cpp_array_size_t index)
+	{
+		return m_Items + index;
+	}
+	inline void SetAtUnchecked(il2cpp_array_size_t index, ColorBlock_t93B54DF6E8D65D24CEA9726CA745E48C53E3B1EA  value)
+	{
+		m_Items[index] = value;
+	}
+};
+// UnityEngine.UI.Navigation[]
+struct NavigationU5BU5D_tED2679638506D7BDA5062C2FE17EC5F169233A6D  : public RuntimeArray
+{
+public:
+	ALIGN_FIELD (8) Navigation_t761250C05C09773B75F5E0D52DDCBBFE60288A07  m_Items[1];
+
+public:
+	inline Navigation_t761250C05C09773B75F5E0D52DDCBBFE60288A07  GetAt(il2cpp_array_size_t index) const
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items[index];
+	}
+	inline Navigation_t761250C05C09773B75F5E0D52DDCBBFE60288A07 * GetAddressAt(il2cpp_array_size_t index)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items + index;
+	}
+	inline void SetAt(il2cpp_array_size_t index, Navigation_t761250C05C09773B75F5E0D52DDCBBFE60288A07  value)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		m_Items[index] = value;
+		Il2CppCodeGenWriteBarrier((void**)&((m_Items + index)->___m_SelectOnUp_1), (void*)NULL);
+		#if IL2CPP_ENABLE_STRICT_WRITE_BARRIERS
+		Il2CppCodeGenWriteBarrier((void**)&((m_Items + index)->___m_SelectOnDown_2), (void*)NULL);
+		#endif
+		#if IL2CPP_ENABLE_STRICT_WRITE_BARRIERS
+		Il2CppCodeGenWriteBarrier((void**)&((m_Items + index)->___m_SelectOnLeft_3), (void*)NULL);
+		#endif
+		#if IL2CPP_ENABLE_STRICT_WRITE_BARRIERS
+		Il2CppCodeGenWriteBarrier((void**)&((m_Items + index)->___m_SelectOnRight_4), (void*)NULL);
+		#endif
+	}
+	inline Navigation_t761250C05C09773B75F5E0D52DDCBBFE60288A07  GetAtUnchecked(il2cpp_array_size_t index) const
+	{
+		return m_Items[index];
+	}
+	inline Navigation_t761250C05C09773B75F5E0D52DDCBBFE60288A07 * GetAddressAtUnchecked(il2cpp_array_size_t index)
+	{
+		return m_Items + index;
+	}
+	inline void SetAtUnchecked(il2cpp_array_size_t index, Navigation_t761250C05C09773B75F5E0D52DDCBBFE60288A07  value)
+	{
+		m_Items[index] = value;
+		Il2CppCodeGenWriteBarrier((void**)&((m_Items + index)->___m_SelectOnUp_1), (void*)NULL);
+		#if IL2CPP_ENABLE_STRICT_WRITE_BARRIERS
+		Il2CppCodeGenWriteBarrier((void**)&((m_Items + index)->___m_SelectOnDown_2), (void*)NULL);
+		#endif
+		#if IL2CPP_ENABLE_STRICT_WRITE_BARRIERS
+		Il2CppCodeGenWriteBarrier((void**)&((m_Items + index)->___m_SelectOnLeft_3), (void*)NULL);
+		#endif
+		#if IL2CPP_ENABLE_STRICT_WRITE_BARRIERS
+		Il2CppCodeGenWriteBarrier((void**)&((m_Items + index)->___m_SelectOnRight_4), (void*)NULL);
+		#endif
+	}
+};
+// UnityEngine.UI.SpriteState[]
+struct SpriteStateU5BU5D_t6452EE17737027DABCA2DCEC11461C3CBF40FCDC  : public RuntimeArray
+{
+public:
+	ALIGN_FIELD (8) SpriteState_t58B9DD66A79CD69AB4CFC3AD0C41E45DC2192C0A  m_Items[1];
+
+public:
+	inline SpriteState_t58B9DD66A79CD69AB4CFC3AD0C41E45DC2192C0A  GetAt(il2cpp_array_size_t index) const
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items[index];
+	}
+	inline SpriteState_t58B9DD66A79CD69AB4CFC3AD0C41E45DC2192C0A * GetAddressAt(il2cpp_array_size_t index)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items + index;
+	}
+	inline void SetAt(il2cpp_array_size_t index, SpriteState_t58B9DD66A79CD69AB4CFC3AD0C41E45DC2192C0A  value)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		m_Items[index] = value;
+		Il2CppCodeGenWriteBarrier((void**)&((m_Items + index)->___m_HighlightedSprite_0), (void*)NULL);
+		#if IL2CPP_ENABLE_STRICT_WRITE_BARRIERS
+		Il2CppCodeGenWriteBarrier((void**)&((m_Items + index)->___m_PressedSprite_1), (void*)NULL);
+		#endif
+		#if IL2CPP_ENABLE_STRICT_WRITE_BARRIERS
+		Il2CppCodeGenWriteBarrier((void**)&((m_Items + index)->___m_SelectedSprite_2), (void*)NULL);
+		#endif
+		#if IL2CPP_ENABLE_STRICT_WRITE_BARRIERS
+		Il2CppCodeGenWriteBarrier((void**)&((m_Items + index)->___m_DisabledSprite_3), (void*)NULL);
+		#endif
+	}
+	inline SpriteState_t58B9DD66A79CD69AB4CFC3AD0C41E45DC2192C0A  GetAtUnchecked(il2cpp_array_size_t index) const
+	{
+		return m_Items[index];
+	}
+	inline SpriteState_t58B9DD66A79CD69AB4CFC3AD0C41E45DC2192C0A * GetAddressAtUnchecked(il2cpp_array_size_t index)
+	{
+		return m_Items + index;
+	}
+	inline void SetAtUnchecked(il2cpp_array_size_t index, SpriteState_t58B9DD66A79CD69AB4CFC3AD0C41E45DC2192C0A  value)
+	{
+		m_Items[index] = value;
+		Il2CppCodeGenWriteBarrier((void**)&((m_Items + index)->___m_HighlightedSprite_0), (void*)NULL);
+		#if IL2CPP_ENABLE_STRICT_WRITE_BARRIERS
+		Il2CppCodeGenWriteBarrier((void**)&((m_Items + index)->___m_PressedSprite_1), (void*)NULL);
+		#endif
+		#if IL2CPP_ENABLE_STRICT_WRITE_BARRIERS
+		Il2CppCodeGenWriteBarrier((void**)&((m_Items + index)->___m_SelectedSprite_2), (void*)NULL);
+		#endif
+		#if IL2CPP_ENABLE_STRICT_WRITE_BARRIERS
+		Il2CppCodeGenWriteBarrier((void**)&((m_Items + index)->___m_DisabledSprite_3), (void*)NULL);
+		#endif
+	}
+};
 // UnityEngine.UICharInfo[]
 struct UICharInfoU5BU5D_t8C4FF69B643D49D3881FCB7A8525C5C5A9367482  : public RuntimeArray
 {
@@ -6841,186 +7191,6 @@ public:
 		m_Items[index] = value;
 	}
 };
-// UnityEngine.TextCore.GlyphRect[]
-struct GlyphRectU5BU5D_t0C8059848359C24B032007E1B643D747C2BB2FB2  : public RuntimeArray
-{
-public:
-	ALIGN_FIELD (8) GlyphRect_t398045C795E0E1264236DFAA5712796CC23C3E7C  m_Items[1];
-
-public:
-	inline GlyphRect_t398045C795E0E1264236DFAA5712796CC23C3E7C  GetAt(il2cpp_array_size_t index) const
-	{
-		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
-		return m_Items[index];
-	}
-	inline GlyphRect_t398045C795E0E1264236DFAA5712796CC23C3E7C * GetAddressAt(il2cpp_array_size_t index)
-	{
-		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
-		return m_Items + index;
-	}
-	inline void SetAt(il2cpp_array_size_t index, GlyphRect_t398045C795E0E1264236DFAA5712796CC23C3E7C  value)
-	{
-		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
-		m_Items[index] = value;
-	}
-	inline GlyphRect_t398045C795E0E1264236DFAA5712796CC23C3E7C  GetAtUnchecked(il2cpp_array_size_t index) const
-	{
-		return m_Items[index];
-	}
-	inline GlyphRect_t398045C795E0E1264236DFAA5712796CC23C3E7C * GetAddressAtUnchecked(il2cpp_array_size_t index)
-	{
-		return m_Items + index;
-	}
-	inline void SetAtUnchecked(il2cpp_array_size_t index, GlyphRect_t398045C795E0E1264236DFAA5712796CC23C3E7C  value)
-	{
-		m_Items[index] = value;
-	}
-};
-// UnityEngine.UI.ColorBlock[]
-struct ColorBlockU5BU5D_tD84A362F1D993005D8CA9E0B5AB8967468418DE7  : public RuntimeArray
-{
-public:
-	ALIGN_FIELD (8) ColorBlock_t93B54DF6E8D65D24CEA9726CA745E48C53E3B1EA  m_Items[1];
-
-public:
-	inline ColorBlock_t93B54DF6E8D65D24CEA9726CA745E48C53E3B1EA  GetAt(il2cpp_array_size_t index) const
-	{
-		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
-		return m_Items[index];
-	}
-	inline ColorBlock_t93B54DF6E8D65D24CEA9726CA745E48C53E3B1EA * GetAddressAt(il2cpp_array_size_t index)
-	{
-		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
-		return m_Items + index;
-	}
-	inline void SetAt(il2cpp_array_size_t index, ColorBlock_t93B54DF6E8D65D24CEA9726CA745E48C53E3B1EA  value)
-	{
-		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
-		m_Items[index] = value;
-	}
-	inline ColorBlock_t93B54DF6E8D65D24CEA9726CA745E48C53E3B1EA  GetAtUnchecked(il2cpp_array_size_t index) const
-	{
-		return m_Items[index];
-	}
-	inline ColorBlock_t93B54DF6E8D65D24CEA9726CA745E48C53E3B1EA * GetAddressAtUnchecked(il2cpp_array_size_t index)
-	{
-		return m_Items + index;
-	}
-	inline void SetAtUnchecked(il2cpp_array_size_t index, ColorBlock_t93B54DF6E8D65D24CEA9726CA745E48C53E3B1EA  value)
-	{
-		m_Items[index] = value;
-	}
-};
-// UnityEngine.UI.Navigation[]
-struct NavigationU5BU5D_tED2679638506D7BDA5062C2FE17EC5F169233A6D  : public RuntimeArray
-{
-public:
-	ALIGN_FIELD (8) Navigation_t761250C05C09773B75F5E0D52DDCBBFE60288A07  m_Items[1];
-
-public:
-	inline Navigation_t761250C05C09773B75F5E0D52DDCBBFE60288A07  GetAt(il2cpp_array_size_t index) const
-	{
-		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
-		return m_Items[index];
-	}
-	inline Navigation_t761250C05C09773B75F5E0D52DDCBBFE60288A07 * GetAddressAt(il2cpp_array_size_t index)
-	{
-		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
-		return m_Items + index;
-	}
-	inline void SetAt(il2cpp_array_size_t index, Navigation_t761250C05C09773B75F5E0D52DDCBBFE60288A07  value)
-	{
-		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
-		m_Items[index] = value;
-		Il2CppCodeGenWriteBarrier((void**)&((m_Items + index)->___m_SelectOnUp_1), (void*)NULL);
-		#if IL2CPP_ENABLE_STRICT_WRITE_BARRIERS
-		Il2CppCodeGenWriteBarrier((void**)&((m_Items + index)->___m_SelectOnDown_2), (void*)NULL);
-		#endif
-		#if IL2CPP_ENABLE_STRICT_WRITE_BARRIERS
-		Il2CppCodeGenWriteBarrier((void**)&((m_Items + index)->___m_SelectOnLeft_3), (void*)NULL);
-		#endif
-		#if IL2CPP_ENABLE_STRICT_WRITE_BARRIERS
-		Il2CppCodeGenWriteBarrier((void**)&((m_Items + index)->___m_SelectOnRight_4), (void*)NULL);
-		#endif
-	}
-	inline Navigation_t761250C05C09773B75F5E0D52DDCBBFE60288A07  GetAtUnchecked(il2cpp_array_size_t index) const
-	{
-		return m_Items[index];
-	}
-	inline Navigation_t761250C05C09773B75F5E0D52DDCBBFE60288A07 * GetAddressAtUnchecked(il2cpp_array_size_t index)
-	{
-		return m_Items + index;
-	}
-	inline void SetAtUnchecked(il2cpp_array_size_t index, Navigation_t761250C05C09773B75F5E0D52DDCBBFE60288A07  value)
-	{
-		m_Items[index] = value;
-		Il2CppCodeGenWriteBarrier((void**)&((m_Items + index)->___m_SelectOnUp_1), (void*)NULL);
-		#if IL2CPP_ENABLE_STRICT_WRITE_BARRIERS
-		Il2CppCodeGenWriteBarrier((void**)&((m_Items + index)->___m_SelectOnDown_2), (void*)NULL);
-		#endif
-		#if IL2CPP_ENABLE_STRICT_WRITE_BARRIERS
-		Il2CppCodeGenWriteBarrier((void**)&((m_Items + index)->___m_SelectOnLeft_3), (void*)NULL);
-		#endif
-		#if IL2CPP_ENABLE_STRICT_WRITE_BARRIERS
-		Il2CppCodeGenWriteBarrier((void**)&((m_Items + index)->___m_SelectOnRight_4), (void*)NULL);
-		#endif
-	}
-};
-// UnityEngine.UI.SpriteState[]
-struct SpriteStateU5BU5D_t6452EE17737027DABCA2DCEC11461C3CBF40FCDC  : public RuntimeArray
-{
-public:
-	ALIGN_FIELD (8) SpriteState_t58B9DD66A79CD69AB4CFC3AD0C41E45DC2192C0A  m_Items[1];
-
-public:
-	inline SpriteState_t58B9DD66A79CD69AB4CFC3AD0C41E45DC2192C0A  GetAt(il2cpp_array_size_t index) const
-	{
-		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
-		return m_Items[index];
-	}
-	inline SpriteState_t58B9DD66A79CD69AB4CFC3AD0C41E45DC2192C0A * GetAddressAt(il2cpp_array_size_t index)
-	{
-		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
-		return m_Items + index;
-	}
-	inline void SetAt(il2cpp_array_size_t index, SpriteState_t58B9DD66A79CD69AB4CFC3AD0C41E45DC2192C0A  value)
-	{
-		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
-		m_Items[index] = value;
-		Il2CppCodeGenWriteBarrier((void**)&((m_Items + index)->___m_HighlightedSprite_0), (void*)NULL);
-		#if IL2CPP_ENABLE_STRICT_WRITE_BARRIERS
-		Il2CppCodeGenWriteBarrier((void**)&((m_Items + index)->___m_PressedSprite_1), (void*)NULL);
-		#endif
-		#if IL2CPP_ENABLE_STRICT_WRITE_BARRIERS
-		Il2CppCodeGenWriteBarrier((void**)&((m_Items + index)->___m_SelectedSprite_2), (void*)NULL);
-		#endif
-		#if IL2CPP_ENABLE_STRICT_WRITE_BARRIERS
-		Il2CppCodeGenWriteBarrier((void**)&((m_Items + index)->___m_DisabledSprite_3), (void*)NULL);
-		#endif
-	}
-	inline SpriteState_t58B9DD66A79CD69AB4CFC3AD0C41E45DC2192C0A  GetAtUnchecked(il2cpp_array_size_t index) const
-	{
-		return m_Items[index];
-	}
-	inline SpriteState_t58B9DD66A79CD69AB4CFC3AD0C41E45DC2192C0A * GetAddressAtUnchecked(il2cpp_array_size_t index)
-	{
-		return m_Items + index;
-	}
-	inline void SetAtUnchecked(il2cpp_array_size_t index, SpriteState_t58B9DD66A79CD69AB4CFC3AD0C41E45DC2192C0A  value)
-	{
-		m_Items[index] = value;
-		Il2CppCodeGenWriteBarrier((void**)&((m_Items + index)->___m_HighlightedSprite_0), (void*)NULL);
-		#if IL2CPP_ENABLE_STRICT_WRITE_BARRIERS
-		Il2CppCodeGenWriteBarrier((void**)&((m_Items + index)->___m_PressedSprite_1), (void*)NULL);
-		#endif
-		#if IL2CPP_ENABLE_STRICT_WRITE_BARRIERS
-		Il2CppCodeGenWriteBarrier((void**)&((m_Items + index)->___m_SelectedSprite_2), (void*)NULL);
-		#endif
-		#if IL2CPP_ENABLE_STRICT_WRITE_BARRIERS
-		Il2CppCodeGenWriteBarrier((void**)&((m_Items + index)->___m_DisabledSprite_3), (void*)NULL);
-		#endif
-	}
-};
 // System.Collections.Generic.HashSet`1_Slot<System.Int32>[]
 struct SlotU5BU5D_t648AAF33C963AFC09B4BB36D18265E78F1042544  : public RuntimeArray
 {
@@ -7472,6 +7642,2471 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t HashHelpers_GetPrime_m743D7006C2BCBAD
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t HashHelpers_ExpandPrime_m4245F4C95074EAA8F949FB3B734F611A533A6A0D (int32_t ___oldSize0, const RuntimeMethod* method);
 // System.Void System.Array::Copy(System.Array,System.Int32,System.Array,System.Int32,System.Int32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_Copy_mA10D079DD8D9700CA44721A219A934A2397653F6 (RuntimeArray * ___sourceArray0, int32_t ___sourceIndex1, RuntimeArray * ___destinationArray2, int32_t ___destinationIndex3, int32_t ___length4, const RuntimeMethod* method);
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// System.Collections.Generic.EqualityComparer`1<T> System.Collections.Generic.EqualityComparer`1<UnityEngine.SpatialTracking.TrackedPoseDriverDataDescription_PoseData>::get_Default()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR EqualityComparer_1_t8636FD4EF696DC529BD5B4025863A1F9785263B6 * EqualityComparer_1_get_Default_m67EECE235DC6765EFE1D04012EA35157EBF5B3CF_gshared (const RuntimeMethod* method)
+{
+	EqualityComparer_1_t8636FD4EF696DC529BD5B4025863A1F9785263B6 * V_0 = NULL;
+	{
+		EqualityComparer_1_t8636FD4EF696DC529BD5B4025863A1F9785263B6 * L_0 = ((EqualityComparer_1_t8636FD4EF696DC529BD5B4025863A1F9785263B6_StaticFields*)il2cpp_codegen_static_fields_for(IL2CPP_RGCTX_DATA(InitializedTypeInfo(method->klass)->rgctx_data, 0)))->get_defaultComparer_0();
+		il2cpp_codegen_memory_barrier();
+		V_0 = (EqualityComparer_1_t8636FD4EF696DC529BD5B4025863A1F9785263B6 *)L_0;
+		EqualityComparer_1_t8636FD4EF696DC529BD5B4025863A1F9785263B6 * L_1 = V_0;
+		if (L_1)
+		{
+			goto IL_0019;
+		}
+	}
+	{
+		EqualityComparer_1_t8636FD4EF696DC529BD5B4025863A1F9785263B6 * L_2 = ((  EqualityComparer_1_t8636FD4EF696DC529BD5B4025863A1F9785263B6 * (*) (const RuntimeMethod*))IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->klass)->rgctx_data, 1)->methodPointer)(/*hidden argument*/IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->klass)->rgctx_data, 1));
+		V_0 = (EqualityComparer_1_t8636FD4EF696DC529BD5B4025863A1F9785263B6 *)L_2;
+		EqualityComparer_1_t8636FD4EF696DC529BD5B4025863A1F9785263B6 * L_3 = V_0;
+		il2cpp_codegen_memory_barrier();
+		((EqualityComparer_1_t8636FD4EF696DC529BD5B4025863A1F9785263B6_StaticFields*)il2cpp_codegen_static_fields_for(IL2CPP_RGCTX_DATA(InitializedTypeInfo(method->klass)->rgctx_data, 0)))->set_defaultComparer_0(L_3);
+	}
+
+IL_0019:
+	{
+		EqualityComparer_1_t8636FD4EF696DC529BD5B4025863A1F9785263B6 * L_4 = V_0;
+		return L_4;
+	}
+}
+// System.Collections.Generic.EqualityComparer`1<T> System.Collections.Generic.EqualityComparer`1<UnityEngine.SpatialTracking.TrackedPoseDriverDataDescription_PoseData>::CreateComparer()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR EqualityComparer_1_t8636FD4EF696DC529BD5B4025863A1F9785263B6 * EqualityComparer_1_CreateComparer_mAEDD5B56864513E9D6F006AC34A978A29F1BFA7F_gshared (const RuntimeMethod* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (EqualityComparer_1_CreateComparer_mAEDD5B56864513E9D6F006AC34A978A29F1BFA7F_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	RuntimeType_t40F13BCEAD97478C72C4B40BFDC2A220161CDB8F * V_0 = NULL;
+	RuntimeType_t40F13BCEAD97478C72C4B40BFDC2A220161CDB8F * V_1 = NULL;
+	int32_t V_2 = 0;
+	{
+		RuntimeTypeHandle_t7B542280A22F0EC4EAC2061C29178845847A8B2D  L_0 = { reinterpret_cast<intptr_t> (IL2CPP_RGCTX_TYPE(InitializedTypeInfo(method->klass)->rgctx_data, 2)) };
+		IL2CPP_RUNTIME_CLASS_INIT(Type_t_il2cpp_TypeInfo_var);
+		Type_t * L_1 = Type_GetTypeFromHandle_m9DC58ADF0512987012A8A016FB64B068F3B1AFF6((RuntimeTypeHandle_t7B542280A22F0EC4EAC2061C29178845847A8B2D )L_0, /*hidden argument*/NULL);
+		V_0 = (RuntimeType_t40F13BCEAD97478C72C4B40BFDC2A220161CDB8F *)((RuntimeType_t40F13BCEAD97478C72C4B40BFDC2A220161CDB8F *)Castclass((RuntimeObject*)L_1, RuntimeType_t40F13BCEAD97478C72C4B40BFDC2A220161CDB8F_il2cpp_TypeInfo_var));
+		RuntimeType_t40F13BCEAD97478C72C4B40BFDC2A220161CDB8F * L_2 = V_0;
+		RuntimeTypeHandle_t7B542280A22F0EC4EAC2061C29178845847A8B2D  L_3 = { reinterpret_cast<intptr_t> (Byte_tF87C579059BD4633E6840EBBBEEF899C6E33EF07_0_0_0_var) };
+		Type_t * L_4 = Type_GetTypeFromHandle_m9DC58ADF0512987012A8A016FB64B068F3B1AFF6((RuntimeTypeHandle_t7B542280A22F0EC4EAC2061C29178845847A8B2D )L_3, /*hidden argument*/NULL);
+		bool L_5 = Type_op_Equality_m7040622C9E1037EFC73E1F0EDB1DD241282BE3D8((Type_t *)L_2, (Type_t *)L_4, /*hidden argument*/NULL);
+		if (!L_5)
+		{
+			goto IL_002d;
+		}
+	}
+	{
+		ByteEqualityComparer_t45A85C063C30D3CDABEAD21C8CDF353E3EE55B8B * L_6 = (ByteEqualityComparer_t45A85C063C30D3CDABEAD21C8CDF353E3EE55B8B *)il2cpp_codegen_object_new(ByteEqualityComparer_t45A85C063C30D3CDABEAD21C8CDF353E3EE55B8B_il2cpp_TypeInfo_var);
+		ByteEqualityComparer__ctor_m2B86B16398C9ADBA996127A209179E9654EF6A68(L_6, /*hidden argument*/NULL);
+		return ((EqualityComparer_1_t8636FD4EF696DC529BD5B4025863A1F9785263B6 *)Castclass((RuntimeObject*)L_6, IL2CPP_RGCTX_DATA(InitializedTypeInfo(method->klass)->rgctx_data, 3)));
+	}
+
+IL_002d:
+	{
+		RuntimeType_t40F13BCEAD97478C72C4B40BFDC2A220161CDB8F * L_7 = V_0;
+		RuntimeTypeHandle_t7B542280A22F0EC4EAC2061C29178845847A8B2D  L_8 = { reinterpret_cast<intptr_t> (String_t_0_0_0_var) };
+		IL2CPP_RUNTIME_CLASS_INIT(Type_t_il2cpp_TypeInfo_var);
+		Type_t * L_9 = Type_GetTypeFromHandle_m9DC58ADF0512987012A8A016FB64B068F3B1AFF6((RuntimeTypeHandle_t7B542280A22F0EC4EAC2061C29178845847A8B2D )L_8, /*hidden argument*/NULL);
+		bool L_10 = Type_op_Equality_m7040622C9E1037EFC73E1F0EDB1DD241282BE3D8((Type_t *)L_7, (Type_t *)L_9, /*hidden argument*/NULL);
+		if (!L_10)
+		{
+			goto IL_004a;
+		}
+	}
+	{
+		InternalStringComparer_tCD150130A3DB4C80186B5D8145B910B33496D4CD * L_11 = (InternalStringComparer_tCD150130A3DB4C80186B5D8145B910B33496D4CD *)il2cpp_codegen_object_new(InternalStringComparer_tCD150130A3DB4C80186B5D8145B910B33496D4CD_il2cpp_TypeInfo_var);
+		InternalStringComparer__ctor_m471FF151AF831B76635ED96C53CF08114FD42C83(L_11, /*hidden argument*/NULL);
+		return ((EqualityComparer_1_t8636FD4EF696DC529BD5B4025863A1F9785263B6 *)Castclass((RuntimeObject*)L_11, IL2CPP_RGCTX_DATA(InitializedTypeInfo(method->klass)->rgctx_data, 3)));
+	}
+
+IL_004a:
+	{
+		RuntimeTypeHandle_t7B542280A22F0EC4EAC2061C29178845847A8B2D  L_12 = { reinterpret_cast<intptr_t> (IL2CPP_RGCTX_TYPE(InitializedTypeInfo(method->klass)->rgctx_data, 4)) };
+		IL2CPP_RUNTIME_CLASS_INIT(Type_t_il2cpp_TypeInfo_var);
+		Type_t * L_13 = Type_GetTypeFromHandle_m9DC58ADF0512987012A8A016FB64B068F3B1AFF6((RuntimeTypeHandle_t7B542280A22F0EC4EAC2061C29178845847A8B2D )L_12, /*hidden argument*/NULL);
+		RuntimeType_t40F13BCEAD97478C72C4B40BFDC2A220161CDB8F * L_14 = V_0;
+		NullCheck((Type_t *)L_13);
+		bool L_15 = VirtFuncInvoker1< bool, Type_t * >::Invoke(104 /* System.Boolean System.Type::IsAssignableFrom(System.Type) */, (Type_t *)L_13, (Type_t *)L_14);
+		if (!L_15)
+		{
+			goto IL_0072;
+		}
+	}
+	{
+		RuntimeTypeHandle_t7B542280A22F0EC4EAC2061C29178845847A8B2D  L_16 = { reinterpret_cast<intptr_t> (GenericEqualityComparer_1_t86530EF2BF9E43CCEE775B5862B48F735555A90B_0_0_0_var) };
+		IL2CPP_RUNTIME_CLASS_INIT(Type_t_il2cpp_TypeInfo_var);
+		Type_t * L_17 = Type_GetTypeFromHandle_m9DC58ADF0512987012A8A016FB64B068F3B1AFF6((RuntimeTypeHandle_t7B542280A22F0EC4EAC2061C29178845847A8B2D )L_16, /*hidden argument*/NULL);
+		RuntimeType_t40F13BCEAD97478C72C4B40BFDC2A220161CDB8F * L_18 = V_0;
+		IL2CPP_RUNTIME_CLASS_INIT(RuntimeType_t40F13BCEAD97478C72C4B40BFDC2A220161CDB8F_il2cpp_TypeInfo_var);
+		RuntimeObject * L_19 = RuntimeType_CreateInstanceForAnotherGenericParameter_mFAF735890E821AF021168FCBAC1AA6BFA49586F4((Type_t *)L_17, (RuntimeType_t40F13BCEAD97478C72C4B40BFDC2A220161CDB8F *)L_18, /*hidden argument*/NULL);
+		return ((EqualityComparer_1_t8636FD4EF696DC529BD5B4025863A1F9785263B6 *)Castclass((RuntimeObject*)L_19, IL2CPP_RGCTX_DATA(InitializedTypeInfo(method->klass)->rgctx_data, 3)));
+	}
+
+IL_0072:
+	{
+		RuntimeType_t40F13BCEAD97478C72C4B40BFDC2A220161CDB8F * L_20 = V_0;
+		NullCheck((Type_t *)L_20);
+		bool L_21 = VirtFuncInvoker0< bool >::Invoke(69 /* System.Boolean System.Type::get_IsGenericType() */, (Type_t *)L_20);
+		if (!L_21)
+		{
+			goto IL_00d6;
+		}
+	}
+	{
+		RuntimeType_t40F13BCEAD97478C72C4B40BFDC2A220161CDB8F * L_22 = V_0;
+		NullCheck((Type_t *)L_22);
+		Type_t * L_23 = VirtFuncInvoker0< Type_t * >::Invoke(94 /* System.Type System.Type::GetGenericTypeDefinition() */, (Type_t *)L_22);
+		RuntimeTypeHandle_t7B542280A22F0EC4EAC2061C29178845847A8B2D  L_24 = { reinterpret_cast<intptr_t> (Nullable_1_t220FFA40D2CEE2CB28F8C04DB1216024A0BC75C3_0_0_0_var) };
+		IL2CPP_RUNTIME_CLASS_INIT(Type_t_il2cpp_TypeInfo_var);
+		Type_t * L_25 = Type_GetTypeFromHandle_m9DC58ADF0512987012A8A016FB64B068F3B1AFF6((RuntimeTypeHandle_t7B542280A22F0EC4EAC2061C29178845847A8B2D )L_24, /*hidden argument*/NULL);
+		bool L_26 = Type_op_Equality_m7040622C9E1037EFC73E1F0EDB1DD241282BE3D8((Type_t *)L_23, (Type_t *)L_25, /*hidden argument*/NULL);
+		if (!L_26)
+		{
+			goto IL_00d6;
+		}
+	}
+	{
+		RuntimeType_t40F13BCEAD97478C72C4B40BFDC2A220161CDB8F * L_27 = V_0;
+		NullCheck((Type_t *)L_27);
+		TypeU5BU5D_t7FE623A666B49176DE123306221193E888A12F5F* L_28 = VirtFuncInvoker0< TypeU5BU5D_t7FE623A666B49176DE123306221193E888A12F5F* >::Invoke(93 /* System.Type[] System.Type::GetGenericArguments() */, (Type_t *)L_27);
+		NullCheck(L_28);
+		int32_t L_29 = 0;
+		Type_t * L_30 = (L_28)->GetAt(static_cast<il2cpp_array_size_t>(L_29));
+		V_1 = (RuntimeType_t40F13BCEAD97478C72C4B40BFDC2A220161CDB8F *)((RuntimeType_t40F13BCEAD97478C72C4B40BFDC2A220161CDB8F *)Castclass((RuntimeObject*)L_30, RuntimeType_t40F13BCEAD97478C72C4B40BFDC2A220161CDB8F_il2cpp_TypeInfo_var));
+		RuntimeTypeHandle_t7B542280A22F0EC4EAC2061C29178845847A8B2D  L_31 = { reinterpret_cast<intptr_t> (IEquatable_1_t7FBC51A9FCBF69422C0DEBF035FFDC9417EF3DA1_0_0_0_var) };
+		IL2CPP_RUNTIME_CLASS_INIT(Type_t_il2cpp_TypeInfo_var);
+		Type_t * L_32 = Type_GetTypeFromHandle_m9DC58ADF0512987012A8A016FB64B068F3B1AFF6((RuntimeTypeHandle_t7B542280A22F0EC4EAC2061C29178845847A8B2D )L_31, /*hidden argument*/NULL);
+		TypeU5BU5D_t7FE623A666B49176DE123306221193E888A12F5F* L_33 = (TypeU5BU5D_t7FE623A666B49176DE123306221193E888A12F5F*)(TypeU5BU5D_t7FE623A666B49176DE123306221193E888A12F5F*)SZArrayNew(TypeU5BU5D_t7FE623A666B49176DE123306221193E888A12F5F_il2cpp_TypeInfo_var, (uint32_t)1);
+		TypeU5BU5D_t7FE623A666B49176DE123306221193E888A12F5F* L_34 = (TypeU5BU5D_t7FE623A666B49176DE123306221193E888A12F5F*)L_33;
+		RuntimeType_t40F13BCEAD97478C72C4B40BFDC2A220161CDB8F * L_35 = V_1;
+		NullCheck(L_34);
+		ArrayElementTypeCheck (L_34, L_35);
+		(L_34)->SetAt(static_cast<il2cpp_array_size_t>(0), (Type_t *)L_35);
+		NullCheck((Type_t *)L_32);
+		Type_t * L_36 = VirtFuncInvoker1< Type_t *, TypeU5BU5D_t7FE623A666B49176DE123306221193E888A12F5F* >::Invoke(89 /* System.Type System.Type::MakeGenericType(System.Type[]) */, (Type_t *)L_32, (TypeU5BU5D_t7FE623A666B49176DE123306221193E888A12F5F*)L_34);
+		RuntimeType_t40F13BCEAD97478C72C4B40BFDC2A220161CDB8F * L_37 = V_1;
+		NullCheck((Type_t *)L_36);
+		bool L_38 = VirtFuncInvoker1< bool, Type_t * >::Invoke(104 /* System.Boolean System.Type::IsAssignableFrom(System.Type) */, (Type_t *)L_36, (Type_t *)L_37);
+		if (!L_38)
+		{
+			goto IL_00d6;
+		}
+	}
+	{
+		RuntimeTypeHandle_t7B542280A22F0EC4EAC2061C29178845847A8B2D  L_39 = { reinterpret_cast<intptr_t> (NullableEqualityComparer_1_tD235D1E336771C9615EB5024AC8C35CFF8ADD27F_0_0_0_var) };
+		IL2CPP_RUNTIME_CLASS_INIT(Type_t_il2cpp_TypeInfo_var);
+		Type_t * L_40 = Type_GetTypeFromHandle_m9DC58ADF0512987012A8A016FB64B068F3B1AFF6((RuntimeTypeHandle_t7B542280A22F0EC4EAC2061C29178845847A8B2D )L_39, /*hidden argument*/NULL);
+		RuntimeType_t40F13BCEAD97478C72C4B40BFDC2A220161CDB8F * L_41 = V_1;
+		IL2CPP_RUNTIME_CLASS_INIT(RuntimeType_t40F13BCEAD97478C72C4B40BFDC2A220161CDB8F_il2cpp_TypeInfo_var);
+		RuntimeObject * L_42 = RuntimeType_CreateInstanceForAnotherGenericParameter_mFAF735890E821AF021168FCBAC1AA6BFA49586F4((Type_t *)L_40, (RuntimeType_t40F13BCEAD97478C72C4B40BFDC2A220161CDB8F *)L_41, /*hidden argument*/NULL);
+		return ((EqualityComparer_1_t8636FD4EF696DC529BD5B4025863A1F9785263B6 *)Castclass((RuntimeObject*)L_42, IL2CPP_RGCTX_DATA(InitializedTypeInfo(method->klass)->rgctx_data, 3)));
+	}
+
+IL_00d6:
+	{
+		RuntimeType_t40F13BCEAD97478C72C4B40BFDC2A220161CDB8F * L_43 = V_0;
+		NullCheck((Type_t *)L_43);
+		bool L_44 = VirtFuncInvoker0< bool >::Invoke(65 /* System.Boolean System.Type::get_IsEnum() */, (Type_t *)L_43);
+		if (!L_44)
+		{
+			goto IL_016f;
+		}
+	}
+	{
+		RuntimeType_t40F13BCEAD97478C72C4B40BFDC2A220161CDB8F * L_45 = V_0;
+		IL2CPP_RUNTIME_CLASS_INIT(Enum_t2AF27C02B8653AE29442467390005ABC74D8F521_il2cpp_TypeInfo_var);
+		Type_t * L_46 = Enum_GetUnderlyingType_m0715B4E60E6909F03FF7302B6E20B1AB88DA84B1((Type_t *)L_45, /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(Type_t_il2cpp_TypeInfo_var);
+		int32_t L_47 = Type_GetTypeCode_m3105BBCE671D89EFE212F9BA06AAB90944A6116F((Type_t *)L_46, /*hidden argument*/NULL);
+		V_2 = (int32_t)L_47;
+		int32_t L_48 = V_2;
+		switch (((int32_t)il2cpp_codegen_subtract((int32_t)L_48, (int32_t)5)))
+		{
+			case 0:
+			{
+				goto IL_012d;
+			}
+			case 1:
+			{
+				goto IL_0143;
+			}
+			case 2:
+			{
+				goto IL_0117;
+			}
+			case 3:
+			{
+				goto IL_0143;
+			}
+			case 4:
+			{
+				goto IL_0143;
+			}
+			case 5:
+			{
+				goto IL_0143;
+			}
+			case 6:
+			{
+				goto IL_0159;
+			}
+			case 7:
+			{
+				goto IL_0159;
+			}
+		}
+	}
+	{
+		goto IL_016f;
+	}
+
+IL_0117:
+	{
+		RuntimeTypeHandle_t7B542280A22F0EC4EAC2061C29178845847A8B2D  L_49 = { reinterpret_cast<intptr_t> (ShortEnumEqualityComparer_1_tCB4B7DE9F58431002227076F18CFFC289C6CBD64_0_0_0_var) };
+		IL2CPP_RUNTIME_CLASS_INIT(Type_t_il2cpp_TypeInfo_var);
+		Type_t * L_50 = Type_GetTypeFromHandle_m9DC58ADF0512987012A8A016FB64B068F3B1AFF6((RuntimeTypeHandle_t7B542280A22F0EC4EAC2061C29178845847A8B2D )L_49, /*hidden argument*/NULL);
+		RuntimeType_t40F13BCEAD97478C72C4B40BFDC2A220161CDB8F * L_51 = V_0;
+		IL2CPP_RUNTIME_CLASS_INIT(RuntimeType_t40F13BCEAD97478C72C4B40BFDC2A220161CDB8F_il2cpp_TypeInfo_var);
+		RuntimeObject * L_52 = RuntimeType_CreateInstanceForAnotherGenericParameter_mFAF735890E821AF021168FCBAC1AA6BFA49586F4((Type_t *)L_50, (RuntimeType_t40F13BCEAD97478C72C4B40BFDC2A220161CDB8F *)L_51, /*hidden argument*/NULL);
+		return ((EqualityComparer_1_t8636FD4EF696DC529BD5B4025863A1F9785263B6 *)Castclass((RuntimeObject*)L_52, IL2CPP_RGCTX_DATA(InitializedTypeInfo(method->klass)->rgctx_data, 3)));
+	}
+
+IL_012d:
+	{
+		RuntimeTypeHandle_t7B542280A22F0EC4EAC2061C29178845847A8B2D  L_53 = { reinterpret_cast<intptr_t> (SByteEnumEqualityComparer_1_t0E5A82C922F801F365CCC4BE3062A765423A5852_0_0_0_var) };
+		IL2CPP_RUNTIME_CLASS_INIT(Type_t_il2cpp_TypeInfo_var);
+		Type_t * L_54 = Type_GetTypeFromHandle_m9DC58ADF0512987012A8A016FB64B068F3B1AFF6((RuntimeTypeHandle_t7B542280A22F0EC4EAC2061C29178845847A8B2D )L_53, /*hidden argument*/NULL);
+		RuntimeType_t40F13BCEAD97478C72C4B40BFDC2A220161CDB8F * L_55 = V_0;
+		IL2CPP_RUNTIME_CLASS_INIT(RuntimeType_t40F13BCEAD97478C72C4B40BFDC2A220161CDB8F_il2cpp_TypeInfo_var);
+		RuntimeObject * L_56 = RuntimeType_CreateInstanceForAnotherGenericParameter_mFAF735890E821AF021168FCBAC1AA6BFA49586F4((Type_t *)L_54, (RuntimeType_t40F13BCEAD97478C72C4B40BFDC2A220161CDB8F *)L_55, /*hidden argument*/NULL);
+		return ((EqualityComparer_1_t8636FD4EF696DC529BD5B4025863A1F9785263B6 *)Castclass((RuntimeObject*)L_56, IL2CPP_RGCTX_DATA(InitializedTypeInfo(method->klass)->rgctx_data, 3)));
+	}
+
+IL_0143:
+	{
+		RuntimeTypeHandle_t7B542280A22F0EC4EAC2061C29178845847A8B2D  L_57 = { reinterpret_cast<intptr_t> (EnumEqualityComparer_1_tC44C7E08405BCDA86FDDFB9714C4301D39723C3A_0_0_0_var) };
+		IL2CPP_RUNTIME_CLASS_INIT(Type_t_il2cpp_TypeInfo_var);
+		Type_t * L_58 = Type_GetTypeFromHandle_m9DC58ADF0512987012A8A016FB64B068F3B1AFF6((RuntimeTypeHandle_t7B542280A22F0EC4EAC2061C29178845847A8B2D )L_57, /*hidden argument*/NULL);
+		RuntimeType_t40F13BCEAD97478C72C4B40BFDC2A220161CDB8F * L_59 = V_0;
+		IL2CPP_RUNTIME_CLASS_INIT(RuntimeType_t40F13BCEAD97478C72C4B40BFDC2A220161CDB8F_il2cpp_TypeInfo_var);
+		RuntimeObject * L_60 = RuntimeType_CreateInstanceForAnotherGenericParameter_mFAF735890E821AF021168FCBAC1AA6BFA49586F4((Type_t *)L_58, (RuntimeType_t40F13BCEAD97478C72C4B40BFDC2A220161CDB8F *)L_59, /*hidden argument*/NULL);
+		return ((EqualityComparer_1_t8636FD4EF696DC529BD5B4025863A1F9785263B6 *)Castclass((RuntimeObject*)L_60, IL2CPP_RGCTX_DATA(InitializedTypeInfo(method->klass)->rgctx_data, 3)));
+	}
+
+IL_0159:
+	{
+		RuntimeTypeHandle_t7B542280A22F0EC4EAC2061C29178845847A8B2D  L_61 = { reinterpret_cast<intptr_t> (LongEnumEqualityComparer_1_t6B940FD5688E20A1CF36AD68CCF3A39071FFB0DB_0_0_0_var) };
+		IL2CPP_RUNTIME_CLASS_INIT(Type_t_il2cpp_TypeInfo_var);
+		Type_t * L_62 = Type_GetTypeFromHandle_m9DC58ADF0512987012A8A016FB64B068F3B1AFF6((RuntimeTypeHandle_t7B542280A22F0EC4EAC2061C29178845847A8B2D )L_61, /*hidden argument*/NULL);
+		RuntimeType_t40F13BCEAD97478C72C4B40BFDC2A220161CDB8F * L_63 = V_0;
+		IL2CPP_RUNTIME_CLASS_INIT(RuntimeType_t40F13BCEAD97478C72C4B40BFDC2A220161CDB8F_il2cpp_TypeInfo_var);
+		RuntimeObject * L_64 = RuntimeType_CreateInstanceForAnotherGenericParameter_mFAF735890E821AF021168FCBAC1AA6BFA49586F4((Type_t *)L_62, (RuntimeType_t40F13BCEAD97478C72C4B40BFDC2A220161CDB8F *)L_63, /*hidden argument*/NULL);
+		return ((EqualityComparer_1_t8636FD4EF696DC529BD5B4025863A1F9785263B6 *)Castclass((RuntimeObject*)L_64, IL2CPP_RGCTX_DATA(InitializedTypeInfo(method->klass)->rgctx_data, 3)));
+	}
+
+IL_016f:
+	{
+		ObjectEqualityComparer_1_t7E872AB519A2DB24C4E18F90CD1A52B236347BD6 * L_65 = (ObjectEqualityComparer_1_t7E872AB519A2DB24C4E18F90CD1A52B236347BD6 *)il2cpp_codegen_object_new(IL2CPP_RGCTX_DATA(InitializedTypeInfo(method->klass)->rgctx_data, 5));
+		((  void (*) (ObjectEqualityComparer_1_t7E872AB519A2DB24C4E18F90CD1A52B236347BD6 *, const RuntimeMethod*))IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->klass)->rgctx_data, 6)->methodPointer)(L_65, /*hidden argument*/IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->klass)->rgctx_data, 6));
+		return L_65;
+	}
+}
+// System.Int32 System.Collections.Generic.EqualityComparer`1<UnityEngine.SpatialTracking.TrackedPoseDriverDataDescription_PoseData>::IndexOf(T[],T,System.Int32,System.Int32)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t EqualityComparer_1_IndexOf_m8419AA4327062D6D5F5DF8083DA7C728006468EA_gshared (EqualityComparer_1_t8636FD4EF696DC529BD5B4025863A1F9785263B6 * __this, PoseDataU5BU5D_t1369761FEB62895A89B0BA9C343AB63C022ECE24* ___array0, PoseData_tF79A33767571168AAB333A85A6B6F0F9A8825DFE  ___value1, int32_t ___startIndex2, int32_t ___count3, const RuntimeMethod* method)
+{
+	int32_t V_0 = 0;
+	int32_t V_1 = 0;
+	{
+		int32_t L_0 = ___startIndex2;
+		int32_t L_1 = ___count3;
+		V_0 = (int32_t)((int32_t)il2cpp_codegen_add((int32_t)L_0, (int32_t)L_1));
+		int32_t L_2 = ___startIndex2;
+		V_1 = (int32_t)L_2;
+		goto IL_001f;
+	}
+
+IL_0009:
+	{
+		PoseDataU5BU5D_t1369761FEB62895A89B0BA9C343AB63C022ECE24* L_3 = ___array0;
+		int32_t L_4 = V_1;
+		NullCheck(L_3);
+		int32_t L_5 = L_4;
+		PoseData_tF79A33767571168AAB333A85A6B6F0F9A8825DFE  L_6 = (L_3)->GetAt(static_cast<il2cpp_array_size_t>(L_5));
+		PoseData_tF79A33767571168AAB333A85A6B6F0F9A8825DFE  L_7 = ___value1;
+		NullCheck((EqualityComparer_1_t8636FD4EF696DC529BD5B4025863A1F9785263B6 *)__this);
+		bool L_8 = VirtFuncInvoker2< bool, PoseData_tF79A33767571168AAB333A85A6B6F0F9A8825DFE , PoseData_tF79A33767571168AAB333A85A6B6F0F9A8825DFE  >::Invoke(8 /* System.Boolean System.Collections.Generic.EqualityComparer`1<UnityEngine.SpatialTracking.TrackedPoseDriverDataDescription/PoseData>::Equals(T,T) */, (EqualityComparer_1_t8636FD4EF696DC529BD5B4025863A1F9785263B6 *)__this, (PoseData_tF79A33767571168AAB333A85A6B6F0F9A8825DFE )L_6, (PoseData_tF79A33767571168AAB333A85A6B6F0F9A8825DFE )L_7);
+		if (!L_8)
+		{
+			goto IL_001b;
+		}
+	}
+	{
+		int32_t L_9 = V_1;
+		return L_9;
+	}
+
+IL_001b:
+	{
+		int32_t L_10 = V_1;
+		V_1 = (int32_t)((int32_t)il2cpp_codegen_add((int32_t)L_10, (int32_t)1));
+	}
+
+IL_001f:
+	{
+		int32_t L_11 = V_1;
+		int32_t L_12 = V_0;
+		if ((((int32_t)L_11) < ((int32_t)L_12)))
+		{
+			goto IL_0009;
+		}
+	}
+	{
+		return (-1);
+	}
+}
+// System.Int32 System.Collections.Generic.EqualityComparer`1<UnityEngine.SpatialTracking.TrackedPoseDriverDataDescription_PoseData>::LastIndexOf(T[],T,System.Int32,System.Int32)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t EqualityComparer_1_LastIndexOf_m470FCEA92BA5CFD310FD6033C9ACBA9E9A618CB3_gshared (EqualityComparer_1_t8636FD4EF696DC529BD5B4025863A1F9785263B6 * __this, PoseDataU5BU5D_t1369761FEB62895A89B0BA9C343AB63C022ECE24* ___array0, PoseData_tF79A33767571168AAB333A85A6B6F0F9A8825DFE  ___value1, int32_t ___startIndex2, int32_t ___count3, const RuntimeMethod* method)
+{
+	int32_t V_0 = 0;
+	int32_t V_1 = 0;
+	{
+		int32_t L_0 = ___startIndex2;
+		int32_t L_1 = ___count3;
+		V_0 = (int32_t)((int32_t)il2cpp_codegen_add((int32_t)((int32_t)il2cpp_codegen_subtract((int32_t)L_0, (int32_t)L_1)), (int32_t)1));
+		int32_t L_2 = ___startIndex2;
+		V_1 = (int32_t)L_2;
+		goto IL_0021;
+	}
+
+IL_000b:
+	{
+		PoseDataU5BU5D_t1369761FEB62895A89B0BA9C343AB63C022ECE24* L_3 = ___array0;
+		int32_t L_4 = V_1;
+		NullCheck(L_3);
+		int32_t L_5 = L_4;
+		PoseData_tF79A33767571168AAB333A85A6B6F0F9A8825DFE  L_6 = (L_3)->GetAt(static_cast<il2cpp_array_size_t>(L_5));
+		PoseData_tF79A33767571168AAB333A85A6B6F0F9A8825DFE  L_7 = ___value1;
+		NullCheck((EqualityComparer_1_t8636FD4EF696DC529BD5B4025863A1F9785263B6 *)__this);
+		bool L_8 = VirtFuncInvoker2< bool, PoseData_tF79A33767571168AAB333A85A6B6F0F9A8825DFE , PoseData_tF79A33767571168AAB333A85A6B6F0F9A8825DFE  >::Invoke(8 /* System.Boolean System.Collections.Generic.EqualityComparer`1<UnityEngine.SpatialTracking.TrackedPoseDriverDataDescription/PoseData>::Equals(T,T) */, (EqualityComparer_1_t8636FD4EF696DC529BD5B4025863A1F9785263B6 *)__this, (PoseData_tF79A33767571168AAB333A85A6B6F0F9A8825DFE )L_6, (PoseData_tF79A33767571168AAB333A85A6B6F0F9A8825DFE )L_7);
+		if (!L_8)
+		{
+			goto IL_001d;
+		}
+	}
+	{
+		int32_t L_9 = V_1;
+		return L_9;
+	}
+
+IL_001d:
+	{
+		int32_t L_10 = V_1;
+		V_1 = (int32_t)((int32_t)il2cpp_codegen_subtract((int32_t)L_10, (int32_t)1));
+	}
+
+IL_0021:
+	{
+		int32_t L_11 = V_1;
+		int32_t L_12 = V_0;
+		if ((((int32_t)L_11) >= ((int32_t)L_12)))
+		{
+			goto IL_000b;
+		}
+	}
+	{
+		return (-1);
+	}
+}
+// System.Int32 System.Collections.Generic.EqualityComparer`1<UnityEngine.SpatialTracking.TrackedPoseDriverDataDescription_PoseData>::System.Collections.IEqualityComparer.GetHashCode(System.Object)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t EqualityComparer_1_System_Collections_IEqualityComparer_GetHashCode_m4366A7D7C9D5489DAEEAFD185E3934B7EC3ADFBD_gshared (EqualityComparer_1_t8636FD4EF696DC529BD5B4025863A1F9785263B6 * __this, RuntimeObject * ___obj0, const RuntimeMethod* method)
+{
+	{
+		RuntimeObject * L_0 = ___obj0;
+		if (L_0)
+		{
+			goto IL_0005;
+		}
+	}
+	{
+		return 0;
+	}
+
+IL_0005:
+	{
+		RuntimeObject * L_1 = ___obj0;
+		if (!((RuntimeObject *)IsInst((RuntimeObject*)L_1, IL2CPP_RGCTX_DATA(method->klass->rgctx_data, 8))))
+		{
+			goto IL_001a;
+		}
+	}
+	{
+		RuntimeObject * L_2 = ___obj0;
+		NullCheck((EqualityComparer_1_t8636FD4EF696DC529BD5B4025863A1F9785263B6 *)__this);
+		int32_t L_3 = VirtFuncInvoker1< int32_t, PoseData_tF79A33767571168AAB333A85A6B6F0F9A8825DFE  >::Invoke(9 /* System.Int32 System.Collections.Generic.EqualityComparer`1<UnityEngine.SpatialTracking.TrackedPoseDriverDataDescription/PoseData>::GetHashCode(T) */, (EqualityComparer_1_t8636FD4EF696DC529BD5B4025863A1F9785263B6 *)__this, (PoseData_tF79A33767571168AAB333A85A6B6F0F9A8825DFE )((*(PoseData_tF79A33767571168AAB333A85A6B6F0F9A8825DFE *)((PoseData_tF79A33767571168AAB333A85A6B6F0F9A8825DFE *)UnBox(L_2, IL2CPP_RGCTX_DATA(method->klass->rgctx_data, 8))))));
+		return L_3;
+	}
+
+IL_001a:
+	{
+		ThrowHelper_ThrowArgumentException_mC79DA77CCE9B239510DDD4C46043FC216B2A5B84((int32_t)2, /*hidden argument*/NULL);
+		return 0;
+	}
+}
+// System.Boolean System.Collections.Generic.EqualityComparer`1<UnityEngine.SpatialTracking.TrackedPoseDriverDataDescription_PoseData>::System.Collections.IEqualityComparer.Equals(System.Object,System.Object)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool EqualityComparer_1_System_Collections_IEqualityComparer_Equals_m95FA7E3AB660328D5AD2CF7D4FD1288E0C051386_gshared (EqualityComparer_1_t8636FD4EF696DC529BD5B4025863A1F9785263B6 * __this, RuntimeObject * ___x0, RuntimeObject * ___y1, const RuntimeMethod* method)
+{
+	{
+		RuntimeObject * L_0 = ___x0;
+		RuntimeObject * L_1 = ___y1;
+		if ((!(((RuntimeObject*)(RuntimeObject *)L_0) == ((RuntimeObject*)(RuntimeObject *)L_1))))
+		{
+			goto IL_0006;
+		}
+	}
+	{
+		return (bool)1;
+	}
+
+IL_0006:
+	{
+		RuntimeObject * L_2 = ___x0;
+		if (!L_2)
+		{
+			goto IL_000c;
+		}
+	}
+	{
+		RuntimeObject * L_3 = ___y1;
+		if (L_3)
+		{
+			goto IL_000e;
+		}
+	}
+
+IL_000c:
+	{
+		return (bool)0;
+	}
+
+IL_000e:
+	{
+		RuntimeObject * L_4 = ___x0;
+		if (!((RuntimeObject *)IsInst((RuntimeObject*)L_4, IL2CPP_RGCTX_DATA(method->klass->rgctx_data, 8))))
+		{
+			goto IL_0031;
+		}
+	}
+	{
+		RuntimeObject * L_5 = ___y1;
+		if (!((RuntimeObject *)IsInst((RuntimeObject*)L_5, IL2CPP_RGCTX_DATA(method->klass->rgctx_data, 8))))
+		{
+			goto IL_0031;
+		}
+	}
+	{
+		RuntimeObject * L_6 = ___x0;
+		RuntimeObject * L_7 = ___y1;
+		NullCheck((EqualityComparer_1_t8636FD4EF696DC529BD5B4025863A1F9785263B6 *)__this);
+		bool L_8 = VirtFuncInvoker2< bool, PoseData_tF79A33767571168AAB333A85A6B6F0F9A8825DFE , PoseData_tF79A33767571168AAB333A85A6B6F0F9A8825DFE  >::Invoke(8 /* System.Boolean System.Collections.Generic.EqualityComparer`1<UnityEngine.SpatialTracking.TrackedPoseDriverDataDescription/PoseData>::Equals(T,T) */, (EqualityComparer_1_t8636FD4EF696DC529BD5B4025863A1F9785263B6 *)__this, (PoseData_tF79A33767571168AAB333A85A6B6F0F9A8825DFE )((*(PoseData_tF79A33767571168AAB333A85A6B6F0F9A8825DFE *)((PoseData_tF79A33767571168AAB333A85A6B6F0F9A8825DFE *)UnBox(L_6, IL2CPP_RGCTX_DATA(method->klass->rgctx_data, 8))))), (PoseData_tF79A33767571168AAB333A85A6B6F0F9A8825DFE )((*(PoseData_tF79A33767571168AAB333A85A6B6F0F9A8825DFE *)((PoseData_tF79A33767571168AAB333A85A6B6F0F9A8825DFE *)UnBox(L_7, IL2CPP_RGCTX_DATA(method->klass->rgctx_data, 8))))));
+		return L_8;
+	}
+
+IL_0031:
+	{
+		ThrowHelper_ThrowArgumentException_mC79DA77CCE9B239510DDD4C46043FC216B2A5B84((int32_t)2, /*hidden argument*/NULL);
+		return (bool)0;
+	}
+}
+// System.Void System.Collections.Generic.EqualityComparer`1<UnityEngine.SpatialTracking.TrackedPoseDriverDataDescription_PoseData>::.ctor()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void EqualityComparer_1__ctor_m44C8576207D40B93325D410EC7D66D2C5381E0D5_gshared (EqualityComparer_1_t8636FD4EF696DC529BD5B4025863A1F9785263B6 * __this, const RuntimeMethod* method)
+{
+	{
+		NullCheck((RuntimeObject *)__this);
+		Object__ctor_m925ECA5E85CA100E3FB86A4F9E15C120E9A184C0((RuntimeObject *)__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// System.Collections.Generic.EqualityComparer`1<T> System.Collections.Generic.EqualityComparer`1<UnityEngine.TextCore.GlyphRect>::get_Default()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR EqualityComparer_1_tCDF71D565EF681A3FA07FEA641ACF98768CDF0D2 * EqualityComparer_1_get_Default_m0AD3A5A3D8CFDBE9C9EB1F52156EADAA744888F4_gshared (const RuntimeMethod* method)
+{
+	EqualityComparer_1_tCDF71D565EF681A3FA07FEA641ACF98768CDF0D2 * V_0 = NULL;
+	{
+		EqualityComparer_1_tCDF71D565EF681A3FA07FEA641ACF98768CDF0D2 * L_0 = ((EqualityComparer_1_tCDF71D565EF681A3FA07FEA641ACF98768CDF0D2_StaticFields*)il2cpp_codegen_static_fields_for(IL2CPP_RGCTX_DATA(InitializedTypeInfo(method->klass)->rgctx_data, 0)))->get_defaultComparer_0();
+		il2cpp_codegen_memory_barrier();
+		V_0 = (EqualityComparer_1_tCDF71D565EF681A3FA07FEA641ACF98768CDF0D2 *)L_0;
+		EqualityComparer_1_tCDF71D565EF681A3FA07FEA641ACF98768CDF0D2 * L_1 = V_0;
+		if (L_1)
+		{
+			goto IL_0019;
+		}
+	}
+	{
+		EqualityComparer_1_tCDF71D565EF681A3FA07FEA641ACF98768CDF0D2 * L_2 = ((  EqualityComparer_1_tCDF71D565EF681A3FA07FEA641ACF98768CDF0D2 * (*) (const RuntimeMethod*))IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->klass)->rgctx_data, 1)->methodPointer)(/*hidden argument*/IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->klass)->rgctx_data, 1));
+		V_0 = (EqualityComparer_1_tCDF71D565EF681A3FA07FEA641ACF98768CDF0D2 *)L_2;
+		EqualityComparer_1_tCDF71D565EF681A3FA07FEA641ACF98768CDF0D2 * L_3 = V_0;
+		il2cpp_codegen_memory_barrier();
+		((EqualityComparer_1_tCDF71D565EF681A3FA07FEA641ACF98768CDF0D2_StaticFields*)il2cpp_codegen_static_fields_for(IL2CPP_RGCTX_DATA(InitializedTypeInfo(method->klass)->rgctx_data, 0)))->set_defaultComparer_0(L_3);
+	}
+
+IL_0019:
+	{
+		EqualityComparer_1_tCDF71D565EF681A3FA07FEA641ACF98768CDF0D2 * L_4 = V_0;
+		return L_4;
+	}
+}
+// System.Collections.Generic.EqualityComparer`1<T> System.Collections.Generic.EqualityComparer`1<UnityEngine.TextCore.GlyphRect>::CreateComparer()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR EqualityComparer_1_tCDF71D565EF681A3FA07FEA641ACF98768CDF0D2 * EqualityComparer_1_CreateComparer_mD421FA565029A66A692DCB25E1A58CB75333BBF9_gshared (const RuntimeMethod* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (EqualityComparer_1_CreateComparer_mD421FA565029A66A692DCB25E1A58CB75333BBF9_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	RuntimeType_t40F13BCEAD97478C72C4B40BFDC2A220161CDB8F * V_0 = NULL;
+	RuntimeType_t40F13BCEAD97478C72C4B40BFDC2A220161CDB8F * V_1 = NULL;
+	int32_t V_2 = 0;
+	{
+		RuntimeTypeHandle_t7B542280A22F0EC4EAC2061C29178845847A8B2D  L_0 = { reinterpret_cast<intptr_t> (IL2CPP_RGCTX_TYPE(InitializedTypeInfo(method->klass)->rgctx_data, 2)) };
+		IL2CPP_RUNTIME_CLASS_INIT(Type_t_il2cpp_TypeInfo_var);
+		Type_t * L_1 = Type_GetTypeFromHandle_m9DC58ADF0512987012A8A016FB64B068F3B1AFF6((RuntimeTypeHandle_t7B542280A22F0EC4EAC2061C29178845847A8B2D )L_0, /*hidden argument*/NULL);
+		V_0 = (RuntimeType_t40F13BCEAD97478C72C4B40BFDC2A220161CDB8F *)((RuntimeType_t40F13BCEAD97478C72C4B40BFDC2A220161CDB8F *)Castclass((RuntimeObject*)L_1, RuntimeType_t40F13BCEAD97478C72C4B40BFDC2A220161CDB8F_il2cpp_TypeInfo_var));
+		RuntimeType_t40F13BCEAD97478C72C4B40BFDC2A220161CDB8F * L_2 = V_0;
+		RuntimeTypeHandle_t7B542280A22F0EC4EAC2061C29178845847A8B2D  L_3 = { reinterpret_cast<intptr_t> (Byte_tF87C579059BD4633E6840EBBBEEF899C6E33EF07_0_0_0_var) };
+		Type_t * L_4 = Type_GetTypeFromHandle_m9DC58ADF0512987012A8A016FB64B068F3B1AFF6((RuntimeTypeHandle_t7B542280A22F0EC4EAC2061C29178845847A8B2D )L_3, /*hidden argument*/NULL);
+		bool L_5 = Type_op_Equality_m7040622C9E1037EFC73E1F0EDB1DD241282BE3D8((Type_t *)L_2, (Type_t *)L_4, /*hidden argument*/NULL);
+		if (!L_5)
+		{
+			goto IL_002d;
+		}
+	}
+	{
+		ByteEqualityComparer_t45A85C063C30D3CDABEAD21C8CDF353E3EE55B8B * L_6 = (ByteEqualityComparer_t45A85C063C30D3CDABEAD21C8CDF353E3EE55B8B *)il2cpp_codegen_object_new(ByteEqualityComparer_t45A85C063C30D3CDABEAD21C8CDF353E3EE55B8B_il2cpp_TypeInfo_var);
+		ByteEqualityComparer__ctor_m2B86B16398C9ADBA996127A209179E9654EF6A68(L_6, /*hidden argument*/NULL);
+		return ((EqualityComparer_1_tCDF71D565EF681A3FA07FEA641ACF98768CDF0D2 *)Castclass((RuntimeObject*)L_6, IL2CPP_RGCTX_DATA(InitializedTypeInfo(method->klass)->rgctx_data, 3)));
+	}
+
+IL_002d:
+	{
+		RuntimeType_t40F13BCEAD97478C72C4B40BFDC2A220161CDB8F * L_7 = V_0;
+		RuntimeTypeHandle_t7B542280A22F0EC4EAC2061C29178845847A8B2D  L_8 = { reinterpret_cast<intptr_t> (String_t_0_0_0_var) };
+		IL2CPP_RUNTIME_CLASS_INIT(Type_t_il2cpp_TypeInfo_var);
+		Type_t * L_9 = Type_GetTypeFromHandle_m9DC58ADF0512987012A8A016FB64B068F3B1AFF6((RuntimeTypeHandle_t7B542280A22F0EC4EAC2061C29178845847A8B2D )L_8, /*hidden argument*/NULL);
+		bool L_10 = Type_op_Equality_m7040622C9E1037EFC73E1F0EDB1DD241282BE3D8((Type_t *)L_7, (Type_t *)L_9, /*hidden argument*/NULL);
+		if (!L_10)
+		{
+			goto IL_004a;
+		}
+	}
+	{
+		InternalStringComparer_tCD150130A3DB4C80186B5D8145B910B33496D4CD * L_11 = (InternalStringComparer_tCD150130A3DB4C80186B5D8145B910B33496D4CD *)il2cpp_codegen_object_new(InternalStringComparer_tCD150130A3DB4C80186B5D8145B910B33496D4CD_il2cpp_TypeInfo_var);
+		InternalStringComparer__ctor_m471FF151AF831B76635ED96C53CF08114FD42C83(L_11, /*hidden argument*/NULL);
+		return ((EqualityComparer_1_tCDF71D565EF681A3FA07FEA641ACF98768CDF0D2 *)Castclass((RuntimeObject*)L_11, IL2CPP_RGCTX_DATA(InitializedTypeInfo(method->klass)->rgctx_data, 3)));
+	}
+
+IL_004a:
+	{
+		RuntimeTypeHandle_t7B542280A22F0EC4EAC2061C29178845847A8B2D  L_12 = { reinterpret_cast<intptr_t> (IL2CPP_RGCTX_TYPE(InitializedTypeInfo(method->klass)->rgctx_data, 4)) };
+		IL2CPP_RUNTIME_CLASS_INIT(Type_t_il2cpp_TypeInfo_var);
+		Type_t * L_13 = Type_GetTypeFromHandle_m9DC58ADF0512987012A8A016FB64B068F3B1AFF6((RuntimeTypeHandle_t7B542280A22F0EC4EAC2061C29178845847A8B2D )L_12, /*hidden argument*/NULL);
+		RuntimeType_t40F13BCEAD97478C72C4B40BFDC2A220161CDB8F * L_14 = V_0;
+		NullCheck((Type_t *)L_13);
+		bool L_15 = VirtFuncInvoker1< bool, Type_t * >::Invoke(104 /* System.Boolean System.Type::IsAssignableFrom(System.Type) */, (Type_t *)L_13, (Type_t *)L_14);
+		if (!L_15)
+		{
+			goto IL_0072;
+		}
+	}
+	{
+		RuntimeTypeHandle_t7B542280A22F0EC4EAC2061C29178845847A8B2D  L_16 = { reinterpret_cast<intptr_t> (GenericEqualityComparer_1_t86530EF2BF9E43CCEE775B5862B48F735555A90B_0_0_0_var) };
+		IL2CPP_RUNTIME_CLASS_INIT(Type_t_il2cpp_TypeInfo_var);
+		Type_t * L_17 = Type_GetTypeFromHandle_m9DC58ADF0512987012A8A016FB64B068F3B1AFF6((RuntimeTypeHandle_t7B542280A22F0EC4EAC2061C29178845847A8B2D )L_16, /*hidden argument*/NULL);
+		RuntimeType_t40F13BCEAD97478C72C4B40BFDC2A220161CDB8F * L_18 = V_0;
+		IL2CPP_RUNTIME_CLASS_INIT(RuntimeType_t40F13BCEAD97478C72C4B40BFDC2A220161CDB8F_il2cpp_TypeInfo_var);
+		RuntimeObject * L_19 = RuntimeType_CreateInstanceForAnotherGenericParameter_mFAF735890E821AF021168FCBAC1AA6BFA49586F4((Type_t *)L_17, (RuntimeType_t40F13BCEAD97478C72C4B40BFDC2A220161CDB8F *)L_18, /*hidden argument*/NULL);
+		return ((EqualityComparer_1_tCDF71D565EF681A3FA07FEA641ACF98768CDF0D2 *)Castclass((RuntimeObject*)L_19, IL2CPP_RGCTX_DATA(InitializedTypeInfo(method->klass)->rgctx_data, 3)));
+	}
+
+IL_0072:
+	{
+		RuntimeType_t40F13BCEAD97478C72C4B40BFDC2A220161CDB8F * L_20 = V_0;
+		NullCheck((Type_t *)L_20);
+		bool L_21 = VirtFuncInvoker0< bool >::Invoke(69 /* System.Boolean System.Type::get_IsGenericType() */, (Type_t *)L_20);
+		if (!L_21)
+		{
+			goto IL_00d6;
+		}
+	}
+	{
+		RuntimeType_t40F13BCEAD97478C72C4B40BFDC2A220161CDB8F * L_22 = V_0;
+		NullCheck((Type_t *)L_22);
+		Type_t * L_23 = VirtFuncInvoker0< Type_t * >::Invoke(94 /* System.Type System.Type::GetGenericTypeDefinition() */, (Type_t *)L_22);
+		RuntimeTypeHandle_t7B542280A22F0EC4EAC2061C29178845847A8B2D  L_24 = { reinterpret_cast<intptr_t> (Nullable_1_t220FFA40D2CEE2CB28F8C04DB1216024A0BC75C3_0_0_0_var) };
+		IL2CPP_RUNTIME_CLASS_INIT(Type_t_il2cpp_TypeInfo_var);
+		Type_t * L_25 = Type_GetTypeFromHandle_m9DC58ADF0512987012A8A016FB64B068F3B1AFF6((RuntimeTypeHandle_t7B542280A22F0EC4EAC2061C29178845847A8B2D )L_24, /*hidden argument*/NULL);
+		bool L_26 = Type_op_Equality_m7040622C9E1037EFC73E1F0EDB1DD241282BE3D8((Type_t *)L_23, (Type_t *)L_25, /*hidden argument*/NULL);
+		if (!L_26)
+		{
+			goto IL_00d6;
+		}
+	}
+	{
+		RuntimeType_t40F13BCEAD97478C72C4B40BFDC2A220161CDB8F * L_27 = V_0;
+		NullCheck((Type_t *)L_27);
+		TypeU5BU5D_t7FE623A666B49176DE123306221193E888A12F5F* L_28 = VirtFuncInvoker0< TypeU5BU5D_t7FE623A666B49176DE123306221193E888A12F5F* >::Invoke(93 /* System.Type[] System.Type::GetGenericArguments() */, (Type_t *)L_27);
+		NullCheck(L_28);
+		int32_t L_29 = 0;
+		Type_t * L_30 = (L_28)->GetAt(static_cast<il2cpp_array_size_t>(L_29));
+		V_1 = (RuntimeType_t40F13BCEAD97478C72C4B40BFDC2A220161CDB8F *)((RuntimeType_t40F13BCEAD97478C72C4B40BFDC2A220161CDB8F *)Castclass((RuntimeObject*)L_30, RuntimeType_t40F13BCEAD97478C72C4B40BFDC2A220161CDB8F_il2cpp_TypeInfo_var));
+		RuntimeTypeHandle_t7B542280A22F0EC4EAC2061C29178845847A8B2D  L_31 = { reinterpret_cast<intptr_t> (IEquatable_1_t7FBC51A9FCBF69422C0DEBF035FFDC9417EF3DA1_0_0_0_var) };
+		IL2CPP_RUNTIME_CLASS_INIT(Type_t_il2cpp_TypeInfo_var);
+		Type_t * L_32 = Type_GetTypeFromHandle_m9DC58ADF0512987012A8A016FB64B068F3B1AFF6((RuntimeTypeHandle_t7B542280A22F0EC4EAC2061C29178845847A8B2D )L_31, /*hidden argument*/NULL);
+		TypeU5BU5D_t7FE623A666B49176DE123306221193E888A12F5F* L_33 = (TypeU5BU5D_t7FE623A666B49176DE123306221193E888A12F5F*)(TypeU5BU5D_t7FE623A666B49176DE123306221193E888A12F5F*)SZArrayNew(TypeU5BU5D_t7FE623A666B49176DE123306221193E888A12F5F_il2cpp_TypeInfo_var, (uint32_t)1);
+		TypeU5BU5D_t7FE623A666B49176DE123306221193E888A12F5F* L_34 = (TypeU5BU5D_t7FE623A666B49176DE123306221193E888A12F5F*)L_33;
+		RuntimeType_t40F13BCEAD97478C72C4B40BFDC2A220161CDB8F * L_35 = V_1;
+		NullCheck(L_34);
+		ArrayElementTypeCheck (L_34, L_35);
+		(L_34)->SetAt(static_cast<il2cpp_array_size_t>(0), (Type_t *)L_35);
+		NullCheck((Type_t *)L_32);
+		Type_t * L_36 = VirtFuncInvoker1< Type_t *, TypeU5BU5D_t7FE623A666B49176DE123306221193E888A12F5F* >::Invoke(89 /* System.Type System.Type::MakeGenericType(System.Type[]) */, (Type_t *)L_32, (TypeU5BU5D_t7FE623A666B49176DE123306221193E888A12F5F*)L_34);
+		RuntimeType_t40F13BCEAD97478C72C4B40BFDC2A220161CDB8F * L_37 = V_1;
+		NullCheck((Type_t *)L_36);
+		bool L_38 = VirtFuncInvoker1< bool, Type_t * >::Invoke(104 /* System.Boolean System.Type::IsAssignableFrom(System.Type) */, (Type_t *)L_36, (Type_t *)L_37);
+		if (!L_38)
+		{
+			goto IL_00d6;
+		}
+	}
+	{
+		RuntimeTypeHandle_t7B542280A22F0EC4EAC2061C29178845847A8B2D  L_39 = { reinterpret_cast<intptr_t> (NullableEqualityComparer_1_tD235D1E336771C9615EB5024AC8C35CFF8ADD27F_0_0_0_var) };
+		IL2CPP_RUNTIME_CLASS_INIT(Type_t_il2cpp_TypeInfo_var);
+		Type_t * L_40 = Type_GetTypeFromHandle_m9DC58ADF0512987012A8A016FB64B068F3B1AFF6((RuntimeTypeHandle_t7B542280A22F0EC4EAC2061C29178845847A8B2D )L_39, /*hidden argument*/NULL);
+		RuntimeType_t40F13BCEAD97478C72C4B40BFDC2A220161CDB8F * L_41 = V_1;
+		IL2CPP_RUNTIME_CLASS_INIT(RuntimeType_t40F13BCEAD97478C72C4B40BFDC2A220161CDB8F_il2cpp_TypeInfo_var);
+		RuntimeObject * L_42 = RuntimeType_CreateInstanceForAnotherGenericParameter_mFAF735890E821AF021168FCBAC1AA6BFA49586F4((Type_t *)L_40, (RuntimeType_t40F13BCEAD97478C72C4B40BFDC2A220161CDB8F *)L_41, /*hidden argument*/NULL);
+		return ((EqualityComparer_1_tCDF71D565EF681A3FA07FEA641ACF98768CDF0D2 *)Castclass((RuntimeObject*)L_42, IL2CPP_RGCTX_DATA(InitializedTypeInfo(method->klass)->rgctx_data, 3)));
+	}
+
+IL_00d6:
+	{
+		RuntimeType_t40F13BCEAD97478C72C4B40BFDC2A220161CDB8F * L_43 = V_0;
+		NullCheck((Type_t *)L_43);
+		bool L_44 = VirtFuncInvoker0< bool >::Invoke(65 /* System.Boolean System.Type::get_IsEnum() */, (Type_t *)L_43);
+		if (!L_44)
+		{
+			goto IL_016f;
+		}
+	}
+	{
+		RuntimeType_t40F13BCEAD97478C72C4B40BFDC2A220161CDB8F * L_45 = V_0;
+		IL2CPP_RUNTIME_CLASS_INIT(Enum_t2AF27C02B8653AE29442467390005ABC74D8F521_il2cpp_TypeInfo_var);
+		Type_t * L_46 = Enum_GetUnderlyingType_m0715B4E60E6909F03FF7302B6E20B1AB88DA84B1((Type_t *)L_45, /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(Type_t_il2cpp_TypeInfo_var);
+		int32_t L_47 = Type_GetTypeCode_m3105BBCE671D89EFE212F9BA06AAB90944A6116F((Type_t *)L_46, /*hidden argument*/NULL);
+		V_2 = (int32_t)L_47;
+		int32_t L_48 = V_2;
+		switch (((int32_t)il2cpp_codegen_subtract((int32_t)L_48, (int32_t)5)))
+		{
+			case 0:
+			{
+				goto IL_012d;
+			}
+			case 1:
+			{
+				goto IL_0143;
+			}
+			case 2:
+			{
+				goto IL_0117;
+			}
+			case 3:
+			{
+				goto IL_0143;
+			}
+			case 4:
+			{
+				goto IL_0143;
+			}
+			case 5:
+			{
+				goto IL_0143;
+			}
+			case 6:
+			{
+				goto IL_0159;
+			}
+			case 7:
+			{
+				goto IL_0159;
+			}
+		}
+	}
+	{
+		goto IL_016f;
+	}
+
+IL_0117:
+	{
+		RuntimeTypeHandle_t7B542280A22F0EC4EAC2061C29178845847A8B2D  L_49 = { reinterpret_cast<intptr_t> (ShortEnumEqualityComparer_1_tCB4B7DE9F58431002227076F18CFFC289C6CBD64_0_0_0_var) };
+		IL2CPP_RUNTIME_CLASS_INIT(Type_t_il2cpp_TypeInfo_var);
+		Type_t * L_50 = Type_GetTypeFromHandle_m9DC58ADF0512987012A8A016FB64B068F3B1AFF6((RuntimeTypeHandle_t7B542280A22F0EC4EAC2061C29178845847A8B2D )L_49, /*hidden argument*/NULL);
+		RuntimeType_t40F13BCEAD97478C72C4B40BFDC2A220161CDB8F * L_51 = V_0;
+		IL2CPP_RUNTIME_CLASS_INIT(RuntimeType_t40F13BCEAD97478C72C4B40BFDC2A220161CDB8F_il2cpp_TypeInfo_var);
+		RuntimeObject * L_52 = RuntimeType_CreateInstanceForAnotherGenericParameter_mFAF735890E821AF021168FCBAC1AA6BFA49586F4((Type_t *)L_50, (RuntimeType_t40F13BCEAD97478C72C4B40BFDC2A220161CDB8F *)L_51, /*hidden argument*/NULL);
+		return ((EqualityComparer_1_tCDF71D565EF681A3FA07FEA641ACF98768CDF0D2 *)Castclass((RuntimeObject*)L_52, IL2CPP_RGCTX_DATA(InitializedTypeInfo(method->klass)->rgctx_data, 3)));
+	}
+
+IL_012d:
+	{
+		RuntimeTypeHandle_t7B542280A22F0EC4EAC2061C29178845847A8B2D  L_53 = { reinterpret_cast<intptr_t> (SByteEnumEqualityComparer_1_t0E5A82C922F801F365CCC4BE3062A765423A5852_0_0_0_var) };
+		IL2CPP_RUNTIME_CLASS_INIT(Type_t_il2cpp_TypeInfo_var);
+		Type_t * L_54 = Type_GetTypeFromHandle_m9DC58ADF0512987012A8A016FB64B068F3B1AFF6((RuntimeTypeHandle_t7B542280A22F0EC4EAC2061C29178845847A8B2D )L_53, /*hidden argument*/NULL);
+		RuntimeType_t40F13BCEAD97478C72C4B40BFDC2A220161CDB8F * L_55 = V_0;
+		IL2CPP_RUNTIME_CLASS_INIT(RuntimeType_t40F13BCEAD97478C72C4B40BFDC2A220161CDB8F_il2cpp_TypeInfo_var);
+		RuntimeObject * L_56 = RuntimeType_CreateInstanceForAnotherGenericParameter_mFAF735890E821AF021168FCBAC1AA6BFA49586F4((Type_t *)L_54, (RuntimeType_t40F13BCEAD97478C72C4B40BFDC2A220161CDB8F *)L_55, /*hidden argument*/NULL);
+		return ((EqualityComparer_1_tCDF71D565EF681A3FA07FEA641ACF98768CDF0D2 *)Castclass((RuntimeObject*)L_56, IL2CPP_RGCTX_DATA(InitializedTypeInfo(method->klass)->rgctx_data, 3)));
+	}
+
+IL_0143:
+	{
+		RuntimeTypeHandle_t7B542280A22F0EC4EAC2061C29178845847A8B2D  L_57 = { reinterpret_cast<intptr_t> (EnumEqualityComparer_1_tC44C7E08405BCDA86FDDFB9714C4301D39723C3A_0_0_0_var) };
+		IL2CPP_RUNTIME_CLASS_INIT(Type_t_il2cpp_TypeInfo_var);
+		Type_t * L_58 = Type_GetTypeFromHandle_m9DC58ADF0512987012A8A016FB64B068F3B1AFF6((RuntimeTypeHandle_t7B542280A22F0EC4EAC2061C29178845847A8B2D )L_57, /*hidden argument*/NULL);
+		RuntimeType_t40F13BCEAD97478C72C4B40BFDC2A220161CDB8F * L_59 = V_0;
+		IL2CPP_RUNTIME_CLASS_INIT(RuntimeType_t40F13BCEAD97478C72C4B40BFDC2A220161CDB8F_il2cpp_TypeInfo_var);
+		RuntimeObject * L_60 = RuntimeType_CreateInstanceForAnotherGenericParameter_mFAF735890E821AF021168FCBAC1AA6BFA49586F4((Type_t *)L_58, (RuntimeType_t40F13BCEAD97478C72C4B40BFDC2A220161CDB8F *)L_59, /*hidden argument*/NULL);
+		return ((EqualityComparer_1_tCDF71D565EF681A3FA07FEA641ACF98768CDF0D2 *)Castclass((RuntimeObject*)L_60, IL2CPP_RGCTX_DATA(InitializedTypeInfo(method->klass)->rgctx_data, 3)));
+	}
+
+IL_0159:
+	{
+		RuntimeTypeHandle_t7B542280A22F0EC4EAC2061C29178845847A8B2D  L_61 = { reinterpret_cast<intptr_t> (LongEnumEqualityComparer_1_t6B940FD5688E20A1CF36AD68CCF3A39071FFB0DB_0_0_0_var) };
+		IL2CPP_RUNTIME_CLASS_INIT(Type_t_il2cpp_TypeInfo_var);
+		Type_t * L_62 = Type_GetTypeFromHandle_m9DC58ADF0512987012A8A016FB64B068F3B1AFF6((RuntimeTypeHandle_t7B542280A22F0EC4EAC2061C29178845847A8B2D )L_61, /*hidden argument*/NULL);
+		RuntimeType_t40F13BCEAD97478C72C4B40BFDC2A220161CDB8F * L_63 = V_0;
+		IL2CPP_RUNTIME_CLASS_INIT(RuntimeType_t40F13BCEAD97478C72C4B40BFDC2A220161CDB8F_il2cpp_TypeInfo_var);
+		RuntimeObject * L_64 = RuntimeType_CreateInstanceForAnotherGenericParameter_mFAF735890E821AF021168FCBAC1AA6BFA49586F4((Type_t *)L_62, (RuntimeType_t40F13BCEAD97478C72C4B40BFDC2A220161CDB8F *)L_63, /*hidden argument*/NULL);
+		return ((EqualityComparer_1_tCDF71D565EF681A3FA07FEA641ACF98768CDF0D2 *)Castclass((RuntimeObject*)L_64, IL2CPP_RGCTX_DATA(InitializedTypeInfo(method->klass)->rgctx_data, 3)));
+	}
+
+IL_016f:
+	{
+		ObjectEqualityComparer_1_tF01D92B0F5420E4026694D3BE52389560933A85F * L_65 = (ObjectEqualityComparer_1_tF01D92B0F5420E4026694D3BE52389560933A85F *)il2cpp_codegen_object_new(IL2CPP_RGCTX_DATA(InitializedTypeInfo(method->klass)->rgctx_data, 5));
+		((  void (*) (ObjectEqualityComparer_1_tF01D92B0F5420E4026694D3BE52389560933A85F *, const RuntimeMethod*))IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->klass)->rgctx_data, 6)->methodPointer)(L_65, /*hidden argument*/IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->klass)->rgctx_data, 6));
+		return L_65;
+	}
+}
+// System.Int32 System.Collections.Generic.EqualityComparer`1<UnityEngine.TextCore.GlyphRect>::IndexOf(T[],T,System.Int32,System.Int32)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t EqualityComparer_1_IndexOf_m722D058E118DCC5380FA6B6ACB1234E677174EC4_gshared (EqualityComparer_1_tCDF71D565EF681A3FA07FEA641ACF98768CDF0D2 * __this, GlyphRectU5BU5D_t0C8059848359C24B032007E1B643D747C2BB2FB2* ___array0, GlyphRect_t398045C795E0E1264236DFAA5712796CC23C3E7C  ___value1, int32_t ___startIndex2, int32_t ___count3, const RuntimeMethod* method)
+{
+	int32_t V_0 = 0;
+	int32_t V_1 = 0;
+	{
+		int32_t L_0 = ___startIndex2;
+		int32_t L_1 = ___count3;
+		V_0 = (int32_t)((int32_t)il2cpp_codegen_add((int32_t)L_0, (int32_t)L_1));
+		int32_t L_2 = ___startIndex2;
+		V_1 = (int32_t)L_2;
+		goto IL_001f;
+	}
+
+IL_0009:
+	{
+		GlyphRectU5BU5D_t0C8059848359C24B032007E1B643D747C2BB2FB2* L_3 = ___array0;
+		int32_t L_4 = V_1;
+		NullCheck(L_3);
+		int32_t L_5 = L_4;
+		GlyphRect_t398045C795E0E1264236DFAA5712796CC23C3E7C  L_6 = (L_3)->GetAt(static_cast<il2cpp_array_size_t>(L_5));
+		GlyphRect_t398045C795E0E1264236DFAA5712796CC23C3E7C  L_7 = ___value1;
+		NullCheck((EqualityComparer_1_tCDF71D565EF681A3FA07FEA641ACF98768CDF0D2 *)__this);
+		bool L_8 = VirtFuncInvoker2< bool, GlyphRect_t398045C795E0E1264236DFAA5712796CC23C3E7C , GlyphRect_t398045C795E0E1264236DFAA5712796CC23C3E7C  >::Invoke(8 /* System.Boolean System.Collections.Generic.EqualityComparer`1<UnityEngine.TextCore.GlyphRect>::Equals(T,T) */, (EqualityComparer_1_tCDF71D565EF681A3FA07FEA641ACF98768CDF0D2 *)__this, (GlyphRect_t398045C795E0E1264236DFAA5712796CC23C3E7C )L_6, (GlyphRect_t398045C795E0E1264236DFAA5712796CC23C3E7C )L_7);
+		if (!L_8)
+		{
+			goto IL_001b;
+		}
+	}
+	{
+		int32_t L_9 = V_1;
+		return L_9;
+	}
+
+IL_001b:
+	{
+		int32_t L_10 = V_1;
+		V_1 = (int32_t)((int32_t)il2cpp_codegen_add((int32_t)L_10, (int32_t)1));
+	}
+
+IL_001f:
+	{
+		int32_t L_11 = V_1;
+		int32_t L_12 = V_0;
+		if ((((int32_t)L_11) < ((int32_t)L_12)))
+		{
+			goto IL_0009;
+		}
+	}
+	{
+		return (-1);
+	}
+}
+// System.Int32 System.Collections.Generic.EqualityComparer`1<UnityEngine.TextCore.GlyphRect>::LastIndexOf(T[],T,System.Int32,System.Int32)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t EqualityComparer_1_LastIndexOf_mA3515C581C257E35114D55A357F159F4361AEDB4_gshared (EqualityComparer_1_tCDF71D565EF681A3FA07FEA641ACF98768CDF0D2 * __this, GlyphRectU5BU5D_t0C8059848359C24B032007E1B643D747C2BB2FB2* ___array0, GlyphRect_t398045C795E0E1264236DFAA5712796CC23C3E7C  ___value1, int32_t ___startIndex2, int32_t ___count3, const RuntimeMethod* method)
+{
+	int32_t V_0 = 0;
+	int32_t V_1 = 0;
+	{
+		int32_t L_0 = ___startIndex2;
+		int32_t L_1 = ___count3;
+		V_0 = (int32_t)((int32_t)il2cpp_codegen_add((int32_t)((int32_t)il2cpp_codegen_subtract((int32_t)L_0, (int32_t)L_1)), (int32_t)1));
+		int32_t L_2 = ___startIndex2;
+		V_1 = (int32_t)L_2;
+		goto IL_0021;
+	}
+
+IL_000b:
+	{
+		GlyphRectU5BU5D_t0C8059848359C24B032007E1B643D747C2BB2FB2* L_3 = ___array0;
+		int32_t L_4 = V_1;
+		NullCheck(L_3);
+		int32_t L_5 = L_4;
+		GlyphRect_t398045C795E0E1264236DFAA5712796CC23C3E7C  L_6 = (L_3)->GetAt(static_cast<il2cpp_array_size_t>(L_5));
+		GlyphRect_t398045C795E0E1264236DFAA5712796CC23C3E7C  L_7 = ___value1;
+		NullCheck((EqualityComparer_1_tCDF71D565EF681A3FA07FEA641ACF98768CDF0D2 *)__this);
+		bool L_8 = VirtFuncInvoker2< bool, GlyphRect_t398045C795E0E1264236DFAA5712796CC23C3E7C , GlyphRect_t398045C795E0E1264236DFAA5712796CC23C3E7C  >::Invoke(8 /* System.Boolean System.Collections.Generic.EqualityComparer`1<UnityEngine.TextCore.GlyphRect>::Equals(T,T) */, (EqualityComparer_1_tCDF71D565EF681A3FA07FEA641ACF98768CDF0D2 *)__this, (GlyphRect_t398045C795E0E1264236DFAA5712796CC23C3E7C )L_6, (GlyphRect_t398045C795E0E1264236DFAA5712796CC23C3E7C )L_7);
+		if (!L_8)
+		{
+			goto IL_001d;
+		}
+	}
+	{
+		int32_t L_9 = V_1;
+		return L_9;
+	}
+
+IL_001d:
+	{
+		int32_t L_10 = V_1;
+		V_1 = (int32_t)((int32_t)il2cpp_codegen_subtract((int32_t)L_10, (int32_t)1));
+	}
+
+IL_0021:
+	{
+		int32_t L_11 = V_1;
+		int32_t L_12 = V_0;
+		if ((((int32_t)L_11) >= ((int32_t)L_12)))
+		{
+			goto IL_000b;
+		}
+	}
+	{
+		return (-1);
+	}
+}
+// System.Int32 System.Collections.Generic.EqualityComparer`1<UnityEngine.TextCore.GlyphRect>::System.Collections.IEqualityComparer.GetHashCode(System.Object)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t EqualityComparer_1_System_Collections_IEqualityComparer_GetHashCode_m230541D5F9CCCD6BBBA2C2739A864496FD35A7BF_gshared (EqualityComparer_1_tCDF71D565EF681A3FA07FEA641ACF98768CDF0D2 * __this, RuntimeObject * ___obj0, const RuntimeMethod* method)
+{
+	{
+		RuntimeObject * L_0 = ___obj0;
+		if (L_0)
+		{
+			goto IL_0005;
+		}
+	}
+	{
+		return 0;
+	}
+
+IL_0005:
+	{
+		RuntimeObject * L_1 = ___obj0;
+		if (!((RuntimeObject *)IsInst((RuntimeObject*)L_1, IL2CPP_RGCTX_DATA(method->klass->rgctx_data, 8))))
+		{
+			goto IL_001a;
+		}
+	}
+	{
+		RuntimeObject * L_2 = ___obj0;
+		NullCheck((EqualityComparer_1_tCDF71D565EF681A3FA07FEA641ACF98768CDF0D2 *)__this);
+		int32_t L_3 = VirtFuncInvoker1< int32_t, GlyphRect_t398045C795E0E1264236DFAA5712796CC23C3E7C  >::Invoke(9 /* System.Int32 System.Collections.Generic.EqualityComparer`1<UnityEngine.TextCore.GlyphRect>::GetHashCode(T) */, (EqualityComparer_1_tCDF71D565EF681A3FA07FEA641ACF98768CDF0D2 *)__this, (GlyphRect_t398045C795E0E1264236DFAA5712796CC23C3E7C )((*(GlyphRect_t398045C795E0E1264236DFAA5712796CC23C3E7C *)((GlyphRect_t398045C795E0E1264236DFAA5712796CC23C3E7C *)UnBox(L_2, IL2CPP_RGCTX_DATA(method->klass->rgctx_data, 8))))));
+		return L_3;
+	}
+
+IL_001a:
+	{
+		ThrowHelper_ThrowArgumentException_mC79DA77CCE9B239510DDD4C46043FC216B2A5B84((int32_t)2, /*hidden argument*/NULL);
+		return 0;
+	}
+}
+// System.Boolean System.Collections.Generic.EqualityComparer`1<UnityEngine.TextCore.GlyphRect>::System.Collections.IEqualityComparer.Equals(System.Object,System.Object)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool EqualityComparer_1_System_Collections_IEqualityComparer_Equals_m059C1670939D56C68E127430640310CEE3787755_gshared (EqualityComparer_1_tCDF71D565EF681A3FA07FEA641ACF98768CDF0D2 * __this, RuntimeObject * ___x0, RuntimeObject * ___y1, const RuntimeMethod* method)
+{
+	{
+		RuntimeObject * L_0 = ___x0;
+		RuntimeObject * L_1 = ___y1;
+		if ((!(((RuntimeObject*)(RuntimeObject *)L_0) == ((RuntimeObject*)(RuntimeObject *)L_1))))
+		{
+			goto IL_0006;
+		}
+	}
+	{
+		return (bool)1;
+	}
+
+IL_0006:
+	{
+		RuntimeObject * L_2 = ___x0;
+		if (!L_2)
+		{
+			goto IL_000c;
+		}
+	}
+	{
+		RuntimeObject * L_3 = ___y1;
+		if (L_3)
+		{
+			goto IL_000e;
+		}
+	}
+
+IL_000c:
+	{
+		return (bool)0;
+	}
+
+IL_000e:
+	{
+		RuntimeObject * L_4 = ___x0;
+		if (!((RuntimeObject *)IsInst((RuntimeObject*)L_4, IL2CPP_RGCTX_DATA(method->klass->rgctx_data, 8))))
+		{
+			goto IL_0031;
+		}
+	}
+	{
+		RuntimeObject * L_5 = ___y1;
+		if (!((RuntimeObject *)IsInst((RuntimeObject*)L_5, IL2CPP_RGCTX_DATA(method->klass->rgctx_data, 8))))
+		{
+			goto IL_0031;
+		}
+	}
+	{
+		RuntimeObject * L_6 = ___x0;
+		RuntimeObject * L_7 = ___y1;
+		NullCheck((EqualityComparer_1_tCDF71D565EF681A3FA07FEA641ACF98768CDF0D2 *)__this);
+		bool L_8 = VirtFuncInvoker2< bool, GlyphRect_t398045C795E0E1264236DFAA5712796CC23C3E7C , GlyphRect_t398045C795E0E1264236DFAA5712796CC23C3E7C  >::Invoke(8 /* System.Boolean System.Collections.Generic.EqualityComparer`1<UnityEngine.TextCore.GlyphRect>::Equals(T,T) */, (EqualityComparer_1_tCDF71D565EF681A3FA07FEA641ACF98768CDF0D2 *)__this, (GlyphRect_t398045C795E0E1264236DFAA5712796CC23C3E7C )((*(GlyphRect_t398045C795E0E1264236DFAA5712796CC23C3E7C *)((GlyphRect_t398045C795E0E1264236DFAA5712796CC23C3E7C *)UnBox(L_6, IL2CPP_RGCTX_DATA(method->klass->rgctx_data, 8))))), (GlyphRect_t398045C795E0E1264236DFAA5712796CC23C3E7C )((*(GlyphRect_t398045C795E0E1264236DFAA5712796CC23C3E7C *)((GlyphRect_t398045C795E0E1264236DFAA5712796CC23C3E7C *)UnBox(L_7, IL2CPP_RGCTX_DATA(method->klass->rgctx_data, 8))))));
+		return L_8;
+	}
+
+IL_0031:
+	{
+		ThrowHelper_ThrowArgumentException_mC79DA77CCE9B239510DDD4C46043FC216B2A5B84((int32_t)2, /*hidden argument*/NULL);
+		return (bool)0;
+	}
+}
+// System.Void System.Collections.Generic.EqualityComparer`1<UnityEngine.TextCore.GlyphRect>::.ctor()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void EqualityComparer_1__ctor_m89431BE814AE8D69882E3E0236479D152074DBDC_gshared (EqualityComparer_1_tCDF71D565EF681A3FA07FEA641ACF98768CDF0D2 * __this, const RuntimeMethod* method)
+{
+	{
+		NullCheck((RuntimeObject *)__this);
+		Object__ctor_m925ECA5E85CA100E3FB86A4F9E15C120E9A184C0((RuntimeObject *)__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// System.Collections.Generic.EqualityComparer`1<T> System.Collections.Generic.EqualityComparer`1<UnityEngine.UI.ColorBlock>::get_Default()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR EqualityComparer_1_t33D7DD4D1CC49C4D829BBDB1D3E3FB1A0527461D * EqualityComparer_1_get_Default_m12D4536FB254593E91426D5527E62F6B6E319652_gshared (const RuntimeMethod* method)
+{
+	EqualityComparer_1_t33D7DD4D1CC49C4D829BBDB1D3E3FB1A0527461D * V_0 = NULL;
+	{
+		EqualityComparer_1_t33D7DD4D1CC49C4D829BBDB1D3E3FB1A0527461D * L_0 = ((EqualityComparer_1_t33D7DD4D1CC49C4D829BBDB1D3E3FB1A0527461D_StaticFields*)il2cpp_codegen_static_fields_for(IL2CPP_RGCTX_DATA(InitializedTypeInfo(method->klass)->rgctx_data, 0)))->get_defaultComparer_0();
+		il2cpp_codegen_memory_barrier();
+		V_0 = (EqualityComparer_1_t33D7DD4D1CC49C4D829BBDB1D3E3FB1A0527461D *)L_0;
+		EqualityComparer_1_t33D7DD4D1CC49C4D829BBDB1D3E3FB1A0527461D * L_1 = V_0;
+		if (L_1)
+		{
+			goto IL_0019;
+		}
+	}
+	{
+		EqualityComparer_1_t33D7DD4D1CC49C4D829BBDB1D3E3FB1A0527461D * L_2 = ((  EqualityComparer_1_t33D7DD4D1CC49C4D829BBDB1D3E3FB1A0527461D * (*) (const RuntimeMethod*))IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->klass)->rgctx_data, 1)->methodPointer)(/*hidden argument*/IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->klass)->rgctx_data, 1));
+		V_0 = (EqualityComparer_1_t33D7DD4D1CC49C4D829BBDB1D3E3FB1A0527461D *)L_2;
+		EqualityComparer_1_t33D7DD4D1CC49C4D829BBDB1D3E3FB1A0527461D * L_3 = V_0;
+		il2cpp_codegen_memory_barrier();
+		((EqualityComparer_1_t33D7DD4D1CC49C4D829BBDB1D3E3FB1A0527461D_StaticFields*)il2cpp_codegen_static_fields_for(IL2CPP_RGCTX_DATA(InitializedTypeInfo(method->klass)->rgctx_data, 0)))->set_defaultComparer_0(L_3);
+	}
+
+IL_0019:
+	{
+		EqualityComparer_1_t33D7DD4D1CC49C4D829BBDB1D3E3FB1A0527461D * L_4 = V_0;
+		return L_4;
+	}
+}
+// System.Collections.Generic.EqualityComparer`1<T> System.Collections.Generic.EqualityComparer`1<UnityEngine.UI.ColorBlock>::CreateComparer()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR EqualityComparer_1_t33D7DD4D1CC49C4D829BBDB1D3E3FB1A0527461D * EqualityComparer_1_CreateComparer_mB67B2D0FA7875878D19F0B8847044B505D553877_gshared (const RuntimeMethod* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (EqualityComparer_1_CreateComparer_mB67B2D0FA7875878D19F0B8847044B505D553877_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	RuntimeType_t40F13BCEAD97478C72C4B40BFDC2A220161CDB8F * V_0 = NULL;
+	RuntimeType_t40F13BCEAD97478C72C4B40BFDC2A220161CDB8F * V_1 = NULL;
+	int32_t V_2 = 0;
+	{
+		RuntimeTypeHandle_t7B542280A22F0EC4EAC2061C29178845847A8B2D  L_0 = { reinterpret_cast<intptr_t> (IL2CPP_RGCTX_TYPE(InitializedTypeInfo(method->klass)->rgctx_data, 2)) };
+		IL2CPP_RUNTIME_CLASS_INIT(Type_t_il2cpp_TypeInfo_var);
+		Type_t * L_1 = Type_GetTypeFromHandle_m9DC58ADF0512987012A8A016FB64B068F3B1AFF6((RuntimeTypeHandle_t7B542280A22F0EC4EAC2061C29178845847A8B2D )L_0, /*hidden argument*/NULL);
+		V_0 = (RuntimeType_t40F13BCEAD97478C72C4B40BFDC2A220161CDB8F *)((RuntimeType_t40F13BCEAD97478C72C4B40BFDC2A220161CDB8F *)Castclass((RuntimeObject*)L_1, RuntimeType_t40F13BCEAD97478C72C4B40BFDC2A220161CDB8F_il2cpp_TypeInfo_var));
+		RuntimeType_t40F13BCEAD97478C72C4B40BFDC2A220161CDB8F * L_2 = V_0;
+		RuntimeTypeHandle_t7B542280A22F0EC4EAC2061C29178845847A8B2D  L_3 = { reinterpret_cast<intptr_t> (Byte_tF87C579059BD4633E6840EBBBEEF899C6E33EF07_0_0_0_var) };
+		Type_t * L_4 = Type_GetTypeFromHandle_m9DC58ADF0512987012A8A016FB64B068F3B1AFF6((RuntimeTypeHandle_t7B542280A22F0EC4EAC2061C29178845847A8B2D )L_3, /*hidden argument*/NULL);
+		bool L_5 = Type_op_Equality_m7040622C9E1037EFC73E1F0EDB1DD241282BE3D8((Type_t *)L_2, (Type_t *)L_4, /*hidden argument*/NULL);
+		if (!L_5)
+		{
+			goto IL_002d;
+		}
+	}
+	{
+		ByteEqualityComparer_t45A85C063C30D3CDABEAD21C8CDF353E3EE55B8B * L_6 = (ByteEqualityComparer_t45A85C063C30D3CDABEAD21C8CDF353E3EE55B8B *)il2cpp_codegen_object_new(ByteEqualityComparer_t45A85C063C30D3CDABEAD21C8CDF353E3EE55B8B_il2cpp_TypeInfo_var);
+		ByteEqualityComparer__ctor_m2B86B16398C9ADBA996127A209179E9654EF6A68(L_6, /*hidden argument*/NULL);
+		return ((EqualityComparer_1_t33D7DD4D1CC49C4D829BBDB1D3E3FB1A0527461D *)Castclass((RuntimeObject*)L_6, IL2CPP_RGCTX_DATA(InitializedTypeInfo(method->klass)->rgctx_data, 3)));
+	}
+
+IL_002d:
+	{
+		RuntimeType_t40F13BCEAD97478C72C4B40BFDC2A220161CDB8F * L_7 = V_0;
+		RuntimeTypeHandle_t7B542280A22F0EC4EAC2061C29178845847A8B2D  L_8 = { reinterpret_cast<intptr_t> (String_t_0_0_0_var) };
+		IL2CPP_RUNTIME_CLASS_INIT(Type_t_il2cpp_TypeInfo_var);
+		Type_t * L_9 = Type_GetTypeFromHandle_m9DC58ADF0512987012A8A016FB64B068F3B1AFF6((RuntimeTypeHandle_t7B542280A22F0EC4EAC2061C29178845847A8B2D )L_8, /*hidden argument*/NULL);
+		bool L_10 = Type_op_Equality_m7040622C9E1037EFC73E1F0EDB1DD241282BE3D8((Type_t *)L_7, (Type_t *)L_9, /*hidden argument*/NULL);
+		if (!L_10)
+		{
+			goto IL_004a;
+		}
+	}
+	{
+		InternalStringComparer_tCD150130A3DB4C80186B5D8145B910B33496D4CD * L_11 = (InternalStringComparer_tCD150130A3DB4C80186B5D8145B910B33496D4CD *)il2cpp_codegen_object_new(InternalStringComparer_tCD150130A3DB4C80186B5D8145B910B33496D4CD_il2cpp_TypeInfo_var);
+		InternalStringComparer__ctor_m471FF151AF831B76635ED96C53CF08114FD42C83(L_11, /*hidden argument*/NULL);
+		return ((EqualityComparer_1_t33D7DD4D1CC49C4D829BBDB1D3E3FB1A0527461D *)Castclass((RuntimeObject*)L_11, IL2CPP_RGCTX_DATA(InitializedTypeInfo(method->klass)->rgctx_data, 3)));
+	}
+
+IL_004a:
+	{
+		RuntimeTypeHandle_t7B542280A22F0EC4EAC2061C29178845847A8B2D  L_12 = { reinterpret_cast<intptr_t> (IL2CPP_RGCTX_TYPE(InitializedTypeInfo(method->klass)->rgctx_data, 4)) };
+		IL2CPP_RUNTIME_CLASS_INIT(Type_t_il2cpp_TypeInfo_var);
+		Type_t * L_13 = Type_GetTypeFromHandle_m9DC58ADF0512987012A8A016FB64B068F3B1AFF6((RuntimeTypeHandle_t7B542280A22F0EC4EAC2061C29178845847A8B2D )L_12, /*hidden argument*/NULL);
+		RuntimeType_t40F13BCEAD97478C72C4B40BFDC2A220161CDB8F * L_14 = V_0;
+		NullCheck((Type_t *)L_13);
+		bool L_15 = VirtFuncInvoker1< bool, Type_t * >::Invoke(104 /* System.Boolean System.Type::IsAssignableFrom(System.Type) */, (Type_t *)L_13, (Type_t *)L_14);
+		if (!L_15)
+		{
+			goto IL_0072;
+		}
+	}
+	{
+		RuntimeTypeHandle_t7B542280A22F0EC4EAC2061C29178845847A8B2D  L_16 = { reinterpret_cast<intptr_t> (GenericEqualityComparer_1_t86530EF2BF9E43CCEE775B5862B48F735555A90B_0_0_0_var) };
+		IL2CPP_RUNTIME_CLASS_INIT(Type_t_il2cpp_TypeInfo_var);
+		Type_t * L_17 = Type_GetTypeFromHandle_m9DC58ADF0512987012A8A016FB64B068F3B1AFF6((RuntimeTypeHandle_t7B542280A22F0EC4EAC2061C29178845847A8B2D )L_16, /*hidden argument*/NULL);
+		RuntimeType_t40F13BCEAD97478C72C4B40BFDC2A220161CDB8F * L_18 = V_0;
+		IL2CPP_RUNTIME_CLASS_INIT(RuntimeType_t40F13BCEAD97478C72C4B40BFDC2A220161CDB8F_il2cpp_TypeInfo_var);
+		RuntimeObject * L_19 = RuntimeType_CreateInstanceForAnotherGenericParameter_mFAF735890E821AF021168FCBAC1AA6BFA49586F4((Type_t *)L_17, (RuntimeType_t40F13BCEAD97478C72C4B40BFDC2A220161CDB8F *)L_18, /*hidden argument*/NULL);
+		return ((EqualityComparer_1_t33D7DD4D1CC49C4D829BBDB1D3E3FB1A0527461D *)Castclass((RuntimeObject*)L_19, IL2CPP_RGCTX_DATA(InitializedTypeInfo(method->klass)->rgctx_data, 3)));
+	}
+
+IL_0072:
+	{
+		RuntimeType_t40F13BCEAD97478C72C4B40BFDC2A220161CDB8F * L_20 = V_0;
+		NullCheck((Type_t *)L_20);
+		bool L_21 = VirtFuncInvoker0< bool >::Invoke(69 /* System.Boolean System.Type::get_IsGenericType() */, (Type_t *)L_20);
+		if (!L_21)
+		{
+			goto IL_00d6;
+		}
+	}
+	{
+		RuntimeType_t40F13BCEAD97478C72C4B40BFDC2A220161CDB8F * L_22 = V_0;
+		NullCheck((Type_t *)L_22);
+		Type_t * L_23 = VirtFuncInvoker0< Type_t * >::Invoke(94 /* System.Type System.Type::GetGenericTypeDefinition() */, (Type_t *)L_22);
+		RuntimeTypeHandle_t7B542280A22F0EC4EAC2061C29178845847A8B2D  L_24 = { reinterpret_cast<intptr_t> (Nullable_1_t220FFA40D2CEE2CB28F8C04DB1216024A0BC75C3_0_0_0_var) };
+		IL2CPP_RUNTIME_CLASS_INIT(Type_t_il2cpp_TypeInfo_var);
+		Type_t * L_25 = Type_GetTypeFromHandle_m9DC58ADF0512987012A8A016FB64B068F3B1AFF6((RuntimeTypeHandle_t7B542280A22F0EC4EAC2061C29178845847A8B2D )L_24, /*hidden argument*/NULL);
+		bool L_26 = Type_op_Equality_m7040622C9E1037EFC73E1F0EDB1DD241282BE3D8((Type_t *)L_23, (Type_t *)L_25, /*hidden argument*/NULL);
+		if (!L_26)
+		{
+			goto IL_00d6;
+		}
+	}
+	{
+		RuntimeType_t40F13BCEAD97478C72C4B40BFDC2A220161CDB8F * L_27 = V_0;
+		NullCheck((Type_t *)L_27);
+		TypeU5BU5D_t7FE623A666B49176DE123306221193E888A12F5F* L_28 = VirtFuncInvoker0< TypeU5BU5D_t7FE623A666B49176DE123306221193E888A12F5F* >::Invoke(93 /* System.Type[] System.Type::GetGenericArguments() */, (Type_t *)L_27);
+		NullCheck(L_28);
+		int32_t L_29 = 0;
+		Type_t * L_30 = (L_28)->GetAt(static_cast<il2cpp_array_size_t>(L_29));
+		V_1 = (RuntimeType_t40F13BCEAD97478C72C4B40BFDC2A220161CDB8F *)((RuntimeType_t40F13BCEAD97478C72C4B40BFDC2A220161CDB8F *)Castclass((RuntimeObject*)L_30, RuntimeType_t40F13BCEAD97478C72C4B40BFDC2A220161CDB8F_il2cpp_TypeInfo_var));
+		RuntimeTypeHandle_t7B542280A22F0EC4EAC2061C29178845847A8B2D  L_31 = { reinterpret_cast<intptr_t> (IEquatable_1_t7FBC51A9FCBF69422C0DEBF035FFDC9417EF3DA1_0_0_0_var) };
+		IL2CPP_RUNTIME_CLASS_INIT(Type_t_il2cpp_TypeInfo_var);
+		Type_t * L_32 = Type_GetTypeFromHandle_m9DC58ADF0512987012A8A016FB64B068F3B1AFF6((RuntimeTypeHandle_t7B542280A22F0EC4EAC2061C29178845847A8B2D )L_31, /*hidden argument*/NULL);
+		TypeU5BU5D_t7FE623A666B49176DE123306221193E888A12F5F* L_33 = (TypeU5BU5D_t7FE623A666B49176DE123306221193E888A12F5F*)(TypeU5BU5D_t7FE623A666B49176DE123306221193E888A12F5F*)SZArrayNew(TypeU5BU5D_t7FE623A666B49176DE123306221193E888A12F5F_il2cpp_TypeInfo_var, (uint32_t)1);
+		TypeU5BU5D_t7FE623A666B49176DE123306221193E888A12F5F* L_34 = (TypeU5BU5D_t7FE623A666B49176DE123306221193E888A12F5F*)L_33;
+		RuntimeType_t40F13BCEAD97478C72C4B40BFDC2A220161CDB8F * L_35 = V_1;
+		NullCheck(L_34);
+		ArrayElementTypeCheck (L_34, L_35);
+		(L_34)->SetAt(static_cast<il2cpp_array_size_t>(0), (Type_t *)L_35);
+		NullCheck((Type_t *)L_32);
+		Type_t * L_36 = VirtFuncInvoker1< Type_t *, TypeU5BU5D_t7FE623A666B49176DE123306221193E888A12F5F* >::Invoke(89 /* System.Type System.Type::MakeGenericType(System.Type[]) */, (Type_t *)L_32, (TypeU5BU5D_t7FE623A666B49176DE123306221193E888A12F5F*)L_34);
+		RuntimeType_t40F13BCEAD97478C72C4B40BFDC2A220161CDB8F * L_37 = V_1;
+		NullCheck((Type_t *)L_36);
+		bool L_38 = VirtFuncInvoker1< bool, Type_t * >::Invoke(104 /* System.Boolean System.Type::IsAssignableFrom(System.Type) */, (Type_t *)L_36, (Type_t *)L_37);
+		if (!L_38)
+		{
+			goto IL_00d6;
+		}
+	}
+	{
+		RuntimeTypeHandle_t7B542280A22F0EC4EAC2061C29178845847A8B2D  L_39 = { reinterpret_cast<intptr_t> (NullableEqualityComparer_1_tD235D1E336771C9615EB5024AC8C35CFF8ADD27F_0_0_0_var) };
+		IL2CPP_RUNTIME_CLASS_INIT(Type_t_il2cpp_TypeInfo_var);
+		Type_t * L_40 = Type_GetTypeFromHandle_m9DC58ADF0512987012A8A016FB64B068F3B1AFF6((RuntimeTypeHandle_t7B542280A22F0EC4EAC2061C29178845847A8B2D )L_39, /*hidden argument*/NULL);
+		RuntimeType_t40F13BCEAD97478C72C4B40BFDC2A220161CDB8F * L_41 = V_1;
+		IL2CPP_RUNTIME_CLASS_INIT(RuntimeType_t40F13BCEAD97478C72C4B40BFDC2A220161CDB8F_il2cpp_TypeInfo_var);
+		RuntimeObject * L_42 = RuntimeType_CreateInstanceForAnotherGenericParameter_mFAF735890E821AF021168FCBAC1AA6BFA49586F4((Type_t *)L_40, (RuntimeType_t40F13BCEAD97478C72C4B40BFDC2A220161CDB8F *)L_41, /*hidden argument*/NULL);
+		return ((EqualityComparer_1_t33D7DD4D1CC49C4D829BBDB1D3E3FB1A0527461D *)Castclass((RuntimeObject*)L_42, IL2CPP_RGCTX_DATA(InitializedTypeInfo(method->klass)->rgctx_data, 3)));
+	}
+
+IL_00d6:
+	{
+		RuntimeType_t40F13BCEAD97478C72C4B40BFDC2A220161CDB8F * L_43 = V_0;
+		NullCheck((Type_t *)L_43);
+		bool L_44 = VirtFuncInvoker0< bool >::Invoke(65 /* System.Boolean System.Type::get_IsEnum() */, (Type_t *)L_43);
+		if (!L_44)
+		{
+			goto IL_016f;
+		}
+	}
+	{
+		RuntimeType_t40F13BCEAD97478C72C4B40BFDC2A220161CDB8F * L_45 = V_0;
+		IL2CPP_RUNTIME_CLASS_INIT(Enum_t2AF27C02B8653AE29442467390005ABC74D8F521_il2cpp_TypeInfo_var);
+		Type_t * L_46 = Enum_GetUnderlyingType_m0715B4E60E6909F03FF7302B6E20B1AB88DA84B1((Type_t *)L_45, /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(Type_t_il2cpp_TypeInfo_var);
+		int32_t L_47 = Type_GetTypeCode_m3105BBCE671D89EFE212F9BA06AAB90944A6116F((Type_t *)L_46, /*hidden argument*/NULL);
+		V_2 = (int32_t)L_47;
+		int32_t L_48 = V_2;
+		switch (((int32_t)il2cpp_codegen_subtract((int32_t)L_48, (int32_t)5)))
+		{
+			case 0:
+			{
+				goto IL_012d;
+			}
+			case 1:
+			{
+				goto IL_0143;
+			}
+			case 2:
+			{
+				goto IL_0117;
+			}
+			case 3:
+			{
+				goto IL_0143;
+			}
+			case 4:
+			{
+				goto IL_0143;
+			}
+			case 5:
+			{
+				goto IL_0143;
+			}
+			case 6:
+			{
+				goto IL_0159;
+			}
+			case 7:
+			{
+				goto IL_0159;
+			}
+		}
+	}
+	{
+		goto IL_016f;
+	}
+
+IL_0117:
+	{
+		RuntimeTypeHandle_t7B542280A22F0EC4EAC2061C29178845847A8B2D  L_49 = { reinterpret_cast<intptr_t> (ShortEnumEqualityComparer_1_tCB4B7DE9F58431002227076F18CFFC289C6CBD64_0_0_0_var) };
+		IL2CPP_RUNTIME_CLASS_INIT(Type_t_il2cpp_TypeInfo_var);
+		Type_t * L_50 = Type_GetTypeFromHandle_m9DC58ADF0512987012A8A016FB64B068F3B1AFF6((RuntimeTypeHandle_t7B542280A22F0EC4EAC2061C29178845847A8B2D )L_49, /*hidden argument*/NULL);
+		RuntimeType_t40F13BCEAD97478C72C4B40BFDC2A220161CDB8F * L_51 = V_0;
+		IL2CPP_RUNTIME_CLASS_INIT(RuntimeType_t40F13BCEAD97478C72C4B40BFDC2A220161CDB8F_il2cpp_TypeInfo_var);
+		RuntimeObject * L_52 = RuntimeType_CreateInstanceForAnotherGenericParameter_mFAF735890E821AF021168FCBAC1AA6BFA49586F4((Type_t *)L_50, (RuntimeType_t40F13BCEAD97478C72C4B40BFDC2A220161CDB8F *)L_51, /*hidden argument*/NULL);
+		return ((EqualityComparer_1_t33D7DD4D1CC49C4D829BBDB1D3E3FB1A0527461D *)Castclass((RuntimeObject*)L_52, IL2CPP_RGCTX_DATA(InitializedTypeInfo(method->klass)->rgctx_data, 3)));
+	}
+
+IL_012d:
+	{
+		RuntimeTypeHandle_t7B542280A22F0EC4EAC2061C29178845847A8B2D  L_53 = { reinterpret_cast<intptr_t> (SByteEnumEqualityComparer_1_t0E5A82C922F801F365CCC4BE3062A765423A5852_0_0_0_var) };
+		IL2CPP_RUNTIME_CLASS_INIT(Type_t_il2cpp_TypeInfo_var);
+		Type_t * L_54 = Type_GetTypeFromHandle_m9DC58ADF0512987012A8A016FB64B068F3B1AFF6((RuntimeTypeHandle_t7B542280A22F0EC4EAC2061C29178845847A8B2D )L_53, /*hidden argument*/NULL);
+		RuntimeType_t40F13BCEAD97478C72C4B40BFDC2A220161CDB8F * L_55 = V_0;
+		IL2CPP_RUNTIME_CLASS_INIT(RuntimeType_t40F13BCEAD97478C72C4B40BFDC2A220161CDB8F_il2cpp_TypeInfo_var);
+		RuntimeObject * L_56 = RuntimeType_CreateInstanceForAnotherGenericParameter_mFAF735890E821AF021168FCBAC1AA6BFA49586F4((Type_t *)L_54, (RuntimeType_t40F13BCEAD97478C72C4B40BFDC2A220161CDB8F *)L_55, /*hidden argument*/NULL);
+		return ((EqualityComparer_1_t33D7DD4D1CC49C4D829BBDB1D3E3FB1A0527461D *)Castclass((RuntimeObject*)L_56, IL2CPP_RGCTX_DATA(InitializedTypeInfo(method->klass)->rgctx_data, 3)));
+	}
+
+IL_0143:
+	{
+		RuntimeTypeHandle_t7B542280A22F0EC4EAC2061C29178845847A8B2D  L_57 = { reinterpret_cast<intptr_t> (EnumEqualityComparer_1_tC44C7E08405BCDA86FDDFB9714C4301D39723C3A_0_0_0_var) };
+		IL2CPP_RUNTIME_CLASS_INIT(Type_t_il2cpp_TypeInfo_var);
+		Type_t * L_58 = Type_GetTypeFromHandle_m9DC58ADF0512987012A8A016FB64B068F3B1AFF6((RuntimeTypeHandle_t7B542280A22F0EC4EAC2061C29178845847A8B2D )L_57, /*hidden argument*/NULL);
+		RuntimeType_t40F13BCEAD97478C72C4B40BFDC2A220161CDB8F * L_59 = V_0;
+		IL2CPP_RUNTIME_CLASS_INIT(RuntimeType_t40F13BCEAD97478C72C4B40BFDC2A220161CDB8F_il2cpp_TypeInfo_var);
+		RuntimeObject * L_60 = RuntimeType_CreateInstanceForAnotherGenericParameter_mFAF735890E821AF021168FCBAC1AA6BFA49586F4((Type_t *)L_58, (RuntimeType_t40F13BCEAD97478C72C4B40BFDC2A220161CDB8F *)L_59, /*hidden argument*/NULL);
+		return ((EqualityComparer_1_t33D7DD4D1CC49C4D829BBDB1D3E3FB1A0527461D *)Castclass((RuntimeObject*)L_60, IL2CPP_RGCTX_DATA(InitializedTypeInfo(method->klass)->rgctx_data, 3)));
+	}
+
+IL_0159:
+	{
+		RuntimeTypeHandle_t7B542280A22F0EC4EAC2061C29178845847A8B2D  L_61 = { reinterpret_cast<intptr_t> (LongEnumEqualityComparer_1_t6B940FD5688E20A1CF36AD68CCF3A39071FFB0DB_0_0_0_var) };
+		IL2CPP_RUNTIME_CLASS_INIT(Type_t_il2cpp_TypeInfo_var);
+		Type_t * L_62 = Type_GetTypeFromHandle_m9DC58ADF0512987012A8A016FB64B068F3B1AFF6((RuntimeTypeHandle_t7B542280A22F0EC4EAC2061C29178845847A8B2D )L_61, /*hidden argument*/NULL);
+		RuntimeType_t40F13BCEAD97478C72C4B40BFDC2A220161CDB8F * L_63 = V_0;
+		IL2CPP_RUNTIME_CLASS_INIT(RuntimeType_t40F13BCEAD97478C72C4B40BFDC2A220161CDB8F_il2cpp_TypeInfo_var);
+		RuntimeObject * L_64 = RuntimeType_CreateInstanceForAnotherGenericParameter_mFAF735890E821AF021168FCBAC1AA6BFA49586F4((Type_t *)L_62, (RuntimeType_t40F13BCEAD97478C72C4B40BFDC2A220161CDB8F *)L_63, /*hidden argument*/NULL);
+		return ((EqualityComparer_1_t33D7DD4D1CC49C4D829BBDB1D3E3FB1A0527461D *)Castclass((RuntimeObject*)L_64, IL2CPP_RGCTX_DATA(InitializedTypeInfo(method->klass)->rgctx_data, 3)));
+	}
+
+IL_016f:
+	{
+		ObjectEqualityComparer_1_tB5BFFDB9EAFB9FEAAA84EDD21CFD947FC1C5A095 * L_65 = (ObjectEqualityComparer_1_tB5BFFDB9EAFB9FEAAA84EDD21CFD947FC1C5A095 *)il2cpp_codegen_object_new(IL2CPP_RGCTX_DATA(InitializedTypeInfo(method->klass)->rgctx_data, 5));
+		((  void (*) (ObjectEqualityComparer_1_tB5BFFDB9EAFB9FEAAA84EDD21CFD947FC1C5A095 *, const RuntimeMethod*))IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->klass)->rgctx_data, 6)->methodPointer)(L_65, /*hidden argument*/IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->klass)->rgctx_data, 6));
+		return L_65;
+	}
+}
+// System.Int32 System.Collections.Generic.EqualityComparer`1<UnityEngine.UI.ColorBlock>::IndexOf(T[],T,System.Int32,System.Int32)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t EqualityComparer_1_IndexOf_m2A5923F91E119F355BD2C454C99ED71144669C1D_gshared (EqualityComparer_1_t33D7DD4D1CC49C4D829BBDB1D3E3FB1A0527461D * __this, ColorBlockU5BU5D_tD84A362F1D993005D8CA9E0B5AB8967468418DE7* ___array0, ColorBlock_t93B54DF6E8D65D24CEA9726CA745E48C53E3B1EA  ___value1, int32_t ___startIndex2, int32_t ___count3, const RuntimeMethod* method)
+{
+	int32_t V_0 = 0;
+	int32_t V_1 = 0;
+	{
+		int32_t L_0 = ___startIndex2;
+		int32_t L_1 = ___count3;
+		V_0 = (int32_t)((int32_t)il2cpp_codegen_add((int32_t)L_0, (int32_t)L_1));
+		int32_t L_2 = ___startIndex2;
+		V_1 = (int32_t)L_2;
+		goto IL_001f;
+	}
+
+IL_0009:
+	{
+		ColorBlockU5BU5D_tD84A362F1D993005D8CA9E0B5AB8967468418DE7* L_3 = ___array0;
+		int32_t L_4 = V_1;
+		NullCheck(L_3);
+		int32_t L_5 = L_4;
+		ColorBlock_t93B54DF6E8D65D24CEA9726CA745E48C53E3B1EA  L_6 = (L_3)->GetAt(static_cast<il2cpp_array_size_t>(L_5));
+		ColorBlock_t93B54DF6E8D65D24CEA9726CA745E48C53E3B1EA  L_7 = ___value1;
+		NullCheck((EqualityComparer_1_t33D7DD4D1CC49C4D829BBDB1D3E3FB1A0527461D *)__this);
+		bool L_8 = VirtFuncInvoker2< bool, ColorBlock_t93B54DF6E8D65D24CEA9726CA745E48C53E3B1EA , ColorBlock_t93B54DF6E8D65D24CEA9726CA745E48C53E3B1EA  >::Invoke(8 /* System.Boolean System.Collections.Generic.EqualityComparer`1<UnityEngine.UI.ColorBlock>::Equals(T,T) */, (EqualityComparer_1_t33D7DD4D1CC49C4D829BBDB1D3E3FB1A0527461D *)__this, (ColorBlock_t93B54DF6E8D65D24CEA9726CA745E48C53E3B1EA )L_6, (ColorBlock_t93B54DF6E8D65D24CEA9726CA745E48C53E3B1EA )L_7);
+		if (!L_8)
+		{
+			goto IL_001b;
+		}
+	}
+	{
+		int32_t L_9 = V_1;
+		return L_9;
+	}
+
+IL_001b:
+	{
+		int32_t L_10 = V_1;
+		V_1 = (int32_t)((int32_t)il2cpp_codegen_add((int32_t)L_10, (int32_t)1));
+	}
+
+IL_001f:
+	{
+		int32_t L_11 = V_1;
+		int32_t L_12 = V_0;
+		if ((((int32_t)L_11) < ((int32_t)L_12)))
+		{
+			goto IL_0009;
+		}
+	}
+	{
+		return (-1);
+	}
+}
+// System.Int32 System.Collections.Generic.EqualityComparer`1<UnityEngine.UI.ColorBlock>::LastIndexOf(T[],T,System.Int32,System.Int32)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t EqualityComparer_1_LastIndexOf_m868BCAA99583B89A8975F34E75FD9E2E43F67585_gshared (EqualityComparer_1_t33D7DD4D1CC49C4D829BBDB1D3E3FB1A0527461D * __this, ColorBlockU5BU5D_tD84A362F1D993005D8CA9E0B5AB8967468418DE7* ___array0, ColorBlock_t93B54DF6E8D65D24CEA9726CA745E48C53E3B1EA  ___value1, int32_t ___startIndex2, int32_t ___count3, const RuntimeMethod* method)
+{
+	int32_t V_0 = 0;
+	int32_t V_1 = 0;
+	{
+		int32_t L_0 = ___startIndex2;
+		int32_t L_1 = ___count3;
+		V_0 = (int32_t)((int32_t)il2cpp_codegen_add((int32_t)((int32_t)il2cpp_codegen_subtract((int32_t)L_0, (int32_t)L_1)), (int32_t)1));
+		int32_t L_2 = ___startIndex2;
+		V_1 = (int32_t)L_2;
+		goto IL_0021;
+	}
+
+IL_000b:
+	{
+		ColorBlockU5BU5D_tD84A362F1D993005D8CA9E0B5AB8967468418DE7* L_3 = ___array0;
+		int32_t L_4 = V_1;
+		NullCheck(L_3);
+		int32_t L_5 = L_4;
+		ColorBlock_t93B54DF6E8D65D24CEA9726CA745E48C53E3B1EA  L_6 = (L_3)->GetAt(static_cast<il2cpp_array_size_t>(L_5));
+		ColorBlock_t93B54DF6E8D65D24CEA9726CA745E48C53E3B1EA  L_7 = ___value1;
+		NullCheck((EqualityComparer_1_t33D7DD4D1CC49C4D829BBDB1D3E3FB1A0527461D *)__this);
+		bool L_8 = VirtFuncInvoker2< bool, ColorBlock_t93B54DF6E8D65D24CEA9726CA745E48C53E3B1EA , ColorBlock_t93B54DF6E8D65D24CEA9726CA745E48C53E3B1EA  >::Invoke(8 /* System.Boolean System.Collections.Generic.EqualityComparer`1<UnityEngine.UI.ColorBlock>::Equals(T,T) */, (EqualityComparer_1_t33D7DD4D1CC49C4D829BBDB1D3E3FB1A0527461D *)__this, (ColorBlock_t93B54DF6E8D65D24CEA9726CA745E48C53E3B1EA )L_6, (ColorBlock_t93B54DF6E8D65D24CEA9726CA745E48C53E3B1EA )L_7);
+		if (!L_8)
+		{
+			goto IL_001d;
+		}
+	}
+	{
+		int32_t L_9 = V_1;
+		return L_9;
+	}
+
+IL_001d:
+	{
+		int32_t L_10 = V_1;
+		V_1 = (int32_t)((int32_t)il2cpp_codegen_subtract((int32_t)L_10, (int32_t)1));
+	}
+
+IL_0021:
+	{
+		int32_t L_11 = V_1;
+		int32_t L_12 = V_0;
+		if ((((int32_t)L_11) >= ((int32_t)L_12)))
+		{
+			goto IL_000b;
+		}
+	}
+	{
+		return (-1);
+	}
+}
+// System.Int32 System.Collections.Generic.EqualityComparer`1<UnityEngine.UI.ColorBlock>::System.Collections.IEqualityComparer.GetHashCode(System.Object)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t EqualityComparer_1_System_Collections_IEqualityComparer_GetHashCode_m8B79CD09B93176728E675057D3E68A06148BAF7A_gshared (EqualityComparer_1_t33D7DD4D1CC49C4D829BBDB1D3E3FB1A0527461D * __this, RuntimeObject * ___obj0, const RuntimeMethod* method)
+{
+	{
+		RuntimeObject * L_0 = ___obj0;
+		if (L_0)
+		{
+			goto IL_0005;
+		}
+	}
+	{
+		return 0;
+	}
+
+IL_0005:
+	{
+		RuntimeObject * L_1 = ___obj0;
+		if (!((RuntimeObject *)IsInst((RuntimeObject*)L_1, IL2CPP_RGCTX_DATA(method->klass->rgctx_data, 8))))
+		{
+			goto IL_001a;
+		}
+	}
+	{
+		RuntimeObject * L_2 = ___obj0;
+		NullCheck((EqualityComparer_1_t33D7DD4D1CC49C4D829BBDB1D3E3FB1A0527461D *)__this);
+		int32_t L_3 = VirtFuncInvoker1< int32_t, ColorBlock_t93B54DF6E8D65D24CEA9726CA745E48C53E3B1EA  >::Invoke(9 /* System.Int32 System.Collections.Generic.EqualityComparer`1<UnityEngine.UI.ColorBlock>::GetHashCode(T) */, (EqualityComparer_1_t33D7DD4D1CC49C4D829BBDB1D3E3FB1A0527461D *)__this, (ColorBlock_t93B54DF6E8D65D24CEA9726CA745E48C53E3B1EA )((*(ColorBlock_t93B54DF6E8D65D24CEA9726CA745E48C53E3B1EA *)((ColorBlock_t93B54DF6E8D65D24CEA9726CA745E48C53E3B1EA *)UnBox(L_2, IL2CPP_RGCTX_DATA(method->klass->rgctx_data, 8))))));
+		return L_3;
+	}
+
+IL_001a:
+	{
+		ThrowHelper_ThrowArgumentException_mC79DA77CCE9B239510DDD4C46043FC216B2A5B84((int32_t)2, /*hidden argument*/NULL);
+		return 0;
+	}
+}
+// System.Boolean System.Collections.Generic.EqualityComparer`1<UnityEngine.UI.ColorBlock>::System.Collections.IEqualityComparer.Equals(System.Object,System.Object)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool EqualityComparer_1_System_Collections_IEqualityComparer_Equals_m93531DBCAC5C4133E69A4C9C653379AFDF1FAE51_gshared (EqualityComparer_1_t33D7DD4D1CC49C4D829BBDB1D3E3FB1A0527461D * __this, RuntimeObject * ___x0, RuntimeObject * ___y1, const RuntimeMethod* method)
+{
+	{
+		RuntimeObject * L_0 = ___x0;
+		RuntimeObject * L_1 = ___y1;
+		if ((!(((RuntimeObject*)(RuntimeObject *)L_0) == ((RuntimeObject*)(RuntimeObject *)L_1))))
+		{
+			goto IL_0006;
+		}
+	}
+	{
+		return (bool)1;
+	}
+
+IL_0006:
+	{
+		RuntimeObject * L_2 = ___x0;
+		if (!L_2)
+		{
+			goto IL_000c;
+		}
+	}
+	{
+		RuntimeObject * L_3 = ___y1;
+		if (L_3)
+		{
+			goto IL_000e;
+		}
+	}
+
+IL_000c:
+	{
+		return (bool)0;
+	}
+
+IL_000e:
+	{
+		RuntimeObject * L_4 = ___x0;
+		if (!((RuntimeObject *)IsInst((RuntimeObject*)L_4, IL2CPP_RGCTX_DATA(method->klass->rgctx_data, 8))))
+		{
+			goto IL_0031;
+		}
+	}
+	{
+		RuntimeObject * L_5 = ___y1;
+		if (!((RuntimeObject *)IsInst((RuntimeObject*)L_5, IL2CPP_RGCTX_DATA(method->klass->rgctx_data, 8))))
+		{
+			goto IL_0031;
+		}
+	}
+	{
+		RuntimeObject * L_6 = ___x0;
+		RuntimeObject * L_7 = ___y1;
+		NullCheck((EqualityComparer_1_t33D7DD4D1CC49C4D829BBDB1D3E3FB1A0527461D *)__this);
+		bool L_8 = VirtFuncInvoker2< bool, ColorBlock_t93B54DF6E8D65D24CEA9726CA745E48C53E3B1EA , ColorBlock_t93B54DF6E8D65D24CEA9726CA745E48C53E3B1EA  >::Invoke(8 /* System.Boolean System.Collections.Generic.EqualityComparer`1<UnityEngine.UI.ColorBlock>::Equals(T,T) */, (EqualityComparer_1_t33D7DD4D1CC49C4D829BBDB1D3E3FB1A0527461D *)__this, (ColorBlock_t93B54DF6E8D65D24CEA9726CA745E48C53E3B1EA )((*(ColorBlock_t93B54DF6E8D65D24CEA9726CA745E48C53E3B1EA *)((ColorBlock_t93B54DF6E8D65D24CEA9726CA745E48C53E3B1EA *)UnBox(L_6, IL2CPP_RGCTX_DATA(method->klass->rgctx_data, 8))))), (ColorBlock_t93B54DF6E8D65D24CEA9726CA745E48C53E3B1EA )((*(ColorBlock_t93B54DF6E8D65D24CEA9726CA745E48C53E3B1EA *)((ColorBlock_t93B54DF6E8D65D24CEA9726CA745E48C53E3B1EA *)UnBox(L_7, IL2CPP_RGCTX_DATA(method->klass->rgctx_data, 8))))));
+		return L_8;
+	}
+
+IL_0031:
+	{
+		ThrowHelper_ThrowArgumentException_mC79DA77CCE9B239510DDD4C46043FC216B2A5B84((int32_t)2, /*hidden argument*/NULL);
+		return (bool)0;
+	}
+}
+// System.Void System.Collections.Generic.EqualityComparer`1<UnityEngine.UI.ColorBlock>::.ctor()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void EqualityComparer_1__ctor_m50B4EC1F427ED65621EF36FB1B9444F659C11703_gshared (EqualityComparer_1_t33D7DD4D1CC49C4D829BBDB1D3E3FB1A0527461D * __this, const RuntimeMethod* method)
+{
+	{
+		NullCheck((RuntimeObject *)__this);
+		Object__ctor_m925ECA5E85CA100E3FB86A4F9E15C120E9A184C0((RuntimeObject *)__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// System.Collections.Generic.EqualityComparer`1<T> System.Collections.Generic.EqualityComparer`1<UnityEngine.UI.Navigation>::get_Default()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR EqualityComparer_1_t473284C1B64EE3B6A648577B1832E02316F65C08 * EqualityComparer_1_get_Default_mF6101C8DE8CB48FCA2D6F6233210EE64334FE31B_gshared (const RuntimeMethod* method)
+{
+	EqualityComparer_1_t473284C1B64EE3B6A648577B1832E02316F65C08 * V_0 = NULL;
+	{
+		EqualityComparer_1_t473284C1B64EE3B6A648577B1832E02316F65C08 * L_0 = ((EqualityComparer_1_t473284C1B64EE3B6A648577B1832E02316F65C08_StaticFields*)il2cpp_codegen_static_fields_for(IL2CPP_RGCTX_DATA(InitializedTypeInfo(method->klass)->rgctx_data, 0)))->get_defaultComparer_0();
+		il2cpp_codegen_memory_barrier();
+		V_0 = (EqualityComparer_1_t473284C1B64EE3B6A648577B1832E02316F65C08 *)L_0;
+		EqualityComparer_1_t473284C1B64EE3B6A648577B1832E02316F65C08 * L_1 = V_0;
+		if (L_1)
+		{
+			goto IL_0019;
+		}
+	}
+	{
+		EqualityComparer_1_t473284C1B64EE3B6A648577B1832E02316F65C08 * L_2 = ((  EqualityComparer_1_t473284C1B64EE3B6A648577B1832E02316F65C08 * (*) (const RuntimeMethod*))IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->klass)->rgctx_data, 1)->methodPointer)(/*hidden argument*/IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->klass)->rgctx_data, 1));
+		V_0 = (EqualityComparer_1_t473284C1B64EE3B6A648577B1832E02316F65C08 *)L_2;
+		EqualityComparer_1_t473284C1B64EE3B6A648577B1832E02316F65C08 * L_3 = V_0;
+		il2cpp_codegen_memory_barrier();
+		((EqualityComparer_1_t473284C1B64EE3B6A648577B1832E02316F65C08_StaticFields*)il2cpp_codegen_static_fields_for(IL2CPP_RGCTX_DATA(InitializedTypeInfo(method->klass)->rgctx_data, 0)))->set_defaultComparer_0(L_3);
+	}
+
+IL_0019:
+	{
+		EqualityComparer_1_t473284C1B64EE3B6A648577B1832E02316F65C08 * L_4 = V_0;
+		return L_4;
+	}
+}
+// System.Collections.Generic.EqualityComparer`1<T> System.Collections.Generic.EqualityComparer`1<UnityEngine.UI.Navigation>::CreateComparer()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR EqualityComparer_1_t473284C1B64EE3B6A648577B1832E02316F65C08 * EqualityComparer_1_CreateComparer_m3026EA84E55488E5D97A90E828D78D8109FAFDA9_gshared (const RuntimeMethod* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (EqualityComparer_1_CreateComparer_m3026EA84E55488E5D97A90E828D78D8109FAFDA9_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	RuntimeType_t40F13BCEAD97478C72C4B40BFDC2A220161CDB8F * V_0 = NULL;
+	RuntimeType_t40F13BCEAD97478C72C4B40BFDC2A220161CDB8F * V_1 = NULL;
+	int32_t V_2 = 0;
+	{
+		RuntimeTypeHandle_t7B542280A22F0EC4EAC2061C29178845847A8B2D  L_0 = { reinterpret_cast<intptr_t> (IL2CPP_RGCTX_TYPE(InitializedTypeInfo(method->klass)->rgctx_data, 2)) };
+		IL2CPP_RUNTIME_CLASS_INIT(Type_t_il2cpp_TypeInfo_var);
+		Type_t * L_1 = Type_GetTypeFromHandle_m9DC58ADF0512987012A8A016FB64B068F3B1AFF6((RuntimeTypeHandle_t7B542280A22F0EC4EAC2061C29178845847A8B2D )L_0, /*hidden argument*/NULL);
+		V_0 = (RuntimeType_t40F13BCEAD97478C72C4B40BFDC2A220161CDB8F *)((RuntimeType_t40F13BCEAD97478C72C4B40BFDC2A220161CDB8F *)Castclass((RuntimeObject*)L_1, RuntimeType_t40F13BCEAD97478C72C4B40BFDC2A220161CDB8F_il2cpp_TypeInfo_var));
+		RuntimeType_t40F13BCEAD97478C72C4B40BFDC2A220161CDB8F * L_2 = V_0;
+		RuntimeTypeHandle_t7B542280A22F0EC4EAC2061C29178845847A8B2D  L_3 = { reinterpret_cast<intptr_t> (Byte_tF87C579059BD4633E6840EBBBEEF899C6E33EF07_0_0_0_var) };
+		Type_t * L_4 = Type_GetTypeFromHandle_m9DC58ADF0512987012A8A016FB64B068F3B1AFF6((RuntimeTypeHandle_t7B542280A22F0EC4EAC2061C29178845847A8B2D )L_3, /*hidden argument*/NULL);
+		bool L_5 = Type_op_Equality_m7040622C9E1037EFC73E1F0EDB1DD241282BE3D8((Type_t *)L_2, (Type_t *)L_4, /*hidden argument*/NULL);
+		if (!L_5)
+		{
+			goto IL_002d;
+		}
+	}
+	{
+		ByteEqualityComparer_t45A85C063C30D3CDABEAD21C8CDF353E3EE55B8B * L_6 = (ByteEqualityComparer_t45A85C063C30D3CDABEAD21C8CDF353E3EE55B8B *)il2cpp_codegen_object_new(ByteEqualityComparer_t45A85C063C30D3CDABEAD21C8CDF353E3EE55B8B_il2cpp_TypeInfo_var);
+		ByteEqualityComparer__ctor_m2B86B16398C9ADBA996127A209179E9654EF6A68(L_6, /*hidden argument*/NULL);
+		return ((EqualityComparer_1_t473284C1B64EE3B6A648577B1832E02316F65C08 *)Castclass((RuntimeObject*)L_6, IL2CPP_RGCTX_DATA(InitializedTypeInfo(method->klass)->rgctx_data, 3)));
+	}
+
+IL_002d:
+	{
+		RuntimeType_t40F13BCEAD97478C72C4B40BFDC2A220161CDB8F * L_7 = V_0;
+		RuntimeTypeHandle_t7B542280A22F0EC4EAC2061C29178845847A8B2D  L_8 = { reinterpret_cast<intptr_t> (String_t_0_0_0_var) };
+		IL2CPP_RUNTIME_CLASS_INIT(Type_t_il2cpp_TypeInfo_var);
+		Type_t * L_9 = Type_GetTypeFromHandle_m9DC58ADF0512987012A8A016FB64B068F3B1AFF6((RuntimeTypeHandle_t7B542280A22F0EC4EAC2061C29178845847A8B2D )L_8, /*hidden argument*/NULL);
+		bool L_10 = Type_op_Equality_m7040622C9E1037EFC73E1F0EDB1DD241282BE3D8((Type_t *)L_7, (Type_t *)L_9, /*hidden argument*/NULL);
+		if (!L_10)
+		{
+			goto IL_004a;
+		}
+	}
+	{
+		InternalStringComparer_tCD150130A3DB4C80186B5D8145B910B33496D4CD * L_11 = (InternalStringComparer_tCD150130A3DB4C80186B5D8145B910B33496D4CD *)il2cpp_codegen_object_new(InternalStringComparer_tCD150130A3DB4C80186B5D8145B910B33496D4CD_il2cpp_TypeInfo_var);
+		InternalStringComparer__ctor_m471FF151AF831B76635ED96C53CF08114FD42C83(L_11, /*hidden argument*/NULL);
+		return ((EqualityComparer_1_t473284C1B64EE3B6A648577B1832E02316F65C08 *)Castclass((RuntimeObject*)L_11, IL2CPP_RGCTX_DATA(InitializedTypeInfo(method->klass)->rgctx_data, 3)));
+	}
+
+IL_004a:
+	{
+		RuntimeTypeHandle_t7B542280A22F0EC4EAC2061C29178845847A8B2D  L_12 = { reinterpret_cast<intptr_t> (IL2CPP_RGCTX_TYPE(InitializedTypeInfo(method->klass)->rgctx_data, 4)) };
+		IL2CPP_RUNTIME_CLASS_INIT(Type_t_il2cpp_TypeInfo_var);
+		Type_t * L_13 = Type_GetTypeFromHandle_m9DC58ADF0512987012A8A016FB64B068F3B1AFF6((RuntimeTypeHandle_t7B542280A22F0EC4EAC2061C29178845847A8B2D )L_12, /*hidden argument*/NULL);
+		RuntimeType_t40F13BCEAD97478C72C4B40BFDC2A220161CDB8F * L_14 = V_0;
+		NullCheck((Type_t *)L_13);
+		bool L_15 = VirtFuncInvoker1< bool, Type_t * >::Invoke(104 /* System.Boolean System.Type::IsAssignableFrom(System.Type) */, (Type_t *)L_13, (Type_t *)L_14);
+		if (!L_15)
+		{
+			goto IL_0072;
+		}
+	}
+	{
+		RuntimeTypeHandle_t7B542280A22F0EC4EAC2061C29178845847A8B2D  L_16 = { reinterpret_cast<intptr_t> (GenericEqualityComparer_1_t86530EF2BF9E43CCEE775B5862B48F735555A90B_0_0_0_var) };
+		IL2CPP_RUNTIME_CLASS_INIT(Type_t_il2cpp_TypeInfo_var);
+		Type_t * L_17 = Type_GetTypeFromHandle_m9DC58ADF0512987012A8A016FB64B068F3B1AFF6((RuntimeTypeHandle_t7B542280A22F0EC4EAC2061C29178845847A8B2D )L_16, /*hidden argument*/NULL);
+		RuntimeType_t40F13BCEAD97478C72C4B40BFDC2A220161CDB8F * L_18 = V_0;
+		IL2CPP_RUNTIME_CLASS_INIT(RuntimeType_t40F13BCEAD97478C72C4B40BFDC2A220161CDB8F_il2cpp_TypeInfo_var);
+		RuntimeObject * L_19 = RuntimeType_CreateInstanceForAnotherGenericParameter_mFAF735890E821AF021168FCBAC1AA6BFA49586F4((Type_t *)L_17, (RuntimeType_t40F13BCEAD97478C72C4B40BFDC2A220161CDB8F *)L_18, /*hidden argument*/NULL);
+		return ((EqualityComparer_1_t473284C1B64EE3B6A648577B1832E02316F65C08 *)Castclass((RuntimeObject*)L_19, IL2CPP_RGCTX_DATA(InitializedTypeInfo(method->klass)->rgctx_data, 3)));
+	}
+
+IL_0072:
+	{
+		RuntimeType_t40F13BCEAD97478C72C4B40BFDC2A220161CDB8F * L_20 = V_0;
+		NullCheck((Type_t *)L_20);
+		bool L_21 = VirtFuncInvoker0< bool >::Invoke(69 /* System.Boolean System.Type::get_IsGenericType() */, (Type_t *)L_20);
+		if (!L_21)
+		{
+			goto IL_00d6;
+		}
+	}
+	{
+		RuntimeType_t40F13BCEAD97478C72C4B40BFDC2A220161CDB8F * L_22 = V_0;
+		NullCheck((Type_t *)L_22);
+		Type_t * L_23 = VirtFuncInvoker0< Type_t * >::Invoke(94 /* System.Type System.Type::GetGenericTypeDefinition() */, (Type_t *)L_22);
+		RuntimeTypeHandle_t7B542280A22F0EC4EAC2061C29178845847A8B2D  L_24 = { reinterpret_cast<intptr_t> (Nullable_1_t220FFA40D2CEE2CB28F8C04DB1216024A0BC75C3_0_0_0_var) };
+		IL2CPP_RUNTIME_CLASS_INIT(Type_t_il2cpp_TypeInfo_var);
+		Type_t * L_25 = Type_GetTypeFromHandle_m9DC58ADF0512987012A8A016FB64B068F3B1AFF6((RuntimeTypeHandle_t7B542280A22F0EC4EAC2061C29178845847A8B2D )L_24, /*hidden argument*/NULL);
+		bool L_26 = Type_op_Equality_m7040622C9E1037EFC73E1F0EDB1DD241282BE3D8((Type_t *)L_23, (Type_t *)L_25, /*hidden argument*/NULL);
+		if (!L_26)
+		{
+			goto IL_00d6;
+		}
+	}
+	{
+		RuntimeType_t40F13BCEAD97478C72C4B40BFDC2A220161CDB8F * L_27 = V_0;
+		NullCheck((Type_t *)L_27);
+		TypeU5BU5D_t7FE623A666B49176DE123306221193E888A12F5F* L_28 = VirtFuncInvoker0< TypeU5BU5D_t7FE623A666B49176DE123306221193E888A12F5F* >::Invoke(93 /* System.Type[] System.Type::GetGenericArguments() */, (Type_t *)L_27);
+		NullCheck(L_28);
+		int32_t L_29 = 0;
+		Type_t * L_30 = (L_28)->GetAt(static_cast<il2cpp_array_size_t>(L_29));
+		V_1 = (RuntimeType_t40F13BCEAD97478C72C4B40BFDC2A220161CDB8F *)((RuntimeType_t40F13BCEAD97478C72C4B40BFDC2A220161CDB8F *)Castclass((RuntimeObject*)L_30, RuntimeType_t40F13BCEAD97478C72C4B40BFDC2A220161CDB8F_il2cpp_TypeInfo_var));
+		RuntimeTypeHandle_t7B542280A22F0EC4EAC2061C29178845847A8B2D  L_31 = { reinterpret_cast<intptr_t> (IEquatable_1_t7FBC51A9FCBF69422C0DEBF035FFDC9417EF3DA1_0_0_0_var) };
+		IL2CPP_RUNTIME_CLASS_INIT(Type_t_il2cpp_TypeInfo_var);
+		Type_t * L_32 = Type_GetTypeFromHandle_m9DC58ADF0512987012A8A016FB64B068F3B1AFF6((RuntimeTypeHandle_t7B542280A22F0EC4EAC2061C29178845847A8B2D )L_31, /*hidden argument*/NULL);
+		TypeU5BU5D_t7FE623A666B49176DE123306221193E888A12F5F* L_33 = (TypeU5BU5D_t7FE623A666B49176DE123306221193E888A12F5F*)(TypeU5BU5D_t7FE623A666B49176DE123306221193E888A12F5F*)SZArrayNew(TypeU5BU5D_t7FE623A666B49176DE123306221193E888A12F5F_il2cpp_TypeInfo_var, (uint32_t)1);
+		TypeU5BU5D_t7FE623A666B49176DE123306221193E888A12F5F* L_34 = (TypeU5BU5D_t7FE623A666B49176DE123306221193E888A12F5F*)L_33;
+		RuntimeType_t40F13BCEAD97478C72C4B40BFDC2A220161CDB8F * L_35 = V_1;
+		NullCheck(L_34);
+		ArrayElementTypeCheck (L_34, L_35);
+		(L_34)->SetAt(static_cast<il2cpp_array_size_t>(0), (Type_t *)L_35);
+		NullCheck((Type_t *)L_32);
+		Type_t * L_36 = VirtFuncInvoker1< Type_t *, TypeU5BU5D_t7FE623A666B49176DE123306221193E888A12F5F* >::Invoke(89 /* System.Type System.Type::MakeGenericType(System.Type[]) */, (Type_t *)L_32, (TypeU5BU5D_t7FE623A666B49176DE123306221193E888A12F5F*)L_34);
+		RuntimeType_t40F13BCEAD97478C72C4B40BFDC2A220161CDB8F * L_37 = V_1;
+		NullCheck((Type_t *)L_36);
+		bool L_38 = VirtFuncInvoker1< bool, Type_t * >::Invoke(104 /* System.Boolean System.Type::IsAssignableFrom(System.Type) */, (Type_t *)L_36, (Type_t *)L_37);
+		if (!L_38)
+		{
+			goto IL_00d6;
+		}
+	}
+	{
+		RuntimeTypeHandle_t7B542280A22F0EC4EAC2061C29178845847A8B2D  L_39 = { reinterpret_cast<intptr_t> (NullableEqualityComparer_1_tD235D1E336771C9615EB5024AC8C35CFF8ADD27F_0_0_0_var) };
+		IL2CPP_RUNTIME_CLASS_INIT(Type_t_il2cpp_TypeInfo_var);
+		Type_t * L_40 = Type_GetTypeFromHandle_m9DC58ADF0512987012A8A016FB64B068F3B1AFF6((RuntimeTypeHandle_t7B542280A22F0EC4EAC2061C29178845847A8B2D )L_39, /*hidden argument*/NULL);
+		RuntimeType_t40F13BCEAD97478C72C4B40BFDC2A220161CDB8F * L_41 = V_1;
+		IL2CPP_RUNTIME_CLASS_INIT(RuntimeType_t40F13BCEAD97478C72C4B40BFDC2A220161CDB8F_il2cpp_TypeInfo_var);
+		RuntimeObject * L_42 = RuntimeType_CreateInstanceForAnotherGenericParameter_mFAF735890E821AF021168FCBAC1AA6BFA49586F4((Type_t *)L_40, (RuntimeType_t40F13BCEAD97478C72C4B40BFDC2A220161CDB8F *)L_41, /*hidden argument*/NULL);
+		return ((EqualityComparer_1_t473284C1B64EE3B6A648577B1832E02316F65C08 *)Castclass((RuntimeObject*)L_42, IL2CPP_RGCTX_DATA(InitializedTypeInfo(method->klass)->rgctx_data, 3)));
+	}
+
+IL_00d6:
+	{
+		RuntimeType_t40F13BCEAD97478C72C4B40BFDC2A220161CDB8F * L_43 = V_0;
+		NullCheck((Type_t *)L_43);
+		bool L_44 = VirtFuncInvoker0< bool >::Invoke(65 /* System.Boolean System.Type::get_IsEnum() */, (Type_t *)L_43);
+		if (!L_44)
+		{
+			goto IL_016f;
+		}
+	}
+	{
+		RuntimeType_t40F13BCEAD97478C72C4B40BFDC2A220161CDB8F * L_45 = V_0;
+		IL2CPP_RUNTIME_CLASS_INIT(Enum_t2AF27C02B8653AE29442467390005ABC74D8F521_il2cpp_TypeInfo_var);
+		Type_t * L_46 = Enum_GetUnderlyingType_m0715B4E60E6909F03FF7302B6E20B1AB88DA84B1((Type_t *)L_45, /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(Type_t_il2cpp_TypeInfo_var);
+		int32_t L_47 = Type_GetTypeCode_m3105BBCE671D89EFE212F9BA06AAB90944A6116F((Type_t *)L_46, /*hidden argument*/NULL);
+		V_2 = (int32_t)L_47;
+		int32_t L_48 = V_2;
+		switch (((int32_t)il2cpp_codegen_subtract((int32_t)L_48, (int32_t)5)))
+		{
+			case 0:
+			{
+				goto IL_012d;
+			}
+			case 1:
+			{
+				goto IL_0143;
+			}
+			case 2:
+			{
+				goto IL_0117;
+			}
+			case 3:
+			{
+				goto IL_0143;
+			}
+			case 4:
+			{
+				goto IL_0143;
+			}
+			case 5:
+			{
+				goto IL_0143;
+			}
+			case 6:
+			{
+				goto IL_0159;
+			}
+			case 7:
+			{
+				goto IL_0159;
+			}
+		}
+	}
+	{
+		goto IL_016f;
+	}
+
+IL_0117:
+	{
+		RuntimeTypeHandle_t7B542280A22F0EC4EAC2061C29178845847A8B2D  L_49 = { reinterpret_cast<intptr_t> (ShortEnumEqualityComparer_1_tCB4B7DE9F58431002227076F18CFFC289C6CBD64_0_0_0_var) };
+		IL2CPP_RUNTIME_CLASS_INIT(Type_t_il2cpp_TypeInfo_var);
+		Type_t * L_50 = Type_GetTypeFromHandle_m9DC58ADF0512987012A8A016FB64B068F3B1AFF6((RuntimeTypeHandle_t7B542280A22F0EC4EAC2061C29178845847A8B2D )L_49, /*hidden argument*/NULL);
+		RuntimeType_t40F13BCEAD97478C72C4B40BFDC2A220161CDB8F * L_51 = V_0;
+		IL2CPP_RUNTIME_CLASS_INIT(RuntimeType_t40F13BCEAD97478C72C4B40BFDC2A220161CDB8F_il2cpp_TypeInfo_var);
+		RuntimeObject * L_52 = RuntimeType_CreateInstanceForAnotherGenericParameter_mFAF735890E821AF021168FCBAC1AA6BFA49586F4((Type_t *)L_50, (RuntimeType_t40F13BCEAD97478C72C4B40BFDC2A220161CDB8F *)L_51, /*hidden argument*/NULL);
+		return ((EqualityComparer_1_t473284C1B64EE3B6A648577B1832E02316F65C08 *)Castclass((RuntimeObject*)L_52, IL2CPP_RGCTX_DATA(InitializedTypeInfo(method->klass)->rgctx_data, 3)));
+	}
+
+IL_012d:
+	{
+		RuntimeTypeHandle_t7B542280A22F0EC4EAC2061C29178845847A8B2D  L_53 = { reinterpret_cast<intptr_t> (SByteEnumEqualityComparer_1_t0E5A82C922F801F365CCC4BE3062A765423A5852_0_0_0_var) };
+		IL2CPP_RUNTIME_CLASS_INIT(Type_t_il2cpp_TypeInfo_var);
+		Type_t * L_54 = Type_GetTypeFromHandle_m9DC58ADF0512987012A8A016FB64B068F3B1AFF6((RuntimeTypeHandle_t7B542280A22F0EC4EAC2061C29178845847A8B2D )L_53, /*hidden argument*/NULL);
+		RuntimeType_t40F13BCEAD97478C72C4B40BFDC2A220161CDB8F * L_55 = V_0;
+		IL2CPP_RUNTIME_CLASS_INIT(RuntimeType_t40F13BCEAD97478C72C4B40BFDC2A220161CDB8F_il2cpp_TypeInfo_var);
+		RuntimeObject * L_56 = RuntimeType_CreateInstanceForAnotherGenericParameter_mFAF735890E821AF021168FCBAC1AA6BFA49586F4((Type_t *)L_54, (RuntimeType_t40F13BCEAD97478C72C4B40BFDC2A220161CDB8F *)L_55, /*hidden argument*/NULL);
+		return ((EqualityComparer_1_t473284C1B64EE3B6A648577B1832E02316F65C08 *)Castclass((RuntimeObject*)L_56, IL2CPP_RGCTX_DATA(InitializedTypeInfo(method->klass)->rgctx_data, 3)));
+	}
+
+IL_0143:
+	{
+		RuntimeTypeHandle_t7B542280A22F0EC4EAC2061C29178845847A8B2D  L_57 = { reinterpret_cast<intptr_t> (EnumEqualityComparer_1_tC44C7E08405BCDA86FDDFB9714C4301D39723C3A_0_0_0_var) };
+		IL2CPP_RUNTIME_CLASS_INIT(Type_t_il2cpp_TypeInfo_var);
+		Type_t * L_58 = Type_GetTypeFromHandle_m9DC58ADF0512987012A8A016FB64B068F3B1AFF6((RuntimeTypeHandle_t7B542280A22F0EC4EAC2061C29178845847A8B2D )L_57, /*hidden argument*/NULL);
+		RuntimeType_t40F13BCEAD97478C72C4B40BFDC2A220161CDB8F * L_59 = V_0;
+		IL2CPP_RUNTIME_CLASS_INIT(RuntimeType_t40F13BCEAD97478C72C4B40BFDC2A220161CDB8F_il2cpp_TypeInfo_var);
+		RuntimeObject * L_60 = RuntimeType_CreateInstanceForAnotherGenericParameter_mFAF735890E821AF021168FCBAC1AA6BFA49586F4((Type_t *)L_58, (RuntimeType_t40F13BCEAD97478C72C4B40BFDC2A220161CDB8F *)L_59, /*hidden argument*/NULL);
+		return ((EqualityComparer_1_t473284C1B64EE3B6A648577B1832E02316F65C08 *)Castclass((RuntimeObject*)L_60, IL2CPP_RGCTX_DATA(InitializedTypeInfo(method->klass)->rgctx_data, 3)));
+	}
+
+IL_0159:
+	{
+		RuntimeTypeHandle_t7B542280A22F0EC4EAC2061C29178845847A8B2D  L_61 = { reinterpret_cast<intptr_t> (LongEnumEqualityComparer_1_t6B940FD5688E20A1CF36AD68CCF3A39071FFB0DB_0_0_0_var) };
+		IL2CPP_RUNTIME_CLASS_INIT(Type_t_il2cpp_TypeInfo_var);
+		Type_t * L_62 = Type_GetTypeFromHandle_m9DC58ADF0512987012A8A016FB64B068F3B1AFF6((RuntimeTypeHandle_t7B542280A22F0EC4EAC2061C29178845847A8B2D )L_61, /*hidden argument*/NULL);
+		RuntimeType_t40F13BCEAD97478C72C4B40BFDC2A220161CDB8F * L_63 = V_0;
+		IL2CPP_RUNTIME_CLASS_INIT(RuntimeType_t40F13BCEAD97478C72C4B40BFDC2A220161CDB8F_il2cpp_TypeInfo_var);
+		RuntimeObject * L_64 = RuntimeType_CreateInstanceForAnotherGenericParameter_mFAF735890E821AF021168FCBAC1AA6BFA49586F4((Type_t *)L_62, (RuntimeType_t40F13BCEAD97478C72C4B40BFDC2A220161CDB8F *)L_63, /*hidden argument*/NULL);
+		return ((EqualityComparer_1_t473284C1B64EE3B6A648577B1832E02316F65C08 *)Castclass((RuntimeObject*)L_64, IL2CPP_RGCTX_DATA(InitializedTypeInfo(method->klass)->rgctx_data, 3)));
+	}
+
+IL_016f:
+	{
+		ObjectEqualityComparer_1_t232707B52993002BCF4F9CD86A3490E5CE2FB365 * L_65 = (ObjectEqualityComparer_1_t232707B52993002BCF4F9CD86A3490E5CE2FB365 *)il2cpp_codegen_object_new(IL2CPP_RGCTX_DATA(InitializedTypeInfo(method->klass)->rgctx_data, 5));
+		((  void (*) (ObjectEqualityComparer_1_t232707B52993002BCF4F9CD86A3490E5CE2FB365 *, const RuntimeMethod*))IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->klass)->rgctx_data, 6)->methodPointer)(L_65, /*hidden argument*/IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->klass)->rgctx_data, 6));
+		return L_65;
+	}
+}
+// System.Int32 System.Collections.Generic.EqualityComparer`1<UnityEngine.UI.Navigation>::IndexOf(T[],T,System.Int32,System.Int32)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t EqualityComparer_1_IndexOf_m1E120489E1A2551F1730C6CD824180243329CD61_gshared (EqualityComparer_1_t473284C1B64EE3B6A648577B1832E02316F65C08 * __this, NavigationU5BU5D_tED2679638506D7BDA5062C2FE17EC5F169233A6D* ___array0, Navigation_t761250C05C09773B75F5E0D52DDCBBFE60288A07  ___value1, int32_t ___startIndex2, int32_t ___count3, const RuntimeMethod* method)
+{
+	int32_t V_0 = 0;
+	int32_t V_1 = 0;
+	{
+		int32_t L_0 = ___startIndex2;
+		int32_t L_1 = ___count3;
+		V_0 = (int32_t)((int32_t)il2cpp_codegen_add((int32_t)L_0, (int32_t)L_1));
+		int32_t L_2 = ___startIndex2;
+		V_1 = (int32_t)L_2;
+		goto IL_001f;
+	}
+
+IL_0009:
+	{
+		NavigationU5BU5D_tED2679638506D7BDA5062C2FE17EC5F169233A6D* L_3 = ___array0;
+		int32_t L_4 = V_1;
+		NullCheck(L_3);
+		int32_t L_5 = L_4;
+		Navigation_t761250C05C09773B75F5E0D52DDCBBFE60288A07  L_6 = (L_3)->GetAt(static_cast<il2cpp_array_size_t>(L_5));
+		Navigation_t761250C05C09773B75F5E0D52DDCBBFE60288A07  L_7 = ___value1;
+		NullCheck((EqualityComparer_1_t473284C1B64EE3B6A648577B1832E02316F65C08 *)__this);
+		bool L_8 = VirtFuncInvoker2< bool, Navigation_t761250C05C09773B75F5E0D52DDCBBFE60288A07 , Navigation_t761250C05C09773B75F5E0D52DDCBBFE60288A07  >::Invoke(8 /* System.Boolean System.Collections.Generic.EqualityComparer`1<UnityEngine.UI.Navigation>::Equals(T,T) */, (EqualityComparer_1_t473284C1B64EE3B6A648577B1832E02316F65C08 *)__this, (Navigation_t761250C05C09773B75F5E0D52DDCBBFE60288A07 )L_6, (Navigation_t761250C05C09773B75F5E0D52DDCBBFE60288A07 )L_7);
+		if (!L_8)
+		{
+			goto IL_001b;
+		}
+	}
+	{
+		int32_t L_9 = V_1;
+		return L_9;
+	}
+
+IL_001b:
+	{
+		int32_t L_10 = V_1;
+		V_1 = (int32_t)((int32_t)il2cpp_codegen_add((int32_t)L_10, (int32_t)1));
+	}
+
+IL_001f:
+	{
+		int32_t L_11 = V_1;
+		int32_t L_12 = V_0;
+		if ((((int32_t)L_11) < ((int32_t)L_12)))
+		{
+			goto IL_0009;
+		}
+	}
+	{
+		return (-1);
+	}
+}
+// System.Int32 System.Collections.Generic.EqualityComparer`1<UnityEngine.UI.Navigation>::LastIndexOf(T[],T,System.Int32,System.Int32)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t EqualityComparer_1_LastIndexOf_mA6838E59F424C9E1A9A2964A859AB53A284B6D5C_gshared (EqualityComparer_1_t473284C1B64EE3B6A648577B1832E02316F65C08 * __this, NavigationU5BU5D_tED2679638506D7BDA5062C2FE17EC5F169233A6D* ___array0, Navigation_t761250C05C09773B75F5E0D52DDCBBFE60288A07  ___value1, int32_t ___startIndex2, int32_t ___count3, const RuntimeMethod* method)
+{
+	int32_t V_0 = 0;
+	int32_t V_1 = 0;
+	{
+		int32_t L_0 = ___startIndex2;
+		int32_t L_1 = ___count3;
+		V_0 = (int32_t)((int32_t)il2cpp_codegen_add((int32_t)((int32_t)il2cpp_codegen_subtract((int32_t)L_0, (int32_t)L_1)), (int32_t)1));
+		int32_t L_2 = ___startIndex2;
+		V_1 = (int32_t)L_2;
+		goto IL_0021;
+	}
+
+IL_000b:
+	{
+		NavigationU5BU5D_tED2679638506D7BDA5062C2FE17EC5F169233A6D* L_3 = ___array0;
+		int32_t L_4 = V_1;
+		NullCheck(L_3);
+		int32_t L_5 = L_4;
+		Navigation_t761250C05C09773B75F5E0D52DDCBBFE60288A07  L_6 = (L_3)->GetAt(static_cast<il2cpp_array_size_t>(L_5));
+		Navigation_t761250C05C09773B75F5E0D52DDCBBFE60288A07  L_7 = ___value1;
+		NullCheck((EqualityComparer_1_t473284C1B64EE3B6A648577B1832E02316F65C08 *)__this);
+		bool L_8 = VirtFuncInvoker2< bool, Navigation_t761250C05C09773B75F5E0D52DDCBBFE60288A07 , Navigation_t761250C05C09773B75F5E0D52DDCBBFE60288A07  >::Invoke(8 /* System.Boolean System.Collections.Generic.EqualityComparer`1<UnityEngine.UI.Navigation>::Equals(T,T) */, (EqualityComparer_1_t473284C1B64EE3B6A648577B1832E02316F65C08 *)__this, (Navigation_t761250C05C09773B75F5E0D52DDCBBFE60288A07 )L_6, (Navigation_t761250C05C09773B75F5E0D52DDCBBFE60288A07 )L_7);
+		if (!L_8)
+		{
+			goto IL_001d;
+		}
+	}
+	{
+		int32_t L_9 = V_1;
+		return L_9;
+	}
+
+IL_001d:
+	{
+		int32_t L_10 = V_1;
+		V_1 = (int32_t)((int32_t)il2cpp_codegen_subtract((int32_t)L_10, (int32_t)1));
+	}
+
+IL_0021:
+	{
+		int32_t L_11 = V_1;
+		int32_t L_12 = V_0;
+		if ((((int32_t)L_11) >= ((int32_t)L_12)))
+		{
+			goto IL_000b;
+		}
+	}
+	{
+		return (-1);
+	}
+}
+// System.Int32 System.Collections.Generic.EqualityComparer`1<UnityEngine.UI.Navigation>::System.Collections.IEqualityComparer.GetHashCode(System.Object)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t EqualityComparer_1_System_Collections_IEqualityComparer_GetHashCode_m0F140C7DADE907E3B9B47153CF9F24F491ECEFF6_gshared (EqualityComparer_1_t473284C1B64EE3B6A648577B1832E02316F65C08 * __this, RuntimeObject * ___obj0, const RuntimeMethod* method)
+{
+	{
+		RuntimeObject * L_0 = ___obj0;
+		if (L_0)
+		{
+			goto IL_0005;
+		}
+	}
+	{
+		return 0;
+	}
+
+IL_0005:
+	{
+		RuntimeObject * L_1 = ___obj0;
+		if (!((RuntimeObject *)IsInst((RuntimeObject*)L_1, IL2CPP_RGCTX_DATA(method->klass->rgctx_data, 8))))
+		{
+			goto IL_001a;
+		}
+	}
+	{
+		RuntimeObject * L_2 = ___obj0;
+		NullCheck((EqualityComparer_1_t473284C1B64EE3B6A648577B1832E02316F65C08 *)__this);
+		int32_t L_3 = VirtFuncInvoker1< int32_t, Navigation_t761250C05C09773B75F5E0D52DDCBBFE60288A07  >::Invoke(9 /* System.Int32 System.Collections.Generic.EqualityComparer`1<UnityEngine.UI.Navigation>::GetHashCode(T) */, (EqualityComparer_1_t473284C1B64EE3B6A648577B1832E02316F65C08 *)__this, (Navigation_t761250C05C09773B75F5E0D52DDCBBFE60288A07 )((*(Navigation_t761250C05C09773B75F5E0D52DDCBBFE60288A07 *)((Navigation_t761250C05C09773B75F5E0D52DDCBBFE60288A07 *)UnBox(L_2, IL2CPP_RGCTX_DATA(method->klass->rgctx_data, 8))))));
+		return L_3;
+	}
+
+IL_001a:
+	{
+		ThrowHelper_ThrowArgumentException_mC79DA77CCE9B239510DDD4C46043FC216B2A5B84((int32_t)2, /*hidden argument*/NULL);
+		return 0;
+	}
+}
+// System.Boolean System.Collections.Generic.EqualityComparer`1<UnityEngine.UI.Navigation>::System.Collections.IEqualityComparer.Equals(System.Object,System.Object)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool EqualityComparer_1_System_Collections_IEqualityComparer_Equals_mBE60EDF7EC99F63E08334EF24575CE71A03E3EF9_gshared (EqualityComparer_1_t473284C1B64EE3B6A648577B1832E02316F65C08 * __this, RuntimeObject * ___x0, RuntimeObject * ___y1, const RuntimeMethod* method)
+{
+	{
+		RuntimeObject * L_0 = ___x0;
+		RuntimeObject * L_1 = ___y1;
+		if ((!(((RuntimeObject*)(RuntimeObject *)L_0) == ((RuntimeObject*)(RuntimeObject *)L_1))))
+		{
+			goto IL_0006;
+		}
+	}
+	{
+		return (bool)1;
+	}
+
+IL_0006:
+	{
+		RuntimeObject * L_2 = ___x0;
+		if (!L_2)
+		{
+			goto IL_000c;
+		}
+	}
+	{
+		RuntimeObject * L_3 = ___y1;
+		if (L_3)
+		{
+			goto IL_000e;
+		}
+	}
+
+IL_000c:
+	{
+		return (bool)0;
+	}
+
+IL_000e:
+	{
+		RuntimeObject * L_4 = ___x0;
+		if (!((RuntimeObject *)IsInst((RuntimeObject*)L_4, IL2CPP_RGCTX_DATA(method->klass->rgctx_data, 8))))
+		{
+			goto IL_0031;
+		}
+	}
+	{
+		RuntimeObject * L_5 = ___y1;
+		if (!((RuntimeObject *)IsInst((RuntimeObject*)L_5, IL2CPP_RGCTX_DATA(method->klass->rgctx_data, 8))))
+		{
+			goto IL_0031;
+		}
+	}
+	{
+		RuntimeObject * L_6 = ___x0;
+		RuntimeObject * L_7 = ___y1;
+		NullCheck((EqualityComparer_1_t473284C1B64EE3B6A648577B1832E02316F65C08 *)__this);
+		bool L_8 = VirtFuncInvoker2< bool, Navigation_t761250C05C09773B75F5E0D52DDCBBFE60288A07 , Navigation_t761250C05C09773B75F5E0D52DDCBBFE60288A07  >::Invoke(8 /* System.Boolean System.Collections.Generic.EqualityComparer`1<UnityEngine.UI.Navigation>::Equals(T,T) */, (EqualityComparer_1_t473284C1B64EE3B6A648577B1832E02316F65C08 *)__this, (Navigation_t761250C05C09773B75F5E0D52DDCBBFE60288A07 )((*(Navigation_t761250C05C09773B75F5E0D52DDCBBFE60288A07 *)((Navigation_t761250C05C09773B75F5E0D52DDCBBFE60288A07 *)UnBox(L_6, IL2CPP_RGCTX_DATA(method->klass->rgctx_data, 8))))), (Navigation_t761250C05C09773B75F5E0D52DDCBBFE60288A07 )((*(Navigation_t761250C05C09773B75F5E0D52DDCBBFE60288A07 *)((Navigation_t761250C05C09773B75F5E0D52DDCBBFE60288A07 *)UnBox(L_7, IL2CPP_RGCTX_DATA(method->klass->rgctx_data, 8))))));
+		return L_8;
+	}
+
+IL_0031:
+	{
+		ThrowHelper_ThrowArgumentException_mC79DA77CCE9B239510DDD4C46043FC216B2A5B84((int32_t)2, /*hidden argument*/NULL);
+		return (bool)0;
+	}
+}
+// System.Void System.Collections.Generic.EqualityComparer`1<UnityEngine.UI.Navigation>::.ctor()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void EqualityComparer_1__ctor_mCF2E6A14067F1F07DAE574DE18BF714C3E423CDD_gshared (EqualityComparer_1_t473284C1B64EE3B6A648577B1832E02316F65C08 * __this, const RuntimeMethod* method)
+{
+	{
+		NullCheck((RuntimeObject *)__this);
+		Object__ctor_m925ECA5E85CA100E3FB86A4F9E15C120E9A184C0((RuntimeObject *)__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// System.Collections.Generic.EqualityComparer`1<T> System.Collections.Generic.EqualityComparer`1<UnityEngine.UI.SpriteState>::get_Default()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR EqualityComparer_1_tED97D7A473D6A4571389020C4BEA2DD1D3F2FF49 * EqualityComparer_1_get_Default_mB87FFFC4A3F25356D3F07CCAFA855756E502308B_gshared (const RuntimeMethod* method)
+{
+	EqualityComparer_1_tED97D7A473D6A4571389020C4BEA2DD1D3F2FF49 * V_0 = NULL;
+	{
+		EqualityComparer_1_tED97D7A473D6A4571389020C4BEA2DD1D3F2FF49 * L_0 = ((EqualityComparer_1_tED97D7A473D6A4571389020C4BEA2DD1D3F2FF49_StaticFields*)il2cpp_codegen_static_fields_for(IL2CPP_RGCTX_DATA(InitializedTypeInfo(method->klass)->rgctx_data, 0)))->get_defaultComparer_0();
+		il2cpp_codegen_memory_barrier();
+		V_0 = (EqualityComparer_1_tED97D7A473D6A4571389020C4BEA2DD1D3F2FF49 *)L_0;
+		EqualityComparer_1_tED97D7A473D6A4571389020C4BEA2DD1D3F2FF49 * L_1 = V_0;
+		if (L_1)
+		{
+			goto IL_0019;
+		}
+	}
+	{
+		EqualityComparer_1_tED97D7A473D6A4571389020C4BEA2DD1D3F2FF49 * L_2 = ((  EqualityComparer_1_tED97D7A473D6A4571389020C4BEA2DD1D3F2FF49 * (*) (const RuntimeMethod*))IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->klass)->rgctx_data, 1)->methodPointer)(/*hidden argument*/IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->klass)->rgctx_data, 1));
+		V_0 = (EqualityComparer_1_tED97D7A473D6A4571389020C4BEA2DD1D3F2FF49 *)L_2;
+		EqualityComparer_1_tED97D7A473D6A4571389020C4BEA2DD1D3F2FF49 * L_3 = V_0;
+		il2cpp_codegen_memory_barrier();
+		((EqualityComparer_1_tED97D7A473D6A4571389020C4BEA2DD1D3F2FF49_StaticFields*)il2cpp_codegen_static_fields_for(IL2CPP_RGCTX_DATA(InitializedTypeInfo(method->klass)->rgctx_data, 0)))->set_defaultComparer_0(L_3);
+	}
+
+IL_0019:
+	{
+		EqualityComparer_1_tED97D7A473D6A4571389020C4BEA2DD1D3F2FF49 * L_4 = V_0;
+		return L_4;
+	}
+}
+// System.Collections.Generic.EqualityComparer`1<T> System.Collections.Generic.EqualityComparer`1<UnityEngine.UI.SpriteState>::CreateComparer()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR EqualityComparer_1_tED97D7A473D6A4571389020C4BEA2DD1D3F2FF49 * EqualityComparer_1_CreateComparer_m32C8D4DC5F60D979F8B1D311EEEC2DF099B3B43F_gshared (const RuntimeMethod* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (EqualityComparer_1_CreateComparer_m32C8D4DC5F60D979F8B1D311EEEC2DF099B3B43F_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	RuntimeType_t40F13BCEAD97478C72C4B40BFDC2A220161CDB8F * V_0 = NULL;
+	RuntimeType_t40F13BCEAD97478C72C4B40BFDC2A220161CDB8F * V_1 = NULL;
+	int32_t V_2 = 0;
+	{
+		RuntimeTypeHandle_t7B542280A22F0EC4EAC2061C29178845847A8B2D  L_0 = { reinterpret_cast<intptr_t> (IL2CPP_RGCTX_TYPE(InitializedTypeInfo(method->klass)->rgctx_data, 2)) };
+		IL2CPP_RUNTIME_CLASS_INIT(Type_t_il2cpp_TypeInfo_var);
+		Type_t * L_1 = Type_GetTypeFromHandle_m9DC58ADF0512987012A8A016FB64B068F3B1AFF6((RuntimeTypeHandle_t7B542280A22F0EC4EAC2061C29178845847A8B2D )L_0, /*hidden argument*/NULL);
+		V_0 = (RuntimeType_t40F13BCEAD97478C72C4B40BFDC2A220161CDB8F *)((RuntimeType_t40F13BCEAD97478C72C4B40BFDC2A220161CDB8F *)Castclass((RuntimeObject*)L_1, RuntimeType_t40F13BCEAD97478C72C4B40BFDC2A220161CDB8F_il2cpp_TypeInfo_var));
+		RuntimeType_t40F13BCEAD97478C72C4B40BFDC2A220161CDB8F * L_2 = V_0;
+		RuntimeTypeHandle_t7B542280A22F0EC4EAC2061C29178845847A8B2D  L_3 = { reinterpret_cast<intptr_t> (Byte_tF87C579059BD4633E6840EBBBEEF899C6E33EF07_0_0_0_var) };
+		Type_t * L_4 = Type_GetTypeFromHandle_m9DC58ADF0512987012A8A016FB64B068F3B1AFF6((RuntimeTypeHandle_t7B542280A22F0EC4EAC2061C29178845847A8B2D )L_3, /*hidden argument*/NULL);
+		bool L_5 = Type_op_Equality_m7040622C9E1037EFC73E1F0EDB1DD241282BE3D8((Type_t *)L_2, (Type_t *)L_4, /*hidden argument*/NULL);
+		if (!L_5)
+		{
+			goto IL_002d;
+		}
+	}
+	{
+		ByteEqualityComparer_t45A85C063C30D3CDABEAD21C8CDF353E3EE55B8B * L_6 = (ByteEqualityComparer_t45A85C063C30D3CDABEAD21C8CDF353E3EE55B8B *)il2cpp_codegen_object_new(ByteEqualityComparer_t45A85C063C30D3CDABEAD21C8CDF353E3EE55B8B_il2cpp_TypeInfo_var);
+		ByteEqualityComparer__ctor_m2B86B16398C9ADBA996127A209179E9654EF6A68(L_6, /*hidden argument*/NULL);
+		return ((EqualityComparer_1_tED97D7A473D6A4571389020C4BEA2DD1D3F2FF49 *)Castclass((RuntimeObject*)L_6, IL2CPP_RGCTX_DATA(InitializedTypeInfo(method->klass)->rgctx_data, 3)));
+	}
+
+IL_002d:
+	{
+		RuntimeType_t40F13BCEAD97478C72C4B40BFDC2A220161CDB8F * L_7 = V_0;
+		RuntimeTypeHandle_t7B542280A22F0EC4EAC2061C29178845847A8B2D  L_8 = { reinterpret_cast<intptr_t> (String_t_0_0_0_var) };
+		IL2CPP_RUNTIME_CLASS_INIT(Type_t_il2cpp_TypeInfo_var);
+		Type_t * L_9 = Type_GetTypeFromHandle_m9DC58ADF0512987012A8A016FB64B068F3B1AFF6((RuntimeTypeHandle_t7B542280A22F0EC4EAC2061C29178845847A8B2D )L_8, /*hidden argument*/NULL);
+		bool L_10 = Type_op_Equality_m7040622C9E1037EFC73E1F0EDB1DD241282BE3D8((Type_t *)L_7, (Type_t *)L_9, /*hidden argument*/NULL);
+		if (!L_10)
+		{
+			goto IL_004a;
+		}
+	}
+	{
+		InternalStringComparer_tCD150130A3DB4C80186B5D8145B910B33496D4CD * L_11 = (InternalStringComparer_tCD150130A3DB4C80186B5D8145B910B33496D4CD *)il2cpp_codegen_object_new(InternalStringComparer_tCD150130A3DB4C80186B5D8145B910B33496D4CD_il2cpp_TypeInfo_var);
+		InternalStringComparer__ctor_m471FF151AF831B76635ED96C53CF08114FD42C83(L_11, /*hidden argument*/NULL);
+		return ((EqualityComparer_1_tED97D7A473D6A4571389020C4BEA2DD1D3F2FF49 *)Castclass((RuntimeObject*)L_11, IL2CPP_RGCTX_DATA(InitializedTypeInfo(method->klass)->rgctx_data, 3)));
+	}
+
+IL_004a:
+	{
+		RuntimeTypeHandle_t7B542280A22F0EC4EAC2061C29178845847A8B2D  L_12 = { reinterpret_cast<intptr_t> (IL2CPP_RGCTX_TYPE(InitializedTypeInfo(method->klass)->rgctx_data, 4)) };
+		IL2CPP_RUNTIME_CLASS_INIT(Type_t_il2cpp_TypeInfo_var);
+		Type_t * L_13 = Type_GetTypeFromHandle_m9DC58ADF0512987012A8A016FB64B068F3B1AFF6((RuntimeTypeHandle_t7B542280A22F0EC4EAC2061C29178845847A8B2D )L_12, /*hidden argument*/NULL);
+		RuntimeType_t40F13BCEAD97478C72C4B40BFDC2A220161CDB8F * L_14 = V_0;
+		NullCheck((Type_t *)L_13);
+		bool L_15 = VirtFuncInvoker1< bool, Type_t * >::Invoke(104 /* System.Boolean System.Type::IsAssignableFrom(System.Type) */, (Type_t *)L_13, (Type_t *)L_14);
+		if (!L_15)
+		{
+			goto IL_0072;
+		}
+	}
+	{
+		RuntimeTypeHandle_t7B542280A22F0EC4EAC2061C29178845847A8B2D  L_16 = { reinterpret_cast<intptr_t> (GenericEqualityComparer_1_t86530EF2BF9E43CCEE775B5862B48F735555A90B_0_0_0_var) };
+		IL2CPP_RUNTIME_CLASS_INIT(Type_t_il2cpp_TypeInfo_var);
+		Type_t * L_17 = Type_GetTypeFromHandle_m9DC58ADF0512987012A8A016FB64B068F3B1AFF6((RuntimeTypeHandle_t7B542280A22F0EC4EAC2061C29178845847A8B2D )L_16, /*hidden argument*/NULL);
+		RuntimeType_t40F13BCEAD97478C72C4B40BFDC2A220161CDB8F * L_18 = V_0;
+		IL2CPP_RUNTIME_CLASS_INIT(RuntimeType_t40F13BCEAD97478C72C4B40BFDC2A220161CDB8F_il2cpp_TypeInfo_var);
+		RuntimeObject * L_19 = RuntimeType_CreateInstanceForAnotherGenericParameter_mFAF735890E821AF021168FCBAC1AA6BFA49586F4((Type_t *)L_17, (RuntimeType_t40F13BCEAD97478C72C4B40BFDC2A220161CDB8F *)L_18, /*hidden argument*/NULL);
+		return ((EqualityComparer_1_tED97D7A473D6A4571389020C4BEA2DD1D3F2FF49 *)Castclass((RuntimeObject*)L_19, IL2CPP_RGCTX_DATA(InitializedTypeInfo(method->klass)->rgctx_data, 3)));
+	}
+
+IL_0072:
+	{
+		RuntimeType_t40F13BCEAD97478C72C4B40BFDC2A220161CDB8F * L_20 = V_0;
+		NullCheck((Type_t *)L_20);
+		bool L_21 = VirtFuncInvoker0< bool >::Invoke(69 /* System.Boolean System.Type::get_IsGenericType() */, (Type_t *)L_20);
+		if (!L_21)
+		{
+			goto IL_00d6;
+		}
+	}
+	{
+		RuntimeType_t40F13BCEAD97478C72C4B40BFDC2A220161CDB8F * L_22 = V_0;
+		NullCheck((Type_t *)L_22);
+		Type_t * L_23 = VirtFuncInvoker0< Type_t * >::Invoke(94 /* System.Type System.Type::GetGenericTypeDefinition() */, (Type_t *)L_22);
+		RuntimeTypeHandle_t7B542280A22F0EC4EAC2061C29178845847A8B2D  L_24 = { reinterpret_cast<intptr_t> (Nullable_1_t220FFA40D2CEE2CB28F8C04DB1216024A0BC75C3_0_0_0_var) };
+		IL2CPP_RUNTIME_CLASS_INIT(Type_t_il2cpp_TypeInfo_var);
+		Type_t * L_25 = Type_GetTypeFromHandle_m9DC58ADF0512987012A8A016FB64B068F3B1AFF6((RuntimeTypeHandle_t7B542280A22F0EC4EAC2061C29178845847A8B2D )L_24, /*hidden argument*/NULL);
+		bool L_26 = Type_op_Equality_m7040622C9E1037EFC73E1F0EDB1DD241282BE3D8((Type_t *)L_23, (Type_t *)L_25, /*hidden argument*/NULL);
+		if (!L_26)
+		{
+			goto IL_00d6;
+		}
+	}
+	{
+		RuntimeType_t40F13BCEAD97478C72C4B40BFDC2A220161CDB8F * L_27 = V_0;
+		NullCheck((Type_t *)L_27);
+		TypeU5BU5D_t7FE623A666B49176DE123306221193E888A12F5F* L_28 = VirtFuncInvoker0< TypeU5BU5D_t7FE623A666B49176DE123306221193E888A12F5F* >::Invoke(93 /* System.Type[] System.Type::GetGenericArguments() */, (Type_t *)L_27);
+		NullCheck(L_28);
+		int32_t L_29 = 0;
+		Type_t * L_30 = (L_28)->GetAt(static_cast<il2cpp_array_size_t>(L_29));
+		V_1 = (RuntimeType_t40F13BCEAD97478C72C4B40BFDC2A220161CDB8F *)((RuntimeType_t40F13BCEAD97478C72C4B40BFDC2A220161CDB8F *)Castclass((RuntimeObject*)L_30, RuntimeType_t40F13BCEAD97478C72C4B40BFDC2A220161CDB8F_il2cpp_TypeInfo_var));
+		RuntimeTypeHandle_t7B542280A22F0EC4EAC2061C29178845847A8B2D  L_31 = { reinterpret_cast<intptr_t> (IEquatable_1_t7FBC51A9FCBF69422C0DEBF035FFDC9417EF3DA1_0_0_0_var) };
+		IL2CPP_RUNTIME_CLASS_INIT(Type_t_il2cpp_TypeInfo_var);
+		Type_t * L_32 = Type_GetTypeFromHandle_m9DC58ADF0512987012A8A016FB64B068F3B1AFF6((RuntimeTypeHandle_t7B542280A22F0EC4EAC2061C29178845847A8B2D )L_31, /*hidden argument*/NULL);
+		TypeU5BU5D_t7FE623A666B49176DE123306221193E888A12F5F* L_33 = (TypeU5BU5D_t7FE623A666B49176DE123306221193E888A12F5F*)(TypeU5BU5D_t7FE623A666B49176DE123306221193E888A12F5F*)SZArrayNew(TypeU5BU5D_t7FE623A666B49176DE123306221193E888A12F5F_il2cpp_TypeInfo_var, (uint32_t)1);
+		TypeU5BU5D_t7FE623A666B49176DE123306221193E888A12F5F* L_34 = (TypeU5BU5D_t7FE623A666B49176DE123306221193E888A12F5F*)L_33;
+		RuntimeType_t40F13BCEAD97478C72C4B40BFDC2A220161CDB8F * L_35 = V_1;
+		NullCheck(L_34);
+		ArrayElementTypeCheck (L_34, L_35);
+		(L_34)->SetAt(static_cast<il2cpp_array_size_t>(0), (Type_t *)L_35);
+		NullCheck((Type_t *)L_32);
+		Type_t * L_36 = VirtFuncInvoker1< Type_t *, TypeU5BU5D_t7FE623A666B49176DE123306221193E888A12F5F* >::Invoke(89 /* System.Type System.Type::MakeGenericType(System.Type[]) */, (Type_t *)L_32, (TypeU5BU5D_t7FE623A666B49176DE123306221193E888A12F5F*)L_34);
+		RuntimeType_t40F13BCEAD97478C72C4B40BFDC2A220161CDB8F * L_37 = V_1;
+		NullCheck((Type_t *)L_36);
+		bool L_38 = VirtFuncInvoker1< bool, Type_t * >::Invoke(104 /* System.Boolean System.Type::IsAssignableFrom(System.Type) */, (Type_t *)L_36, (Type_t *)L_37);
+		if (!L_38)
+		{
+			goto IL_00d6;
+		}
+	}
+	{
+		RuntimeTypeHandle_t7B542280A22F0EC4EAC2061C29178845847A8B2D  L_39 = { reinterpret_cast<intptr_t> (NullableEqualityComparer_1_tD235D1E336771C9615EB5024AC8C35CFF8ADD27F_0_0_0_var) };
+		IL2CPP_RUNTIME_CLASS_INIT(Type_t_il2cpp_TypeInfo_var);
+		Type_t * L_40 = Type_GetTypeFromHandle_m9DC58ADF0512987012A8A016FB64B068F3B1AFF6((RuntimeTypeHandle_t7B542280A22F0EC4EAC2061C29178845847A8B2D )L_39, /*hidden argument*/NULL);
+		RuntimeType_t40F13BCEAD97478C72C4B40BFDC2A220161CDB8F * L_41 = V_1;
+		IL2CPP_RUNTIME_CLASS_INIT(RuntimeType_t40F13BCEAD97478C72C4B40BFDC2A220161CDB8F_il2cpp_TypeInfo_var);
+		RuntimeObject * L_42 = RuntimeType_CreateInstanceForAnotherGenericParameter_mFAF735890E821AF021168FCBAC1AA6BFA49586F4((Type_t *)L_40, (RuntimeType_t40F13BCEAD97478C72C4B40BFDC2A220161CDB8F *)L_41, /*hidden argument*/NULL);
+		return ((EqualityComparer_1_tED97D7A473D6A4571389020C4BEA2DD1D3F2FF49 *)Castclass((RuntimeObject*)L_42, IL2CPP_RGCTX_DATA(InitializedTypeInfo(method->klass)->rgctx_data, 3)));
+	}
+
+IL_00d6:
+	{
+		RuntimeType_t40F13BCEAD97478C72C4B40BFDC2A220161CDB8F * L_43 = V_0;
+		NullCheck((Type_t *)L_43);
+		bool L_44 = VirtFuncInvoker0< bool >::Invoke(65 /* System.Boolean System.Type::get_IsEnum() */, (Type_t *)L_43);
+		if (!L_44)
+		{
+			goto IL_016f;
+		}
+	}
+	{
+		RuntimeType_t40F13BCEAD97478C72C4B40BFDC2A220161CDB8F * L_45 = V_0;
+		IL2CPP_RUNTIME_CLASS_INIT(Enum_t2AF27C02B8653AE29442467390005ABC74D8F521_il2cpp_TypeInfo_var);
+		Type_t * L_46 = Enum_GetUnderlyingType_m0715B4E60E6909F03FF7302B6E20B1AB88DA84B1((Type_t *)L_45, /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(Type_t_il2cpp_TypeInfo_var);
+		int32_t L_47 = Type_GetTypeCode_m3105BBCE671D89EFE212F9BA06AAB90944A6116F((Type_t *)L_46, /*hidden argument*/NULL);
+		V_2 = (int32_t)L_47;
+		int32_t L_48 = V_2;
+		switch (((int32_t)il2cpp_codegen_subtract((int32_t)L_48, (int32_t)5)))
+		{
+			case 0:
+			{
+				goto IL_012d;
+			}
+			case 1:
+			{
+				goto IL_0143;
+			}
+			case 2:
+			{
+				goto IL_0117;
+			}
+			case 3:
+			{
+				goto IL_0143;
+			}
+			case 4:
+			{
+				goto IL_0143;
+			}
+			case 5:
+			{
+				goto IL_0143;
+			}
+			case 6:
+			{
+				goto IL_0159;
+			}
+			case 7:
+			{
+				goto IL_0159;
+			}
+		}
+	}
+	{
+		goto IL_016f;
+	}
+
+IL_0117:
+	{
+		RuntimeTypeHandle_t7B542280A22F0EC4EAC2061C29178845847A8B2D  L_49 = { reinterpret_cast<intptr_t> (ShortEnumEqualityComparer_1_tCB4B7DE9F58431002227076F18CFFC289C6CBD64_0_0_0_var) };
+		IL2CPP_RUNTIME_CLASS_INIT(Type_t_il2cpp_TypeInfo_var);
+		Type_t * L_50 = Type_GetTypeFromHandle_m9DC58ADF0512987012A8A016FB64B068F3B1AFF6((RuntimeTypeHandle_t7B542280A22F0EC4EAC2061C29178845847A8B2D )L_49, /*hidden argument*/NULL);
+		RuntimeType_t40F13BCEAD97478C72C4B40BFDC2A220161CDB8F * L_51 = V_0;
+		IL2CPP_RUNTIME_CLASS_INIT(RuntimeType_t40F13BCEAD97478C72C4B40BFDC2A220161CDB8F_il2cpp_TypeInfo_var);
+		RuntimeObject * L_52 = RuntimeType_CreateInstanceForAnotherGenericParameter_mFAF735890E821AF021168FCBAC1AA6BFA49586F4((Type_t *)L_50, (RuntimeType_t40F13BCEAD97478C72C4B40BFDC2A220161CDB8F *)L_51, /*hidden argument*/NULL);
+		return ((EqualityComparer_1_tED97D7A473D6A4571389020C4BEA2DD1D3F2FF49 *)Castclass((RuntimeObject*)L_52, IL2CPP_RGCTX_DATA(InitializedTypeInfo(method->klass)->rgctx_data, 3)));
+	}
+
+IL_012d:
+	{
+		RuntimeTypeHandle_t7B542280A22F0EC4EAC2061C29178845847A8B2D  L_53 = { reinterpret_cast<intptr_t> (SByteEnumEqualityComparer_1_t0E5A82C922F801F365CCC4BE3062A765423A5852_0_0_0_var) };
+		IL2CPP_RUNTIME_CLASS_INIT(Type_t_il2cpp_TypeInfo_var);
+		Type_t * L_54 = Type_GetTypeFromHandle_m9DC58ADF0512987012A8A016FB64B068F3B1AFF6((RuntimeTypeHandle_t7B542280A22F0EC4EAC2061C29178845847A8B2D )L_53, /*hidden argument*/NULL);
+		RuntimeType_t40F13BCEAD97478C72C4B40BFDC2A220161CDB8F * L_55 = V_0;
+		IL2CPP_RUNTIME_CLASS_INIT(RuntimeType_t40F13BCEAD97478C72C4B40BFDC2A220161CDB8F_il2cpp_TypeInfo_var);
+		RuntimeObject * L_56 = RuntimeType_CreateInstanceForAnotherGenericParameter_mFAF735890E821AF021168FCBAC1AA6BFA49586F4((Type_t *)L_54, (RuntimeType_t40F13BCEAD97478C72C4B40BFDC2A220161CDB8F *)L_55, /*hidden argument*/NULL);
+		return ((EqualityComparer_1_tED97D7A473D6A4571389020C4BEA2DD1D3F2FF49 *)Castclass((RuntimeObject*)L_56, IL2CPP_RGCTX_DATA(InitializedTypeInfo(method->klass)->rgctx_data, 3)));
+	}
+
+IL_0143:
+	{
+		RuntimeTypeHandle_t7B542280A22F0EC4EAC2061C29178845847A8B2D  L_57 = { reinterpret_cast<intptr_t> (EnumEqualityComparer_1_tC44C7E08405BCDA86FDDFB9714C4301D39723C3A_0_0_0_var) };
+		IL2CPP_RUNTIME_CLASS_INIT(Type_t_il2cpp_TypeInfo_var);
+		Type_t * L_58 = Type_GetTypeFromHandle_m9DC58ADF0512987012A8A016FB64B068F3B1AFF6((RuntimeTypeHandle_t7B542280A22F0EC4EAC2061C29178845847A8B2D )L_57, /*hidden argument*/NULL);
+		RuntimeType_t40F13BCEAD97478C72C4B40BFDC2A220161CDB8F * L_59 = V_0;
+		IL2CPP_RUNTIME_CLASS_INIT(RuntimeType_t40F13BCEAD97478C72C4B40BFDC2A220161CDB8F_il2cpp_TypeInfo_var);
+		RuntimeObject * L_60 = RuntimeType_CreateInstanceForAnotherGenericParameter_mFAF735890E821AF021168FCBAC1AA6BFA49586F4((Type_t *)L_58, (RuntimeType_t40F13BCEAD97478C72C4B40BFDC2A220161CDB8F *)L_59, /*hidden argument*/NULL);
+		return ((EqualityComparer_1_tED97D7A473D6A4571389020C4BEA2DD1D3F2FF49 *)Castclass((RuntimeObject*)L_60, IL2CPP_RGCTX_DATA(InitializedTypeInfo(method->klass)->rgctx_data, 3)));
+	}
+
+IL_0159:
+	{
+		RuntimeTypeHandle_t7B542280A22F0EC4EAC2061C29178845847A8B2D  L_61 = { reinterpret_cast<intptr_t> (LongEnumEqualityComparer_1_t6B940FD5688E20A1CF36AD68CCF3A39071FFB0DB_0_0_0_var) };
+		IL2CPP_RUNTIME_CLASS_INIT(Type_t_il2cpp_TypeInfo_var);
+		Type_t * L_62 = Type_GetTypeFromHandle_m9DC58ADF0512987012A8A016FB64B068F3B1AFF6((RuntimeTypeHandle_t7B542280A22F0EC4EAC2061C29178845847A8B2D )L_61, /*hidden argument*/NULL);
+		RuntimeType_t40F13BCEAD97478C72C4B40BFDC2A220161CDB8F * L_63 = V_0;
+		IL2CPP_RUNTIME_CLASS_INIT(RuntimeType_t40F13BCEAD97478C72C4B40BFDC2A220161CDB8F_il2cpp_TypeInfo_var);
+		RuntimeObject * L_64 = RuntimeType_CreateInstanceForAnotherGenericParameter_mFAF735890E821AF021168FCBAC1AA6BFA49586F4((Type_t *)L_62, (RuntimeType_t40F13BCEAD97478C72C4B40BFDC2A220161CDB8F *)L_63, /*hidden argument*/NULL);
+		return ((EqualityComparer_1_tED97D7A473D6A4571389020C4BEA2DD1D3F2FF49 *)Castclass((RuntimeObject*)L_64, IL2CPP_RGCTX_DATA(InitializedTypeInfo(method->klass)->rgctx_data, 3)));
+	}
+
+IL_016f:
+	{
+		ObjectEqualityComparer_1_t2FCEBB7F8CF8AAAE10CAC86A0D6402583C12A8BF * L_65 = (ObjectEqualityComparer_1_t2FCEBB7F8CF8AAAE10CAC86A0D6402583C12A8BF *)il2cpp_codegen_object_new(IL2CPP_RGCTX_DATA(InitializedTypeInfo(method->klass)->rgctx_data, 5));
+		((  void (*) (ObjectEqualityComparer_1_t2FCEBB7F8CF8AAAE10CAC86A0D6402583C12A8BF *, const RuntimeMethod*))IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->klass)->rgctx_data, 6)->methodPointer)(L_65, /*hidden argument*/IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->klass)->rgctx_data, 6));
+		return L_65;
+	}
+}
+// System.Int32 System.Collections.Generic.EqualityComparer`1<UnityEngine.UI.SpriteState>::IndexOf(T[],T,System.Int32,System.Int32)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t EqualityComparer_1_IndexOf_m7ED4B6D88C5F7718BDAC4BFEDD0EAEA4A2ED735D_gshared (EqualityComparer_1_tED97D7A473D6A4571389020C4BEA2DD1D3F2FF49 * __this, SpriteStateU5BU5D_t6452EE17737027DABCA2DCEC11461C3CBF40FCDC* ___array0, SpriteState_t58B9DD66A79CD69AB4CFC3AD0C41E45DC2192C0A  ___value1, int32_t ___startIndex2, int32_t ___count3, const RuntimeMethod* method)
+{
+	int32_t V_0 = 0;
+	int32_t V_1 = 0;
+	{
+		int32_t L_0 = ___startIndex2;
+		int32_t L_1 = ___count3;
+		V_0 = (int32_t)((int32_t)il2cpp_codegen_add((int32_t)L_0, (int32_t)L_1));
+		int32_t L_2 = ___startIndex2;
+		V_1 = (int32_t)L_2;
+		goto IL_001f;
+	}
+
+IL_0009:
+	{
+		SpriteStateU5BU5D_t6452EE17737027DABCA2DCEC11461C3CBF40FCDC* L_3 = ___array0;
+		int32_t L_4 = V_1;
+		NullCheck(L_3);
+		int32_t L_5 = L_4;
+		SpriteState_t58B9DD66A79CD69AB4CFC3AD0C41E45DC2192C0A  L_6 = (L_3)->GetAt(static_cast<il2cpp_array_size_t>(L_5));
+		SpriteState_t58B9DD66A79CD69AB4CFC3AD0C41E45DC2192C0A  L_7 = ___value1;
+		NullCheck((EqualityComparer_1_tED97D7A473D6A4571389020C4BEA2DD1D3F2FF49 *)__this);
+		bool L_8 = VirtFuncInvoker2< bool, SpriteState_t58B9DD66A79CD69AB4CFC3AD0C41E45DC2192C0A , SpriteState_t58B9DD66A79CD69AB4CFC3AD0C41E45DC2192C0A  >::Invoke(8 /* System.Boolean System.Collections.Generic.EqualityComparer`1<UnityEngine.UI.SpriteState>::Equals(T,T) */, (EqualityComparer_1_tED97D7A473D6A4571389020C4BEA2DD1D3F2FF49 *)__this, (SpriteState_t58B9DD66A79CD69AB4CFC3AD0C41E45DC2192C0A )L_6, (SpriteState_t58B9DD66A79CD69AB4CFC3AD0C41E45DC2192C0A )L_7);
+		if (!L_8)
+		{
+			goto IL_001b;
+		}
+	}
+	{
+		int32_t L_9 = V_1;
+		return L_9;
+	}
+
+IL_001b:
+	{
+		int32_t L_10 = V_1;
+		V_1 = (int32_t)((int32_t)il2cpp_codegen_add((int32_t)L_10, (int32_t)1));
+	}
+
+IL_001f:
+	{
+		int32_t L_11 = V_1;
+		int32_t L_12 = V_0;
+		if ((((int32_t)L_11) < ((int32_t)L_12)))
+		{
+			goto IL_0009;
+		}
+	}
+	{
+		return (-1);
+	}
+}
+// System.Int32 System.Collections.Generic.EqualityComparer`1<UnityEngine.UI.SpriteState>::LastIndexOf(T[],T,System.Int32,System.Int32)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t EqualityComparer_1_LastIndexOf_mF3008A8D5575014218D67B2EB0C697225F1CCB63_gshared (EqualityComparer_1_tED97D7A473D6A4571389020C4BEA2DD1D3F2FF49 * __this, SpriteStateU5BU5D_t6452EE17737027DABCA2DCEC11461C3CBF40FCDC* ___array0, SpriteState_t58B9DD66A79CD69AB4CFC3AD0C41E45DC2192C0A  ___value1, int32_t ___startIndex2, int32_t ___count3, const RuntimeMethod* method)
+{
+	int32_t V_0 = 0;
+	int32_t V_1 = 0;
+	{
+		int32_t L_0 = ___startIndex2;
+		int32_t L_1 = ___count3;
+		V_0 = (int32_t)((int32_t)il2cpp_codegen_add((int32_t)((int32_t)il2cpp_codegen_subtract((int32_t)L_0, (int32_t)L_1)), (int32_t)1));
+		int32_t L_2 = ___startIndex2;
+		V_1 = (int32_t)L_2;
+		goto IL_0021;
+	}
+
+IL_000b:
+	{
+		SpriteStateU5BU5D_t6452EE17737027DABCA2DCEC11461C3CBF40FCDC* L_3 = ___array0;
+		int32_t L_4 = V_1;
+		NullCheck(L_3);
+		int32_t L_5 = L_4;
+		SpriteState_t58B9DD66A79CD69AB4CFC3AD0C41E45DC2192C0A  L_6 = (L_3)->GetAt(static_cast<il2cpp_array_size_t>(L_5));
+		SpriteState_t58B9DD66A79CD69AB4CFC3AD0C41E45DC2192C0A  L_7 = ___value1;
+		NullCheck((EqualityComparer_1_tED97D7A473D6A4571389020C4BEA2DD1D3F2FF49 *)__this);
+		bool L_8 = VirtFuncInvoker2< bool, SpriteState_t58B9DD66A79CD69AB4CFC3AD0C41E45DC2192C0A , SpriteState_t58B9DD66A79CD69AB4CFC3AD0C41E45DC2192C0A  >::Invoke(8 /* System.Boolean System.Collections.Generic.EqualityComparer`1<UnityEngine.UI.SpriteState>::Equals(T,T) */, (EqualityComparer_1_tED97D7A473D6A4571389020C4BEA2DD1D3F2FF49 *)__this, (SpriteState_t58B9DD66A79CD69AB4CFC3AD0C41E45DC2192C0A )L_6, (SpriteState_t58B9DD66A79CD69AB4CFC3AD0C41E45DC2192C0A )L_7);
+		if (!L_8)
+		{
+			goto IL_001d;
+		}
+	}
+	{
+		int32_t L_9 = V_1;
+		return L_9;
+	}
+
+IL_001d:
+	{
+		int32_t L_10 = V_1;
+		V_1 = (int32_t)((int32_t)il2cpp_codegen_subtract((int32_t)L_10, (int32_t)1));
+	}
+
+IL_0021:
+	{
+		int32_t L_11 = V_1;
+		int32_t L_12 = V_0;
+		if ((((int32_t)L_11) >= ((int32_t)L_12)))
+		{
+			goto IL_000b;
+		}
+	}
+	{
+		return (-1);
+	}
+}
+// System.Int32 System.Collections.Generic.EqualityComparer`1<UnityEngine.UI.SpriteState>::System.Collections.IEqualityComparer.GetHashCode(System.Object)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t EqualityComparer_1_System_Collections_IEqualityComparer_GetHashCode_m079F8590582128571AA7440B481154BC6170D681_gshared (EqualityComparer_1_tED97D7A473D6A4571389020C4BEA2DD1D3F2FF49 * __this, RuntimeObject * ___obj0, const RuntimeMethod* method)
+{
+	{
+		RuntimeObject * L_0 = ___obj0;
+		if (L_0)
+		{
+			goto IL_0005;
+		}
+	}
+	{
+		return 0;
+	}
+
+IL_0005:
+	{
+		RuntimeObject * L_1 = ___obj0;
+		if (!((RuntimeObject *)IsInst((RuntimeObject*)L_1, IL2CPP_RGCTX_DATA(method->klass->rgctx_data, 8))))
+		{
+			goto IL_001a;
+		}
+	}
+	{
+		RuntimeObject * L_2 = ___obj0;
+		NullCheck((EqualityComparer_1_tED97D7A473D6A4571389020C4BEA2DD1D3F2FF49 *)__this);
+		int32_t L_3 = VirtFuncInvoker1< int32_t, SpriteState_t58B9DD66A79CD69AB4CFC3AD0C41E45DC2192C0A  >::Invoke(9 /* System.Int32 System.Collections.Generic.EqualityComparer`1<UnityEngine.UI.SpriteState>::GetHashCode(T) */, (EqualityComparer_1_tED97D7A473D6A4571389020C4BEA2DD1D3F2FF49 *)__this, (SpriteState_t58B9DD66A79CD69AB4CFC3AD0C41E45DC2192C0A )((*(SpriteState_t58B9DD66A79CD69AB4CFC3AD0C41E45DC2192C0A *)((SpriteState_t58B9DD66A79CD69AB4CFC3AD0C41E45DC2192C0A *)UnBox(L_2, IL2CPP_RGCTX_DATA(method->klass->rgctx_data, 8))))));
+		return L_3;
+	}
+
+IL_001a:
+	{
+		ThrowHelper_ThrowArgumentException_mC79DA77CCE9B239510DDD4C46043FC216B2A5B84((int32_t)2, /*hidden argument*/NULL);
+		return 0;
+	}
+}
+// System.Boolean System.Collections.Generic.EqualityComparer`1<UnityEngine.UI.SpriteState>::System.Collections.IEqualityComparer.Equals(System.Object,System.Object)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool EqualityComparer_1_System_Collections_IEqualityComparer_Equals_mAEAD80B4D2DAC28FCF1834F75D80752EC88A0E0B_gshared (EqualityComparer_1_tED97D7A473D6A4571389020C4BEA2DD1D3F2FF49 * __this, RuntimeObject * ___x0, RuntimeObject * ___y1, const RuntimeMethod* method)
+{
+	{
+		RuntimeObject * L_0 = ___x0;
+		RuntimeObject * L_1 = ___y1;
+		if ((!(((RuntimeObject*)(RuntimeObject *)L_0) == ((RuntimeObject*)(RuntimeObject *)L_1))))
+		{
+			goto IL_0006;
+		}
+	}
+	{
+		return (bool)1;
+	}
+
+IL_0006:
+	{
+		RuntimeObject * L_2 = ___x0;
+		if (!L_2)
+		{
+			goto IL_000c;
+		}
+	}
+	{
+		RuntimeObject * L_3 = ___y1;
+		if (L_3)
+		{
+			goto IL_000e;
+		}
+	}
+
+IL_000c:
+	{
+		return (bool)0;
+	}
+
+IL_000e:
+	{
+		RuntimeObject * L_4 = ___x0;
+		if (!((RuntimeObject *)IsInst((RuntimeObject*)L_4, IL2CPP_RGCTX_DATA(method->klass->rgctx_data, 8))))
+		{
+			goto IL_0031;
+		}
+	}
+	{
+		RuntimeObject * L_5 = ___y1;
+		if (!((RuntimeObject *)IsInst((RuntimeObject*)L_5, IL2CPP_RGCTX_DATA(method->klass->rgctx_data, 8))))
+		{
+			goto IL_0031;
+		}
+	}
+	{
+		RuntimeObject * L_6 = ___x0;
+		RuntimeObject * L_7 = ___y1;
+		NullCheck((EqualityComparer_1_tED97D7A473D6A4571389020C4BEA2DD1D3F2FF49 *)__this);
+		bool L_8 = VirtFuncInvoker2< bool, SpriteState_t58B9DD66A79CD69AB4CFC3AD0C41E45DC2192C0A , SpriteState_t58B9DD66A79CD69AB4CFC3AD0C41E45DC2192C0A  >::Invoke(8 /* System.Boolean System.Collections.Generic.EqualityComparer`1<UnityEngine.UI.SpriteState>::Equals(T,T) */, (EqualityComparer_1_tED97D7A473D6A4571389020C4BEA2DD1D3F2FF49 *)__this, (SpriteState_t58B9DD66A79CD69AB4CFC3AD0C41E45DC2192C0A )((*(SpriteState_t58B9DD66A79CD69AB4CFC3AD0C41E45DC2192C0A *)((SpriteState_t58B9DD66A79CD69AB4CFC3AD0C41E45DC2192C0A *)UnBox(L_6, IL2CPP_RGCTX_DATA(method->klass->rgctx_data, 8))))), (SpriteState_t58B9DD66A79CD69AB4CFC3AD0C41E45DC2192C0A )((*(SpriteState_t58B9DD66A79CD69AB4CFC3AD0C41E45DC2192C0A *)((SpriteState_t58B9DD66A79CD69AB4CFC3AD0C41E45DC2192C0A *)UnBox(L_7, IL2CPP_RGCTX_DATA(method->klass->rgctx_data, 8))))));
+		return L_8;
+	}
+
+IL_0031:
+	{
+		ThrowHelper_ThrowArgumentException_mC79DA77CCE9B239510DDD4C46043FC216B2A5B84((int32_t)2, /*hidden argument*/NULL);
+		return (bool)0;
+	}
+}
+// System.Void System.Collections.Generic.EqualityComparer`1<UnityEngine.UI.SpriteState>::.ctor()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void EqualityComparer_1__ctor_m01D5C66C8A14A2F612410E2EACA01BA922025332_gshared (EqualityComparer_1_tED97D7A473D6A4571389020C4BEA2DD1D3F2FF49 * __this, const RuntimeMethod* method)
+{
+	{
+		NullCheck((RuntimeObject *)__this);
+		Object__ctor_m925ECA5E85CA100E3FB86A4F9E15C120E9A184C0((RuntimeObject *)__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
 #ifdef __clang__
 #pragma clang diagnostic push
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
@@ -27014,4870 +29649,6 @@ IL_000a:
 		return ((int32_t)((int32_t)L_3&(int32_t)((int32_t)2147483647LL)));
 	}
 }
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
 #ifdef __clang__
 #pragma clang diagnostic pop
 #endif

@@ -6670,6 +6670,34 @@ public:
 };
 
 
+// UnityEngine.GradientAlphaKey
+struct  GradientAlphaKey_t4EB62CEE9D6AE78D1091E3594DE3BD978E758F82 
+{
+public:
+	// System.Single UnityEngine.GradientAlphaKey::alpha
+	float ___alpha_0;
+	// System.Single UnityEngine.GradientAlphaKey::time
+	float ___time_1;
+
+public:
+	inline static int32_t get_offset_of_alpha_0() { return static_cast<int32_t>(offsetof(GradientAlphaKey_t4EB62CEE9D6AE78D1091E3594DE3BD978E758F82, ___alpha_0)); }
+	inline float get_alpha_0() const { return ___alpha_0; }
+	inline float* get_address_of_alpha_0() { return &___alpha_0; }
+	inline void set_alpha_0(float value)
+	{
+		___alpha_0 = value;
+	}
+
+	inline static int32_t get_offset_of_time_1() { return static_cast<int32_t>(offsetof(GradientAlphaKey_t4EB62CEE9D6AE78D1091E3594DE3BD978E758F82, ___time_1)); }
+	inline float get_time_1() const { return ___time_1; }
+	inline float* get_address_of_time_1() { return &___time_1; }
+	inline void set_time_1(float value)
+	{
+		___time_1 = value;
+	}
+};
+
+
 // UnityEngine.Keyframe
 struct  Keyframe_t9E945CACC5AC36E067B15A634096A223A06D2D74 
 {
@@ -13803,6 +13831,34 @@ public:
 	inline void set_value___2(int32_t value)
 	{
 		___value___2 = value;
+	}
+};
+
+
+// UnityEngine.GradientColorKey
+struct  GradientColorKey_t047096E94D13A7089B05A574B361E027D37F9A0E 
+{
+public:
+	// UnityEngine.Color UnityEngine.GradientColorKey::color
+	Color_t119BCA590009762C7223FDD3AF9706653AC84ED2  ___color_0;
+	// System.Single UnityEngine.GradientColorKey::time
+	float ___time_1;
+
+public:
+	inline static int32_t get_offset_of_color_0() { return static_cast<int32_t>(offsetof(GradientColorKey_t047096E94D13A7089B05A574B361E027D37F9A0E, ___color_0)); }
+	inline Color_t119BCA590009762C7223FDD3AF9706653AC84ED2  get_color_0() const { return ___color_0; }
+	inline Color_t119BCA590009762C7223FDD3AF9706653AC84ED2 * get_address_of_color_0() { return &___color_0; }
+	inline void set_color_0(Color_t119BCA590009762C7223FDD3AF9706653AC84ED2  value)
+	{
+		___color_0 = value;
+	}
+
+	inline static int32_t get_offset_of_time_1() { return static_cast<int32_t>(offsetof(GradientColorKey_t047096E94D13A7089B05A574B361E027D37F9A0E, ___time_1)); }
+	inline float get_time_1() const { return ___time_1; }
+	inline float* get_address_of_time_1() { return &___time_1; }
+	inline void set_time_1(float value)
+	{
+		___time_1 = value;
 	}
 };
 
@@ -33295,6 +33351,13 @@ void* RuntimeInvoker_FalseColor_t119BCA590009762C7223FDD3AF9706653AC84ED2_Color3
 	return Box(il2cpp_codegen_class_from_type (il2cpp_codegen_method_return_type(methodMetadata)), &ret);
 }
 
+void* RuntimeInvoker_TrueVoid_t22962CB4C05B1D89B55A6E1139F0E87A90987017_Color_t119BCA590009762C7223FDD3AF9706653AC84ED2_Single_tDDDA9169C4E4E308AC6D7A824F9B28DC82204AE1 (Il2CppMethodPointer methodPointer, const RuntimeMethod* methodMetadata, void* obj, void** args)
+{
+	typedef void (*Func)(void* obj, Color_t119BCA590009762C7223FDD3AF9706653AC84ED2  p1, float p2, const RuntimeMethod* method);
+	((Func)methodPointer)(obj, *((Color_t119BCA590009762C7223FDD3AF9706653AC84ED2 *)args[0]), *((float*)args[1]), methodMetadata);
+	return NULL;
+}
+
 void* RuntimeInvoker_FalseMatrix4x4_t6BF60F70C9169DF14C9D2577672A44224B236ECA_Vector3_tDCF05E21F632FE2BA260C06E0D10CA81513E6720_Quaternion_t319F3319A7D43FFA5D819AD6C0A98851F0095357_Vector3_tDCF05E21F632FE2BA260C06E0D10CA81513E6720 (Il2CppMethodPointer methodPointer, const RuntimeMethod* methodMetadata, void* obj, void** args)
 {
 	typedef Matrix4x4_t6BF60F70C9169DF14C9D2577672A44224B236ECA  (*Func)(Vector3_tDCF05E21F632FE2BA260C06E0D10CA81513E6720  p1, Quaternion_t319F3319A7D43FFA5D819AD6C0A98851F0095357  p2, Vector3_tDCF05E21F632FE2BA260C06E0D10CA81513E6720  p3, const RuntimeMethod* method);
@@ -40414,6 +40477,20 @@ void* RuntimeInvoker_TrueSByte_t9070AEA2966184235653CB9B4D33B149CDA831DF_LightDa
 	return Box(il2cpp_codegen_class_from_type (il2cpp_codegen_method_return_type(methodMetadata)), &ret);
 }
 
+void* RuntimeInvoker_TrueSByte_t9070AEA2966184235653CB9B4D33B149CDA831DF_GradientAlphaKey_t4EB62CEE9D6AE78D1091E3594DE3BD978E758F82 (Il2CppMethodPointer methodPointer, const RuntimeMethod* methodMetadata, void* obj, void** args)
+{
+	typedef int8_t (*Func)(void* obj, GradientAlphaKey_t4EB62CEE9D6AE78D1091E3594DE3BD978E758F82  p1, const RuntimeMethod* method);
+	int8_t ret = ((Func)methodPointer)(obj, *((GradientAlphaKey_t4EB62CEE9D6AE78D1091E3594DE3BD978E758F82 *)args[0]), methodMetadata);
+	return Box(il2cpp_codegen_class_from_type (il2cpp_codegen_method_return_type(methodMetadata)), &ret);
+}
+
+void* RuntimeInvoker_TrueSByte_t9070AEA2966184235653CB9B4D33B149CDA831DF_GradientColorKey_t047096E94D13A7089B05A574B361E027D37F9A0E (Il2CppMethodPointer methodPointer, const RuntimeMethod* methodMetadata, void* obj, void** args)
+{
+	typedef int8_t (*Func)(void* obj, GradientColorKey_t047096E94D13A7089B05A574B361E027D37F9A0E  p1, const RuntimeMethod* method);
+	int8_t ret = ((Func)methodPointer)(obj, *((GradientColorKey_t047096E94D13A7089B05A574B361E027D37F9A0E *)args[0]), methodMetadata);
+	return Box(il2cpp_codegen_class_from_type (il2cpp_codegen_method_return_type(methodMetadata)), &ret);
+}
+
 void* RuntimeInvoker_TrueSByte_t9070AEA2966184235653CB9B4D33B149CDA831DF_Keyframe_t9E945CACC5AC36E067B15A634096A223A06D2D74 (Il2CppMethodPointer methodPointer, const RuntimeMethod* methodMetadata, void* obj, void** args)
 {
 	typedef int8_t (*Func)(void* obj, Keyframe_t9E945CACC5AC36E067B15A634096A223A06D2D74  p1, const RuntimeMethod* method);
@@ -41415,6 +41492,20 @@ void* RuntimeInvoker_TrueInt32_t585191389E07734F19F3156FF88FB3EF4800D102_LightDa
 	return Box(il2cpp_codegen_class_from_type (il2cpp_codegen_method_return_type(methodMetadata)), &ret);
 }
 
+void* RuntimeInvoker_TrueInt32_t585191389E07734F19F3156FF88FB3EF4800D102_GradientAlphaKey_t4EB62CEE9D6AE78D1091E3594DE3BD978E758F82 (Il2CppMethodPointer methodPointer, const RuntimeMethod* methodMetadata, void* obj, void** args)
+{
+	typedef int32_t (*Func)(void* obj, GradientAlphaKey_t4EB62CEE9D6AE78D1091E3594DE3BD978E758F82  p1, const RuntimeMethod* method);
+	int32_t ret = ((Func)methodPointer)(obj, *((GradientAlphaKey_t4EB62CEE9D6AE78D1091E3594DE3BD978E758F82 *)args[0]), methodMetadata);
+	return Box(il2cpp_codegen_class_from_type (il2cpp_codegen_method_return_type(methodMetadata)), &ret);
+}
+
+void* RuntimeInvoker_TrueInt32_t585191389E07734F19F3156FF88FB3EF4800D102_GradientColorKey_t047096E94D13A7089B05A574B361E027D37F9A0E (Il2CppMethodPointer methodPointer, const RuntimeMethod* methodMetadata, void* obj, void** args)
+{
+	typedef int32_t (*Func)(void* obj, GradientColorKey_t047096E94D13A7089B05A574B361E027D37F9A0E  p1, const RuntimeMethod* method);
+	int32_t ret = ((Func)methodPointer)(obj, *((GradientColorKey_t047096E94D13A7089B05A574B361E027D37F9A0E *)args[0]), methodMetadata);
+	return Box(il2cpp_codegen_class_from_type (il2cpp_codegen_method_return_type(methodMetadata)), &ret);
+}
+
 void* RuntimeInvoker_TrueInt32_t585191389E07734F19F3156FF88FB3EF4800D102_Keyframe_t9E945CACC5AC36E067B15A634096A223A06D2D74 (Il2CppMethodPointer methodPointer, const RuntimeMethod* methodMetadata, void* obj, void** args)
 {
 	typedef int32_t (*Func)(void* obj, Keyframe_t9E945CACC5AC36E067B15A634096A223A06D2D74  p1, const RuntimeMethod* method);
@@ -42129,6 +42220,20 @@ void* RuntimeInvoker_TrueVoid_t22962CB4C05B1D89B55A6E1139F0E87A90987017_LightDat
 	return NULL;
 }
 
+void* RuntimeInvoker_TrueVoid_t22962CB4C05B1D89B55A6E1139F0E87A90987017_GradientAlphaKey_t4EB62CEE9D6AE78D1091E3594DE3BD978E758F82 (Il2CppMethodPointer methodPointer, const RuntimeMethod* methodMetadata, void* obj, void** args)
+{
+	typedef void (*Func)(void* obj, GradientAlphaKey_t4EB62CEE9D6AE78D1091E3594DE3BD978E758F82  p1, const RuntimeMethod* method);
+	((Func)methodPointer)(obj, *((GradientAlphaKey_t4EB62CEE9D6AE78D1091E3594DE3BD978E758F82 *)args[0]), methodMetadata);
+	return NULL;
+}
+
+void* RuntimeInvoker_TrueVoid_t22962CB4C05B1D89B55A6E1139F0E87A90987017_GradientColorKey_t047096E94D13A7089B05A574B361E027D37F9A0E (Il2CppMethodPointer methodPointer, const RuntimeMethod* methodMetadata, void* obj, void** args)
+{
+	typedef void (*Func)(void* obj, GradientColorKey_t047096E94D13A7089B05A574B361E027D37F9A0E  p1, const RuntimeMethod* method);
+	((Func)methodPointer)(obj, *((GradientColorKey_t047096E94D13A7089B05A574B361E027D37F9A0E *)args[0]), methodMetadata);
+	return NULL;
+}
+
 void* RuntimeInvoker_TrueVoid_t22962CB4C05B1D89B55A6E1139F0E87A90987017_Keyframe_t9E945CACC5AC36E067B15A634096A223A06D2D74 (Il2CppMethodPointer methodPointer, const RuntimeMethod* methodMetadata, void* obj, void** args)
 {
 	typedef void (*Func)(void* obj, Keyframe_t9E945CACC5AC36E067B15A634096A223A06D2D74  p1, const RuntimeMethod* method);
@@ -42798,6 +42903,20 @@ void* RuntimeInvoker_TrueVoid_t22962CB4C05B1D89B55A6E1139F0E87A90987017_Int32_t5
 {
 	typedef void (*Func)(void* obj, int32_t p1, LightDataGI_t922D8894A3151C4F87AFD0A3562252320CA3B2A2  p2, const RuntimeMethod* method);
 	((Func)methodPointer)(obj, *((int32_t*)args[0]), *((LightDataGI_t922D8894A3151C4F87AFD0A3562252320CA3B2A2 *)args[1]), methodMetadata);
+	return NULL;
+}
+
+void* RuntimeInvoker_TrueVoid_t22962CB4C05B1D89B55A6E1139F0E87A90987017_Int32_t585191389E07734F19F3156FF88FB3EF4800D102_GradientAlphaKey_t4EB62CEE9D6AE78D1091E3594DE3BD978E758F82 (Il2CppMethodPointer methodPointer, const RuntimeMethod* methodMetadata, void* obj, void** args)
+{
+	typedef void (*Func)(void* obj, int32_t p1, GradientAlphaKey_t4EB62CEE9D6AE78D1091E3594DE3BD978E758F82  p2, const RuntimeMethod* method);
+	((Func)methodPointer)(obj, *((int32_t*)args[0]), *((GradientAlphaKey_t4EB62CEE9D6AE78D1091E3594DE3BD978E758F82 *)args[1]), methodMetadata);
+	return NULL;
+}
+
+void* RuntimeInvoker_TrueVoid_t22962CB4C05B1D89B55A6E1139F0E87A90987017_Int32_t585191389E07734F19F3156FF88FB3EF4800D102_GradientColorKey_t047096E94D13A7089B05A574B361E027D37F9A0E (Il2CppMethodPointer methodPointer, const RuntimeMethod* methodMetadata, void* obj, void** args)
+{
+	typedef void (*Func)(void* obj, int32_t p1, GradientColorKey_t047096E94D13A7089B05A574B361E027D37F9A0E  p2, const RuntimeMethod* method);
+	((Func)methodPointer)(obj, *((int32_t*)args[0]), *((GradientColorKey_t047096E94D13A7089B05A574B361E027D37F9A0E *)args[1]), methodMetadata);
 	return NULL;
 }
 
@@ -43785,6 +43904,20 @@ void* RuntimeInvoker_TrueLightDataGI_t922D8894A3151C4F87AFD0A3562252320CA3B2A2_I
 {
 	typedef LightDataGI_t922D8894A3151C4F87AFD0A3562252320CA3B2A2  (*Func)(void* obj, int32_t p1, const RuntimeMethod* method);
 	LightDataGI_t922D8894A3151C4F87AFD0A3562252320CA3B2A2  ret = ((Func)methodPointer)(obj, *((int32_t*)args[0]), methodMetadata);
+	return Box(il2cpp_codegen_class_from_type (il2cpp_codegen_method_return_type(methodMetadata)), &ret);
+}
+
+void* RuntimeInvoker_TrueGradientAlphaKey_t4EB62CEE9D6AE78D1091E3594DE3BD978E758F82_Int32_t585191389E07734F19F3156FF88FB3EF4800D102 (Il2CppMethodPointer methodPointer, const RuntimeMethod* methodMetadata, void* obj, void** args)
+{
+	typedef GradientAlphaKey_t4EB62CEE9D6AE78D1091E3594DE3BD978E758F82  (*Func)(void* obj, int32_t p1, const RuntimeMethod* method);
+	GradientAlphaKey_t4EB62CEE9D6AE78D1091E3594DE3BD978E758F82  ret = ((Func)methodPointer)(obj, *((int32_t*)args[0]), methodMetadata);
+	return Box(il2cpp_codegen_class_from_type (il2cpp_codegen_method_return_type(methodMetadata)), &ret);
+}
+
+void* RuntimeInvoker_TrueGradientColorKey_t047096E94D13A7089B05A574B361E027D37F9A0E_Int32_t585191389E07734F19F3156FF88FB3EF4800D102 (Il2CppMethodPointer methodPointer, const RuntimeMethod* methodMetadata, void* obj, void** args)
+{
+	typedef GradientColorKey_t047096E94D13A7089B05A574B361E027D37F9A0E  (*Func)(void* obj, int32_t p1, const RuntimeMethod* method);
+	GradientColorKey_t047096E94D13A7089B05A574B361E027D37F9A0E  ret = ((Func)methodPointer)(obj, *((int32_t*)args[0]), methodMetadata);
 	return Box(il2cpp_codegen_class_from_type (il2cpp_codegen_method_return_type(methodMetadata)), &ret);
 }
 
@@ -44926,6 +45059,20 @@ void* RuntimeInvoker_TrueLightDataGI_t922D8894A3151C4F87AFD0A3562252320CA3B2A2 (
 {
 	typedef LightDataGI_t922D8894A3151C4F87AFD0A3562252320CA3B2A2  (*Func)(void* obj, const RuntimeMethod* method);
 	LightDataGI_t922D8894A3151C4F87AFD0A3562252320CA3B2A2  ret = ((Func)methodPointer)(obj, methodMetadata);
+	return Box(il2cpp_codegen_class_from_type (il2cpp_codegen_method_return_type(methodMetadata)), &ret);
+}
+
+void* RuntimeInvoker_TrueGradientAlphaKey_t4EB62CEE9D6AE78D1091E3594DE3BD978E758F82 (Il2CppMethodPointer methodPointer, const RuntimeMethod* methodMetadata, void* obj, void** args)
+{
+	typedef GradientAlphaKey_t4EB62CEE9D6AE78D1091E3594DE3BD978E758F82  (*Func)(void* obj, const RuntimeMethod* method);
+	GradientAlphaKey_t4EB62CEE9D6AE78D1091E3594DE3BD978E758F82  ret = ((Func)methodPointer)(obj, methodMetadata);
+	return Box(il2cpp_codegen_class_from_type (il2cpp_codegen_method_return_type(methodMetadata)), &ret);
+}
+
+void* RuntimeInvoker_TrueGradientColorKey_t047096E94D13A7089B05A574B361E027D37F9A0E (Il2CppMethodPointer methodPointer, const RuntimeMethod* methodMetadata, void* obj, void** args)
+{
+	typedef GradientColorKey_t047096E94D13A7089B05A574B361E027D37F9A0E  (*Func)(void* obj, const RuntimeMethod* method);
+	GradientColorKey_t047096E94D13A7089B05A574B361E027D37F9A0E  ret = ((Func)methodPointer)(obj, methodMetadata);
 	return Box(il2cpp_codegen_class_from_type (il2cpp_codegen_method_return_type(methodMetadata)), &ret);
 }
 
@@ -48087,7 +48234,7 @@ void* RuntimeInvoker_TrueNativeArray_1_t70F653CBE89924503B639B2438D6FF5973388AC1
 }
 
 extern const InvokerMethod g_Il2CppInvokerPointers[];
-const InvokerMethod g_Il2CppInvokerPointers[3212] = 
+const InvokerMethod g_Il2CppInvokerPointers[3225] = 
 {
 	RuntimeInvoker_FalseRuntimeObject_RuntimeObject,
 	RuntimeInvoker_FalseRuntimeObject_RuntimeObject_RuntimeObject,
@@ -49188,6 +49335,7 @@ const InvokerMethod g_Il2CppInvokerPointers[3212] =
 	RuntimeInvoker_FalseColor_t119BCA590009762C7223FDD3AF9706653AC84ED2_Vector4_tD148D6428C3F8FF6CD998F82090113C2B490B76E,
 	RuntimeInvoker_FalseColor32_t23ABC4AE0E0BDFD2E22EE1FA0DA3904FFE5F6E23_Color_t119BCA590009762C7223FDD3AF9706653AC84ED2,
 	RuntimeInvoker_FalseColor_t119BCA590009762C7223FDD3AF9706653AC84ED2_Color32_t23ABC4AE0E0BDFD2E22EE1FA0DA3904FFE5F6E23,
+	RuntimeInvoker_TrueVoid_t22962CB4C05B1D89B55A6E1139F0E87A90987017_Color_t119BCA590009762C7223FDD3AF9706653AC84ED2_Single_tDDDA9169C4E4E308AC6D7A824F9B28DC82204AE1,
 	RuntimeInvoker_FalseMatrix4x4_t6BF60F70C9169DF14C9D2577672A44224B236ECA_Vector3_tDCF05E21F632FE2BA260C06E0D10CA81513E6720_Quaternion_t319F3319A7D43FFA5D819AD6C0A98851F0095357_Vector3_tDCF05E21F632FE2BA260C06E0D10CA81513E6720,
 	RuntimeInvoker_TrueVoid_t22962CB4C05B1D89B55A6E1139F0E87A90987017_Vector3_tDCF05E21F632FE2BA260C06E0D10CA81513E6720_Quaternion_t319F3319A7D43FFA5D819AD6C0A98851F0095357_Vector3_tDCF05E21F632FE2BA260C06E0D10CA81513E6720,
 	RuntimeInvoker_TrueVoid_t22962CB4C05B1D89B55A6E1139F0E87A90987017_Vector4_tD148D6428C3F8FF6CD998F82090113C2B490B76E_Vector4_tD148D6428C3F8FF6CD998F82090113C2B490B76E_Vector4_tD148D6428C3F8FF6CD998F82090113C2B490B76E_Vector4_tD148D6428C3F8FF6CD998F82090113C2B490B76E,
@@ -50205,6 +50353,8 @@ const InvokerMethod g_Il2CppInvokerPointers[3212] =
 	RuntimeInvoker_TrueSByte_t9070AEA2966184235653CB9B4D33B149CDA831DF_ContactPoint_tE0D3A30ED34A1FC8CA3F7391348429F3232CA515,
 	RuntimeInvoker_TrueSByte_t9070AEA2966184235653CB9B4D33B149CDA831DF_RaycastResult_t991BCED43A91EDD8580F39631DA07B1F88C58B91,
 	RuntimeInvoker_TrueSByte_t9070AEA2966184235653CB9B4D33B149CDA831DF_LightDataGI_t922D8894A3151C4F87AFD0A3562252320CA3B2A2,
+	RuntimeInvoker_TrueSByte_t9070AEA2966184235653CB9B4D33B149CDA831DF_GradientAlphaKey_t4EB62CEE9D6AE78D1091E3594DE3BD978E758F82,
+	RuntimeInvoker_TrueSByte_t9070AEA2966184235653CB9B4D33B149CDA831DF_GradientColorKey_t047096E94D13A7089B05A574B361E027D37F9A0E,
 	RuntimeInvoker_TrueSByte_t9070AEA2966184235653CB9B4D33B149CDA831DF_Keyframe_t9E945CACC5AC36E067B15A634096A223A06D2D74,
 	RuntimeInvoker_TrueSByte_t9070AEA2966184235653CB9B4D33B149CDA831DF_PlayerLoopSystem_t4F3CE091F496538800DC1FF6E750BFA72FEB8C93,
 	RuntimeInvoker_TrueSByte_t9070AEA2966184235653CB9B4D33B149CDA831DF_Particle_t64AF74F5D9C7EE7018AD98F29E4FF653558A581E,
@@ -50348,6 +50498,8 @@ const InvokerMethod g_Il2CppInvokerPointers[3212] =
 	RuntimeInvoker_TrueInt32_t585191389E07734F19F3156FF88FB3EF4800D102_ContactPoint_tE0D3A30ED34A1FC8CA3F7391348429F3232CA515,
 	RuntimeInvoker_TrueInt32_t585191389E07734F19F3156FF88FB3EF4800D102_RaycastResult_t991BCED43A91EDD8580F39631DA07B1F88C58B91,
 	RuntimeInvoker_TrueInt32_t585191389E07734F19F3156FF88FB3EF4800D102_LightDataGI_t922D8894A3151C4F87AFD0A3562252320CA3B2A2,
+	RuntimeInvoker_TrueInt32_t585191389E07734F19F3156FF88FB3EF4800D102_GradientAlphaKey_t4EB62CEE9D6AE78D1091E3594DE3BD978E758F82,
+	RuntimeInvoker_TrueInt32_t585191389E07734F19F3156FF88FB3EF4800D102_GradientColorKey_t047096E94D13A7089B05A574B361E027D37F9A0E,
 	RuntimeInvoker_TrueInt32_t585191389E07734F19F3156FF88FB3EF4800D102_Keyframe_t9E945CACC5AC36E067B15A634096A223A06D2D74,
 	RuntimeInvoker_TrueInt32_t585191389E07734F19F3156FF88FB3EF4800D102_PlayerLoopSystem_t4F3CE091F496538800DC1FF6E750BFA72FEB8C93,
 	RuntimeInvoker_TrueInt32_t585191389E07734F19F3156FF88FB3EF4800D102_Particle_t64AF74F5D9C7EE7018AD98F29E4FF653558A581E,
@@ -50450,6 +50602,8 @@ const InvokerMethod g_Il2CppInvokerPointers[3212] =
 	RuntimeInvoker_TrueVoid_t22962CB4C05B1D89B55A6E1139F0E87A90987017_OrderBlock_t3B2BBCE8320FAEC3DB605F7DC9AB641102F53727,
 	RuntimeInvoker_TrueVoid_t22962CB4C05B1D89B55A6E1139F0E87A90987017_ContactPoint_tE0D3A30ED34A1FC8CA3F7391348429F3232CA515,
 	RuntimeInvoker_TrueVoid_t22962CB4C05B1D89B55A6E1139F0E87A90987017_LightDataGI_t922D8894A3151C4F87AFD0A3562252320CA3B2A2,
+	RuntimeInvoker_TrueVoid_t22962CB4C05B1D89B55A6E1139F0E87A90987017_GradientAlphaKey_t4EB62CEE9D6AE78D1091E3594DE3BD978E758F82,
+	RuntimeInvoker_TrueVoid_t22962CB4C05B1D89B55A6E1139F0E87A90987017_GradientColorKey_t047096E94D13A7089B05A574B361E027D37F9A0E,
 	RuntimeInvoker_TrueVoid_t22962CB4C05B1D89B55A6E1139F0E87A90987017_Keyframe_t9E945CACC5AC36E067B15A634096A223A06D2D74,
 	RuntimeInvoker_TrueVoid_t22962CB4C05B1D89B55A6E1139F0E87A90987017_PlayerLoopSystem_t4F3CE091F496538800DC1FF6E750BFA72FEB8C93,
 	RuntimeInvoker_TrueVoid_t22962CB4C05B1D89B55A6E1139F0E87A90987017_Plane_t0903921088DEEDE1BCDEA5BF279EDBCFC9679AED,
@@ -50546,6 +50700,8 @@ const InvokerMethod g_Il2CppInvokerPointers[3212] =
 	RuntimeInvoker_TrueVoid_t22962CB4C05B1D89B55A6E1139F0E87A90987017_Int32_t585191389E07734F19F3156FF88FB3EF4800D102_ContactPoint_tE0D3A30ED34A1FC8CA3F7391348429F3232CA515,
 	RuntimeInvoker_TrueVoid_t22962CB4C05B1D89B55A6E1139F0E87A90987017_Int32_t585191389E07734F19F3156FF88FB3EF4800D102_RaycastResult_t991BCED43A91EDD8580F39631DA07B1F88C58B91,
 	RuntimeInvoker_TrueVoid_t22962CB4C05B1D89B55A6E1139F0E87A90987017_Int32_t585191389E07734F19F3156FF88FB3EF4800D102_LightDataGI_t922D8894A3151C4F87AFD0A3562252320CA3B2A2,
+	RuntimeInvoker_TrueVoid_t22962CB4C05B1D89B55A6E1139F0E87A90987017_Int32_t585191389E07734F19F3156FF88FB3EF4800D102_GradientAlphaKey_t4EB62CEE9D6AE78D1091E3594DE3BD978E758F82,
+	RuntimeInvoker_TrueVoid_t22962CB4C05B1D89B55A6E1139F0E87A90987017_Int32_t585191389E07734F19F3156FF88FB3EF4800D102_GradientColorKey_t047096E94D13A7089B05A574B361E027D37F9A0E,
 	RuntimeInvoker_TrueVoid_t22962CB4C05B1D89B55A6E1139F0E87A90987017_Int32_t585191389E07734F19F3156FF88FB3EF4800D102_Keyframe_t9E945CACC5AC36E067B15A634096A223A06D2D74,
 	RuntimeInvoker_TrueVoid_t22962CB4C05B1D89B55A6E1139F0E87A90987017_Int32_t585191389E07734F19F3156FF88FB3EF4800D102_PlayerLoopSystem_t4F3CE091F496538800DC1FF6E750BFA72FEB8C93,
 	RuntimeInvoker_TrueVoid_t22962CB4C05B1D89B55A6E1139F0E87A90987017_Int32_t585191389E07734F19F3156FF88FB3EF4800D102_Particle_t64AF74F5D9C7EE7018AD98F29E4FF653558A581E,
@@ -50687,6 +50843,8 @@ const InvokerMethod g_Il2CppInvokerPointers[3212] =
 	RuntimeInvoker_TrueNativeArray_1_t769CF3061467D3B5B0062090193576AD726411C1_Int32_t585191389E07734F19F3156FF88FB3EF4800D102,
 	RuntimeInvoker_TrueContactPoint_tE0D3A30ED34A1FC8CA3F7391348429F3232CA515_Int32_t585191389E07734F19F3156FF88FB3EF4800D102,
 	RuntimeInvoker_TrueLightDataGI_t922D8894A3151C4F87AFD0A3562252320CA3B2A2_Int32_t585191389E07734F19F3156FF88FB3EF4800D102,
+	RuntimeInvoker_TrueGradientAlphaKey_t4EB62CEE9D6AE78D1091E3594DE3BD978E758F82_Int32_t585191389E07734F19F3156FF88FB3EF4800D102,
+	RuntimeInvoker_TrueGradientColorKey_t047096E94D13A7089B05A574B361E027D37F9A0E_Int32_t585191389E07734F19F3156FF88FB3EF4800D102,
 	RuntimeInvoker_TrueKeyframe_t9E945CACC5AC36E067B15A634096A223A06D2D74_Int32_t585191389E07734F19F3156FF88FB3EF4800D102,
 	RuntimeInvoker_TruePlayerLoopSystem_t4F3CE091F496538800DC1FF6E750BFA72FEB8C93_Int32_t585191389E07734F19F3156FF88FB3EF4800D102,
 	RuntimeInvoker_TrueParticle_t64AF74F5D9C7EE7018AD98F29E4FF653558A581E_Int32_t585191389E07734F19F3156FF88FB3EF4800D102,
@@ -50850,6 +51008,8 @@ const InvokerMethod g_Il2CppInvokerPointers[3212] =
 	RuntimeInvoker_TrueOrderBlock_t3B2BBCE8320FAEC3DB605F7DC9AB641102F53727,
 	RuntimeInvoker_TrueContactPoint_tE0D3A30ED34A1FC8CA3F7391348429F3232CA515,
 	RuntimeInvoker_TrueLightDataGI_t922D8894A3151C4F87AFD0A3562252320CA3B2A2,
+	RuntimeInvoker_TrueGradientAlphaKey_t4EB62CEE9D6AE78D1091E3594DE3BD978E758F82,
+	RuntimeInvoker_TrueGradientColorKey_t047096E94D13A7089B05A574B361E027D37F9A0E,
 	RuntimeInvoker_TrueKeyframe_t9E945CACC5AC36E067B15A634096A223A06D2D74,
 	RuntimeInvoker_TruePlayerLoopSystem_t4F3CE091F496538800DC1FF6E750BFA72FEB8C93,
 	RuntimeInvoker_TrueParticle_t64AF74F5D9C7EE7018AD98F29E4FF653558A581E,

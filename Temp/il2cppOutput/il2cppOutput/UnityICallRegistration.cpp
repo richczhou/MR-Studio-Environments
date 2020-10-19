@@ -878,6 +878,10 @@ void RegisterAllStrippedInternalCalls()
 		void Register_UnityEngine_Gradient_Cleanup();
 		Register_UnityEngine_Gradient_Cleanup();
 
+		//System.Void UnityEngine.Gradient::SetKeys(UnityEngine.GradientColorKey[],UnityEngine.GradientAlphaKey[])
+		void Register_UnityEngine_Gradient_SetKeys();
+		Register_UnityEngine_Gradient_SetKeys();
+
 	//End Registrations for type : UnityEngine.Gradient
 
 	//Start Registrations for type : UnityEngine.Graphics
@@ -1181,6 +1185,10 @@ void RegisterAllStrippedInternalCalls()
 		//System.Single UnityEngine.LineRenderer::get_widthMultiplier()
 		void Register_UnityEngine_LineRenderer_get_widthMultiplier();
 		Register_UnityEngine_LineRenderer_get_widthMultiplier();
+
+		//System.Void UnityEngine.LineRenderer::SetColorGradient(UnityEngine.Gradient)
+		void Register_UnityEngine_LineRenderer_SetColorGradient();
+		Register_UnityEngine_LineRenderer_SetColorGradient();
 
 		//System.Void UnityEngine.LineRenderer::SetPosition_Injected(System.Int32,UnityEngine.Vector3&)
 		void Register_UnityEngine_LineRenderer_SetPosition_Injected();

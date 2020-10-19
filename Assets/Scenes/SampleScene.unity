@@ -763,6 +763,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: ManomotionCanvas
       objectReference: {fileID: 0}
+    - target: {fileID: 224235457413337490, guid: 0f8504ddba966c5459c5954aff90da2d,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 108.62915
+      objectReference: {fileID: 0}
     - target: {fileID: 224299564001968978, guid: 0f8504ddba966c5459c5954aff90da2d,
         type: 3}
       propertyPath: m_LocalPosition.x

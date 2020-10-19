@@ -17,11 +17,9 @@
 		<type fullname="UnityEngine.QualitySettings" preserve="nothing"/>
 		<type fullname="UnityEditor.Physics2DSettings" preserve="nothing"/>
 		<type fullname="UnityEngine.AnimationClip" preserve="nothing"/>
-		<type fullname="UnityEngine.LineRenderer" preserve="nothing"/>
 		<type fullname="UnityEngine.MeshRenderer" preserve="nothing"/>
 		<type fullname="UnityEngine.MeshCollider" preserve="nothing"/>
 		<type fullname="UnityEngine.BoxCollider" preserve="nothing"/>
-		<type fullname="UnityEngine.TextMesh" preserve="nothing"/>
 		<type fullname="UnityEngine.Canvas" preserve="nothing"/>
 		<type fullname="UnityEngine.RectTransform" preserve="nothing"/>
 		<type fullname="UnityEngine.Animator" preserve="nothing"/>
@@ -40,7 +38,6 @@
 		<type fullname="UnityEngine.Transform" preserve="nothing"/>
 		<type fullname="UnityEngine.RenderSettings" preserve="nothing"/>
 		<type fullname="UnityEngine.Collider" preserve="nothing"/>
-		<type fullname="UnityEngine.Rigidbody" preserve="nothing"/>
 		<type fullname="UnityEngine.Font" preserve="nothing"/>
 		<type fullname="UnityEngine.CanvasRenderer" preserve="nothing"/>
 		<type fullname="UnityEngine.Light" preserve="nothing"/>
@@ -49,34 +46,18 @@
 		<type fullname="UnityEngine.MeshFilter" preserve="nothing"/>
 	</assembly>
 	<assembly fullname="Assembly-CSharp">
-		<type fullname="ARCubeInteraction" preserve="nothing"/>
-		<type fullname="ApplicationManager" preserve="nothing"/>
-		<type fullname="BoundingBoxUI" preserve="nothing"/>
-		<type fullname="Category" preserve="nothing"/>
-		<type fullname="CategoryManager" preserve="nothing"/>
-		<type fullname="DetectionInstruction" preserve="nothing"/>
-		<type fullname="ExampleDetectionCanvas" preserve="nothing"/>
-		<type fullname="GestureInstruction" preserve="nothing"/>
+		<type fullname="ARTapToPlaceObject" preserve="nothing"/>
+		<type fullname="Clicker" preserve="nothing"/>
+		<type fullname="FaceCamera" preserve="nothing"/>
+		<type fullname="GazeInteraction" preserve="nothing"/>
 		<type fullname="GizmoManager" preserve="nothing"/>
-		<type fullname="GrabPass" preserve="nothing"/>
-		<type fullname="HandCollider" preserve="nothing"/>
-		<type fullname="HandSideInstruction" preserve="nothing"/>
-		<type fullname="HowToAnimations" preserve="nothing"/>
-		<type fullname="IconMainMenu" preserve="nothing"/>
+		<type fullname="InfoBehavior" preserve="nothing"/>
 		<type fullname="InputManagerArFoundation" preserve="nothing"/>
 		<type fullname="ManoEvents" preserve="nothing"/>
-		<type fullname="ManoMotion.HowToUse.HowToInstructor" preserve="nothing"/>
-		<type fullname="ManoMotion.RunTime.RunTimeApplication" preserve="nothing"/>
-		<type fullname="ManoMotion.TermsAndServices.PrivacyPolicyDisclaimair" preserve="nothing"/>
-		<type fullname="ManoMotion.UI.Buttons.UIIconBehavior" preserve="nothing"/>
 		<type fullname="ManoUtils" preserve="nothing"/>
-		<type fullname="ManoVisualization" preserve="nothing"/>
 		<type fullname="ManomotionManager" preserve="nothing"/>
 		<type fullname="ManomotionUIManagment" preserve="nothing"/>
-		<type fullname="MenuButton" preserve="nothing"/>
-		<type fullname="StartApplicationInstruction" preserve="nothing"/>
 		<type fullname="ToggleGizmos" preserve="nothing"/>
-		<type fullname="ToggleVisualizationValues" preserve="nothing"/>
 		<type fullname="TriggerGizmo" preserve="nothing"/>
 	</assembly>
 	<assembly fullname="Unity.TextMeshPro">
@@ -85,15 +66,15 @@
 		<type fullname="TMPro.TMP_Settings" preserve="nothing"/>
 		<type fullname="TMPro.TMP_SpriteAsset" preserve="nothing"/>
 		<type fullname="TMPro.TMP_StyleSheet" preserve="nothing"/>
+		<type fullname="TMPro.TextMeshPro" preserve="nothing"/>
 		<type fullname="TMPro.TextMeshProUGUI" preserve="nothing"/>
 	</assembly>
 	<assembly fullname="Unity.XR.ARFoundation">
 		<type fullname="UnityEngine.XR.ARFoundation.ARCameraBackground" preserve="nothing"/>
 		<type fullname="UnityEngine.XR.ARFoundation.ARCameraManager" preserve="nothing"/>
 		<type fullname="UnityEngine.XR.ARFoundation.ARInputManager" preserve="nothing"/>
-		<type fullname="UnityEngine.XR.ARFoundation.ARPlane" preserve="nothing"/>
 		<type fullname="UnityEngine.XR.ARFoundation.ARPlaneManager" preserve="nothing"/>
-		<type fullname="UnityEngine.XR.ARFoundation.ARPlaneMeshVisualizer" preserve="nothing"/>
+		<type fullname="UnityEngine.XR.ARFoundation.ARRaycastManager" preserve="nothing"/>
 		<type fullname="UnityEngine.XR.ARFoundation.ARSession" preserve="nothing"/>
 		<type fullname="UnityEngine.XR.ARFoundation.ARSessionOrigin" preserve="nothing"/>
 	</assembly>
@@ -101,9 +82,6 @@
 		<type fullname="UnityEngine.SpatialTracking.TrackedPoseDriver" preserve="nothing"/>
 	</assembly>
 	<assembly fullname="UnityEngine.UI">
-		<type fullname="UnityEngine.EventSystems.EventSystem" preserve="nothing"/>
-		<type fullname="UnityEngine.EventSystems.StandaloneInputModule" preserve="nothing"/>
-		<type fullname="UnityEngine.UI.Button" preserve="nothing"/>
 		<type fullname="UnityEngine.UI.CanvasScaler" preserve="nothing"/>
 		<type fullname="UnityEngine.UI.GraphicRaycaster" preserve="nothing"/>
 		<type fullname="UnityEngine.UI.Image" preserve="nothing"/>

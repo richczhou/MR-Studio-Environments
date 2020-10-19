@@ -593,6 +593,10 @@ struct ExtensionOfNativeClassAttribute_t595E5601C3ACC7C8A8C5AEE90A05E7C7FF977FDF
 struct GameObject_tBD1244AD56B4E59AAD76E5E7C9282EC5CE434F0F;
 // UnityEngine.Gradient
 struct Gradient_t35A694DDA1066524440E325E582B01E33DE66A3A;
+// UnityEngine.GradientAlphaKey[]
+struct GradientAlphaKeyU5BU5D_t6907BD924111274532A9E85C9426951DF1C6FB4B;
+// UnityEngine.GradientColorKey[]
+struct GradientColorKeyU5BU5D_t87AB0ECDF284E0012F0C752F79F9C64E841C62F7;
 // UnityEngine.HelpURLAttribute
 struct HelpURLAttribute_t94DF48CD0B11B0E35C0FC599C19121160AB668EA;
 // UnityEngine.HideInInspector
@@ -1281,6 +1285,8 @@ struct ComponentU5BU5D_t7BE50AFB6301C06D990819B3D8F35CA326CDD155;
 struct DisallowMultipleComponentU5BU5D_t59E317D853AAC982D5D18D4C1581422FC151F7E3;
 struct DisplayU5BU5D_tB2AB0FDB3B2E9FD784D5100C18EB0ED489A2CCC9;
 struct ExecuteInEditModeU5BU5D_tAE8DA030BEBA505907556F161EB49FD565976C80;
+struct GradientAlphaKeyU5BU5D_t6907BD924111274532A9E85C9426951DF1C6FB4B;
+struct GradientColorKeyU5BU5D_t87AB0ECDF284E0012F0C752F79F9C64E841C62F7;
 struct KeyframeU5BU5D_tF4DC3E9BD9E6DB77FFF7BDC0B1545B5D6071513D;
 struct LightU5BU5D_t0127F29C5C02312DE2DDA721E3AF8CE925297D45;
 struct PlayerLoopSystemU5BU5D_tA93C9CA08EF430375F9D4356DD0963BAEE961B77;
@@ -5144,6 +5150,34 @@ public:
 };
 
 
+// UnityEngine.GradientAlphaKey
+struct  GradientAlphaKey_t4EB62CEE9D6AE78D1091E3594DE3BD978E758F82 
+{
+public:
+	// System.Single UnityEngine.GradientAlphaKey::alpha
+	float ___alpha_0;
+	// System.Single UnityEngine.GradientAlphaKey::time
+	float ___time_1;
+
+public:
+	inline static int32_t get_offset_of_alpha_0() { return static_cast<int32_t>(offsetof(GradientAlphaKey_t4EB62CEE9D6AE78D1091E3594DE3BD978E758F82, ___alpha_0)); }
+	inline float get_alpha_0() const { return ___alpha_0; }
+	inline float* get_address_of_alpha_0() { return &___alpha_0; }
+	inline void set_alpha_0(float value)
+	{
+		___alpha_0 = value;
+	}
+
+	inline static int32_t get_offset_of_time_1() { return static_cast<int32_t>(offsetof(GradientAlphaKey_t4EB62CEE9D6AE78D1091E3594DE3BD978E758F82, ___time_1)); }
+	inline float get_time_1() const { return ___time_1; }
+	inline float* get_address_of_time_1() { return &___time_1; }
+	inline void set_time_1(float value)
+	{
+		___time_1 = value;
+	}
+};
+
+
 // UnityEngine.HelpURLAttribute
 struct  HelpURLAttribute_t94DF48CD0B11B0E35C0FC599C19121160AB668EA  : public Attribute_tF048C13FB3C8CFCC53F82290E4A3F621089F9A74
 {
@@ -7448,6 +7482,34 @@ struct Gradient_t35A694DDA1066524440E325E582B01E33DE66A3A_marshaled_com
 {
 	intptr_t ___m_Ptr_0;
 };
+
+// UnityEngine.GradientColorKey
+struct  GradientColorKey_t047096E94D13A7089B05A574B361E027D37F9A0E 
+{
+public:
+	// UnityEngine.Color UnityEngine.GradientColorKey::color
+	Color_t119BCA590009762C7223FDD3AF9706653AC84ED2  ___color_0;
+	// System.Single UnityEngine.GradientColorKey::time
+	float ___time_1;
+
+public:
+	inline static int32_t get_offset_of_color_0() { return static_cast<int32_t>(offsetof(GradientColorKey_t047096E94D13A7089B05A574B361E027D37F9A0E, ___color_0)); }
+	inline Color_t119BCA590009762C7223FDD3AF9706653AC84ED2  get_color_0() const { return ___color_0; }
+	inline Color_t119BCA590009762C7223FDD3AF9706653AC84ED2 * get_address_of_color_0() { return &___color_0; }
+	inline void set_color_0(Color_t119BCA590009762C7223FDD3AF9706653AC84ED2  value)
+	{
+		___color_0 = value;
+	}
+
+	inline static int32_t get_offset_of_time_1() { return static_cast<int32_t>(offsetof(GradientColorKey_t047096E94D13A7089B05A574B361E027D37F9A0E, ___time_1)); }
+	inline float get_time_1() const { return ___time_1; }
+	inline float* get_address_of_time_1() { return &___time_1; }
+	inline void set_time_1(float value)
+	{
+		___time_1 = value;
+	}
+};
+
 
 // UnityEngine.HideFlags
 struct  HideFlags_t30B57DC00548E963A569318C8F4A4123E7447E37 
@@ -11299,6 +11361,76 @@ public:
 		Il2CppCodeGenWriteBarrier((void**)m_Items + index, (void*)value);
 	}
 };
+// UnityEngine.GradientColorKey[]
+struct GradientColorKeyU5BU5D_t87AB0ECDF284E0012F0C752F79F9C64E841C62F7  : public RuntimeArray
+{
+public:
+	ALIGN_FIELD (8) GradientColorKey_t047096E94D13A7089B05A574B361E027D37F9A0E  m_Items[1];
+
+public:
+	inline GradientColorKey_t047096E94D13A7089B05A574B361E027D37F9A0E  GetAt(il2cpp_array_size_t index) const
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items[index];
+	}
+	inline GradientColorKey_t047096E94D13A7089B05A574B361E027D37F9A0E * GetAddressAt(il2cpp_array_size_t index)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items + index;
+	}
+	inline void SetAt(il2cpp_array_size_t index, GradientColorKey_t047096E94D13A7089B05A574B361E027D37F9A0E  value)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		m_Items[index] = value;
+	}
+	inline GradientColorKey_t047096E94D13A7089B05A574B361E027D37F9A0E  GetAtUnchecked(il2cpp_array_size_t index) const
+	{
+		return m_Items[index];
+	}
+	inline GradientColorKey_t047096E94D13A7089B05A574B361E027D37F9A0E * GetAddressAtUnchecked(il2cpp_array_size_t index)
+	{
+		return m_Items + index;
+	}
+	inline void SetAtUnchecked(il2cpp_array_size_t index, GradientColorKey_t047096E94D13A7089B05A574B361E027D37F9A0E  value)
+	{
+		m_Items[index] = value;
+	}
+};
+// UnityEngine.GradientAlphaKey[]
+struct GradientAlphaKeyU5BU5D_t6907BD924111274532A9E85C9426951DF1C6FB4B  : public RuntimeArray
+{
+public:
+	ALIGN_FIELD (8) GradientAlphaKey_t4EB62CEE9D6AE78D1091E3594DE3BD978E758F82  m_Items[1];
+
+public:
+	inline GradientAlphaKey_t4EB62CEE9D6AE78D1091E3594DE3BD978E758F82  GetAt(il2cpp_array_size_t index) const
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items[index];
+	}
+	inline GradientAlphaKey_t4EB62CEE9D6AE78D1091E3594DE3BD978E758F82 * GetAddressAt(il2cpp_array_size_t index)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items + index;
+	}
+	inline void SetAt(il2cpp_array_size_t index, GradientAlphaKey_t4EB62CEE9D6AE78D1091E3594DE3BD978E758F82  value)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		m_Items[index] = value;
+	}
+	inline GradientAlphaKey_t4EB62CEE9D6AE78D1091E3594DE3BD978E758F82  GetAtUnchecked(il2cpp_array_size_t index) const
+	{
+		return m_Items[index];
+	}
+	inline GradientAlphaKey_t4EB62CEE9D6AE78D1091E3594DE3BD978E758F82 * GetAddressAtUnchecked(il2cpp_array_size_t index)
+	{
+		return m_Items + index;
+	}
+	inline void SetAtUnchecked(il2cpp_array_size_t index, GradientAlphaKey_t4EB62CEE9D6AE78D1091E3594DE3BD978E758F82  value)
+	{
+		m_Items[index] = value;
+	}
+};
 // UnityEngine.LowLevel.PlayerLoopSystem[]
 struct PlayerLoopSystemU5BU5D_tA93C9CA08EF430375F9D4356DD0963BAEE961B77  : public RuntimeArray
 {
@@ -12504,6 +12636,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Gradient_Cleanup_mD38D8100E8FAAC7FBD5047
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Gradient_Equals_m7F23C7692189DDD94FC31758493D4C99C2F3FB1E (Gradient_t35A694DDA1066524440E325E582B01E33DE66A3A * __this, Gradient_t35A694DDA1066524440E325E582B01E33DE66A3A * ___other0, const RuntimeMethod* method);
 // System.Boolean UnityEngine.Gradient::Internal_Equals(System.IntPtr)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Gradient_Internal_Equals_m210D28E9843DBA28E2F60FDBB366FE2B5B739B1A (Gradient_t35A694DDA1066524440E325E582B01E33DE66A3A * __this, intptr_t ___other0, const RuntimeMethod* method);
+// System.Void UnityEngine.GradientAlphaKey::.ctor(System.Single,System.Single)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GradientAlphaKey__ctor_mBA44B7F41087F6ED8C7D33D3A1235EB9E28BE0D3 (GradientAlphaKey_t4EB62CEE9D6AE78D1091E3594DE3BD978E758F82 * __this, float ___alpha0, float ___time1, const RuntimeMethod* method);
+// System.Void UnityEngine.GradientColorKey::.ctor(UnityEngine.Color,System.Single)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GradientColorKey__ctor_m2DB34BDD6FD36CBD88CC527F5D5301EAC320B23C (GradientColorKey_t047096E94D13A7089B05A574B361E027D37F9A0E * __this, Color_t119BCA590009762C7223FDD3AF9706653AC84ED2  ___col0, float ___time1, const RuntimeMethod* method);
 // System.Void UnityEngine.Graphics::Blit2(UnityEngine.Texture,UnityEngine.RenderTexture)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Graphics_Blit2_mB347B268DCC9B4EFB2BAB7AEAB30F0268BBBF8EB (Texture_t387FE83BB848001FD06B14707AEA6D5A0F6A95F4 * ___source0, RenderTexture_tBC47D853E3DA6511CD6C49DBF78D47B890FCD2F6 * ___dest1, const RuntimeMethod* method);
 // System.Void UnityEngine.Graphics::Internal_BlitMaterial5(UnityEngine.Texture,UnityEngine.RenderTexture,UnityEngine.Material,System.Int32,System.Boolean)
@@ -12524,6 +12660,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float Keyframe_get_value_m0DD3FAD00F43E7018FE
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Light_get_color_Injected_m266FA6B59B6A43AE5C2717FE58D91E93626D48DE (Light_tFDE490EADBC7E080F74CA804929513AF07C31A6C * __this, Color_t119BCA590009762C7223FDD3AF9706653AC84ED2 * ___ret0, const RuntimeMethod* method);
 // System.Void UnityEngine.LineRenderer::SetPosition_Injected(System.Int32,UnityEngine.Vector3&)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LineRenderer_SetPosition_Injected_mFB6BFFC7C0B16DFAFF3CCCDF327677EF9B163719 (LineRenderer_tD225C480F28F28A4D737866474F21001B803B7C3 * __this, int32_t ___index0, Vector3_tDCF05E21F632FE2BA260C06E0D10CA81513E6720 * ___position1, const RuntimeMethod* method);
+// System.Void UnityEngine.LineRenderer::SetColorGradient(UnityEngine.Gradient)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LineRenderer_SetColorGradient_m962F43684BCC00C84282438FCCFD4B2C9464B3C8 (LineRenderer_tD225C480F28F28A4D737866474F21001B803B7C3 * __this, Gradient_t35A694DDA1066524440E325E582B01E33DE66A3A * ___curve0, const RuntimeMethod* method);
 // System.Void UnityEngine.Logger::set_logHandler(UnityEngine.ILogHandler)
 IL2CPP_EXTERN_C inline  IL2CPP_METHOD_ATTR void Logger_set_logHandler_m891099050CB8C36A01ECA861E4820441B7080C73_inline (Logger_tEB67FD7450076B84B97F22DBE8B2911FC4FBC35F * __this, RuntimeObject* ___value0, const RuntimeMethod* method);
 // System.Void UnityEngine.Logger::set_logEnabled(System.Boolean)
@@ -27202,6 +27340,15 @@ IL_0013:
 		return;
 	}
 }
+// System.Void UnityEngine.Gradient::SetKeys(UnityEngine.GradientColorKey[],UnityEngine.GradientAlphaKey[])
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Gradient_SetKeys_mB4E3FAF70E3363D15EBF3D0922200F4CC60F104E (Gradient_t35A694DDA1066524440E325E582B01E33DE66A3A * __this, GradientColorKeyU5BU5D_t87AB0ECDF284E0012F0C752F79F9C64E841C62F7* ___colorKeys0, GradientAlphaKeyU5BU5D_t6907BD924111274532A9E85C9426951DF1C6FB4B* ___alphaKeys1, const RuntimeMethod* method)
+{
+	typedef void (*Gradient_SetKeys_mB4E3FAF70E3363D15EBF3D0922200F4CC60F104E_ftn) (Gradient_t35A694DDA1066524440E325E582B01E33DE66A3A *, GradientColorKeyU5BU5D_t87AB0ECDF284E0012F0C752F79F9C64E841C62F7*, GradientAlphaKeyU5BU5D_t6907BD924111274532A9E85C9426951DF1C6FB4B*);
+	static Gradient_SetKeys_mB4E3FAF70E3363D15EBF3D0922200F4CC60F104E_ftn _il2cpp_icall_func;
+	if (!_il2cpp_icall_func)
+	_il2cpp_icall_func = (Gradient_SetKeys_mB4E3FAF70E3363D15EBF3D0922200F4CC60F104E_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.Gradient::SetKeys(UnityEngine.GradientColorKey[],UnityEngine.GradientAlphaKey[])");
+	_il2cpp_icall_func(__this, ___colorKeys0, ___alphaKeys1);
+}
 // System.Boolean UnityEngine.Gradient::Equals(System.Object)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Gradient_Equals_m0A13AD7938F81F21CC380609A506A39B37CF2097 (Gradient_t35A694DDA1066524440E325E582B01E33DE66A3A * __this, RuntimeObject * ___o0, const RuntimeMethod* method)
 {
@@ -27371,6 +27518,56 @@ IL_000f:
 		int32_t L_2 = V_0;
 		return L_2;
 	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// System.Void UnityEngine.GradientAlphaKey::.ctor(System.Single,System.Single)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GradientAlphaKey__ctor_mBA44B7F41087F6ED8C7D33D3A1235EB9E28BE0D3 (GradientAlphaKey_t4EB62CEE9D6AE78D1091E3594DE3BD978E758F82 * __this, float ___alpha0, float ___time1, const RuntimeMethod* method)
+{
+	{
+		float L_0 = ___alpha0;
+		__this->set_alpha_0(L_0);
+		float L_1 = ___time1;
+		__this->set_time_1(L_1);
+		return;
+	}
+}
+IL2CPP_EXTERN_C  void GradientAlphaKey__ctor_mBA44B7F41087F6ED8C7D33D3A1235EB9E28BE0D3_AdjustorThunk (RuntimeObject * __this, float ___alpha0, float ___time1, const RuntimeMethod* method)
+{
+	int32_t _offset = 1;
+	GradientAlphaKey_t4EB62CEE9D6AE78D1091E3594DE3BD978E758F82 * _thisAdjusted = reinterpret_cast<GradientAlphaKey_t4EB62CEE9D6AE78D1091E3594DE3BD978E758F82 *>(__this + _offset);
+	GradientAlphaKey__ctor_mBA44B7F41087F6ED8C7D33D3A1235EB9E28BE0D3(_thisAdjusted, ___alpha0, ___time1, method);
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// System.Void UnityEngine.GradientColorKey::.ctor(UnityEngine.Color,System.Single)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GradientColorKey__ctor_m2DB34BDD6FD36CBD88CC527F5D5301EAC320B23C (GradientColorKey_t047096E94D13A7089B05A574B361E027D37F9A0E * __this, Color_t119BCA590009762C7223FDD3AF9706653AC84ED2  ___col0, float ___time1, const RuntimeMethod* method)
+{
+	{
+		Color_t119BCA590009762C7223FDD3AF9706653AC84ED2  L_0 = ___col0;
+		__this->set_color_0(L_0);
+		float L_1 = ___time1;
+		__this->set_time_1(L_1);
+		return;
+	}
+}
+IL2CPP_EXTERN_C  void GradientColorKey__ctor_m2DB34BDD6FD36CBD88CC527F5D5301EAC320B23C_AdjustorThunk (RuntimeObject * __this, Color_t119BCA590009762C7223FDD3AF9706653AC84ED2  ___col0, float ___time1, const RuntimeMethod* method)
+{
+	int32_t _offset = 1;
+	GradientColorKey_t047096E94D13A7089B05A574B361E027D37F9A0E * _thisAdjusted = reinterpret_cast<GradientColorKey_t047096E94D13A7089B05A574B361E027D37F9A0E *>(__this + _offset);
+	GradientColorKey__ctor_m2DB34BDD6FD36CBD88CC527F5D5301EAC320B23C(_thisAdjusted, ___col0, ___time1, method);
 }
 #ifdef __clang__
 #pragma clang diagnostic pop
@@ -27964,6 +28161,24 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LineRenderer_SetPosition_m34B4D85846C464
 		LineRenderer_SetPosition_Injected_mFB6BFFC7C0B16DFAFF3CCCDF327677EF9B163719(__this, L_0, (Vector3_tDCF05E21F632FE2BA260C06E0D10CA81513E6720 *)(&___position1), /*hidden argument*/NULL);
 		return;
 	}
+}
+// System.Void UnityEngine.LineRenderer::set_colorGradient(UnityEngine.Gradient)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LineRenderer_set_colorGradient_mFC7825DCE468EC2CC07DBC58B78E859B121280BD (LineRenderer_tD225C480F28F28A4D737866474F21001B803B7C3 * __this, Gradient_t35A694DDA1066524440E325E582B01E33DE66A3A * ___value0, const RuntimeMethod* method)
+{
+	{
+		Gradient_t35A694DDA1066524440E325E582B01E33DE66A3A * L_0 = ___value0;
+		LineRenderer_SetColorGradient_m962F43684BCC00C84282438FCCFD4B2C9464B3C8(__this, L_0, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void UnityEngine.LineRenderer::SetColorGradient(UnityEngine.Gradient)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LineRenderer_SetColorGradient_m962F43684BCC00C84282438FCCFD4B2C9464B3C8 (LineRenderer_tD225C480F28F28A4D737866474F21001B803B7C3 * __this, Gradient_t35A694DDA1066524440E325E582B01E33DE66A3A * ___curve0, const RuntimeMethod* method)
+{
+	typedef void (*LineRenderer_SetColorGradient_m962F43684BCC00C84282438FCCFD4B2C9464B3C8_ftn) (LineRenderer_tD225C480F28F28A4D737866474F21001B803B7C3 *, Gradient_t35A694DDA1066524440E325E582B01E33DE66A3A *);
+	static LineRenderer_SetColorGradient_m962F43684BCC00C84282438FCCFD4B2C9464B3C8_ftn _il2cpp_icall_func;
+	if (!_il2cpp_icall_func)
+	_il2cpp_icall_func = (LineRenderer_SetColorGradient_m962F43684BCC00C84282438FCCFD4B2C9464B3C8_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.LineRenderer::SetColorGradient(UnityEngine.Gradient)");
+	_il2cpp_icall_func(__this, ___curve0);
 }
 // System.Void UnityEngine.LineRenderer::SetPosition_Injected(System.Int32,UnityEngine.Vector3&)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LineRenderer_SetPosition_Injected_mFB6BFFC7C0B16DFAFF3CCCDF327677EF9B163719 (LineRenderer_tD225C480F28F28A4D737866474F21001B803B7C3 * __this, int32_t ___index0, Vector3_tDCF05E21F632FE2BA260C06E0D10CA81513E6720 * ___position1, const RuntimeMethod* method)

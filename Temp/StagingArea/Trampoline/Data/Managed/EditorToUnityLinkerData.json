@@ -7,7 +7,7 @@
             "fullManagedTypeName": "UnityEngine.Object",
             "moduleName": "Core",
             "usedInScenes": [
-                "Assets/ManoMotion ARFoundation/Examples/Inetraction/Example Interaction.unity"
+                "Assets/Scenes/SampleScene.unity"
             ]
         },
         {
@@ -30,7 +30,7 @@
             "fullManagedTypeName": "",
             "moduleName": "Core",
             "usedInScenes": [
-                "Assets/ManoMotion ARFoundation/Examples/Inetraction/Example Interaction.unity"
+                "Assets/Scenes/SampleScene.unity"
             ]
         },
         {
@@ -53,7 +53,7 @@
             "fullManagedTypeName": "UnityEngine.Shader",
             "moduleName": "Core",
             "usedInScenes": [
-                "Assets/ManoMotion ARFoundation/Examples/Inetraction/Example Interaction.unity"
+                "Assets/Scenes/SampleScene.unity"
             ]
         },
         {
@@ -62,7 +62,7 @@
             "fullManagedTypeName": "",
             "moduleName": "Core",
             "usedInScenes": [
-                "Assets/ManoMotion ARFoundation/Examples/Inetraction/Example Interaction.unity"
+                "Assets/Scenes/SampleScene.unity"
             ]
         },
         {
@@ -71,7 +71,7 @@
             "fullManagedTypeName": "UnityEngine.TextAsset",
             "moduleName": "Core",
             "usedInScenes": [
-                "Assets/ManoMotion ARFoundation/Examples/Inetraction/Example Interaction.unity"
+                "Assets/Scenes/SampleScene.unity"
             ]
         },
         {
@@ -80,7 +80,7 @@
             "fullManagedTypeName": "UnityEditor.MonoScript",
             "moduleName": "Core",
             "usedInScenes": [
-                "Assets/ManoMotion ARFoundation/Examples/Inetraction/Example Interaction.unity"
+                "Assets/Scenes/SampleScene.unity"
             ]
         },
         {
@@ -89,7 +89,7 @@
             "fullManagedTypeName": "",
             "moduleName": "Core",
             "usedInScenes": [
-                "Assets/ManoMotion ARFoundation/Examples/Inetraction/Example Interaction.unity"
+                "Assets/Scenes/SampleScene.unity"
             ]
         },
         {
@@ -112,7 +112,7 @@
             "fullManagedTypeName": "UnityEngine.Material",
             "moduleName": "Core",
             "usedInScenes": [
-                "Assets/ManoMotion ARFoundation/Examples/Inetraction/Example Interaction.unity"
+                "Assets/Scenes/SampleScene.unity"
             ]
         },
         {
@@ -212,16 +212,7 @@
             "fullManagedTypeName": "UnityEngine.AnimationClip",
             "moduleName": "Animation",
             "usedInScenes": [
-                "Assets/ManoMotion ARFoundation/Examples/Inetraction/Example Interaction.unity"
-            ]
-        },
-        {
-            "managedAssemblyName": "UnityEngine.dll",
-            "nativeClass": "LineRenderer",
-            "fullManagedTypeName": "UnityEngine.LineRenderer",
-            "moduleName": "Core",
-            "usedInScenes": [
-                "Assets/ManoMotion ARFoundation/Examples/Inetraction/Example Interaction.unity"
+                "Assets/Scenes/SampleScene.unity"
             ]
         },
         {
@@ -230,7 +221,7 @@
             "fullManagedTypeName": "UnityEngine.MeshRenderer",
             "moduleName": "Core",
             "usedInScenes": [
-                "Assets/ManoMotion ARFoundation/Examples/Inetraction/Example Interaction.unity"
+                "Assets/Scenes/SampleScene.unity"
             ]
         },
         {
@@ -239,7 +230,7 @@
             "fullManagedTypeName": "UnityEngine.MeshCollider",
             "moduleName": "Physics",
             "usedInScenes": [
-                "Assets/ManoMotion ARFoundation/Examples/Inetraction/Example Interaction.unity"
+                "Assets/Scenes/SampleScene.unity"
             ]
         },
         {
@@ -248,16 +239,7 @@
             "fullManagedTypeName": "UnityEngine.BoxCollider",
             "moduleName": "Physics",
             "usedInScenes": [
-                "Assets/ManoMotion ARFoundation/Examples/Inetraction/Example Interaction.unity"
-            ]
-        },
-        {
-            "managedAssemblyName": "UnityEngine.dll",
-            "nativeClass": "TextMesh",
-            "fullManagedTypeName": "UnityEngine.TextMesh",
-            "moduleName": "TextRendering",
-            "usedInScenes": [
-                "Assets/ManoMotion ARFoundation/Examples/Inetraction/Example Interaction.unity"
+                "Assets/Scenes/SampleScene.unity"
             ]
         },
         {
@@ -266,7 +248,7 @@
             "fullManagedTypeName": "UnityEngine.Canvas",
             "moduleName": "UI",
             "usedInScenes": [
-                "Assets/ManoMotion ARFoundation/Examples/Inetraction/Example Interaction.unity"
+                "Assets/Scenes/SampleScene.unity"
             ]
         },
         {
@@ -275,7 +257,7 @@
             "fullManagedTypeName": "UnityEngine.RectTransform",
             "moduleName": "Core",
             "usedInScenes": [
-                "Assets/ManoMotion ARFoundation/Examples/Inetraction/Example Interaction.unity"
+                "Assets/Scenes/SampleScene.unity"
             ]
         },
         {
@@ -284,7 +266,7 @@
             "fullManagedTypeName": "UnityEngine.Animator",
             "moduleName": "Animation",
             "usedInScenes": [
-                "Assets/ManoMotion ARFoundation/Examples/Inetraction/Example Interaction.unity"
+                "Assets/Scenes/SampleScene.unity"
             ]
         },
         {
@@ -293,7 +275,7 @@
             "fullManagedTypeName": "UnityEngine.RuntimeAnimatorController",
             "moduleName": "Animation",
             "usedInScenes": [
-                "Assets/ManoMotion ARFoundation/Examples/Inetraction/Example Interaction.unity"
+                "Assets/Scenes/SampleScene.unity"
             ]
         },
         {
@@ -302,7 +284,7 @@
             "fullManagedTypeName": "UnityEngine.Motion",
             "moduleName": "Animation",
             "usedInScenes": [
-                "Assets/ManoMotion ARFoundation/Examples/Inetraction/Example Interaction.unity"
+                "Assets/Scenes/SampleScene.unity"
             ]
         },
         {
@@ -311,7 +293,7 @@
             "fullManagedTypeName": "UnityEditor.Animations.AnimatorController",
             "moduleName": "Animation",
             "usedInScenes": [
-                "Assets/ManoMotion ARFoundation/Examples/Inetraction/Example Interaction.unity"
+                "Assets/Scenes/SampleScene.unity"
             ]
         },
         {
@@ -320,7 +302,7 @@
             "fullManagedTypeName": "UnityEngine.LightmapSettings",
             "moduleName": "Core",
             "usedInScenes": [
-                "Assets/ManoMotion ARFoundation/Examples/Inetraction/Example Interaction.unity"
+                "Assets/Scenes/SampleScene.unity"
             ]
         },
         {
@@ -329,7 +311,7 @@
             "fullManagedTypeName": "UnityEngine.Sprite",
             "moduleName": "Core",
             "usedInScenes": [
-                "Assets/ManoMotion ARFoundation/Examples/Inetraction/Example Interaction.unity"
+                "Assets/Scenes/SampleScene.unity"
             ]
         },
         {
@@ -338,7 +320,7 @@
             "fullManagedTypeName": "UnityEngine.Texture2D",
             "moduleName": "Core",
             "usedInScenes": [
-                "Assets/ManoMotion ARFoundation/Examples/Inetraction/Example Interaction.unity"
+                "Assets/Scenes/SampleScene.unity"
             ]
         },
         {
@@ -347,7 +329,7 @@
             "fullManagedTypeName": "UnityEngine.Renderer",
             "moduleName": "Core",
             "usedInScenes": [
-                "Assets/ManoMotion ARFoundation/Examples/Inetraction/Example Interaction.unity"
+                "Assets/Scenes/SampleScene.unity"
             ]
         },
         {
@@ -356,7 +338,7 @@
             "fullManagedTypeName": "UnityEngine.Behaviour",
             "moduleName": "Core",
             "usedInScenes": [
-                "Assets/ManoMotion ARFoundation/Examples/Inetraction/Example Interaction.unity"
+                "Assets/Scenes/SampleScene.unity"
             ]
         },
         {
@@ -365,7 +347,7 @@
             "fullManagedTypeName": "UnityEngine.MonoBehaviour",
             "moduleName": "Core",
             "usedInScenes": [
-                "Assets/ManoMotion ARFoundation/Examples/Inetraction/Example Interaction.unity"
+                "Assets/Scenes/SampleScene.unity"
             ]
         },
         {
@@ -374,7 +356,7 @@
             "fullManagedTypeName": "UnityEngine.GameObject",
             "moduleName": "Core",
             "usedInScenes": [
-                "Assets/ManoMotion ARFoundation/Examples/Inetraction/Example Interaction.unity"
+                "Assets/Scenes/SampleScene.unity"
             ]
         },
         {
@@ -383,7 +365,7 @@
             "fullManagedTypeName": "UnityEngine.Camera",
             "moduleName": "Core",
             "usedInScenes": [
-                "Assets/ManoMotion ARFoundation/Examples/Inetraction/Example Interaction.unity"
+                "Assets/Scenes/SampleScene.unity"
             ]
         },
         {
@@ -392,7 +374,7 @@
             "fullManagedTypeName": "UnityEngine.Component",
             "moduleName": "Core",
             "usedInScenes": [
-                "Assets/ManoMotion ARFoundation/Examples/Inetraction/Example Interaction.unity"
+                "Assets/Scenes/SampleScene.unity"
             ]
         },
         {
@@ -401,7 +383,7 @@
             "fullManagedTypeName": "UnityEngine.Transform",
             "moduleName": "Core",
             "usedInScenes": [
-                "Assets/ManoMotion ARFoundation/Examples/Inetraction/Example Interaction.unity"
+                "Assets/Scenes/SampleScene.unity"
             ]
         },
         {
@@ -410,7 +392,7 @@
             "fullManagedTypeName": "UnityEngine.RenderSettings",
             "moduleName": "Core",
             "usedInScenes": [
-                "Assets/ManoMotion ARFoundation/Examples/Inetraction/Example Interaction.unity"
+                "Assets/Scenes/SampleScene.unity"
             ]
         },
         {
@@ -419,16 +401,7 @@
             "fullManagedTypeName": "UnityEngine.Collider",
             "moduleName": "Physics",
             "usedInScenes": [
-                "Assets/ManoMotion ARFoundation/Examples/Inetraction/Example Interaction.unity"
-            ]
-        },
-        {
-            "managedAssemblyName": "UnityEngine.dll",
-            "nativeClass": "Rigidbody",
-            "fullManagedTypeName": "UnityEngine.Rigidbody",
-            "moduleName": "Physics",
-            "usedInScenes": [
-                "Assets/ManoMotion ARFoundation/Examples/Inetraction/Example Interaction.unity"
+                "Assets/Scenes/SampleScene.unity"
             ]
         },
         {
@@ -437,7 +410,7 @@
             "fullManagedTypeName": "UnityEngine.Font",
             "moduleName": "TextRendering",
             "usedInScenes": [
-                "Assets/ManoMotion ARFoundation/Examples/Inetraction/Example Interaction.unity"
+                "Assets/Scenes/SampleScene.unity"
             ]
         },
         {
@@ -446,7 +419,7 @@
             "fullManagedTypeName": "UnityEngine.CanvasRenderer",
             "moduleName": "UI",
             "usedInScenes": [
-                "Assets/ManoMotion ARFoundation/Examples/Inetraction/Example Interaction.unity"
+                "Assets/Scenes/SampleScene.unity"
             ]
         },
         {
@@ -455,7 +428,7 @@
             "fullManagedTypeName": "UnityEngine.Light",
             "moduleName": "Core",
             "usedInScenes": [
-                "Assets/ManoMotion ARFoundation/Examples/Inetraction/Example Interaction.unity"
+                "Assets/Scenes/SampleScene.unity"
             ]
         },
         {
@@ -464,7 +437,7 @@
             "fullManagedTypeName": "UnityEngine.Texture",
             "moduleName": "Core",
             "usedInScenes": [
-                "Assets/ManoMotion ARFoundation/Examples/Inetraction/Example Interaction.unity"
+                "Assets/Scenes/SampleScene.unity"
             ]
         },
         {
@@ -473,7 +446,7 @@
             "fullManagedTypeName": "",
             "moduleName": "AI",
             "usedInScenes": [
-                "Assets/ManoMotion ARFoundation/Examples/Inetraction/Example Interaction.unity"
+                "Assets/Scenes/SampleScene.unity"
             ]
         },
         {
@@ -482,7 +455,7 @@
             "fullManagedTypeName": "",
             "moduleName": "Core",
             "usedInScenes": [
-                "Assets/ManoMotion ARFoundation/Examples/Inetraction/Example Interaction.unity"
+                "Assets/Scenes/SampleScene.unity"
             ]
         },
         {
@@ -491,7 +464,7 @@
             "fullManagedTypeName": "UnityEngine.Mesh",
             "moduleName": "Core",
             "usedInScenes": [
-                "Assets/ManoMotion ARFoundation/Examples/Inetraction/Example Interaction.unity"
+                "Assets/Scenes/SampleScene.unity"
             ]
         },
         {
@@ -500,62 +473,34 @@
             "fullManagedTypeName": "UnityEngine.MeshFilter",
             "moduleName": "Core",
             "usedInScenes": [
-                "Assets/ManoMotion ARFoundation/Examples/Inetraction/Example Interaction.unity"
+                "Assets/Scenes/SampleScene.unity"
             ]
         },
         {
             "managedAssemblyName": "Assembly-CSharp.dll",
             "nativeClass": "",
-            "fullManagedTypeName": "ARCubeInteraction",
+            "fullManagedTypeName": "ARTapToPlaceObject",
             "moduleName": "",
             "usedInScenes": []
         },
         {
             "managedAssemblyName": "Assembly-CSharp.dll",
             "nativeClass": "",
-            "fullManagedTypeName": "ApplicationManager",
+            "fullManagedTypeName": "Clicker",
             "moduleName": "",
             "usedInScenes": []
         },
         {
             "managedAssemblyName": "Assembly-CSharp.dll",
             "nativeClass": "",
-            "fullManagedTypeName": "BoundingBoxUI",
+            "fullManagedTypeName": "FaceCamera",
             "moduleName": "",
             "usedInScenes": []
         },
         {
             "managedAssemblyName": "Assembly-CSharp.dll",
             "nativeClass": "",
-            "fullManagedTypeName": "Category",
-            "moduleName": "",
-            "usedInScenes": []
-        },
-        {
-            "managedAssemblyName": "Assembly-CSharp.dll",
-            "nativeClass": "",
-            "fullManagedTypeName": "CategoryManager",
-            "moduleName": "",
-            "usedInScenes": []
-        },
-        {
-            "managedAssemblyName": "Assembly-CSharp.dll",
-            "nativeClass": "",
-            "fullManagedTypeName": "DetectionInstruction",
-            "moduleName": "",
-            "usedInScenes": []
-        },
-        {
-            "managedAssemblyName": "Assembly-CSharp.dll",
-            "nativeClass": "",
-            "fullManagedTypeName": "ExampleDetectionCanvas",
-            "moduleName": "",
-            "usedInScenes": []
-        },
-        {
-            "managedAssemblyName": "Assembly-CSharp.dll",
-            "nativeClass": "",
-            "fullManagedTypeName": "GestureInstruction",
+            "fullManagedTypeName": "GazeInteraction",
             "moduleName": "",
             "usedInScenes": []
         },
@@ -569,35 +514,7 @@
         {
             "managedAssemblyName": "Assembly-CSharp.dll",
             "nativeClass": "",
-            "fullManagedTypeName": "GrabPass",
-            "moduleName": "",
-            "usedInScenes": []
-        },
-        {
-            "managedAssemblyName": "Assembly-CSharp.dll",
-            "nativeClass": "",
-            "fullManagedTypeName": "HandCollider",
-            "moduleName": "",
-            "usedInScenes": []
-        },
-        {
-            "managedAssemblyName": "Assembly-CSharp.dll",
-            "nativeClass": "",
-            "fullManagedTypeName": "HandSideInstruction",
-            "moduleName": "",
-            "usedInScenes": []
-        },
-        {
-            "managedAssemblyName": "Assembly-CSharp.dll",
-            "nativeClass": "",
-            "fullManagedTypeName": "HowToAnimations",
-            "moduleName": "",
-            "usedInScenes": []
-        },
-        {
-            "managedAssemblyName": "Assembly-CSharp.dll",
-            "nativeClass": "",
-            "fullManagedTypeName": "IconMainMenu",
+            "fullManagedTypeName": "InfoBehavior",
             "moduleName": "",
             "usedInScenes": []
         },
@@ -618,42 +535,7 @@
         {
             "managedAssemblyName": "Assembly-CSharp.dll",
             "nativeClass": "",
-            "fullManagedTypeName": "ManoMotion.HowToUse.HowToInstructor",
-            "moduleName": "",
-            "usedInScenes": []
-        },
-        {
-            "managedAssemblyName": "Assembly-CSharp.dll",
-            "nativeClass": "",
-            "fullManagedTypeName": "ManoMotion.RunTime.RunTimeApplication",
-            "moduleName": "",
-            "usedInScenes": []
-        },
-        {
-            "managedAssemblyName": "Assembly-CSharp.dll",
-            "nativeClass": "",
-            "fullManagedTypeName": "ManoMotion.TermsAndServices.PrivacyPolicyDisclaimair",
-            "moduleName": "",
-            "usedInScenes": []
-        },
-        {
-            "managedAssemblyName": "Assembly-CSharp.dll",
-            "nativeClass": "",
-            "fullManagedTypeName": "ManoMotion.UI.Buttons.UIIconBehavior",
-            "moduleName": "",
-            "usedInScenes": []
-        },
-        {
-            "managedAssemblyName": "Assembly-CSharp.dll",
-            "nativeClass": "",
             "fullManagedTypeName": "ManoUtils",
-            "moduleName": "",
-            "usedInScenes": []
-        },
-        {
-            "managedAssemblyName": "Assembly-CSharp.dll",
-            "nativeClass": "",
-            "fullManagedTypeName": "ManoVisualization",
             "moduleName": "",
             "usedInScenes": []
         },
@@ -674,28 +556,7 @@
         {
             "managedAssemblyName": "Assembly-CSharp.dll",
             "nativeClass": "",
-            "fullManagedTypeName": "MenuButton",
-            "moduleName": "",
-            "usedInScenes": []
-        },
-        {
-            "managedAssemblyName": "Assembly-CSharp.dll",
-            "nativeClass": "",
-            "fullManagedTypeName": "StartApplicationInstruction",
-            "moduleName": "",
-            "usedInScenes": []
-        },
-        {
-            "managedAssemblyName": "Assembly-CSharp.dll",
-            "nativeClass": "",
             "fullManagedTypeName": "ToggleGizmos",
-            "moduleName": "",
-            "usedInScenes": []
-        },
-        {
-            "managedAssemblyName": "Assembly-CSharp.dll",
-            "nativeClass": "",
-            "fullManagedTypeName": "ToggleVisualizationValues",
             "moduleName": "",
             "usedInScenes": []
         },
@@ -744,6 +605,13 @@
         {
             "managedAssemblyName": "Unity.TextMeshPro.dll",
             "nativeClass": "",
+            "fullManagedTypeName": "TMPro.TextMeshPro",
+            "moduleName": "",
+            "usedInScenes": []
+        },
+        {
+            "managedAssemblyName": "Unity.TextMeshPro.dll",
+            "nativeClass": "",
             "fullManagedTypeName": "TMPro.TextMeshProUGUI",
             "moduleName": "",
             "usedInScenes": []
@@ -772,13 +640,6 @@
         {
             "managedAssemblyName": "Unity.XR.ARFoundation.dll",
             "nativeClass": "",
-            "fullManagedTypeName": "UnityEngine.XR.ARFoundation.ARPlane",
-            "moduleName": "",
-            "usedInScenes": []
-        },
-        {
-            "managedAssemblyName": "Unity.XR.ARFoundation.dll",
-            "nativeClass": "",
             "fullManagedTypeName": "UnityEngine.XR.ARFoundation.ARPlaneManager",
             "moduleName": "",
             "usedInScenes": []
@@ -786,7 +647,7 @@
         {
             "managedAssemblyName": "Unity.XR.ARFoundation.dll",
             "nativeClass": "",
-            "fullManagedTypeName": "UnityEngine.XR.ARFoundation.ARPlaneMeshVisualizer",
+            "fullManagedTypeName": "UnityEngine.XR.ARFoundation.ARRaycastManager",
             "moduleName": "",
             "usedInScenes": []
         },
@@ -808,27 +669,6 @@
             "managedAssemblyName": "UnityEngine.SpatialTracking.dll",
             "nativeClass": "",
             "fullManagedTypeName": "UnityEngine.SpatialTracking.TrackedPoseDriver",
-            "moduleName": "",
-            "usedInScenes": []
-        },
-        {
-            "managedAssemblyName": "UnityEngine.UI.dll",
-            "nativeClass": "",
-            "fullManagedTypeName": "UnityEngine.EventSystems.EventSystem",
-            "moduleName": "",
-            "usedInScenes": []
-        },
-        {
-            "managedAssemblyName": "UnityEngine.UI.dll",
-            "nativeClass": "",
-            "fullManagedTypeName": "UnityEngine.EventSystems.StandaloneInputModule",
-            "moduleName": "",
-            "usedInScenes": []
-        },
-        {
-            "managedAssemblyName": "UnityEngine.UI.dll",
-            "nativeClass": "",
-            "fullManagedTypeName": "UnityEngine.UI.Button",
             "moduleName": "",
             "usedInScenes": []
         },

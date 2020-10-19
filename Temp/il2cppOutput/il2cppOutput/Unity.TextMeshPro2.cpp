@@ -22081,7 +22081,7 @@ IL_0113:
 		Mesh_t6106B8D8E4C691321581AB0445552EC78B947B8C * L_181 = L_180->get_mesh_4();
 		int32_t L_182 = __this->get_U3CmaterialIndexU3E5__4_10();
 		NullCheck(L_179);
-		VirtActionInvoker2< Mesh_t6106B8D8E4C691321581AB0445552EC78B947B8C *, int32_t >::Invoke(105 /* System.Void TMPro.TMP_Text::UpdateGeometry(UnityEngine.Mesh,System.Int32) */, L_179, L_181, L_182);
+		VirtActionInvoker2< Mesh_t6106B8D8E4C691321581AB0445552EC78B947B8C *, int32_t >::Invoke(107 /* System.Void TMPro.TMP_Text::UpdateGeometry(UnityEngine.Mesh,System.Int32) */, L_179, L_181, L_182);
 		// if (framerate > 0)
 		int32_t L_183 = __this->get_framerate_7();
 		if ((((int32_t)L_183) <= ((int32_t)0)))
@@ -26054,7 +26054,7 @@ IL_001d:
 		// float cullMode = textComponent.fontSharedMaterial.GetFloat(ShaderUtilities.ShaderTag_CullMode);
 		TMP_Text_t7BA5B6522651EBED2D8E2C92CBE3F17C14075CE7 * L_9 = TMP_SubMesh_get_textComponent_m5C5E87C951D7710B2DC6D3B53C3BF6E12F0E30C6(__this, /*hidden argument*/NULL);
 		NullCheck(L_9);
-		Material_tF7DB3BF0C24DEC2FE0CB51E5DF5053D5223C8598 * L_10 = VirtFuncInvoker0< Material_tF7DB3BF0C24DEC2FE0CB51E5DF5053D5223C8598 * >::Invoke(65 /* UnityEngine.Material TMPro.TMP_Text::get_fontSharedMaterial() */, L_9);
+		Material_tF7DB3BF0C24DEC2FE0CB51E5DF5053D5223C8598 * L_10 = VirtFuncInvoker0< Material_tF7DB3BF0C24DEC2FE0CB51E5DF5053D5223C8598 * >::Invoke(67 /* UnityEngine.Material TMPro.TMP_Text::get_fontSharedMaterial() */, L_9);
 		IL2CPP_RUNTIME_CLASS_INIT(ShaderUtilities_t94FED29CB763EEA57E3BBCA7B305F9A3CB1180B8_il2cpp_TypeInfo_var);
 		String_t* L_11 = ((ShaderUtilities_t94FED29CB763EEA57E3BBCA7B305F9A3CB1180B8_StaticFields*)il2cpp_codegen_static_fields_for(ShaderUtilities_t94FED29CB763EEA57E3BBCA7B305F9A3CB1180B8_il2cpp_TypeInfo_var))->get_ShaderTag_CullMode_61();
 		NullCheck(L_10);
@@ -26653,9 +26653,9 @@ IL_0021:
 		// m_ShouldRecalculateStencil = true;
 		((MaskableGraphic_tDA46A5925C6A2101217C9F52C855B5C1A36A7A0F *)__this)->set_m_ShouldRecalculateStencil_25((bool)1);
 		// RecalculateClipping();
-		VirtActionInvoker0::Invoke(61 /* System.Void UnityEngine.UI.MaskableGraphic::RecalculateClipping() */, __this);
+		VirtActionInvoker0::Invoke(63 /* System.Void UnityEngine.UI.MaskableGraphic::RecalculateClipping() */, __this);
 		// RecalculateMasking();
-		VirtActionInvoker0::Invoke(62 /* System.Void UnityEngine.UI.MaskableGraphic::RecalculateMasking() */, __this);
+		VirtActionInvoker0::Invoke(64 /* System.Void UnityEngine.UI.MaskableGraphic::RecalculateMasking() */, __this);
 		// }
 		return;
 	}
@@ -26765,7 +26765,7 @@ IL_0052:
 		// m_isRegisteredForEvents = false;
 		__this->set_m_isRegisteredForEvents_45((bool)0);
 		// RecalculateClipping();
-		VirtActionInvoker0::Invoke(61 /* System.Void UnityEngine.UI.MaskableGraphic::RecalculateClipping() */, __this);
+		VirtActionInvoker0::Invoke(63 /* System.Void UnityEngine.UI.MaskableGraphic::RecalculateClipping() */, __this);
 		// m_TextComponent.havePropertiesChanged = true;
 		TextMeshProUGUI_tBA60B913AB6151F8563F7078AD67EB6458129438 * L_9 = __this->get_m_TextComponent_44();
 		NullCheck(L_9);
@@ -26799,9 +26799,9 @@ IL_0009:
 		// m_ShouldRecalculateStencil = true;
 		((MaskableGraphic_tDA46A5925C6A2101217C9F52C855B5C1A36A7A0F *)__this)->set_m_ShouldRecalculateStencil_25((bool)1);
 		// RecalculateClipping();
-		VirtActionInvoker0::Invoke(61 /* System.Void UnityEngine.UI.MaskableGraphic::RecalculateClipping() */, __this);
+		VirtActionInvoker0::Invoke(63 /* System.Void UnityEngine.UI.MaskableGraphic::RecalculateClipping() */, __this);
 		// RecalculateMasking();
-		VirtActionInvoker0::Invoke(62 /* System.Void UnityEngine.UI.MaskableGraphic::RecalculateMasking() */, __this);
+		VirtActionInvoker0::Invoke(64 /* System.Void UnityEngine.UI.MaskableGraphic::RecalculateMasking() */, __this);
 		// }
 		return;
 	}
@@ -27243,7 +27243,7 @@ IL_000f:
 		// float cullMode = textComponent.fontSharedMaterial.GetFloat(ShaderUtilities.ShaderTag_CullMode);
 		TMP_Text_t7BA5B6522651EBED2D8E2C92CBE3F17C14075CE7 * L_5 = TMP_SubMeshUI_get_textComponent_m0D824BDA813C5DAEDB24ED25C1B2BC7BE826C43D(__this, /*hidden argument*/NULL);
 		NullCheck(L_5);
-		Material_tF7DB3BF0C24DEC2FE0CB51E5DF5053D5223C8598 * L_6 = VirtFuncInvoker0< Material_tF7DB3BF0C24DEC2FE0CB51E5DF5053D5223C8598 * >::Invoke(65 /* UnityEngine.Material TMPro.TMP_Text::get_fontSharedMaterial() */, L_5);
+		Material_tF7DB3BF0C24DEC2FE0CB51E5DF5053D5223C8598 * L_6 = VirtFuncInvoker0< Material_tF7DB3BF0C24DEC2FE0CB51E5DF5053D5223C8598 * >::Invoke(67 /* UnityEngine.Material TMPro.TMP_Text::get_fontSharedMaterial() */, L_5);
 		IL2CPP_RUNTIME_CLASS_INIT(ShaderUtilities_t94FED29CB763EEA57E3BBCA7B305F9A3CB1180B8_il2cpp_TypeInfo_var);
 		String_t* L_7 = ((ShaderUtilities_t94FED29CB763EEA57E3BBCA7B305F9A3CB1180B8_StaticFields*)il2cpp_codegen_static_fields_for(ShaderUtilities_t94FED29CB763EEA57E3BBCA7B305F9A3CB1180B8_il2cpp_TypeInfo_var))->get_ShaderTag_CullMode_61();
 		NullCheck(L_6);
@@ -27602,7 +27602,7 @@ IL_000f:
 		TMP_FontAsset_t44D2006105B39FB33AE5A0ADF07A7EF36C72385C * L_3 = ___value0;
 		__this->set_m_fontAsset_38(L_3);
 		// set { if (m_fontAsset == value) return; m_fontAsset = value; LoadFontAsset(); m_havePropertiesChanged = true; m_isInputParsingRequired = true; SetVerticesDirty(); SetLayoutDirty(); }
-		VirtActionInvoker0::Invoke(87 /* System.Void TMPro.TMP_Text::LoadFontAsset() */, __this);
+		VirtActionInvoker0::Invoke(89 /* System.Void TMPro.TMP_Text::LoadFontAsset() */, __this);
 		// set { if (m_fontAsset == value) return; m_fontAsset = value; LoadFontAsset(); m_havePropertiesChanged = true; m_isInputParsingRequired = true; SetVerticesDirty(); SetLayoutDirty(); }
 		__this->set_m_havePropertiesChanged_151((bool)1);
 		// set { if (m_fontAsset == value) return; m_fontAsset = value; LoadFontAsset(); m_havePropertiesChanged = true; m_isInputParsingRequired = true; SetVerticesDirty(); SetLayoutDirty(); }
@@ -27653,7 +27653,7 @@ IL_000f:
 	{
 		// set { if (m_sharedMaterial == value) return; SetSharedMaterial(value); m_havePropertiesChanged = true; m_isInputParsingRequired = true; SetVerticesDirty(); SetMaterialDirty(); }
 		Material_tF7DB3BF0C24DEC2FE0CB51E5DF5053D5223C8598 * L_3 = ___value0;
-		VirtActionInvoker1< Material_tF7DB3BF0C24DEC2FE0CB51E5DF5053D5223C8598 * >::Invoke(88 /* System.Void TMPro.TMP_Text::SetSharedMaterial(UnityEngine.Material) */, __this, L_3);
+		VirtActionInvoker1< Material_tF7DB3BF0C24DEC2FE0CB51E5DF5053D5223C8598 * >::Invoke(90 /* System.Void TMPro.TMP_Text::SetSharedMaterial(UnityEngine.Material) */, __this, L_3);
 		// set { if (m_sharedMaterial == value) return; SetSharedMaterial(value); m_havePropertiesChanged = true; m_isInputParsingRequired = true; SetVerticesDirty(); SetMaterialDirty(); }
 		__this->set_m_havePropertiesChanged_151((bool)1);
 		// set { if (m_sharedMaterial == value) return; SetSharedMaterial(value); m_havePropertiesChanged = true; m_isInputParsingRequired = true; SetVerticesDirty(); SetMaterialDirty(); }
@@ -27671,7 +27671,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR MaterialU5BU5D_tD2350F98F2A1BB6C7A5FBFE1474DF
 {
 	{
 		// get { return GetSharedMaterials(); }
-		MaterialU5BU5D_tD2350F98F2A1BB6C7A5FBFE1474DFC47331AB398* L_0 = VirtFuncInvoker0< MaterialU5BU5D_tD2350F98F2A1BB6C7A5FBFE1474DFC47331AB398* >::Invoke(91 /* UnityEngine.Material[] TMPro.TMP_Text::GetSharedMaterials() */, __this);
+		MaterialU5BU5D_tD2350F98F2A1BB6C7A5FBFE1474DFC47331AB398* L_0 = VirtFuncInvoker0< MaterialU5BU5D_tD2350F98F2A1BB6C7A5FBFE1474DFC47331AB398* >::Invoke(93 /* UnityEngine.Material[] TMPro.TMP_Text::GetSharedMaterials() */, __this);
 		return L_0;
 	}
 }
@@ -27681,7 +27681,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TMP_Text_set_fontSharedMaterials_m96E239
 	{
 		// set { SetSharedMaterials(value); m_havePropertiesChanged = true; m_isInputParsingRequired = true; SetVerticesDirty(); SetMaterialDirty(); }
 		MaterialU5BU5D_tD2350F98F2A1BB6C7A5FBFE1474DFC47331AB398* L_0 = ___value0;
-		VirtActionInvoker1< MaterialU5BU5D_tD2350F98F2A1BB6C7A5FBFE1474DFC47331AB398* >::Invoke(92 /* System.Void TMPro.TMP_Text::SetSharedMaterials(UnityEngine.Material[]) */, __this, L_0);
+		VirtActionInvoker1< MaterialU5BU5D_tD2350F98F2A1BB6C7A5FBFE1474DFC47331AB398* >::Invoke(94 /* System.Void TMPro.TMP_Text::SetSharedMaterials(UnityEngine.Material[]) */, __this, L_0);
 		// set { SetSharedMaterials(value); m_havePropertiesChanged = true; m_isInputParsingRequired = true; SetVerticesDirty(); SetMaterialDirty(); }
 		__this->set_m_havePropertiesChanged_151((bool)1);
 		// set { SetSharedMaterials(value); m_havePropertiesChanged = true; m_isInputParsingRequired = true; SetVerticesDirty(); SetMaterialDirty(); }
@@ -27700,7 +27700,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Material_tF7DB3BF0C24DEC2FE0CB51E5DF5053D5223
 	{
 		// get { return GetMaterial(m_sharedMaterial); }
 		Material_tF7DB3BF0C24DEC2FE0CB51E5DF5053D5223C8598 * L_0 = __this->get_m_sharedMaterial_41();
-		Material_tF7DB3BF0C24DEC2FE0CB51E5DF5053D5223C8598 * L_1 = VirtFuncInvoker1< Material_tF7DB3BF0C24DEC2FE0CB51E5DF5053D5223C8598 *, Material_tF7DB3BF0C24DEC2FE0CB51E5DF5053D5223C8598 * >::Invoke(89 /* UnityEngine.Material TMPro.TMP_Text::GetMaterial(UnityEngine.Material) */, __this, L_0);
+		Material_tF7DB3BF0C24DEC2FE0CB51E5DF5053D5223C8598 * L_1 = VirtFuncInvoker1< Material_tF7DB3BF0C24DEC2FE0CB51E5DF5053D5223C8598 *, Material_tF7DB3BF0C24DEC2FE0CB51E5DF5053D5223C8598 * >::Invoke(91 /* UnityEngine.Material TMPro.TMP_Text::GetMaterial(UnityEngine.Material) */, __this, L_0);
 		return L_1;
 	}
 }
@@ -27746,7 +27746,7 @@ IL_0022:
 		Material_tF7DB3BF0C24DEC2FE0CB51E5DF5053D5223C8598 * L_6 = ___value0;
 		__this->set_m_sharedMaterial_41(L_6);
 		// m_padding = GetPaddingForMaterial();
-		float L_7 = VirtFuncInvoker0< float >::Invoke(101 /* System.Single TMPro.TMP_Text::GetPaddingForMaterial() */, __this);
+		float L_7 = VirtFuncInvoker0< float >::Invoke(103 /* System.Single TMPro.TMP_Text::GetPaddingForMaterial() */, __this);
 		__this->set_m_padding_243(L_7);
 		// m_havePropertiesChanged = true;
 		__this->set_m_havePropertiesChanged_151((bool)1);
@@ -27766,7 +27766,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR MaterialU5BU5D_tD2350F98F2A1BB6C7A5FBFE1474DF
 	{
 		// get { return GetMaterials(m_fontSharedMaterials); }
 		MaterialU5BU5D_tD2350F98F2A1BB6C7A5FBFE1474DFC47331AB398* L_0 = __this->get_m_fontSharedMaterials_47();
-		MaterialU5BU5D_tD2350F98F2A1BB6C7A5FBFE1474DFC47331AB398* L_1 = VirtFuncInvoker1< MaterialU5BU5D_tD2350F98F2A1BB6C7A5FBFE1474DFC47331AB398*, MaterialU5BU5D_tD2350F98F2A1BB6C7A5FBFE1474DFC47331AB398* >::Invoke(93 /* UnityEngine.Material[] TMPro.TMP_Text::GetMaterials(UnityEngine.Material[]) */, __this, L_0);
+		MaterialU5BU5D_tD2350F98F2A1BB6C7A5FBFE1474DFC47331AB398* L_1 = VirtFuncInvoker1< MaterialU5BU5D_tD2350F98F2A1BB6C7A5FBFE1474DFC47331AB398*, MaterialU5BU5D_tD2350F98F2A1BB6C7A5FBFE1474DFC47331AB398* >::Invoke(95 /* UnityEngine.Material[] TMPro.TMP_Text::GetMaterials(UnityEngine.Material[]) */, __this, L_0);
 		return L_1;
 	}
 }
@@ -27776,7 +27776,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TMP_Text_set_fontMaterials_m075BC9E192D6
 	{
 		// set { SetSharedMaterials(value); m_havePropertiesChanged = true; m_isInputParsingRequired = true; SetVerticesDirty(); SetMaterialDirty(); }
 		MaterialU5BU5D_tD2350F98F2A1BB6C7A5FBFE1474DFC47331AB398* L_0 = ___value0;
-		VirtActionInvoker1< MaterialU5BU5D_tD2350F98F2A1BB6C7A5FBFE1474DFC47331AB398* >::Invoke(92 /* System.Void TMPro.TMP_Text::SetSharedMaterials(UnityEngine.Material[]) */, __this, L_0);
+		VirtActionInvoker1< MaterialU5BU5D_tD2350F98F2A1BB6C7A5FBFE1474DFC47331AB398* >::Invoke(94 /* System.Void TMPro.TMP_Text::SetSharedMaterials(UnityEngine.Material[]) */, __this, L_0);
 		// set { SetSharedMaterials(value); m_havePropertiesChanged = true; m_isInputParsingRequired = true; SetVerticesDirty(); SetMaterialDirty(); }
 		__this->set_m_havePropertiesChanged_151((bool)1);
 		// set { SetSharedMaterials(value); m_havePropertiesChanged = true; m_isInputParsingRequired = true; SetVerticesDirty(); SetMaterialDirty(); }
@@ -28211,7 +28211,7 @@ IL_000f:
 	{
 		// set { if (m_faceColor.Compare(value)) return; SetFaceColor(value); m_havePropertiesChanged = true; m_faceColor = value; SetVerticesDirty(); SetMaterialDirty(); }
 		Color32_t23ABC4AE0E0BDFD2E22EE1FA0DA3904FFE5F6E23  L_3 = ___value0;
-		VirtActionInvoker1< Color32_t23ABC4AE0E0BDFD2E22EE1FA0DA3904FFE5F6E23  >::Invoke(95 /* System.Void TMPro.TMP_Text::SetFaceColor(UnityEngine.Color32) */, __this, L_3);
+		VirtActionInvoker1< Color32_t23ABC4AE0E0BDFD2E22EE1FA0DA3904FFE5F6E23  >::Invoke(97 /* System.Void TMPro.TMP_Text::SetFaceColor(UnityEngine.Color32) */, __this, L_3);
 		// set { if (m_faceColor.Compare(value)) return; SetFaceColor(value); m_havePropertiesChanged = true; m_faceColor = value; SetVerticesDirty(); SetMaterialDirty(); }
 		__this->set_m_havePropertiesChanged_151((bool)1);
 		// set { if (m_faceColor.Compare(value)) return; SetFaceColor(value); m_havePropertiesChanged = true; m_faceColor = value; SetVerticesDirty(); SetMaterialDirty(); }
@@ -28287,7 +28287,7 @@ IL_000f:
 	{
 		// set { if (m_outlineColor.Compare(value)) return; SetOutlineColor(value); m_havePropertiesChanged = true; m_outlineColor = value; SetVerticesDirty(); }
 		Color32_t23ABC4AE0E0BDFD2E22EE1FA0DA3904FFE5F6E23  L_3 = ___value0;
-		VirtActionInvoker1< Color32_t23ABC4AE0E0BDFD2E22EE1FA0DA3904FFE5F6E23  >::Invoke(96 /* System.Void TMPro.TMP_Text::SetOutlineColor(UnityEngine.Color32) */, __this, L_3);
+		VirtActionInvoker1< Color32_t23ABC4AE0E0BDFD2E22EE1FA0DA3904FFE5F6E23  >::Invoke(98 /* System.Void TMPro.TMP_Text::SetOutlineColor(UnityEngine.Color32) */, __this, L_3);
 		// set { if (m_outlineColor.Compare(value)) return; SetOutlineColor(value); m_havePropertiesChanged = true; m_outlineColor = value; SetVerticesDirty(); }
 		__this->set_m_havePropertiesChanged_151((bool)1);
 		// set { if (m_outlineColor.Compare(value)) return; SetOutlineColor(value); m_havePropertiesChanged = true; m_outlineColor = value; SetVerticesDirty(); }
@@ -28359,7 +28359,7 @@ IL_000a:
 	{
 		// set { if (m_outlineWidth == value) return; SetOutlineThickness(value); m_havePropertiesChanged = true; m_outlineWidth = value; SetVerticesDirty(); }
 		float L_2 = ___value0;
-		VirtActionInvoker1< float >::Invoke(97 /* System.Void TMPro.TMP_Text::SetOutlineThickness(System.Single) */, __this, L_2);
+		VirtActionInvoker1< float >::Invoke(99 /* System.Void TMPro.TMP_Text::SetOutlineThickness(System.Single) */, __this, L_2);
 		// set { if (m_outlineWidth == value) return; SetOutlineThickness(value); m_havePropertiesChanged = true; m_outlineWidth = value; SetVerticesDirty(); }
 		__this->set_m_havePropertiesChanged_151((bool)1);
 		// set { if (m_outlineWidth == value) return; SetOutlineThickness(value); m_havePropertiesChanged = true; m_outlineWidth = value; SetVerticesDirty(); }
@@ -29448,7 +29448,7 @@ IL_000a:
 		bool L_2 = ___value0;
 		__this->set_m_enableExtraPadding_120(L_2);
 		// set { if (m_enableExtraPadding == value) return; m_havePropertiesChanged = true; m_enableExtraPadding = value; UpdateMeshPadding(); SetVerticesDirty(); /* SetLayoutDirty();*/ }
-		VirtActionInvoker0::Invoke(109 /* System.Void TMPro.TMP_Text::UpdateMeshPadding() */, __this);
+		VirtActionInvoker0::Invoke(111 /* System.Void TMPro.TMP_Text::UpdateMeshPadding() */, __this);
 		// set { if (m_enableExtraPadding == value) return; m_havePropertiesChanged = true; m_enableExtraPadding = value; UpdateMeshPadding(); SetVerticesDirty(); /* SetLayoutDirty();*/ }
 		VirtActionInvoker0::Invoke(28 /* System.Void UnityEngine.UI.Graphic::SetVerticesDirty() */, __this);
 		// set { if (m_enableExtraPadding == value) return; m_havePropertiesChanged = true; m_enableExtraPadding = value; UpdateMeshPadding(); SetVerticesDirty(); /* SetLayoutDirty();*/ }
@@ -29573,7 +29573,7 @@ IL_000a:
 		bool L_2 = ___value0;
 		__this->set_m_isOverlay_124(L_2);
 		// set { if (m_isOverlay == value) return; m_isOverlay = value; SetShaderDepth(); m_havePropertiesChanged = true; SetVerticesDirty(); }
-		VirtActionInvoker0::Invoke(98 /* System.Void TMPro.TMP_Text::SetShaderDepth() */, __this);
+		VirtActionInvoker0::Invoke(100 /* System.Void TMPro.TMP_Text::SetShaderDepth() */, __this);
 		// set { if (m_isOverlay == value) return; m_isOverlay = value; SetShaderDepth(); m_havePropertiesChanged = true; SetVerticesDirty(); }
 		__this->set_m_havePropertiesChanged_151((bool)1);
 		// set { if (m_isOverlay == value) return; m_isOverlay = value; SetShaderDepth(); m_havePropertiesChanged = true; SetVerticesDirty(); }
@@ -29653,7 +29653,7 @@ IL_000a:
 		bool L_2 = ___value0;
 		__this->set_m_isCullingEnabled_126(L_2);
 		// set { if (m_isCullingEnabled == value) return; m_isCullingEnabled = value; SetCulling(); m_havePropertiesChanged = true; }
-		VirtActionInvoker0::Invoke(99 /* System.Void TMPro.TMP_Text::SetCulling() */, __this);
+		VirtActionInvoker0::Invoke(101 /* System.Void TMPro.TMP_Text::SetCulling() */, __this);
 		// set { if (m_isCullingEnabled == value) return; m_isCullingEnabled = value; SetCulling(); m_havePropertiesChanged = true; }
 		__this->set_m_havePropertiesChanged_151((bool)1);
 		// set { if (m_isCullingEnabled == value) return; m_isCullingEnabled = value; SetCulling(); m_havePropertiesChanged = true; }
@@ -30214,7 +30214,7 @@ IL_000f:
 		Vector4_tD148D6428C3F8FF6CD998F82090113C2B490B76E  L_3 = ___value0;
 		__this->set_m_margin_144(L_3);
 		// set { if (m_margin == value) return; m_margin = value; ComputeMarginSize(); m_havePropertiesChanged = true; SetVerticesDirty(); }
-		VirtActionInvoker0::Invoke(118 /* System.Void TMPro.TMP_Text::ComputeMarginSize() */, __this);
+		VirtActionInvoker0::Invoke(120 /* System.Void TMPro.TMP_Text::ComputeMarginSize() */, __this);
 		// set { if (m_margin == value) return; m_margin = value; ComputeMarginSize(); m_havePropertiesChanged = true; SetVerticesDirty(); }
 		__this->set_m_havePropertiesChanged_151((bool)1);
 		// set { if (m_margin == value) return; m_margin = value; ComputeMarginSize(); m_havePropertiesChanged = true; SetVerticesDirty(); }
@@ -30460,7 +30460,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Bounds_tA2716F5212749C61B0E7B7B77E0CD3D79B742
 IL_0018:
 	{
 		// return GetCompoundBounds();
-		Bounds_tA2716F5212749C61B0E7B7B77E0CD3D79B742890  L_3 = VirtFuncInvoker0< Bounds_tA2716F5212749C61B0E7B7B77E0CD3D79B742890  >::Invoke(115 /* UnityEngine.Bounds TMPro.TMP_Text::GetCompoundBounds() */, __this);
+		Bounds_tA2716F5212749C61B0E7B7B77E0CD3D79B742890  L_3 = VirtFuncInvoker0< Bounds_tA2716F5212749C61B0E7B7B77E0CD3D79B742890  >::Invoke(117 /* UnityEngine.Bounds TMPro.TMP_Text::GetCompoundBounds() */, __this);
 		return L_3;
 	}
 }
@@ -31261,7 +31261,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TMP_Text_SetTextInternal_mA5A53B531F03D1
 		// m_isInputParsingRequired = true;
 		__this->set_m_isInputParsingRequired_183((bool)1);
 		// ForceMeshUpdate();
-		VirtActionInvoker2< bool, bool >::Invoke(104 /* System.Void TMPro.TMP_Text::ForceMeshUpdate(System.Boolean,System.Boolean) */, __this, (bool)0, (bool)0);
+		VirtActionInvoker2< bool, bool >::Invoke(106 /* System.Void TMPro.TMP_Text::ForceMeshUpdate(System.Boolean,System.Boolean) */, __this, (bool)0, (bool)0);
 		// m_renderMode = TextRenderFlags.Render;
 		__this->set_m_renderMode_133(((int32_t)255));
 		// }
@@ -31323,7 +31323,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TMP_Text_CrossFadeColor_mDCD43C5F580DACC
 		float L_5 = ___duration1;
 		bool L_6 = ___ignoreTimeScale2;
 		bool L_7 = ___useAlpha3;
-		VirtActionInvoker4< Color_t119BCA590009762C7223FDD3AF9706653AC84ED2 , float, bool, bool >::Invoke(110 /* System.Void TMPro.TMP_Text::InternalCrossFadeColor(UnityEngine.Color,System.Single,System.Boolean,System.Boolean) */, __this, L_4, L_5, L_6, L_7);
+		VirtActionInvoker4< Color_t119BCA590009762C7223FDD3AF9706653AC84ED2 , float, bool, bool >::Invoke(112 /* System.Void TMPro.TMP_Text::InternalCrossFadeColor(UnityEngine.Color,System.Single,System.Boolean,System.Boolean) */, __this, L_4, L_5, L_6, L_7);
 		// }
 		return;
 	}
@@ -31341,7 +31341,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TMP_Text_CrossFadeAlpha_m9BE15DAA17DCF9A
 		float L_3 = ___alpha0;
 		float L_4 = ___duration1;
 		bool L_5 = ___ignoreTimeScale2;
-		VirtActionInvoker3< float, float, bool >::Invoke(111 /* System.Void TMPro.TMP_Text::InternalCrossFadeAlpha(System.Single,System.Single,System.Boolean) */, __this, L_3, L_4, L_5);
+		VirtActionInvoker3< float, float, bool >::Invoke(113 /* System.Void TMPro.TMP_Text::InternalCrossFadeAlpha(System.Single,System.Single,System.Boolean) */, __this, L_3, L_4, L_5);
 		// }
 		return;
 	}
@@ -31448,7 +31448,7 @@ IL_0085:
 	{
 		// SetArraySizes(m_InternalParsingBuffer);
 		UnicodeCharU5BU5D_t14B138F2B44C8EA3A5A5DB234E3739F385E55505* L_14 = __this->get_m_InternalParsingBuffer_197();
-		VirtFuncInvoker1< int32_t, UnicodeCharU5BU5D_t14B138F2B44C8EA3A5A5DB234E3739F385E55505* >::Invoke(112 /* System.Int32 TMPro.TMP_Text::SetArraySizes(TMPro.TMP_Text/UnicodeChar[]) */, __this, L_14);
+		VirtFuncInvoker1< int32_t, UnicodeCharU5BU5D_t14B138F2B44C8EA3A5A5DB234E3739F385E55505* >::Invoke(114 /* System.Int32 TMPro.TMP_Text::SetArraySizes(TMPro.TMP_Text/UnicodeChar[]) */, __this, L_14);
 		// }
 		return;
 	}
@@ -31459,7 +31459,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TMP_Text_SetText_mE32BA75B23EADDAA9DCB4B
 	{
 		// this.text = text;
 		String_t* L_0 = ___text0;
-		VirtActionInvoker1< String_t* >::Invoke(64 /* System.Void TMPro.TMP_Text::set_text(System.String) */, __this, L_0);
+		VirtActionInvoker1< String_t* >::Invoke(66 /* System.Void TMPro.TMP_Text::set_text(System.String) */, __this, L_0);
 		// }
 		return;
 	}
@@ -42686,7 +42686,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector2_tA85D2DD88578276CA8A8796756458277E72D
 		TMP_Text_StringToInternalParsingBuffer_m054B3A10A2AC32A9DAE3F5F85F7207F7A8E01522(__this, L_0, (UnicodeCharU5BU5D_t14B138F2B44C8EA3A5A5DB234E3739F385E55505**)L_1, /*hidden argument*/NULL);
 		// SetArraySizes(m_InternalParsingBuffer);
 		UnicodeCharU5BU5D_t14B138F2B44C8EA3A5A5DB234E3739F385E55505* L_2 = __this->get_m_InternalParsingBuffer_197();
-		VirtFuncInvoker1< int32_t, UnicodeCharU5BU5D_t14B138F2B44C8EA3A5A5DB234E3739F385E55505* >::Invoke(112 /* System.Int32 TMPro.TMP_Text::SetArraySizes(TMPro.TMP_Text/UnicodeChar[]) */, __this, L_2);
+		VirtFuncInvoker1< int32_t, UnicodeCharU5BU5D_t14B138F2B44C8EA3A5A5DB234E3739F385E55505* >::Invoke(114 /* System.Int32 TMPro.TMP_Text::SetArraySizes(TMPro.TMP_Text/UnicodeChar[]) */, __this, L_2);
 		// Vector2 margin = k_LargePositiveVector2;
 		IL2CPP_RUNTIME_CLASS_INIT(TMP_Text_t7BA5B6522651EBED2D8E2C92CBE3F17C14075CE7_il2cpp_TypeInfo_var);
 		Vector2_tA85D2DD88578276CA8A8796756458277E72D073D  L_3 = ((TMP_Text_t7BA5B6522651EBED2D8E2C92CBE3F17C14075CE7_StaticFields*)il2cpp_codegen_static_fields_for(TMP_Text_t7BA5B6522651EBED2D8E2C92CBE3F17C14075CE7_il2cpp_TypeInfo_var))->get_k_LargePositiveVector2_258();
@@ -42721,7 +42721,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector2_tA85D2DD88578276CA8A8796756458277E72D
 		TMP_Text_StringToInternalParsingBuffer_m054B3A10A2AC32A9DAE3F5F85F7207F7A8E01522(__this, L_0, (UnicodeCharU5BU5D_t14B138F2B44C8EA3A5A5DB234E3739F385E55505**)L_1, /*hidden argument*/NULL);
 		// SetArraySizes(m_InternalParsingBuffer);
 		UnicodeCharU5BU5D_t14B138F2B44C8EA3A5A5DB234E3739F385E55505* L_2 = __this->get_m_InternalParsingBuffer_197();
-		VirtFuncInvoker1< int32_t, UnicodeCharU5BU5D_t14B138F2B44C8EA3A5A5DB234E3739F385E55505* >::Invoke(112 /* System.Int32 TMPro.TMP_Text::SetArraySizes(TMPro.TMP_Text/UnicodeChar[]) */, __this, L_2);
+		VirtFuncInvoker1< int32_t, UnicodeCharU5BU5D_t14B138F2B44C8EA3A5A5DB234E3739F385E55505* >::Invoke(114 /* System.Int32 TMPro.TMP_Text::SetArraySizes(TMPro.TMP_Text/UnicodeChar[]) */, __this, L_2);
 		// Vector2 margin = new Vector2(width, height);
 		float L_3 = ___width1;
 		float L_4 = ___height2;
@@ -42849,7 +42849,7 @@ IL_007f:
 		__this->set_m_AutoSizeIterationCount_81(0);
 		// float preferredWidth = CalculatePreferredValues(ref fontSize, margin, false, false).x;
 		Vector2_tA85D2DD88578276CA8A8796756458277E72D073D  L_12 = V_1;
-		Vector2_tA85D2DD88578276CA8A8796756458277E72D073D  L_13 = VirtFuncInvoker4< Vector2_tA85D2DD88578276CA8A8796756458277E72D073D , float*, Vector2_tA85D2DD88578276CA8A8796756458277E72D073D , bool, bool >::Invoke(114 /* UnityEngine.Vector2 TMPro.TMP_Text::CalculatePreferredValues(System.Single&,UnityEngine.Vector2,System.Boolean,System.Boolean) */, __this, (float*)(&V_0), L_12, (bool)0, (bool)0);
+		Vector2_tA85D2DD88578276CA8A8796756458277E72D073D  L_13 = VirtFuncInvoker4< Vector2_tA85D2DD88578276CA8A8796756458277E72D073D , float*, Vector2_tA85D2DD88578276CA8A8796756458277E72D073D , bool, bool >::Invoke(116 /* UnityEngine.Vector2 TMPro.TMP_Text::CalculatePreferredValues(System.Single&,UnityEngine.Vector2,System.Boolean,System.Boolean) */, __this, (float*)(&V_0), L_12, (bool)0, (bool)0);
 		float L_14 = L_13.get_x_0();
 		// m_isPreferredWidthDirty = false;
 		__this->set_m_isPreferredWidthDirty_174((bool)0);
@@ -42897,7 +42897,7 @@ IL_0016:
 		__this->set_m_AutoSizeIterationCount_81(0);
 		// float preferredWidth = CalculatePreferredValues(ref fontSize, margin, false, false).x;
 		Vector2_tA85D2DD88578276CA8A8796756458277E72D073D  L_5 = ___margin0;
-		Vector2_tA85D2DD88578276CA8A8796756458277E72D073D  L_6 = VirtFuncInvoker4< Vector2_tA85D2DD88578276CA8A8796756458277E72D073D , float*, Vector2_tA85D2DD88578276CA8A8796756458277E72D073D , bool, bool >::Invoke(114 /* UnityEngine.Vector2 TMPro.TMP_Text::CalculatePreferredValues(System.Single&,UnityEngine.Vector2,System.Boolean,System.Boolean) */, __this, (float*)(&V_0), L_5, (bool)0, (bool)0);
+		Vector2_tA85D2DD88578276CA8A8796756458277E72D073D  L_6 = VirtFuncInvoker4< Vector2_tA85D2DD88578276CA8A8796756458277E72D073D , float*, Vector2_tA85D2DD88578276CA8A8796756458277E72D073D , bool, bool >::Invoke(116 /* UnityEngine.Vector2 TMPro.TMP_Text::CalculatePreferredValues(System.Single&,UnityEngine.Vector2,System.Boolean,System.Boolean) */, __this, (float*)(&V_0), L_5, (bool)0, (bool)0);
 		float L_7 = L_6.get_x_0();
 		// return preferredWidth;
 		return L_7;
@@ -43052,7 +43052,7 @@ IL_00b5:
 		Vector2_tA85D2DD88578276CA8A8796756458277E72D073D  L_15 = V_1;
 		bool L_16 = __this->get_m_enableAutoSizing_78();
 		bool L_17 = __this->get_m_enableWordWrapping_108();
-		Vector2_tA85D2DD88578276CA8A8796756458277E72D073D  L_18 = VirtFuncInvoker4< Vector2_tA85D2DD88578276CA8A8796756458277E72D073D , float*, Vector2_tA85D2DD88578276CA8A8796756458277E72D073D , bool, bool >::Invoke(114 /* UnityEngine.Vector2 TMPro.TMP_Text::CalculatePreferredValues(System.Single&,UnityEngine.Vector2,System.Boolean,System.Boolean) */, __this, (float*)(&V_0), L_15, L_16, L_17);
+		Vector2_tA85D2DD88578276CA8A8796756458277E72D073D  L_18 = VirtFuncInvoker4< Vector2_tA85D2DD88578276CA8A8796756458277E72D073D , float*, Vector2_tA85D2DD88578276CA8A8796756458277E72D073D , bool, bool >::Invoke(116 /* UnityEngine.Vector2 TMPro.TMP_Text::CalculatePreferredValues(System.Single&,UnityEngine.Vector2,System.Boolean,System.Boolean) */, __this, (float*)(&V_0), L_15, L_16, L_17);
 		float L_19 = L_18.get_y_1();
 		V_2 = L_19;
 		// m_AutoSizeIterationCount += 1;
@@ -43129,7 +43129,7 @@ IL_0050:
 		Vector2_tA85D2DD88578276CA8A8796756458277E72D073D  L_5 = ___margin0;
 		bool L_6 = __this->get_m_enableAutoSizing_78();
 		bool L_7 = __this->get_m_enableWordWrapping_108();
-		Vector2_tA85D2DD88578276CA8A8796756458277E72D073D  L_8 = VirtFuncInvoker4< Vector2_tA85D2DD88578276CA8A8796756458277E72D073D , float*, Vector2_tA85D2DD88578276CA8A8796756458277E72D073D , bool, bool >::Invoke(114 /* UnityEngine.Vector2 TMPro.TMP_Text::CalculatePreferredValues(System.Single&,UnityEngine.Vector2,System.Boolean,System.Boolean) */, __this, (float*)(&V_0), L_5, L_6, L_7);
+		Vector2_tA85D2DD88578276CA8A8796756458277E72D073D  L_8 = VirtFuncInvoker4< Vector2_tA85D2DD88578276CA8A8796756458277E72D073D , float*, Vector2_tA85D2DD88578276CA8A8796756458277E72D073D , bool, bool >::Invoke(116 /* UnityEngine.Vector2 TMPro.TMP_Text::CalculatePreferredValues(System.Single&,UnityEngine.Vector2,System.Boolean,System.Boolean) */, __this, (float*)(&V_0), L_5, L_6, L_7);
 		float L_9 = L_8.get_y_1();
 		V_1 = L_9;
 		// m_AutoSizeIterationCount += 1;
@@ -52915,7 +52915,7 @@ IL_0019:
 	}
 	{
 		// autoSizeTextContainer = true;
-		VirtActionInvoker1< bool >::Invoke(74 /* System.Void TMPro.TMP_Text::set_autoSizeTextContainer(System.Boolean) */, __this, (bool)1);
+		VirtActionInvoker1< bool >::Invoke(76 /* System.Void TMPro.TMP_Text::set_autoSizeTextContainer(System.Boolean) */, __this, (bool)1);
 		// }
 		goto IL_00b0;
 	}
@@ -53996,7 +53996,7 @@ IL_0021:
 		TMP_Text_t7BA5B6522651EBED2D8E2C92CBE3F17C14075CE7 * L_7 = ___targetTextComponent0;
 		String_t* L_8 = ((String_t_StaticFields*)il2cpp_codegen_static_fields_for(String_t_il2cpp_TypeInfo_var))->get_Empty_5();
 		NullCheck(L_7);
-		VirtActionInvoker1< String_t* >::Invoke(64 /* System.Void TMPro.TMP_Text::set_text(System.String) */, L_7, L_8);
+		VirtActionInvoker1< String_t* >::Invoke(66 /* System.Void TMPro.TMP_Text::set_text(System.String) */, L_7, L_8);
 		// targetTextComponent.firstVisibleCharacter = 0;
 		TMP_Text_t7BA5B6522651EBED2D8E2C92CBE3F17C14075CE7 * L_9 = ___targetTextComponent0;
 		NullCheck(L_9);

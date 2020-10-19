@@ -30981,7 +30981,7 @@ IL_0009:
 		// if (m_TextComponent.preferredHeight < m_TextViewport.rect.height)
 		TMP_Text_t7BA5B6522651EBED2D8E2C92CBE3F17C14075CE7 * L_1 = __this->get_m_TextComponent_27();
 		NullCheck(L_1);
-		float L_2 = VirtFuncInvoker0< float >::Invoke(83 /* System.Single TMPro.TMP_Text::get_preferredHeight() */, L_1);
+		float L_2 = VirtFuncInvoker0< float >::Invoke(85 /* System.Single TMPro.TMP_Text::get_preferredHeight() */, L_1);
 		RectTransform_t285CBD8775B25174B75164F10618F8B9728E1B20 * L_3 = __this->get_m_TextViewport_23();
 		NullCheck(L_3);
 		Rect_t35B976DE901B5423C11705E156938EA27AB402CE  L_4 = RectTransform_get_rect_mE5F283FCB99A66403AC1F0607CA49C156D73A15E(L_3, /*hidden argument*/NULL);
@@ -35007,7 +35007,7 @@ IL_014c:
 		String_t* L_47 = V_1;
 		String_t* L_48 = String_Concat_mB78D0094592718DA6D5DB6C712A9C225631666BE(L_47, _stringLiteral9F8E8FB0EEF6F757447B807A00333FBB325184B2, /*hidden argument*/NULL);
 		NullCheck(L_46);
-		VirtActionInvoker1< String_t* >::Invoke(64 /* System.Void TMPro.TMP_Text::set_text(System.String) */, L_46, L_48);
+		VirtActionInvoker1< String_t* >::Invoke(66 /* System.Void TMPro.TMP_Text::set_text(System.String) */, L_46, L_48);
 		// if (m_IsDrivenByLayoutComponents)
 		bool L_49 = __this->get_m_IsDrivenByLayoutComponents_32();
 		if (!L_49)
@@ -35035,7 +35035,7 @@ IL_0175:
 		// m_TextComponent.ForceMeshUpdate();
 		TMP_Text_t7BA5B6522651EBED2D8E2C92CBE3F17C14075CE7 * L_52 = __this->get_m_TextComponent_27();
 		NullCheck(L_52);
-		VirtActionInvoker2< bool, bool >::Invoke(104 /* System.Void TMPro.TMP_Text::ForceMeshUpdate(System.Boolean,System.Boolean) */, L_52, (bool)0, (bool)0);
+		VirtActionInvoker2< bool, bool >::Invoke(106 /* System.Void TMPro.TMP_Text::ForceMeshUpdate(System.Boolean,System.Boolean) */, L_52, (bool)0, (bool)0);
 		// if (m_TextComponent.textInfo.lineCount > m_LineLimit)
 		TMP_Text_t7BA5B6522651EBED2D8E2C92CBE3F17C14075CE7 * L_53 = __this->get_m_TextComponent_27();
 		NullCheck(L_53);
@@ -35092,7 +35092,7 @@ IL_0175:
 		String_t* L_79 = TMP_InputField_get_text_m0B83533C9290F4C6956BDE7FC9024CBF5DDCB785_inline(__this, /*hidden argument*/NULL);
 		String_t* L_80 = String_Concat_mB78D0094592718DA6D5DB6C712A9C225631666BE(L_79, _stringLiteral9F8E8FB0EEF6F757447B807A00333FBB325184B2, /*hidden argument*/NULL);
 		NullCheck(L_78);
-		VirtActionInvoker1< String_t* >::Invoke(64 /* System.Void TMPro.TMP_Text::set_text(System.String) */, L_78, L_80);
+		VirtActionInvoker1< String_t* >::Invoke(66 /* System.Void TMPro.TMP_Text::set_text(System.String) */, L_78, L_80);
 	}
 
 IL_0237:
@@ -35110,7 +35110,7 @@ IL_0237:
 		// m_TextComponent.ForceMeshUpdate();
 		TMP_Text_t7BA5B6522651EBED2D8E2C92CBE3F17C14075CE7 * L_82 = __this->get_m_TextComponent_27();
 		NullCheck(L_82);
-		VirtActionInvoker2< bool, bool >::Invoke(104 /* System.Void TMPro.TMP_Text::ForceMeshUpdate(System.Boolean,System.Boolean) */, L_82, (bool)0, (bool)0);
+		VirtActionInvoker2< bool, bool >::Invoke(106 /* System.Void TMPro.TMP_Text::ForceMeshUpdate(System.Boolean,System.Boolean) */, L_82, (bool)0, (bool)0);
 	}
 
 IL_0253:
@@ -35161,7 +35161,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TMP_InputField_UpdateScrollbar_m79E5DD92
 		float L_4 = Rect_get_height_m088C36990E0A255C5D7DCE36575DCE23ABB364B5((Rect_t35B976DE901B5423C11705E156938EA27AB402CE *)(&V_1), /*hidden argument*/NULL);
 		TMP_Text_t7BA5B6522651EBED2D8E2C92CBE3F17C14075CE7 * L_5 = __this->get_m_TextComponent_27();
 		NullCheck(L_5);
-		float L_6 = VirtFuncInvoker0< float >::Invoke(83 /* System.Single TMPro.TMP_Text::get_preferredHeight() */, L_5);
+		float L_6 = VirtFuncInvoker0< float >::Invoke(85 /* System.Single TMPro.TMP_Text::get_preferredHeight() */, L_5);
 		V_0 = ((float)((float)L_4/(float)L_6));
 		// m_IsUpdatingScrollbarValues = true;
 		__this->set_m_IsUpdatingScrollbarValues_91((bool)1);
@@ -35180,7 +35180,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TMP_InputField_UpdateScrollbar_m79E5DD92
 		float L_13 = L_12.get_y_1();
 		TMP_Text_t7BA5B6522651EBED2D8E2C92CBE3F17C14075CE7 * L_14 = __this->get_m_TextComponent_27();
 		NullCheck(L_14);
-		float L_15 = VirtFuncInvoker0< float >::Invoke(83 /* System.Single TMPro.TMP_Text::get_preferredHeight() */, L_14);
+		float L_15 = VirtFuncInvoker0< float >::Invoke(85 /* System.Single TMPro.TMP_Text::get_preferredHeight() */, L_14);
 		RectTransform_t285CBD8775B25174B75164F10618F8B9728E1B20 * L_16 = __this->get_m_TextViewport_23();
 		NullCheck(L_16);
 		Rect_t35B976DE901B5423C11705E156938EA27AB402CE  L_17 = RectTransform_get_rect_mE5F283FCB99A66403AC1F0607CA49C156D73A15E(L_16, /*hidden argument*/NULL);
@@ -35354,7 +35354,7 @@ IL_003f:
 		float L_18 = L_17.get_x_0();
 		TMP_Text_t7BA5B6522651EBED2D8E2C92CBE3F17C14075CE7 * L_19 = __this->get_m_TextComponent_27();
 		NullCheck(L_19);
-		float L_20 = VirtFuncInvoker0< float >::Invoke(83 /* System.Single TMPro.TMP_Text::get_preferredHeight() */, L_19);
+		float L_20 = VirtFuncInvoker0< float >::Invoke(85 /* System.Single TMPro.TMP_Text::get_preferredHeight() */, L_19);
 		RectTransform_t285CBD8775B25174B75164F10618F8B9728E1B20 * L_21 = __this->get_m_TextViewport_23();
 		NullCheck(L_21);
 		Rect_t35B976DE901B5423C11705E156938EA27AB402CE  L_22 = RectTransform_get_rect_mE5F283FCB99A66403AC1F0607CA49C156D73A15E(L_21, /*hidden argument*/NULL);
@@ -37350,7 +37350,7 @@ IL_000f:
 		float L_41 = L_40.get_x_0();
 		TMP_Text_t7BA5B6522651EBED2D8E2C92CBE3F17C14075CE7 * L_42 = __this->get_m_TextComponent_27();
 		NullCheck(L_42);
-		Vector4_tD148D6428C3F8FF6CD998F82090113C2B490B76E  L_43 = VirtFuncInvoker0< Vector4_tD148D6428C3F8FF6CD998F82090113C2B490B76E  >::Invoke(71 /* UnityEngine.Vector4 TMPro.TMP_Text::get_margin() */, L_42);
+		Vector4_tD148D6428C3F8FF6CD998F82090113C2B490B76E  L_43 = VirtFuncInvoker0< Vector4_tD148D6428C3F8FF6CD998F82090113C2B490B76E  >::Invoke(73 /* UnityEngine.Vector4 TMPro.TMP_Text::get_margin() */, L_42);
 		float L_44 = L_43.get_z_3();
 		int32_t L_45 = __this->get_m_CaretWidth_61();
 		V_6 = ((float)il2cpp_codegen_subtract((float)L_39, (float)((float)il2cpp_codegen_add((float)((float)il2cpp_codegen_add((float)L_41, (float)L_44)), (float)(((float)((float)L_45)))))));
@@ -37406,7 +37406,7 @@ IL_0132:
 		float L_58 = L_57.get_x_0();
 		TMP_Text_t7BA5B6522651EBED2D8E2C92CBE3F17C14075CE7 * L_59 = __this->get_m_TextComponent_27();
 		NullCheck(L_59);
-		Vector4_tD148D6428C3F8FF6CD998F82090113C2B490B76E  L_60 = VirtFuncInvoker0< Vector4_tD148D6428C3F8FF6CD998F82090113C2B490B76E  >::Invoke(71 /* UnityEngine.Vector4 TMPro.TMP_Text::get_margin() */, L_59);
+		Vector4_tD148D6428C3F8FF6CD998F82090113C2B490B76E  L_60 = VirtFuncInvoker0< Vector4_tD148D6428C3F8FF6CD998F82090113C2B490B76E  >::Invoke(73 /* UnityEngine.Vector4 TMPro.TMP_Text::get_margin() */, L_59);
 		float L_61 = L_60.get_x_1();
 		float L_62 = Rect_get_xMin_mFDFA74F66595FD2B8CE360183D1A92B575F0A76E((Rect_t35B976DE901B5423C11705E156938EA27AB402CE *)(&V_5), /*hidden argument*/NULL);
 		V_7 = ((float)il2cpp_codegen_subtract((float)((float)il2cpp_codegen_subtract((float)L_58, (float)L_61)), (float)L_62));
@@ -37552,7 +37552,7 @@ IL_0234:
 		float L_109 = ((L_108)->GetAddressAt(static_cast<il2cpp_array_size_t>(0)))->get_origin_23();
 		TMP_Text_t7BA5B6522651EBED2D8E2C92CBE3F17C14075CE7 * L_110 = __this->get_m_TextComponent_27();
 		NullCheck(L_110);
-		Vector4_tD148D6428C3F8FF6CD998F82090113C2B490B76E  L_111 = VirtFuncInvoker0< Vector4_tD148D6428C3F8FF6CD998F82090113C2B490B76E  >::Invoke(71 /* UnityEngine.Vector4 TMPro.TMP_Text::get_margin() */, L_110);
+		Vector4_tD148D6428C3F8FF6CD998F82090113C2B490B76E  L_111 = VirtFuncInvoker0< Vector4_tD148D6428C3F8FF6CD998F82090113C2B490B76E  >::Invoke(73 /* UnityEngine.Vector4 TMPro.TMP_Text::get_margin() */, L_110);
 		float L_112 = L_111.get_x_1();
 		V_11 = ((float)il2cpp_codegen_subtract((float)((float)il2cpp_codegen_add((float)((float)il2cpp_codegen_add((float)((float)il2cpp_codegen_add((float)L_101, (float)L_103)), (float)L_105)), (float)L_109)), (float)L_112));
 		// float lastCharPosition = localPosition.x + textViewportLocalPosition.x + textComponentLocalPosition.x + m_TextComponent.textInfo.characterInfo[m_TextComponent.textInfo.characterCount - 1].origin + m_TextComponent.margin.z + m_CaretWidth;
@@ -37576,7 +37576,7 @@ IL_0234:
 		float L_125 = ((L_121)->GetAddressAt(static_cast<il2cpp_array_size_t>(((int32_t)il2cpp_codegen_subtract((int32_t)L_124, (int32_t)1)))))->get_origin_23();
 		TMP_Text_t7BA5B6522651EBED2D8E2C92CBE3F17C14075CE7 * L_126 = __this->get_m_TextComponent_27();
 		NullCheck(L_126);
-		Vector4_tD148D6428C3F8FF6CD998F82090113C2B490B76E  L_127 = VirtFuncInvoker0< Vector4_tD148D6428C3F8FF6CD998F82090113C2B490B76E  >::Invoke(71 /* UnityEngine.Vector4 TMPro.TMP_Text::get_margin() */, L_126);
+		Vector4_tD148D6428C3F8FF6CD998F82090113C2B490B76E  L_127 = VirtFuncInvoker0< Vector4_tD148D6428C3F8FF6CD998F82090113C2B490B76E  >::Invoke(73 /* UnityEngine.Vector4 TMPro.TMP_Text::get_margin() */, L_126);
 		float L_128 = L_127.get_z_3();
 		int32_t L_129 = __this->get_m_CaretWidth_61();
 		V_12 = ((float)il2cpp_codegen_add((float)((float)il2cpp_codegen_add((float)((float)il2cpp_codegen_add((float)((float)il2cpp_codegen_add((float)((float)il2cpp_codegen_add((float)L_114, (float)L_116)), (float)L_118)), (float)L_125)), (float)L_128)), (float)(((float)((float)L_129)))));
@@ -39760,7 +39760,7 @@ IL_006c:
 		// return m_TextComponent.preferredWidth + horizontalPadding; // Should add some extra padding for caret
 		TMP_Text_t7BA5B6522651EBED2D8E2C92CBE3F17C14075CE7 * L_16 = __this->get_m_TextComponent_27();
 		NullCheck(L_16);
-		float L_17 = VirtFuncInvoker0< float >::Invoke(82 /* System.Single TMPro.TMP_Text::get_preferredWidth() */, L_16);
+		float L_17 = VirtFuncInvoker0< float >::Invoke(84 /* System.Single TMPro.TMP_Text::get_preferredWidth() */, L_16);
 		float L_18 = V_0;
 		return ((float)il2cpp_codegen_add((float)L_17, (float)L_18));
 	}
@@ -39859,7 +39859,7 @@ IL_006c:
 		// return m_TextComponent.preferredHeight + verticalPadding;
 		TMP_Text_t7BA5B6522651EBED2D8E2C92CBE3F17C14075CE7 * L_16 = __this->get_m_TextComponent_27();
 		NullCheck(L_16);
-		float L_17 = VirtFuncInvoker0< float >::Invoke(83 /* System.Single TMPro.TMP_Text::get_preferredHeight() */, L_16);
+		float L_17 = VirtFuncInvoker0< float >::Invoke(85 /* System.Single TMPro.TMP_Text::get_preferredHeight() */, L_16);
 		float L_18 = V_0;
 		return ((float)il2cpp_codegen_add((float)L_17, (float)L_18));
 	}

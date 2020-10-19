@@ -112,6 +112,8 @@ struct ThreadSafeAttribute_t3FB9EE5993C748628BC06D9D46ACA3A58FDAE317;
 struct VisibleToOtherModulesAttribute_t8601A3A00D7B9528C62DD278E53B317B566FDA90;
 // UnityEngine.NativeClassAttribute
 struct NativeClassAttribute_t1CA9B99EEAAFC1EE97D52505821BD3AD15F8448C;
+// UnityEngine.Scripting.GeneratedByOldBindingsGeneratorAttribute
+struct GeneratedByOldBindingsGeneratorAttribute_tF3386E1746F60B4E1D77C2167915FBB4B89BBA86;
 // UnityEngine.Scripting.RequiredByNativeCodeAttribute
 struct RequiredByNativeCodeAttribute_t949320E827C2BD269B3E686FE317A18835670AAE;
 // UnityEngine.Scripting.UsedByNativeCodeAttribute
@@ -1091,6 +1093,15 @@ public:
 		___U3CDeclarationU3Ek__BackingField_1 = value;
 		Il2CppCodeGenWriteBarrier((void**)(&___U3CDeclarationU3Ek__BackingField_1), (void*)value);
 	}
+};
+
+
+// UnityEngine.Scripting.GeneratedByOldBindingsGeneratorAttribute
+struct  GeneratedByOldBindingsGeneratorAttribute_tF3386E1746F60B4E1D77C2167915FBB4B89BBA86  : public Attribute_tF048C13FB3C8CFCC53F82290E4A3F621089F9A74
+{
+public:
+
+public:
 };
 
 
@@ -2936,6 +2947,22 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NativeClassAttribute__ctor_mFAF14B283CE2
 		NativeClassAttribute_set_QualifiedNativeName_m4649657DC46E04FAE4BED6D53EBB7C82CEE4FC31_inline(__this, L_0, /*hidden argument*/NULL);
 		String_t* L_1 = ___declaration1;
 		NativeClassAttribute_set_Declaration_m2C630638B2BB58F82CA43663F183761444524F1A_inline(__this, L_1, /*hidden argument*/NULL);
+		return;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// System.Void UnityEngine.Scripting.GeneratedByOldBindingsGeneratorAttribute::.ctor()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GeneratedByOldBindingsGeneratorAttribute__ctor_m16915B4C437B4BE69681DD9A0A368FCD6155EB81 (GeneratedByOldBindingsGeneratorAttribute_tF3386E1746F60B4E1D77C2167915FBB4B89BBA86 * __this, const RuntimeMethod* method)
+{
+	{
+		Attribute__ctor_m45CAD4B01265CC84CC5A84F62EE2DBE85DE89EC0(__this, /*hidden argument*/NULL);
 		return;
 	}
 }

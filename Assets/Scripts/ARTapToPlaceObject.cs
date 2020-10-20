@@ -17,7 +17,7 @@ public class ARTapToPlaceObject : MonoBehaviour
     private ARRaycastManager aRRaycastManager;
     private bool placementPoseIsValid = false;
     private bool POIPoseIsValid = false;
-    // public Vector3 toPOI;
+    private bool isHolding = false;
 
     //ManoMotion declarations
     HandInfo handInformation;
@@ -72,10 +72,16 @@ public class ARTapToPlaceObject : MonoBehaviour
             MoveObjectGaze();
         }
 
-        if (currentDetectedContGesture == ManoGestureContinuous.HOLD_GESTURE && isTouching())
+        if (currentDetectedContGesture == ManoGestureContinuous.HOLD_GESTURE)
         {
-            MoveObjectPOI();
+            if(isTouching() || isHolding)
+                MoveObjectPOI();
             //UpdateLine();
+        }
+        else
+        {
+            pastPOIPositions.Clear();
+            isHolding = false;
         }
     }
 
@@ -104,12 +110,12 @@ public class ARTapToPlaceObject : MonoBehaviour
                 GameObject go = hit.collider.gameObject;
                 if (go.CompareTag("hasInfo"))
                 {
+                    isHolding = true;
                     return true;
                 }
             }
         }
 
-        pastPOIPositions.Clear();
         return false;
     }
     

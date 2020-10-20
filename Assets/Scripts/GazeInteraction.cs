@@ -35,7 +35,11 @@ public class GazeInteraction : MonoBehaviour
     {
         foreach (InfoBehavior info in infos)
         {
-            if(info == desiredInfo) info.OpenInfo();
+            if(info == desiredInfo) 
+            {
+                info.OpenInfo();
+                //info.parent.gameObject.GetComponent<Renderer>().material.SetColor("_Color", Color.red);
+            }
             else info.CloseInfo();
         }
     }
@@ -45,6 +49,7 @@ public class GazeInteraction : MonoBehaviour
         foreach (InfoBehavior info in infos)
         {
             info.CloseInfo();
+            //info.parent.gameObject.GetComponent<Renderer>().material.SetColor("_Color", Color.green);
         }
     }
 }

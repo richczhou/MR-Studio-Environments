@@ -8,6 +8,7 @@ using System;
 
 public class ARTapToPlaceObject : MonoBehaviour
 {
+    public bool isPlaced = false;
     public GameObject objectToPlace;
     public GameObject placementIndicator;
     //private ARSessionOrigin arOrigin;
@@ -83,6 +84,9 @@ public class ARTapToPlaceObject : MonoBehaviour
             pastPOIPositions.Clear();
             isHolding = false;
         }
+
+        if (isPlaced)
+            placementIndicator.GetComponent<Renderer>().enabled = false;
     }
 
     private bool isTouching()
@@ -124,6 +128,8 @@ public class ARTapToPlaceObject : MonoBehaviour
         //Instantiate(objectToPlace, PlacementPose.position, PlacementPose.rotation);
         objectToPlace.SetActive(true);
         objectToPlace.transform.SetPositionAndRotation(PlacementPose.position, PlacementPose.rotation);
+        
+        isPlaced = true;
     }
 
     private void MoveObjectPOI()
@@ -134,6 +140,8 @@ public class ARTapToPlaceObject : MonoBehaviour
             smoothedPosition += POIpos;
         smoothedPosition /= pastPOIPositions.Count;
         objectToPlace.transform.SetPositionAndRotation(smoothedPosition, POIPose.rotation);
+
+        isPlaced = true;
     }
 
     private void UpdatePlacementIndicator()
@@ -151,7 +159,7 @@ public class ARTapToPlaceObject : MonoBehaviour
 
     private void UpdatePlacementPose()
     {
-        var screenCenter = Camera.current.ViewportToScreenPoint(new Vector3(0.5f, 0.5f));
+        var screenCenter = Camera.main.ViewportToScreenPoint(new Vector3(0.5f, 0.5f));
         var hits = new List<ARRaycastHit>();
         aRRaycastManager.Raycast(screenCenter, hits, TrackableType.Planes);
 
@@ -160,7 +168,7 @@ public class ARTapToPlaceObject : MonoBehaviour
         {
             PlacementPose = hits[0].pose;
 
-            var cameraForward = Camera.current.transform.forward;
+            var cameraForward = Camera.main.transform.forward;
             var cameraBearing = new Vector3(cameraForward.x, 0, cameraForward.z).normalized;
             PlacementPose.rotation = Quaternion.LookRotation(cameraBearing);
         }

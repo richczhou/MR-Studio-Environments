@@ -5,6 +5,8 @@ TagManager:
   serializedVersion: 2
   tags:
   - hasInfo
+  - baseSDK
+  - head
   layers:
   - Default
   - TransparentFX

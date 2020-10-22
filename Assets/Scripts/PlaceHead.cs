@@ -66,6 +66,11 @@ public class PlaceHead : MonoBehaviour
             }
             //UpdateLine();
         }
+        else if (currentDetectedTriggerGesture == ManoGestureTrigger.CLICK)
+        {
+            if(isTouching())
+                objectToPlace.SetActive(false);
+        }
         else
         {
             pastPOIPositions.Clear();

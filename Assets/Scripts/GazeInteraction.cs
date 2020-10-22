@@ -24,10 +24,8 @@ public class GazeInteraction : MonoBehaviour
             {
                 OpenInfo(go.GetComponent<InfoBehavior>());
             }
-        }
-        else
-        {
-            CloseAllInfos();
+            else
+                CloseAllInfos();
         }
     }
 
@@ -40,7 +38,10 @@ public class GazeInteraction : MonoBehaviour
                 info.OpenInfo();
                 //info.parent.gameObject.GetComponent<Renderer>().material.SetColor("_Color", Color.red);
             }
-            else info.CloseInfo();
+            else
+            {
+                info.CloseInfo();
+            }
         }
     }
 

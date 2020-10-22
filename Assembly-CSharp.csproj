@@ -89,6 +89,7 @@
      <Compile Include="Assets\Manomotion\UIBlurEffect\Scripts\GrabPass.cs" />
      <Compile Include="Assets\Manomotion\UIBlurEffect\Scripts\Grayscale.cs" />
      <Compile Include="Assets\Scripts\ARTapToPlaceObject.cs" />
+     <Compile Include="Assets\Scripts\Blink.cs" />
      <Compile Include="Assets\Scripts\Clicker.cs" />
      <Compile Include="Assets\Scripts\FaceCamera.cs" />
      <Compile Include="Assets\Scripts\GazeInteraction.cs" />
@@ -96,6 +97,7 @@
      <Compile Include="Assets\Scripts\InfoBehavior.cs" />
      <Compile Include="Assets\Scripts\PlaceHead.cs" />
      <Compile Include="Assets\Scripts\PlaceMap.cs" />
+     <Compile Include="Assets\Scripts\SelectBall.cs" />
      <Compile Include="Assets\Scripts\ph.cs" />
      <Compile Include="Assets\Scripts\pm.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark01.cs" />

@@ -19,7 +19,7 @@ public class PlaceMap : MonoBehaviour
     {
         //arOrigin = FindObjectOfType<ARSessionOrigin>();
         aRRaycastManager = FindObjectOfType<ARRaycastManager>();
-        studioMap.SetActive(true);
+        studioMap.SetActive(false);
 
         // Draws a line
         //CreateLine();

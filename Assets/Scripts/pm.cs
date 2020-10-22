@@ -1,4 +1,4 @@
-﻿using System.Collections;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.XR.ARFoundation;
@@ -6,8 +6,9 @@ using UnityEngine.XR.ARFoundation;
 using UnityEngine.XR.ARSubsystems;
 using System;
 
-public class PlaceMap : MonoBehaviour
+public class pm : MonoBehaviour
 {
+    public bool isPlaced = false;
     public GameObject studioMap;
     public GameObject placementIndicator;
     //private ARSessionOrigin arOrigin;
@@ -19,7 +20,7 @@ public class PlaceMap : MonoBehaviour
     {
         //arOrigin = FindObjectOfType<ARSessionOrigin>();
         aRRaycastManager = FindObjectOfType<ARRaycastManager>();
-        studioMap.SetActive(true);
+        studioMap.SetActive(false);
 
         // Draws a line
         //CreateLine();
@@ -41,11 +42,13 @@ public class PlaceMap : MonoBehaviour
         //Instantiate(studioMap, PlacementPose.position, PlacementPose.rotation);
         studioMap.SetActive(true);
         studioMap.transform.SetPositionAndRotation(PlacementPose.position, PlacementPose.rotation);
+
+        isPlaced = true;
     }
 
     private void UpdatePlacementIndicator()
     {
-        if (placementPoseIsValid)
+        if (placementPoseIsValid || !isPlaced)
         {
             placementIndicator.SetActive(true);
             placementIndicator.transform.SetPositionAndRotation(PlacementPose.position, PlacementPose.rotation);
@@ -70,7 +73,6 @@ public class PlaceMap : MonoBehaviour
             var cameraForward = Camera.main.transform.forward;
             var cameraBearing = new Vector3(cameraForward.x, 0, cameraForward.z).normalized;
             PlacementPose.rotation = Quaternion.LookRotation(cameraBearing);
-            //PlacementPose.rotation = Quaternion.Euler(0, 30, 0);
         }
     }
     /*

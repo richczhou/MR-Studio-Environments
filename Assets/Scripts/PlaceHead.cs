@@ -1,4 +1,4 @@
-using System.Collections;
+﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.XR.ARFoundation;
@@ -8,15 +8,13 @@ using System;
 
 public class PlaceHead : MonoBehaviour
 {
-    public bool isPlaced = false;
+    private bool isPlaced = false;
     public GameObject objectToPlace;
     public GameObject placementIndicator;
     //private ARSessionOrigin arOrigin;
-    private Pose PlacementPose;
     private Pose POIPose;
     private Queue<Vector3> pastPOIPositions = new Queue<Vector3>();
     private ARRaycastManager aRRaycastManager;
-    private bool placementPoseIsValid = false;
     private bool POIPoseIsValid = false;
     private bool isHolding = false;
 
@@ -43,14 +41,6 @@ public class PlaceHead : MonoBehaviour
 
     void Update()
     {
-        UpdatePlacementPose();
-        UpdatePlacementIndicator();
-        
-        if(placementPoseIsValid && Input.touchCount > 0) //&& Input.GetTouch(0).phase == TouchPhase.Began)
-        {
-            MoveObjectGaze();
-        }
-
         // TOUCH TEST
         // Referencing MMM for a single hand info.
         handInformation = ManomotionManager.Instance.Hand_infos[0].hand_info;
@@ -67,32 +57,29 @@ public class PlaceHead : MonoBehaviour
         // Parsing for current countinous gesture
         currentDetectedContGesture = gestureInformation.mano_gesture_continuous;
 
-
-        if (placementPoseIsValid &&  currentDetectedTriggerGesture == ManoGestureTrigger.CLICK)
-        {
-            MoveObjectGaze();
-        }
-
         if (currentDetectedContGesture == ManoGestureContinuous.HOLD_GESTURE)
         {
-            if(isTouching() || isHolding)
+            if (isTouching() || isHolding)
+            {
+                isPlaced = false;
                 MoveObjectPOI();
+            }
             //UpdateLine();
         }
         else
         {
             pastPOIPositions.Clear();
             isHolding = false;
+            isPlaced = true;
         }
 
-        if (isPlaced)
-            placementIndicator.GetComponent<Renderer>().enabled = false;
+        UpdatePlacementIndicator();
     }
 
     private bool isTouching()
     {
         Vector3 fingerPos = Camera.main.ViewportToScreenPoint(trackingInformation.poi);
-        
+
         List<ARRaycastHit> hits = new List<ARRaycastHit>();
         aRRaycastManager.Raycast(fingerPos, hits, TrackableType.Planes);
 
@@ -101,7 +88,7 @@ public class PlaceHead : MonoBehaviour
         {
             POIPose = hits[0].pose;
             pastPOIPositions.Enqueue(POIPose.position);
-            if(pastPOIPositions.Count > 5) pastPOIPositions.Dequeue();
+            if (pastPOIPositions.Count > 5) pastPOIPositions.Dequeue();
 
             Vector3 cameraForward = Camera.main.transform.forward;
             Vector3 cameraBearing = new Vector3(cameraForward.x, 0, cameraForward.z).normalized;
@@ -112,7 +99,7 @@ public class PlaceHead : MonoBehaviour
             if (Physics.Raycast(rayPOI, out RaycastHit hit))
             {
                 GameObject go = hit.collider.gameObject;
-                if (go.CompareTag("hasInfo"))
+                if (go.CompareTag("hasInfo") || go.CompareTag("head"))
                 {
                     isHolding = true;
                     return true;
@@ -122,15 +109,6 @@ public class PlaceHead : MonoBehaviour
 
         return false;
     }
-    
-    private void MoveObjectGaze()
-    {
-        //Instantiate(objectToPlace, PlacementPose.position, PlacementPose.rotation);
-        objectToPlace.SetActive(true);
-        objectToPlace.transform.SetPositionAndRotation(PlacementPose.position, PlacementPose.rotation);
-        
-        isPlaced = true;
-    }
 
     private void MoveObjectPOI()
     {
@@ -139,38 +117,27 @@ public class PlaceHead : MonoBehaviour
         foreach (Vector3 POIpos in pastPOIPositions)
             smoothedPosition += POIpos;
         smoothedPosition /= pastPOIPositions.Count;
+        objectToPlace.SetActive(true);
         objectToPlace.transform.SetPositionAndRotation(smoothedPosition, POIPose.rotation);
-
-        isPlaced = true;
     }
 
     private void UpdatePlacementIndicator()
     {
-        if (placementPoseIsValid)
+        if (POIPoseIsValid && !isPlaced)
         {
             placementIndicator.SetActive(true);
-            placementIndicator.transform.SetPositionAndRotation(PlacementPose.position, PlacementPose.rotation);
+
+            // Smoothing tracking to average of last several POI positions
+            Vector3 smoothedPosition = Vector3.zero;
+            foreach (Vector3 POIpos in pastPOIPositions)
+                smoothedPosition += POIpos;
+            smoothedPosition /= pastPOIPositions.Count;
+
+            placementIndicator.transform.SetPositionAndRotation(smoothedPosition, POIPose.rotation);
         }
         else
         {
             placementIndicator.SetActive(false);
-        }
-    }
-
-    private void UpdatePlacementPose()
-    {
-        var screenCenter = Camera.main.ViewportToScreenPoint(new Vector3(0.5f, 0.5f));
-        var hits = new List<ARRaycastHit>();
-        aRRaycastManager.Raycast(screenCenter, hits, TrackableType.Planes);
-
-        placementPoseIsValid = hits.Count > 0;
-        if (placementPoseIsValid)
-        {
-            PlacementPose = hits[0].pose;
-
-            var cameraForward = Camera.main.transform.forward;
-            var cameraBearing = new Vector3(cameraForward.x, 0, cameraForward.z).normalized;
-            PlacementPose.rotation = Quaternion.LookRotation(cameraBearing);
         }
     }
 

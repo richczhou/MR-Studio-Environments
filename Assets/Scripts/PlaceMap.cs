@@ -10,16 +10,19 @@ public class PlaceMap : MonoBehaviour
 {
     public GameObject studioMap;
     public GameObject placementIndicator;
+    public GameObject gazIndicator;
     //private ARSessionOrigin arOrigin;
     private Pose PlacementPose;
     private ARRaycastManager aRRaycastManager;
     private bool placementPoseIsValid = false;
+    private bool isPlaced = false;
 
     void Start()
     {
         //arOrigin = FindObjectOfType<ARSessionOrigin>();
         aRRaycastManager = FindObjectOfType<ARRaycastManager>();
         studioMap.SetActive(false);
+        gazIndicator.SetActive(false);
 
         // Draws a line
         //CreateLine();
@@ -40,6 +43,7 @@ public class PlaceMap : MonoBehaviour
     {
         //Instantiate(studioMap, PlacementPose.position, PlacementPose.rotation);
         studioMap.SetActive(true);
+        isPlaced = true;
         studioMap.transform.SetPositionAndRotation(PlacementPose.position, PlacementPose.rotation);
     }
 
@@ -47,12 +51,23 @@ public class PlaceMap : MonoBehaviour
     {
         if (placementPoseIsValid)
         {
-            placementIndicator.SetActive(true);
-            placementIndicator.transform.SetPositionAndRotation(PlacementPose.position, PlacementPose.rotation);
+            if(!isPlaced)
+            {
+                gazIndicator.SetActive(false);
+                placementIndicator.SetActive(true);
+                placementIndicator.transform.SetPositionAndRotation(PlacementPose.position, PlacementPose.rotation);
+            }
+            else
+            {
+                placementIndicator.SetActive(false);
+                gazIndicator.SetActive(true);
+                gazIndicator.transform.SetPositionAndRotation(PlacementPose.position, PlacementPose.rotation);
+            }
         }
         else
         {
             placementIndicator.SetActive(false);
+            gazIndicator.SetActive(false);
         }
     }
 

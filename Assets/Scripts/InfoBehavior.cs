@@ -31,6 +31,7 @@ public class InfoBehavior : MonoBehaviour
     public void OpenInfo()
     {
         desiredScale = Vector3.one;
+        desiredScale *= 3f;
         rend.material.SetColor("_EmissionColor", Color.white);
     }
 
